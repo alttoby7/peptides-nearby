@@ -11,49 +11,73 @@
     "slug": "semaglutide",
     "name": "Semaglutide",
     "type": "peptide",
-    "providerCount": 387,
-    "cityCount": 180,
+    "providerCount": 446,
+    "cityCount": 200,
     "description": "Semaglutide is a GLP-1 receptor agonist used for weight management."
   },
   {
     "slug": "nad-plus",
     "name": "NAD+",
     "type": "therapy",
-    "providerCount": 386,
-    "cityCount": 174,
+    "providerCount": 401,
+    "cityCount": 178,
     "description": "NAD+ therapy supports cellular energy, metabolism, and anti-aging."
   },
   {
     "slug": "tirzepatide",
     "name": "Tirzepatide",
     "type": "peptide",
-    "providerCount": 292,
-    "cityCount": 149,
+    "providerCount": 310,
+    "cityCount": 156,
     "description": "Tirzepatide is a dual GIP/GLP-1 receptor agonist for weight loss and blood sugar control."
   },
   {
     "slug": "sermorelin",
     "name": "Sermorelin",
     "type": "peptide",
-    "providerCount": 188,
-    "cityCount": 114,
+    "providerCount": 190,
+    "cityCount": 116,
     "description": "Sermorelin is a growth hormone-releasing hormone analog used for anti-aging therapy."
+  },
+  {
+    "slug": "glutathione",
+    "name": "Glutathione",
+    "type": "peptide",
+    "providerCount": 168,
+    "cityCount": 102,
+    "description": "Glutathione is a tripeptide antioxidant used for detoxification, immune support, and skin health."
   },
   {
     "slug": "pt-141",
     "name": "PT-141",
     "type": "peptide",
-    "providerCount": 130,
-    "cityCount": 93,
+    "providerCount": 132,
+    "cityCount": 94,
     "description": "PT-141 (Bremelanotide) is a peptide used for sexual health and libido."
+  },
+  {
+    "slug": "hcg",
+    "name": "HCG",
+    "type": "peptide",
+    "providerCount": 104,
+    "cityCount": 79,
+    "description": "HCG (human chorionic gonadotropin) is used for hormone optimization, fertility, and TRT support."
   },
   {
     "slug": "bpc-157",
     "name": "BPC-157",
     "type": "peptide",
-    "providerCount": 71,
-    "cityCount": 48,
+    "providerCount": 72,
+    "cityCount": 49,
     "description": "BPC-157 is a peptide used for tissue repair, joint healing, and gut health."
+  },
+  {
+    "slug": "liraglutide",
+    "name": "Liraglutide",
+    "type": "peptide",
+    "providerCount": 47,
+    "cityCount": 42,
+    "description": "Liraglutide is a GLP-1 receptor agonist used for weight loss and blood sugar control (Saxenda, Victoza)."
   },
   {
     "slug": "ghk-cu",
@@ -64,84 +88,164 @@
     "description": "GHK-Cu is a copper peptide used for skin rejuvenation and wound healing."
   },
   {
+    "slug": "5-amino-1mq",
+    "name": "5-Amino-1MQ",
+    "type": "peptide",
+    "providerCount": 39,
+    "cityCount": 36,
+    "description": "5-Amino-1MQ is a small molecule studied for fat loss and metabolic health by inhibiting NNMT."
+  },
+  {
     "slug": "tb-500",
     "name": "TB-500",
     "type": "peptide",
-    "providerCount": 38,
-    "cityCount": 31,
+    "providerCount": 39,
+    "cityCount": 32,
     "description": "TB-500 (Thymosin Beta-4) is a peptide used for tissue repair and recovery."
   },
   {
     "slug": "hexarelin",
     "name": "Hexarelin",
-    "type": "therapy",
+    "type": "peptide",
     "providerCount": 35,
     "cityCount": 35,
-    "description": "Find providers offering hexarelin near you."
-  },
-  {
-    "slug": "tesamorelin",
-    "name": "Tesamorelin",
-    "type": "therapy",
-    "providerCount": 32,
-    "cityCount": 28,
-    "description": "Find providers offering tesamorelin near you."
+    "description": "Hexarelin is a potent growth hormone-releasing peptide used for GH stimulation."
   },
   {
     "slug": "cjc-1295-ipamorelin",
     "name": "CJC-1295 / Ipamorelin",
     "type": "peptide",
-    "providerCount": 30,
-    "cityCount": 22,
+    "providerCount": 32,
+    "cityCount": 24,
     "description": "CJC-1295 and Ipamorelin are growth hormone-releasing peptides used for anti-aging and body composition."
   },
   {
+    "slug": "tesamorelin",
+    "name": "Tesamorelin",
+    "type": "peptide",
+    "providerCount": 32,
+    "cityCount": 28,
+    "description": "Tesamorelin is a growth hormone-releasing hormone analog used for visceral fat reduction."
+  },
+  {
+    "slug": "retatrutide",
+    "name": "Retatrutide",
+    "type": "peptide",
+    "providerCount": 25,
+    "cityCount": 20,
+    "description": "Retatrutide is a triple GIP/GLP-1/glucagon receptor agonist studied for weight loss."
+  },
+  {
+    "slug": "aod-9604",
+    "name": "AOD-9604",
+    "type": "peptide",
+    "providerCount": 24,
+    "cityCount": 20,
+    "description": "AOD-9604 is a modified fragment of human growth hormone studied for fat loss."
+  },
+  {
+    "slug": "oxytocin",
+    "name": "Oxytocin",
+    "type": "peptide",
+    "providerCount": 22,
+    "cityCount": 20,
+    "description": "Oxytocin is a peptide hormone used for bonding, mood, and intimacy support."
+  },
+  {
     "slug": "mots-c",
-    "name": "Mots C",
-    "type": "therapy",
+    "name": "MOTS-c",
+    "type": "peptide",
     "providerCount": 20,
     "cityCount": 18,
-    "description": "Find providers offering mots c near you."
+    "description": "MOTS-c is a mitochondrial-derived peptide studied for metabolic health and exercise capacity."
   },
   {
     "slug": "selank",
     "name": "Selank",
-    "type": "therapy",
+    "type": "peptide",
     "providerCount": 20,
     "cityCount": 16,
-    "description": "Find providers offering selank near you."
+    "description": "Selank is a synthetic peptide used for anxiety, mood, and cognitive function."
   },
   {
     "slug": "epithalon",
     "name": "Epithalon",
-    "type": "therapy",
+    "type": "peptide",
     "providerCount": 15,
     "cityCount": 14,
-    "description": "Find providers offering epithalon near you."
+    "description": "Epithalon (Epitalon) is a synthetic tetrapeptide studied for anti-aging and telomere support."
   },
   {
     "slug": "semax",
     "name": "Semax",
-    "type": "therapy",
+    "type": "peptide",
     "providerCount": 15,
     "cityCount": 11,
-    "description": "Find providers offering semax near you."
+    "description": "Semax is a synthetic peptide used for cognitive enhancement and neuroprotection."
+  },
+  {
+    "slug": "thymosin-alpha-1",
+    "name": "Thymosin Alpha-1",
+    "type": "peptide",
+    "providerCount": 15,
+    "cityCount": 13,
+    "description": "Thymosin Alpha-1 is a peptide used for immune modulation and chronic infection support."
+  },
+  {
+    "slug": "dsip",
+    "name": "DSIP",
+    "type": "peptide",
+    "providerCount": 9,
+    "cityCount": 8,
+    "description": "DSIP (Delta Sleep-Inducing Peptide) is used for sleep quality and stress reduction."
+  },
+  {
+    "slug": "igf-1-lr3",
+    "name": "IGF-1 LR3",
+    "type": "peptide",
+    "providerCount": 9,
+    "cityCount": 9,
+    "description": "IGF-1 LR3 is a modified form of insulin-like growth factor-1 used for muscle growth and recovery."
   },
   {
     "slug": "kisspeptin",
     "name": "Kisspeptin",
-    "type": "therapy",
+    "type": "peptide",
     "providerCount": 9,
     "cityCount": 6,
-    "description": "Find providers offering kisspeptin near you."
+    "description": "Kisspeptin is a peptide involved in reproductive hormone regulation and fertility."
+  },
+  {
+    "slug": "ss-31",
+    "name": "SS-31",
+    "type": "peptide",
+    "providerCount": 7,
+    "cityCount": 7,
+    "description": "SS-31 (Elamipretide) is a mitochondrial-targeted peptide studied for cellular energy and aging."
+  },
+  {
+    "slug": "melanotan-2",
+    "name": "Melanotan-2",
+    "type": "peptide",
+    "providerCount": 5,
+    "cityCount": 5,
+    "description": "Melanotan-2 is a synthetic peptide used for tanning and libido support."
   },
   {
     "slug": "ghrp-6",
-    "name": "Ghrp 6",
-    "type": "therapy",
-    "providerCount": 1,
-    "cityCount": 1,
-    "description": "Find providers offering ghrp 6 near you."
+    "name": "GHRP-6",
+    "type": "peptide",
+    "providerCount": 2,
+    "cityCount": 2,
+    "description": "GHRP-6 is a growth hormone-releasing peptide used for GH stimulation and recovery."
+  },
+  {
+    "slug": "ghrp-2",
+    "name": "GHRP-2",
+    "type": "peptide",
+    "providerCount": 0,
+    "cityCount": 0,
+    "description": "GHRP-2 is a growth hormone-releasing peptide used for GH stimulation and body composition."
   },
   {
     "slug": "hormone-therapy",

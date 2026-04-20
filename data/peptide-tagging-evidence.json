@@ -45,6 +45,14 @@
       ],
       "source": "website",
       "sourceUrl": "https://arcadiawellnesscenter.com/"
+    },
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "https://arcadiawellnesscenter.com/"
     }
   ],
   "az-regenerative-medicine-phoenix-az": [
@@ -63,6 +71,14 @@
       "matchedAliases": [
         "nad+",
         "nad iv"
+      ],
+      "source": "website",
+      "sourceUrl": "https://enovativewellness.com/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
       ],
       "source": "website",
       "sourceUrl": "https://enovativewellness.com/"
@@ -230,6 +246,38 @@
       ],
       "source": "website",
       "sourceUrl": "https://focalpointvitality.com/"
+    },
+    {
+      "peptide": "5-amino-1mq",
+      "matchedAliases": [
+        "5-amino-1mq"
+      ],
+      "source": "website",
+      "sourceUrl": "https://focalpointvitality.com/"
+    },
+    {
+      "peptide": "retatrutide",
+      "matchedAliases": [
+        "retatrutide"
+      ],
+      "source": "website",
+      "sourceUrl": "https://focalpointvitality.com/"
+    },
+    {
+      "peptide": "aod-9604",
+      "matchedAliases": [
+        "aod 9604"
+      ],
+      "source": "website",
+      "sourceUrl": "https://focalpointvitality.com/"
+    },
+    {
+      "peptide": "thymosin-alpha-1",
+      "matchedAliases": [
+        "thymosin alpha-1"
+      ],
+      "source": "website",
+      "sourceUrl": "https://focalpointvitality.com/"
     }
   ],
   "hormone-fitness-scottsdale-az": [
@@ -276,6 +324,16 @@
       ],
       "source": "website",
       "sourceUrl": "https://www.innergydrips.com/"
+    }
+  ],
+  "mitogenesis-regenerative-medicine-scottsdale-az": [
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.mitogenesis.health/"
     }
   ],
   "modernized-wellness-pllc-scottsdale-az": [
@@ -353,6 +411,14 @@
       ],
       "source": "website",
       "sourceUrl": "https://naturalradiancemedspa.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp"
+    },
+    {
+      "peptide": "aod-9604",
+      "matchedAliases": [
+        "aod-9604"
+      ],
+      "source": "website",
+      "sourceUrl": "https://naturalradiancemedspa.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp"
     }
   ],
   "optimal-hormones-medical-scottsdale-az": [
@@ -370,6 +436,14 @@
       "peptide": "nad-plus",
       "matchedAliases": [
         "nad iv"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.regenpainandwellness.com/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
       ],
       "source": "website",
       "sourceUrl": "https://www.regenpainandwellness.com/"
@@ -405,6 +479,14 @@
       "matchedAliases": [
         "nad+",
         "nicotinamide adenine dinucleotide"
+      ],
+      "source": "website",
+      "sourceUrl": "https://scottsdale-horizon.thedripbar.com/?utm_source=scottsdale-google-listing&utm_medium=organic&utm_campaign=product-link"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
       ],
       "source": "website",
       "sourceUrl": "https://scottsdale-horizon.thedripbar.com/?utm_source=scottsdale-google-listing&utm_medium=organic&utm_campaign=product-link"
@@ -480,6 +562,14 @@
       ],
       "source": "website",
       "sourceUrl": "https://www.vigur.com/"
+    },
+    {
+      "peptide": "dsip",
+      "matchedAliases": [
+        "dsip"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vigur.com/"
     }
   ],
   "ak-twisted-wellness-tucson-az": [
@@ -500,6 +590,16 @@
       "sourceUrl": "https://www.aktw.life/"
     }
   ],
+  "copper-valley-integrative-medicine-and-wellness-laura-moncada-fnp-c-tucson-az": [
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.coppervalleypc.com/?utm_source=gmb_auth"
+    }
+  ],
   "dajjesa-hormone-optimization-hrt-testosterone-trt-and-weight-loss-tucson-az": [
     {
       "peptide": "nad-plus",
@@ -508,6 +608,24 @@
       ],
       "source": "website",
       "sourceUrl": "https://dajjesa.com/"
+    },
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "https://dajjesa.com/"
+    }
+  ],
+  "edge-integrative-wellness-tucson-az": [
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "http://www.edgeintegrativewellness.com/"
     }
   ],
   "gameday-men-s-health-tucson-midtown-trt-and-ed-clinic-tucson-az": [
@@ -547,6 +665,14 @@
       "peptide": "nad-plus",
       "matchedAliases": [
         "nad+"
+      ],
+      "source": "website",
+      "sourceUrl": "https://gamedaymenshealth.com/tucson-midtown/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
       ],
       "source": "website",
       "sourceUrl": "https://gamedaymenshealth.com/tucson-midtown/"
@@ -616,6 +742,30 @@
       "peptide": "hexarelin",
       "matchedAliases": [
         "hexarelin"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-tucson-az/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=tucson-az"
+    },
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-tucson-az/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=tucson-az"
+    },
+    {
+      "peptide": "liraglutide",
+      "matchedAliases": [
+        "liraglutide"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-tucson-az/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=tucson-az"
+    },
+    {
+      "peptide": "5-amino-1mq",
+      "matchedAliases": [
+        "5-amino-1mq"
       ],
       "source": "website",
       "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-tucson-az/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=tucson-az"
@@ -711,6 +861,14 @@
       ],
       "source": "website",
       "sourceUrl": "http://www.nubospa.com/"
+    },
+    {
+      "peptide": "retatrutide",
+      "matchedAliases": [
+        "retatrutide"
+      ],
+      "source": "website",
+      "sourceUrl": "http://www.nubospa.com/"
     }
   ],
   "bio-identical-hormone-replacement-therapy-and-weight-loss-center-beverly-hills-ca": [
@@ -731,6 +889,16 @@
       ],
       "source": "website",
       "sourceUrl": "https://citrinwellness.com/"
+    }
+  ],
+  "doctor-guy-beverly-hills-ca": [
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.doctorguy.com/"
     }
   ],
   "hormone-replacement-therapy-los-angeles-beverly-hills-ca": [
@@ -797,6 +965,38 @@
       ],
       "source": "website",
       "sourceUrl": "http://www.hormonereplacementtherapyla.com/"
+    },
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "http://www.hormonereplacementtherapyla.com/"
+    },
+    {
+      "peptide": "aod-9604",
+      "matchedAliases": [
+        "aod 9604"
+      ],
+      "source": "website",
+      "sourceUrl": "http://www.hormonereplacementtherapyla.com/"
+    },
+    {
+      "peptide": "igf-1-lr3",
+      "matchedAliases": [
+        "igf-1"
+      ],
+      "source": "website",
+      "sourceUrl": "http://www.hormonereplacementtherapyla.com/"
+    },
+    {
+      "peptide": "dsip",
+      "matchedAliases": [
+        "dsip"
+      ],
+      "source": "website",
+      "sourceUrl": "http://www.hormonereplacementtherapyla.com/"
     }
   ],
   "renew-vitality-testosterone-clinic-of-los-angeles-beverly-hills-ca": [
@@ -845,6 +1045,30 @@
       "peptide": "hexarelin",
       "matchedAliases": [
         "hexarelin"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-los-angeles-ca/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=los-angeles-ca"
+    },
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-los-angeles-ca/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=los-angeles-ca"
+    },
+    {
+      "peptide": "liraglutide",
+      "matchedAliases": [
+        "liraglutide"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-los-angeles-ca/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=los-angeles-ca"
+    },
+    {
+      "peptide": "5-amino-1mq",
+      "matchedAliases": [
+        "5-amino-1mq"
       ],
       "source": "website",
       "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-los-angeles-ca/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=los-angeles-ca"
@@ -962,6 +1186,14 @@
       ],
       "source": "website",
       "sourceUrl": "https://mdtw.co/"
+    },
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "https://mdtw.co/"
     }
   ],
   "bioreset-medical-campbell-ca": [
@@ -969,6 +1201,14 @@
       "peptide": "nad-plus",
       "matchedAliases": [
         "nad+"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.bioresetmedical.com/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
       ],
       "source": "website",
       "sourceUrl": "https://www.bioresetmedical.com/"
@@ -1033,6 +1273,14 @@
       ],
       "source": "website",
       "sourceUrl": "https://coastalwellnessmd.com/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://coastalwellnessmd.com/"
     }
   ],
   "coastal-wellness-md-corona-del-mar-ca-1": [
@@ -1094,6 +1342,14 @@
       ],
       "source": "website",
       "sourceUrl": "https://coastalwellnessmd.com/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://coastalwellnessmd.com/"
     }
   ],
   "prime-medicine-alternative-medicine-doctor-hormone-treatment-corona-del-mar-ca": [
@@ -1112,6 +1368,14 @@
       ],
       "source": "website",
       "sourceUrl": "https://primemedicineoc.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp_prime"
+    },
+    {
+      "peptide": "retatrutide",
+      "matchedAliases": [
+        "retatrutide"
+      ],
+      "source": "website",
+      "sourceUrl": "https://primemedicineoc.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp_prime"
     }
   ],
   "prime-medicine-alternative-medicine-doctor-hormone-treatment-corona-del-mar-ca-1": [
@@ -1127,6 +1391,14 @@
       "peptide": "tirzepatide",
       "matchedAliases": [
         "tirzepatide"
+      ],
+      "source": "website",
+      "sourceUrl": "https://primemedicineoc.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp_prime"
+    },
+    {
+      "peptide": "retatrutide",
+      "matchedAliases": [
+        "retatrutide"
       ],
       "source": "website",
       "sourceUrl": "https://primemedicineoc.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp_prime"
@@ -1193,6 +1465,32 @@
       ],
       "source": "website",
       "sourceUrl": "https://alpha-rejuvenation.com/"
+    },
+    {
+      "peptide": "5-amino-1mq",
+      "matchedAliases": [
+        "5-amino-1mq",
+        "5-amino 1mq"
+      ],
+      "source": "website",
+      "sourceUrl": "https://alpha-rejuvenation.com/"
+    },
+    {
+      "peptide": "aod-9604",
+      "matchedAliases": [
+        "aod 9604"
+      ],
+      "source": "website",
+      "sourceUrl": "https://alpha-rejuvenation.com/"
+    },
+    {
+      "peptide": "melanotan-2",
+      "matchedAliases": [
+        "melanotan ii",
+        "melanotan"
+      ],
+      "source": "website",
+      "sourceUrl": "https://alpha-rejuvenation.com/"
     }
   ],
   "beyond-wellness-hyperbaric-chamber-nad-therapy-and-peptides-costa-mesa-ca": [
@@ -1241,6 +1539,16 @@
       ],
       "source": "website",
       "sourceUrl": "http://barecompounding.com/"
+    }
+  ],
+  "embody-wellness-folsom-ca": [
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "https://embodywellness.com/"
     }
   ],
   "wellness-club-365-glendale-ca": [
@@ -1321,6 +1629,30 @@
       "peptide": "kisspeptin",
       "matchedAliases": [
         "kisspeptin"
+      ],
+      "source": "website",
+      "sourceUrl": "http://www.wellnessclub365.com/"
+    },
+    {
+      "peptide": "retatrutide",
+      "matchedAliases": [
+        "retatrutide"
+      ],
+      "source": "website",
+      "sourceUrl": "http://www.wellnessclub365.com/"
+    },
+    {
+      "peptide": "thymosin-alpha-1",
+      "matchedAliases": [
+        "thymosin alpha 1"
+      ],
+      "source": "website",
+      "sourceUrl": "http://www.wellnessclub365.com/"
+    },
+    {
+      "peptide": "ss-31",
+      "matchedAliases": [
+        "ss-31"
       ],
       "source": "website",
       "sourceUrl": "http://www.wellnessclub365.com/"
@@ -1408,6 +1740,14 @@
       ],
       "source": "website",
       "sourceUrl": "https://www.holistichealthsanctuary.com/"
+    },
+    {
+      "peptide": "dsip",
+      "matchedAliases": [
+        "dsip"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.holistichealthsanctuary.com/"
     }
   ],
   "holistic-health-sanctuary-irvine-ca-1": [
@@ -1434,6 +1774,14 @@
       ],
       "source": "website",
       "sourceUrl": "https://www.holistichealthsanctuary.com/"
+    },
+    {
+      "peptide": "dsip",
+      "matchedAliases": [
+        "dsip"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.holistichealthsanctuary.com/"
     }
   ],
   "hydration-room-irvine-ca": [
@@ -1444,6 +1792,24 @@
       ],
       "source": "website",
       "sourceUrl": "https://hydrationroom.com/locations/ca/irvine/6614-irvine-center-dr?utm_source=google&utm_medium=organic&utm_campaign=gbp"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://hydrationroom.com/locations/ca/irvine/6614-irvine-center-dr?utm_source=google&utm_medium=organic&utm_campaign=gbp"
+    }
+  ],
+  "integrative-medicine-orange-county-irvine-ca": [
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "http://imoc.health/"
     }
   ],
   "newport-integrative-medicine-and-aesthetics-nima-irvine-ca": [
@@ -1528,6 +1894,15 @@
       "peptide": "kisspeptin",
       "matchedAliases": [
         "kisspeptin"
+      ],
+      "source": "website",
+      "sourceUrl": "https://nimawellness.com/"
+    },
+    {
+      "peptide": "thymosin-alpha-1",
+      "matchedAliases": [
+        "thymosin alpha-1",
+        "ta-1"
       ],
       "source": "website",
       "sourceUrl": "https://nimawellness.com/"
@@ -1618,6 +1993,15 @@
       ],
       "source": "website",
       "sourceUrl": "https://nimawellness.com/"
+    },
+    {
+      "peptide": "thymosin-alpha-1",
+      "matchedAliases": [
+        "thymosin alpha-1",
+        "ta-1"
+      ],
+      "source": "website",
+      "sourceUrl": "https://nimawellness.com/"
     }
   ],
   "oc-health-and-hormone-balance-irvine-ca": [
@@ -1672,6 +2056,14 @@
       ],
       "source": "website",
       "sourceUrl": "https://bioprimemedical.com/?utm_campaign=gmb"
+    },
+    {
+      "peptide": "retatrutide",
+      "matchedAliases": [
+        "retatrutide"
+      ],
+      "source": "website",
+      "sourceUrl": "https://bioprimemedical.com/?utm_campaign=gmb"
     }
   ],
   "peptide-and-testosterone-therapy-dr-bradley-noon-bioprime-medical-irvine-ca-1": [
@@ -1703,6 +2095,14 @@
       "peptide": "tesamorelin",
       "matchedAliases": [
         "tesamorelin"
+      ],
+      "source": "website",
+      "sourceUrl": "https://bioprimemedical.com/?utm_campaign=gmb"
+    },
+    {
+      "peptide": "retatrutide",
+      "matchedAliases": [
+        "retatrutide"
       ],
       "source": "website",
       "sourceUrl": "https://bioprimemedical.com/?utm_campaign=gmb"
@@ -1761,6 +2161,14 @@
       ],
       "source": "website",
       "sourceUrl": "http://www.recharge-labs.com/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "http://www.recharge-labs.com/"
     }
   ],
   "woodbridge-pharmacy-irvine-ca": [
@@ -1810,6 +2218,14 @@
       "peptide": "nad-plus",
       "matchedAliases": [
         "nad+"
+      ],
+      "source": "website",
+      "sourceUrl": "https://gamedaymenshealth.com/laguna-hills/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
       ],
       "source": "website",
       "sourceUrl": "https://gamedaymenshealth.com/laguna-hills/"
@@ -1865,6 +2281,14 @@
       ],
       "source": "website",
       "sourceUrl": "https://gamedaymenshealth.com/foothill-ranch-lake-forest-ca/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://gamedaymenshealth.com/foothill-ranch-lake-forest-ca/"
     }
   ],
   "advanced-biocell-los-angeles-ca": [
@@ -1872,6 +2296,14 @@
       "peptide": "nad-plus",
       "matchedAliases": [
         "nad+"
+      ],
+      "source": "website",
+      "sourceUrl": "https://advancedbiocell.com/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
       ],
       "source": "website",
       "sourceUrl": "https://advancedbiocell.com/"
@@ -1983,6 +2415,22 @@
       ],
       "source": "website",
       "sourceUrl": "http://www.wellnessatcenturycity.com/?utm_source=gmb_auth"
+    },
+    {
+      "peptide": "aod-9604",
+      "matchedAliases": [
+        "aod-9604"
+      ],
+      "source": "website",
+      "sourceUrl": "http://www.wellnessatcenturycity.com/?utm_source=gmb_auth"
+    },
+    {
+      "peptide": "thymosin-alpha-1",
+      "matchedAliases": [
+        "thymosin alpha-1"
+      ],
+      "source": "website",
+      "sourceUrl": "http://www.wellnessatcenturycity.com/?utm_source=gmb_auth"
     }
   ],
   "kingsberg-medical-clinic-los-angeles-ca": [
@@ -2005,11 +2453,30 @@
       "sourceUrl": "https://www.drldiego.com/"
     }
   ],
+  "metro-med-institute-of-integrative-medicine-los-angeles-ca": [
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg",
+        "human chorionic gonadotropin"
+      ],
+      "source": "website",
+      "sourceUrl": "http://www.metromd.net/"
+    }
+  ],
   "next-health-century-city-westfield-mall-los-angeles-ca": [
     {
       "peptide": "nad-plus",
       "matchedAliases": [
         "nad+"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.next-health.com/pages/locations-century-city"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
       ],
       "source": "website",
       "sourceUrl": "https://www.next-health.com/pages/locations-century-city"
@@ -2057,6 +2524,14 @@
       ],
       "source": "website",
       "sourceUrl": "https://www.peptidehackers.com/"
+    },
+    {
+      "peptide": "retatrutide",
+      "matchedAliases": [
+        "retatrutide"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.peptidehackers.com/"
     }
   ],
   "renewme-iv-therapy-medspa-los-angeles-ca": [
@@ -2064,6 +2539,14 @@
       "peptide": "nad-plus",
       "matchedAliases": [
         "nad+"
+      ],
+      "source": "website",
+      "sourceUrl": "https://renewmespa.com/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
       ],
       "source": "website",
       "sourceUrl": "https://renewmespa.com/"
@@ -2128,6 +2611,30 @@
       ],
       "source": "website",
       "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-los-gatos-ca-2/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=los-gatos-ca-2"
+    },
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-los-gatos-ca-2/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=los-gatos-ca-2"
+    },
+    {
+      "peptide": "liraglutide",
+      "matchedAliases": [
+        "liraglutide"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-los-gatos-ca-2/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=los-gatos-ca-2"
+    },
+    {
+      "peptide": "5-amino-1mq",
+      "matchedAliases": [
+        "5-amino-1mq"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-los-gatos-ca-2/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=los-gatos-ca-2"
     }
   ],
   "young-naturopathic-center-for-wellness-los-gatos-ca": [
@@ -2188,6 +2695,24 @@
       ],
       "source": "website",
       "sourceUrl": "https://gamedaymenshealth.com/milpitas-ca/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://gamedaymenshealth.com/milpitas-ca/"
+    }
+  ],
+  "formmd-performance-mission-viejo-ca": [
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "https://formmdperformance.com/?utm_source=google&utm_medium=organic&utm_campaign=gmb"
     }
   ],
   "art-of-beauty-aesthetics-and-wellness-peptide-clinic-newport-beach-ca": [
@@ -2252,6 +2777,32 @@
       ],
       "source": "website",
       "sourceUrl": "http://www.californiacontourclinic.com/"
+    },
+    {
+      "peptide": "retatrutide",
+      "matchedAliases": [
+        "retatrutide"
+      ],
+      "source": "website",
+      "sourceUrl": "http://www.californiacontourclinic.com/"
+    }
+  ],
+  "dr-nirvana-naturopathic-doctor-newport-beach-ca": [
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.drnirvana.com/"
+    },
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.drnirvana.com/"
     }
   ],
   "iconic-wellness-newport-beach-ca": [
@@ -2299,6 +2850,14 @@
       ],
       "source": "website",
       "sourceUrl": "https://www.next-health.com/location/newport-beach"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.next-health.com/location/newport-beach"
     }
   ],
   "pch-medspa-newport-beach-ca": [
@@ -2315,6 +2874,14 @@
       "peptide": "tirzepatide",
       "matchedAliases": [
         "tirzepatide"
+      ],
+      "source": "website",
+      "sourceUrl": "https://pchmedspa.com/"
+    },
+    {
+      "peptide": "retatrutide",
+      "matchedAliases": [
+        "retatrutide"
       ],
       "source": "website",
       "sourceUrl": "https://pchmedspa.com/"
@@ -2370,6 +2937,14 @@
       ],
       "source": "website",
       "sourceUrl": "https://gamedaymenshealth.com/northhollywood/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://gamedaymenshealth.com/northhollywood/"
     }
   ],
   "refine-anti-aging-medicine-and-aesthetics-oakland-ca": [
@@ -2408,6 +2983,16 @@
       "sourceUrl": "https://alphahormones.com/"
     }
   ],
+  "optimal-health-and-wellness-pasadena-ca": [
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "https://opthealthwellness.com/"
+    }
+  ],
   "peptide-testosterone-semaglutide-sermorelin-therapy-clinic-porter-ranch-ca": [
     {
       "peptide": "semaglutide",
@@ -2422,6 +3007,15 @@
         "sermorelin"
       ],
       "source": "description"
+    },
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg",
+        "human chorionic gonadotropin"
+      ],
+      "source": "website",
+      "sourceUrl": "https://los-angelesw.purehormoneclinic.com/"
     }
   ],
   "stat-health-medical-rancho-cordova-ca": [
@@ -2429,6 +3023,14 @@
       "peptide": "nad-plus",
       "matchedAliases": [
         "nad+"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.stathealthmedical.com/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
       ],
       "source": "website",
       "sourceUrl": "https://www.stathealthmedical.com/"
@@ -2509,6 +3111,30 @@
       ],
       "source": "website",
       "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-rocklin-ca/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=rocklin-ca"
+    },
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-rocklin-ca/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=rocklin-ca"
+    },
+    {
+      "peptide": "liraglutide",
+      "matchedAliases": [
+        "liraglutide"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-rocklin-ca/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=rocklin-ca"
+    },
+    {
+      "peptide": "5-amino-1mq",
+      "matchedAliases": [
+        "5-amino-1mq"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-rocklin-ca/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=rocklin-ca"
     }
   ],
   "renew-me-medical-group-roseville-ca": [
@@ -2524,6 +3150,14 @@
       "peptide": "tirzepatide",
       "matchedAliases": [
         "tirzepatide"
+      ],
+      "source": "website",
+      "sourceUrl": "http://www.renewmemedical.com/"
+    },
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
       ],
       "source": "website",
       "sourceUrl": "http://www.renewmemedical.com/"
@@ -2554,6 +3188,42 @@
       ],
       "source": "website",
       "sourceUrl": "https://www.aestheticenvy.com/?utm_source=GMBlisting&utm_medium=organic&utm_campaign=gmb-Sacramento"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.aestheticenvy.com/?utm_source=GMBlisting&utm_medium=organic&utm_campaign=gmb-Sacramento"
+    },
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg",
+        "human chorionic gonadotropin"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.aestheticenvy.com/?utm_source=GMBlisting&utm_medium=organic&utm_campaign=gmb-Sacramento"
+    },
+    {
+      "peptide": "retatrutide",
+      "matchedAliases": [
+        "retatrutide"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.aestheticenvy.com/?utm_source=GMBlisting&utm_medium=organic&utm_campaign=gmb-Sacramento"
+    }
+  ],
+  "bio-vital-mens-clinic-sacramento-ca": [
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg",
+        "human chorionic gonadotropin"
+      ],
+      "source": "website",
+      "sourceUrl": "https://biovitalmen.com/"
     }
   ],
   "elixyr-labs-sacramento-ca": [
@@ -2606,6 +3276,14 @@
       ],
       "source": "website",
       "sourceUrl": "https://gamedaymenshealth.com/central-sacramento-ca/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://gamedaymenshealth.com/central-sacramento-ca/"
     }
   ],
   "gameday-mens-health-southwest-sacramento-trt-peptide-and-ed-clinic-sacramento-ca": [
@@ -2645,6 +3323,14 @@
       "peptide": "nad-plus",
       "matchedAliases": [
         "nad+"
+      ],
+      "source": "website",
+      "sourceUrl": "https://gamedaymenshealth.com/southwest-sacramento-ca/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
       ],
       "source": "website",
       "sourceUrl": "https://gamedaymenshealth.com/southwest-sacramento-ca/"
@@ -2720,6 +3406,50 @@
       ],
       "source": "website",
       "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-sacramento-ca/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=sacramento-ca"
+    },
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-sacramento-ca/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=sacramento-ca"
+    },
+    {
+      "peptide": "liraglutide",
+      "matchedAliases": [
+        "liraglutide"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-sacramento-ca/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=sacramento-ca"
+    },
+    {
+      "peptide": "5-amino-1mq",
+      "matchedAliases": [
+        "5-amino-1mq"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-sacramento-ca/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=sacramento-ca"
+    }
+  ],
+  "sacramento-naturopathic-medical-center-sacramento-ca": [
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "http://sacnd.com/"
+    }
+  ],
+  "skindripity-medspa-and-aesthetics-sacramento-ca": [
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.skindripity.com/"
     }
   ],
   "gameday-mens-health-san-bruno-san-bruno-ca": [
@@ -2762,6 +3492,14 @@
       ],
       "source": "website",
       "sourceUrl": "https://gamedaymenshealth.com/san-bruno-ca/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://gamedaymenshealth.com/san-bruno-ca/"
     }
   ],
   "biohackr-health-san-francisco-ca": [
@@ -2785,6 +3523,14 @@
       "peptide": "nad-plus",
       "matchedAliases": [
         "nad+"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.biohackr.health/?utm_source=googlemybusiness&utm_medium=organic&utm_campaign=san+francisco"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
       ],
       "source": "website",
       "sourceUrl": "https://www.biohackr.health/?utm_source=googlemybusiness&utm_medium=organic&utm_campaign=san+francisco"
@@ -2845,6 +3591,14 @@
       "peptide": "nad-plus",
       "matchedAliases": [
         "nad+"
+      ],
+      "source": "website",
+      "sourceUrl": "https://gamedaymenshealth.com/downtown-san-francisco-ca/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
       ],
       "source": "website",
       "sourceUrl": "https://gamedaymenshealth.com/downtown-san-francisco-ca/"
@@ -2924,6 +3678,14 @@
       ],
       "source": "website",
       "sourceUrl": "http://www.radianthealthsf.com/"
+    },
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "http://www.radianthealthsf.com/"
     }
   ],
   "recharge-medical-san-francisco-ca": [
@@ -2985,6 +3747,30 @@
       ],
       "source": "website",
       "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-san-francisco/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=san-francisco"
+    },
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-san-francisco/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=san-francisco"
+    },
+    {
+      "peptide": "liraglutide",
+      "matchedAliases": [
+        "liraglutide"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-san-francisco/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=san-francisco"
+    },
+    {
+      "peptide": "5-amino-1mq",
+      "matchedAliases": [
+        "5-amino-1mq"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-san-francisco/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=san-francisco"
     }
   ],
   "excel-medicine-san-jose-san-jose-ca": [
@@ -3034,6 +3820,14 @@
       "peptide": "nad-plus",
       "matchedAliases": [
         "nad+"
+      ],
+      "source": "website",
+      "sourceUrl": "https://gamedaymenshealth.com/south-san-jose-ca/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
       ],
       "source": "website",
       "sourceUrl": "https://gamedaymenshealth.com/south-san-jose-ca/"
@@ -3118,6 +3912,30 @@
       ],
       "source": "website",
       "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-san-jose-ca/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=san-jose-ca"
+    },
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-san-jose-ca/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=san-jose-ca"
+    },
+    {
+      "peptide": "liraglutide",
+      "matchedAliases": [
+        "liraglutide"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-san-jose-ca/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=san-jose-ca"
+    },
+    {
+      "peptide": "5-amino-1mq",
+      "matchedAliases": [
+        "5-amino-1mq"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-san-jose-ca/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=san-jose-ca"
     }
   ],
   "sage-health-and-wellness-san-jose-ca": [
@@ -3148,11 +3966,39 @@
       "sourceUrl": "https://www.trueyouaesthetic.com/"
     }
   ],
+  "harbor-compounding-pharmacy-santa-ana-ca": [
+    {
+      "peptide": "oxytocin",
+      "matchedAliases": [
+        "oxytocin"
+      ],
+      "source": "website",
+      "sourceUrl": "http://www.harborcompounding.com/"
+    }
+  ],
+  "harbor-compounding-pharmacy-santa-ana-ca-1": [
+    {
+      "peptide": "oxytocin",
+      "matchedAliases": [
+        "oxytocin"
+      ],
+      "source": "website",
+      "sourceUrl": "http://www.harborcompounding.com/"
+    }
+  ],
   "bms-wellness-and-weightloss-santa-clara-ca": [
     {
       "peptide": "nad-plus",
       "matchedAliases": [
         "nad+"
+      ],
+      "source": "website",
+      "sourceUrl": "https://bmswellnessca.com/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
       ],
       "source": "website",
       "sourceUrl": "https://bmswellnessca.com/"
@@ -3217,6 +4063,14 @@
       "peptide": "nad-plus",
       "matchedAliases": [
         "nad+"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.next-health.com/location/studio-city"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
       ],
       "source": "website",
       "sourceUrl": "https://www.next-health.com/location/studio-city"
@@ -3292,6 +4146,14 @@
       ],
       "source": "website",
       "sourceUrl": "https://gamedaymenshealth.com/tustin/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://gamedaymenshealth.com/tustin/"
     }
   ],
   "next-health-in-west-hollywood-west-hollywood-ca": [
@@ -3302,6 +4164,14 @@
       ],
       "source": "website",
       "sourceUrl": "https://www.next-health.com/pages/locations-west-hollywood"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.next-health.com/pages/locations-west-hollywood"
     }
   ],
   "vivolo-wellness-club-20-chelsea-st-ch": [
@@ -3309,6 +4179,14 @@
       "peptide": "nad-plus",
       "matchedAliases": [
         "nad+"
+      ],
+      "source": "website",
+      "sourceUrl": "https://vivolowellness.com/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
       ],
       "source": "website",
       "sourceUrl": "https://vivolowellness.com/"
@@ -3419,6 +4297,30 @@
       ],
       "source": "website",
       "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-washington-dc/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=washington-dc"
+    },
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-washington-dc/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=washington-dc"
+    },
+    {
+      "peptide": "liraglutide",
+      "matchedAliases": [
+        "liraglutide"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-washington-dc/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=washington-dc"
+    },
+    {
+      "peptide": "5-amino-1mq",
+      "matchedAliases": [
+        "5-amino-1mq"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-washington-dc/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=washington-dc"
     }
   ],
   "the-dripbar-d-c-georgetown-washington-dc": [
@@ -3434,6 +4336,14 @@
       "peptide": "nad-plus",
       "matchedAliases": [
         "nad+"
+      ],
+      "source": "website",
+      "sourceUrl": "https://dc.thedripbar.com/?utm_source=google&utm_medium=organic&utm_campaign=grand-opening&utm_id=profile-link+"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
       ],
       "source": "website",
       "sourceUrl": "https://dc.thedripbar.com/?utm_source=google&utm_medium=organic&utm_campaign=grand-opening&utm_id=profile-link+"
@@ -3461,6 +4371,23 @@
       "matchedAliases": [
         "nad+",
         "nad iv"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.weightlossandvitality.com/?utm_source=gmb_auth"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.weightlossandvitality.com/?utm_source=gmb_auth"
+    },
+    {
+      "peptide": "liraglutide",
+      "matchedAliases": [
+        "liraglutide",
+        "saxenda"
       ],
       "source": "website",
       "sourceUrl": "https://www.weightlossandvitality.com/?utm_source=gmb_auth"
@@ -3562,6 +4489,14 @@
       ],
       "source": "website",
       "sourceUrl": "https://gamedaymenshealth.com/boca-raton/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://gamedaymenshealth.com/boca-raton/"
     }
   ],
   "icon-md-medical-spa-laser-center-boca-raton-boca-raton-fl": [
@@ -3615,6 +4550,14 @@
       "peptide": "nad-plus",
       "matchedAliases": [
         "nad iv"
+      ],
+      "source": "website",
+      "sourceUrl": "https://ora-wellness.com/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
       ],
       "source": "website",
       "sourceUrl": "https://ora-wellness.com/"
@@ -3717,6 +4660,46 @@
       ],
       "source": "website",
       "sourceUrl": "https://www.peptidesfirst.com/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.peptidesfirst.com/"
+    },
+    {
+      "peptide": "liraglutide",
+      "matchedAliases": [
+        "liraglutide"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.peptidesfirst.com/"
+    },
+    {
+      "peptide": "5-amino-1mq",
+      "matchedAliases": [
+        "5-amino-1mq"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.peptidesfirst.com/"
+    },
+    {
+      "peptide": "aod-9604",
+      "matchedAliases": [
+        "aod-9604"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.peptidesfirst.com/"
+    },
+    {
+      "peptide": "ss-31",
+      "matchedAliases": [
+        "ss-31"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.peptidesfirst.com/"
     }
   ],
   "pur-form-boca-raton-fl": [
@@ -3778,6 +4761,30 @@
       ],
       "source": "website",
       "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-boca-raton-fl/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=boca-raton-fl"
+    },
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-boca-raton-fl/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=boca-raton-fl"
+    },
+    {
+      "peptide": "liraglutide",
+      "matchedAliases": [
+        "liraglutide"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-boca-raton-fl/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=boca-raton-fl"
+    },
+    {
+      "peptide": "5-amino-1mq",
+      "matchedAliases": [
+        "5-amino-1mq"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-boca-raton-fl/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=boca-raton-fl"
     }
   ],
   "weight-loss-treatment-in-boca-raton-optimal-wellness-group-boca-raton-fl": [
@@ -3835,6 +4842,14 @@
       "peptide": "nad-plus",
       "matchedAliases": [
         "nad+"
+      ],
+      "source": "website",
+      "sourceUrl": "http://www.advancedscripts.net/"
+    },
+    {
+      "peptide": "oxytocin",
+      "matchedAliases": [
+        "oxytocin"
       ],
       "source": "website",
       "sourceUrl": "http://www.advancedscripts.net/"
@@ -4018,6 +5033,14 @@
       ],
       "source": "website",
       "sourceUrl": "https://lowteflorida.com/"
+    },
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "https://lowteflorida.com/"
     }
   ],
   "method-health-fort-lauderdale-fl": [
@@ -4043,6 +5066,14 @@
       "peptide": "nad-plus",
       "matchedAliases": [
         "nad+"
+      ],
+      "source": "website",
+      "sourceUrl": "https://primeivhydration.com/locations/florida/fort-lauderdale-fl/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
       ],
       "source": "website",
       "sourceUrl": "https://primeivhydration.com/locations/florida/fort-lauderdale-fl/"
@@ -4165,6 +5196,14 @@
       ],
       "source": "website",
       "sourceUrl": "http://www.thebestprogram.net/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "http://www.thebestprogram.net/"
     }
   ],
   "the-remedy-iv-health-wellness-fort-lauderdale-fl": [
@@ -4211,6 +5250,14 @@
       ],
       "source": "website",
       "sourceUrl": "https://www.tridentantiaging.com/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.tridentantiaging.com/"
     }
   ],
   "palm-beach-wellness-center-greenacres-fl": [
@@ -4231,6 +5278,34 @@
       ],
       "source": "website",
       "sourceUrl": "http://www.westpalmbeachdiet.com/"
+    },
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "http://www.westpalmbeachdiet.com/"
+    }
+  ],
+  "breakthrough-healthcare-solutions-jacksonville-fl": [
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "http://www.breakthroughhc.com/"
+    }
+  ],
+  "coastal-health-and-medical-spa-jacksonville-fl": [
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://coastalmedicalspa.com/?utm_source=GMB"
     }
   ],
   "degree-wellness-jacksonville-fl": [
@@ -4313,6 +5388,14 @@
       ],
       "source": "website",
       "sourceUrl": "https://gamedaymenshealth.com/lakewood-fl/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://gamedaymenshealth.com/lakewood-fl/"
     }
   ],
   "intercoastal-health-jacksonville-fl": [
@@ -4392,6 +5475,30 @@
       ],
       "source": "website",
       "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-jacksonville-fl/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=jacksonville-fl"
+    },
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-jacksonville-fl/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=jacksonville-fl"
+    },
+    {
+      "peptide": "liraglutide",
+      "matchedAliases": [
+        "liraglutide"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-jacksonville-fl/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=jacksonville-fl"
+    },
+    {
+      "peptide": "5-amino-1mq",
+      "matchedAliases": [
+        "5-amino-1mq"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-jacksonville-fl/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=jacksonville-fl"
     }
   ],
   "revamp-wellness-center-jacksonville-fl": [
@@ -4425,6 +5532,14 @@
       "peptide": "nad-plus",
       "matchedAliases": [
         "nad+"
+      ],
+      "source": "website",
+      "sourceUrl": "https://jacksonville-tamaya-market.thedripbar.com/?utm_source=jacksonville-fl-google-listing&utm_medium=organic&utm_campaign=google-listing"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
       ],
       "source": "website",
       "sourceUrl": "https://jacksonville-tamaya-market.thedripbar.com/?utm_source=jacksonville-fl-google-listing&utm_medium=organic&utm_campaign=google-listing"
@@ -4542,6 +5657,14 @@
       "peptide": "sermorelin",
       "matchedAliases": [
         "sermorelin"
+      ],
+      "source": "website",
+      "sourceUrl": "http://www.envizionmedical.com/"
+    },
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
       ],
       "source": "website",
       "sourceUrl": "http://www.envizionmedical.com/"
@@ -4806,6 +5929,16 @@
       "sourceUrl": "https://4everyoungantiaging.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp-orlando-lake-ivanhoe"
     }
   ],
+  "anti-aging-center-orlando-fl": [
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://antiagingcenterorlando.com/"
+    }
+  ],
   "aspire-rejuvenation-clinic-orlando-orlando-fl": [
     {
       "peptide": "bpc-157",
@@ -4879,6 +6012,39 @@
       ],
       "source": "website",
       "sourceUrl": "https://aspirerejuvenation.com/orlando"
+    },
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg",
+        "human chorionic gonadotropin"
+      ],
+      "source": "website",
+      "sourceUrl": "https://aspirerejuvenation.com/orlando"
+    },
+    {
+      "peptide": "5-amino-1mq",
+      "matchedAliases": [
+        "5-amino-1mq"
+      ],
+      "source": "website",
+      "sourceUrl": "https://aspirerejuvenation.com/orlando"
+    },
+    {
+      "peptide": "retatrutide",
+      "matchedAliases": [
+        "retatrutide"
+      ],
+      "source": "website",
+      "sourceUrl": "https://aspirerejuvenation.com/orlando"
+    },
+    {
+      "peptide": "aod-9604",
+      "matchedAliases": [
+        "aod-9604"
+      ],
+      "source": "website",
+      "sourceUrl": "https://aspirerejuvenation.com/orlando"
     }
   ],
   "biodesign-mens-clinic-of-orlando-orlando-fl": [
@@ -4947,6 +6113,22 @@
       ],
       "source": "website",
       "sourceUrl": "https://www.choiceonemedspa.com/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.choiceonemedspa.com/"
+    },
+    {
+      "peptide": "aod-9604",
+      "matchedAliases": [
+        "aod-9604"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.choiceonemedspa.com/"
     }
   ],
   "driv-therapy-orlando-fl": [
@@ -5011,6 +6193,22 @@
       ],
       "source": "website",
       "sourceUrl": "http://orlandoregenmedicine.com/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "http://orlandoregenmedicine.com/"
+    },
+    {
+      "peptide": "aod-9604",
+      "matchedAliases": [
+        "aod 9604"
+      ],
+      "source": "website",
+      "sourceUrl": "http://orlandoregenmedicine.com/"
     }
   ],
   "fusion-regenerative-therapies-orlando-fl": [
@@ -5037,6 +6235,22 @@
       ],
       "source": "website",
       "sourceUrl": "http://fusionregenerativetherapies.com/"
+    },
+    {
+      "peptide": "5-amino-1mq",
+      "matchedAliases": [
+        "5-amino-1mq"
+      ],
+      "source": "website",
+      "sourceUrl": "http://fusionregenerativetherapies.com/"
+    },
+    {
+      "peptide": "aod-9604",
+      "matchedAliases": [
+        "aod-9604"
+      ],
+      "source": "website",
+      "sourceUrl": "http://fusionregenerativetherapies.com/"
     }
   ],
   "healthy-glow-med-spa-orlando-fl": [
@@ -5059,6 +6273,14 @@
       ],
       "source": "website",
       "sourceUrl": "https://www.olympiapharmacy.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp-websitebutton-conroy"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.olympiapharmacy.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp-websitebutton-conroy"
     }
   ],
   "olympia-pharmaceuticals-l-b-mcleod-orlando-fl": [
@@ -5067,6 +6289,14 @@
       "matchedAliases": [
         "nad+",
         "nicotinamide adenine dinucleotide"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.olympiapharmacy.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp-websitebutton-mcleod"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
       ],
       "source": "website",
       "sourceUrl": "https://www.olympiapharmacy.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp-websitebutton-mcleod"
@@ -5087,6 +6317,14 @@
       "matchedAliases": [
         "tirzepatide",
         "zepbound"
+      ],
+      "source": "website",
+      "sourceUrl": "https://rejuvenatewellnesscenter.co/index/"
+    },
+    {
+      "peptide": "retatrutide",
+      "matchedAliases": [
+        "retatrutide"
       ],
       "source": "website",
       "sourceUrl": "https://rejuvenatewellnesscenter.co/index/"
@@ -5136,6 +6374,14 @@
       ],
       "source": "website",
       "sourceUrl": "http://www.nouveauhealthandwellness.com/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "http://www.nouveauhealthandwellness.com/"
     }
   ],
   "physicians-rejuvenation-centers-palm-beach-gardens-fl": [
@@ -5159,6 +6405,38 @@
       "peptide": "pt-141",
       "matchedAliases": [
         "pt-141"
+      ],
+      "source": "website",
+      "sourceUrl": "http://www.prcpb.com/?utm_source=gbp&utm_medium=main&utm_campaign=general"
+    },
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "http://www.prcpb.com/?utm_source=gbp&utm_medium=main&utm_campaign=general"
+    },
+    {
+      "peptide": "5-amino-1mq",
+      "matchedAliases": [
+        "5-amino-1mq"
+      ],
+      "source": "website",
+      "sourceUrl": "http://www.prcpb.com/?utm_source=gbp&utm_medium=main&utm_campaign=general"
+    },
+    {
+      "peptide": "oxytocin",
+      "matchedAliases": [
+        "oxytocin"
+      ],
+      "source": "website",
+      "sourceUrl": "http://www.prcpb.com/?utm_source=gbp&utm_medium=main&utm_campaign=general"
+    },
+    {
+      "peptide": "aod-9604",
+      "matchedAliases": [
+        "aod 9604"
       ],
       "source": "website",
       "sourceUrl": "http://www.prcpb.com/?utm_source=gbp&utm_medium=main&utm_campaign=general"
@@ -5236,6 +6514,30 @@
       "peptide": "hexarelin",
       "matchedAliases": [
         "hexarelin"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-palm-beach-gardens-fl/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=palm-beach-gardens-fl"
+    },
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-palm-beach-gardens-fl/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=palm-beach-gardens-fl"
+    },
+    {
+      "peptide": "liraglutide",
+      "matchedAliases": [
+        "liraglutide"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-palm-beach-gardens-fl/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=palm-beach-gardens-fl"
+    },
+    {
+      "peptide": "5-amino-1mq",
+      "matchedAliases": [
+        "5-amino-1mq"
       ],
       "source": "website",
       "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-palm-beach-gardens-fl/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=palm-beach-gardens-fl"
@@ -5351,6 +6653,16 @@
       "sourceUrl": "https://antiagingtampabay.com/"
     }
   ],
+  "optimal-wellness-st-pete-st-petersburg-fl": [
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "http://www.optimalwellnessstpete.com/"
+    }
+  ],
   "biodesign-mens-clinic-of-tampa-tampa-fl": [
     {
       "peptide": "nad-plus",
@@ -5445,6 +6757,26 @@
       "sourceUrl": "https://tampahealthcenter.com/"
     }
   ],
+  "infinity-medical-institute-tampa-fl": [
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "https://infinitymedicalinstitute.com/"
+    }
+  ],
+  "matrix-reformed-tampa-fl": [
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "https://matrixhormones.health/"
+    }
+  ],
   "omni-life-med-wellness-tampa-fl": [
     {
       "peptide": "nad-plus",
@@ -5468,6 +6800,22 @@
       "peptide": "tirzepatide",
       "matchedAliases": [
         "tirzepatide"
+      ],
+      "source": "website",
+      "sourceUrl": "http://www.optimalwellness.shop/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "http://www.optimalwellness.shop/"
+    },
+    {
+      "peptide": "retatrutide",
+      "matchedAliases": [
+        "retatrutide"
       ],
       "source": "website",
       "sourceUrl": "http://www.optimalwellness.shop/"
@@ -5534,6 +6882,22 @@
       ],
       "source": "website",
       "sourceUrl": "https://www.rnawellness.com/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.rnawellness.com/"
+    },
+    {
+      "peptide": "oxytocin",
+      "matchedAliases": [
+        "oxytocin"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.rnawellness.com/"
     }
   ],
   "strive-compounding-pharmacy-tampa-fl": [
@@ -5573,6 +6937,14 @@
       "peptide": "nad-plus",
       "matchedAliases": [
         "nad+"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.strivepharmacy.com/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
       ],
       "source": "website",
       "sourceUrl": "https://www.strivepharmacy.com/"
@@ -5616,6 +6988,22 @@
       ],
       "source": "website",
       "sourceUrl": "https://thebiostation.com/locations/tampa/?utm_source=GMBlisting&utm_medium=organic&utm_campaign=tampa"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://thebiostation.com/locations/tampa/?utm_source=GMBlisting&utm_medium=organic&utm_campaign=tampa"
+    },
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "https://thebiostation.com/locations/tampa/?utm_source=GMBlisting&utm_medium=organic&utm_campaign=tampa"
     }
   ],
   "the-institute-of-vitality-tampa-fl": [
@@ -5626,6 +7014,16 @@
       ],
       "source": "website",
       "sourceUrl": "https://instituteofvitality.com/"
+    }
+  ],
+  "titan-medical-center-tampa-fl": [
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "http://titanmedicalcenter.com/"
     }
   ],
   "new-age-health-and-wellness-wellington-fl": [
@@ -5661,6 +7059,22 @@
       "peptide": "tirzepatide",
       "matchedAliases": [
         "tirzepatide"
+      ],
+      "source": "website",
+      "sourceUrl": "http://www.optimalwellness.shop/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "http://www.optimalwellness.shop/"
+    },
+    {
+      "peptide": "retatrutide",
+      "matchedAliases": [
+        "retatrutide"
       ],
       "source": "website",
       "sourceUrl": "http://www.optimalwellness.shop/"
@@ -5743,6 +7157,14 @@
       ],
       "source": "website",
       "sourceUrl": "https://gamedaymenshealth.com/west-palm-beach/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://gamedaymenshealth.com/west-palm-beach/"
     }
   ],
   "the-longevity-center-fl-west-palm-beach-fl": [
@@ -5779,6 +7201,14 @@
       ],
       "source": "website",
       "sourceUrl": "http://www.tringali-health.com/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "http://www.tringali-health.com/"
     }
   ],
   "vital-vita-wellness-west-palm-beach-fl": [
@@ -5786,6 +7216,14 @@
       "peptide": "nad-plus",
       "matchedAliases": [
         "nad+"
+      ],
+      "source": "website",
+      "sourceUrl": "http://www.vitalvitawellness.com/?utm_campaign=gmb"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
       ],
       "source": "website",
       "sourceUrl": "http://www.vitalvitawellness.com/?utm_campaign=gmb"
@@ -5804,6 +7242,14 @@
       "peptide": "nad-plus",
       "matchedAliases": [
         "nad+"
+      ],
+      "source": "website",
+      "sourceUrl": "http://www.vitaminhealthinfusion.com/?UTM_source=GMB_listing&UTM_medium=organic"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
       ],
       "source": "website",
       "sourceUrl": "http://www.vitaminhealthinfusion.com/?UTM_source=GMB_listing&UTM_medium=organic"
@@ -5907,6 +7353,22 @@
       ],
       "source": "website",
       "sourceUrl": "https://formulaterx.com/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://formulaterx.com/"
+    },
+    {
+      "peptide": "oxytocin",
+      "matchedAliases": [
+        "oxytocin"
+      ],
+      "source": "website",
+      "sourceUrl": "https://formulaterx.com/"
     }
   ],
   "antiaging-atlanta-alpharetta-ga": [
@@ -5914,6 +7376,14 @@
       "peptide": "sermorelin",
       "matchedAliases": [
         "sermorelin"
+      ],
+      "source": "website",
+      "sourceUrl": "http://antiagingatlanta.com/"
+    },
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
       ],
       "source": "website",
       "sourceUrl": "http://antiagingatlanta.com/"
@@ -6049,6 +7519,24 @@
       ],
       "source": "website",
       "sourceUrl": "https://gamedaymenshealth.com/buckhead/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://gamedaymenshealth.com/buckhead/"
+    }
+  ],
+  "harley-institute-atlanta-ga": [
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.harleyinstitute.com/"
     }
   ],
   "regenmd-wellness-atlanta-ga": [
@@ -6110,6 +7598,30 @@
       ],
       "source": "website",
       "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-atlanta-ga-2/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=atlanta-ga-2"
+    },
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-atlanta-ga-2/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=atlanta-ga-2"
+    },
+    {
+      "peptide": "liraglutide",
+      "matchedAliases": [
+        "liraglutide"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-atlanta-ga-2/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=atlanta-ga-2"
+    },
+    {
+      "peptide": "5-amino-1mq",
+      "matchedAliases": [
+        "5-amino-1mq"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-atlanta-ga-2/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=atlanta-ga-2"
     }
   ],
   "saltmd-wellness-atlanta-ga": [
@@ -6149,6 +7661,22 @@
       "peptide": "mots-c",
       "matchedAliases": [
         "mots-c"
+      ],
+      "source": "website",
+      "sourceUrl": "https://saltmdwellness.com/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://saltmdwellness.com/"
+    },
+    {
+      "peptide": "igf-1-lr3",
+      "matchedAliases": [
+        "igf-1"
       ],
       "source": "website",
       "sourceUrl": "https://saltmdwellness.com/"
@@ -6262,6 +7790,38 @@
       ],
       "source": "website",
       "sourceUrl": "https://www.elitehealthhrt.com/"
+    },
+    {
+      "peptide": "oxytocin",
+      "matchedAliases": [
+        "oxytocin"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.elitehealthhrt.com/"
+    },
+    {
+      "peptide": "aod-9604",
+      "matchedAliases": [
+        "aod-9604"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.elitehealthhrt.com/"
+    },
+    {
+      "peptide": "igf-1-lr3",
+      "matchedAliases": [
+        "igf-1"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.elitehealthhrt.com/"
+    },
+    {
+      "peptide": "dsip",
+      "matchedAliases": [
+        "dsip"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.elitehealthhrt.com/"
     }
   ],
   "rebalanced-wellness-clinic-sandy-springs-ga": [
@@ -6295,6 +7855,14 @@
       "peptide": "nad-plus",
       "matchedAliases": [
         "nad+"
+      ],
+      "source": "website",
+      "sourceUrl": "https://agewellatl.net/"
+    },
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
       ],
       "source": "website",
       "sourceUrl": "https://agewellatl.net/"
@@ -6340,6 +7908,14 @@
       ],
       "source": "website",
       "sourceUrl": "https://gamedaymenshealth.com/smyrna/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://gamedaymenshealth.com/smyrna/"
     }
   ],
   "thryv-medical-sugar-hill-sugar-hill-ga": [
@@ -6347,6 +7923,14 @@
       "peptide": "nad-plus",
       "matchedAliases": [
         "nad+"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.thryvmedical.com/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
       ],
       "source": "website",
       "sourceUrl": "https://www.thryvmedical.com/"
@@ -6423,6 +8007,14 @@
       ],
       "source": "website",
       "sourceUrl": "http://www.artistrymedspa.co/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "http://www.artistrymedspa.co/"
     }
   ],
   "drip-hawaii-waikiki-iv-wellness-and-lifestyle-medspa-honolulu-hi": [
@@ -6433,6 +8025,16 @@
       ],
       "source": "website",
       "sourceUrl": "http://driphawaii.com/"
+    }
+  ],
+  "hawaii-natural-medicine-honolulu-hi": [
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.hawaiinaturalmedicine.com/"
     }
   ],
   "hawaii-wellness-clinic-honolulu-hi": [
@@ -6457,6 +8059,14 @@
       "peptide": "nad-plus",
       "matchedAliases": [
         "nad+"
+      ],
+      "source": "website",
+      "sourceUrl": "https://hawaiiwellnessclinic.com/?utm_source=omg-gbp&utm_medium=webclick"
+    },
+    {
+      "peptide": "retatrutide",
+      "matchedAliases": [
+        "retatrutide"
       ],
       "source": "website",
       "sourceUrl": "https://hawaiiwellnessclinic.com/?utm_source=omg-gbp&utm_medium=webclick"
@@ -6489,6 +8099,24 @@
       ],
       "source": "website",
       "sourceUrl": "https://www.ivoceantherapy.com/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.ivoceantherapy.com/"
+    }
+  ],
+  "jen-ferrante-nd-honolulu-hi": [
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.hawaiinaturalmedicine.com/?utm_source=gmb_auth"
     }
   ],
   "mens-vitality-md-honolulu-hi": [
@@ -6529,6 +8157,22 @@
       "peptide": "nad-plus",
       "matchedAliases": [
         "nad+"
+      ],
+      "source": "website",
+      "sourceUrl": "http://mensvitalitymd.com/"
+    },
+    {
+      "peptide": "liraglutide",
+      "matchedAliases": [
+        "liraglutide"
+      ],
+      "source": "website",
+      "sourceUrl": "http://mensvitalitymd.com/"
+    },
+    {
+      "peptide": "oxytocin",
+      "matchedAliases": [
+        "oxytocin"
       ],
       "source": "website",
       "sourceUrl": "http://mensvitalitymd.com/"
@@ -6581,6 +8225,14 @@
       "peptide": "nad-plus",
       "matchedAliases": [
         "nad+"
+      ],
+      "source": "website",
+      "sourceUrl": "https://gamedaymenshealth.com/kailua-hi/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
       ],
       "source": "website",
       "sourceUrl": "https://gamedaymenshealth.com/kailua-hi/"
@@ -6668,6 +8320,30 @@
       "peptide": "hexarelin",
       "matchedAliases": [
         "hexarelin"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-des-moines-ia/"
+    },
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-des-moines-ia/"
+    },
+    {
+      "peptide": "liraglutide",
+      "matchedAliases": [
+        "liraglutide"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-des-moines-ia/"
+    },
+    {
+      "peptide": "5-amino-1mq",
+      "matchedAliases": [
+        "5-amino-1mq"
       ],
       "source": "website",
       "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-des-moines-ia/"
@@ -6776,6 +8452,14 @@
       ],
       "source": "website",
       "sourceUrl": "https://www.bettermedspa.com/"
+    },
+    {
+      "peptide": "liraglutide",
+      "matchedAliases": [
+        "liraglutide"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.bettermedspa.com/"
     }
   ],
   "bliss-md-chicago-il": [
@@ -6811,6 +8495,15 @@
       "peptide": "sermorelin",
       "matchedAliases": [
         "sermorelin"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.chicagolandmenshealth.com/"
+    },
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg",
+        "human chorionic gonadotropin"
       ],
       "source": "website",
       "sourceUrl": "https://www.chicagolandmenshealth.com/"
@@ -6854,6 +8547,24 @@
       ],
       "source": "website",
       "sourceUrl": "https://lume-wellness.com/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://lume-wellness.com/"
+    }
+  ],
+  "quench-wellness-chicago-il": [
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "http://www.quenchwellness.com/"
     }
   ],
   "renew-vitality-testosterone-clinic-of-chicago-chicago-il": [
@@ -6902,6 +8613,30 @@
       "peptide": "hexarelin",
       "matchedAliases": [
         "hexarelin"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-chicago-il/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=chicago-il"
+    },
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-chicago-il/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=chicago-il"
+    },
+    {
+      "peptide": "liraglutide",
+      "matchedAliases": [
+        "liraglutide"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-chicago-il/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=chicago-il"
+    },
+    {
+      "peptide": "5-amino-1mq",
+      "matchedAliases": [
+        "5-amino-1mq"
       ],
       "source": "website",
       "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-chicago-il/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=chicago-il"
@@ -7014,6 +8749,14 @@
       ],
       "source": "website",
       "sourceUrl": "https://biosmartclinic.com/our-locations/elmhurst?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_content=elmhurst"
+    },
+    {
+      "peptide": "aod-9604",
+      "matchedAliases": [
+        "aod-9604"
+      ],
+      "source": "website",
+      "sourceUrl": "https://biosmartclinic.com/our-locations/elmhurst?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_content=elmhurst"
     }
   ],
   "lake-forest-regenesis-lake-forest-il": [
@@ -7108,6 +8851,38 @@
       ],
       "source": "website",
       "sourceUrl": "https://vitalityeternal.com/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://vitalityeternal.com/"
+    },
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "https://vitalityeternal.com/"
+    },
+    {
+      "peptide": "oxytocin",
+      "matchedAliases": [
+        "oxytocin"
+      ],
+      "source": "website",
+      "sourceUrl": "https://vitalityeternal.com/"
+    },
+    {
+      "peptide": "aod-9604",
+      "matchedAliases": [
+        "aod 9604"
+      ],
+      "source": "website",
+      "sourceUrl": "https://vitalityeternal.com/"
     }
   ],
   "peak-health-institute-functional-medicine-warrenville-il": [
@@ -7125,6 +8900,14 @@
       "peptide": "semaglutide",
       "matchedAliases": [
         "semaglutide"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.doctorscotts.com/"
+    },
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
       ],
       "source": "website",
       "sourceUrl": "https://www.doctorscotts.com/"
@@ -7167,6 +8950,14 @@
       "peptide": "pt-141",
       "matchedAliases": [
         "pt-141"
+      ],
+      "source": "website",
+      "sourceUrl": "http://feelgreatindy.com/"
+    },
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
       ],
       "source": "website",
       "sourceUrl": "http://feelgreatindy.com/"
@@ -7325,6 +9116,72 @@
       ],
       "source": "website",
       "sourceUrl": "https://www.nexamedspa.com/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.nexamedspa.com/"
+    },
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.nexamedspa.com/"
+    },
+    {
+      "peptide": "oxytocin",
+      "matchedAliases": [
+        "oxytocin"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.nexamedspa.com/"
+    },
+    {
+      "peptide": "aod-9604",
+      "matchedAliases": [
+        "aod-9604"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.nexamedspa.com/"
+    },
+    {
+      "peptide": "thymosin-alpha-1",
+      "matchedAliases": [
+        "thymosin alpha-1",
+        "ta-1"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.nexamedspa.com/"
+    },
+    {
+      "peptide": "dsip",
+      "matchedAliases": [
+        "dsip"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.nexamedspa.com/"
+    },
+    {
+      "peptide": "ss-31",
+      "matchedAliases": [
+        "ss-31"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.nexamedspa.com/"
+    },
+    {
+      "peptide": "melanotan-2",
+      "matchedAliases": [
+        "melanotan 2",
+        "melanotan"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.nexamedspa.com/"
     }
   ],
   "gem-science-medical-clinic-indianapolis-in": [
@@ -7407,6 +9264,14 @@
       ],
       "source": "website",
       "sourceUrl": "https://ifeelmuchbetter.com/"
+    },
+    {
+      "peptide": "oxytocin",
+      "matchedAliases": [
+        "oxytocin"
+      ],
+      "source": "website",
+      "sourceUrl": "https://ifeelmuchbetter.com/"
     }
   ],
   "rock-creek-wellness-leawood-ks": [
@@ -7417,6 +9282,16 @@
       ],
       "source": "website",
       "sourceUrl": "https://www.rockcreekwellness.com/"
+    }
+  ],
+  "elevate-wellness-kc-lenexa-ks": [
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.elevatewellnesskc.com/"
     }
   ],
   "dailey-aesthetics-and-hormone-clinic-overland-park-ks": [
@@ -7491,6 +9366,39 @@
       ],
       "source": "website",
       "sourceUrl": "https://daileyaesthetics.com/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://daileyaesthetics.com/"
+    },
+    {
+      "peptide": "thymosin-alpha-1",
+      "matchedAliases": [
+        "ta-1"
+      ],
+      "source": "website",
+      "sourceUrl": "https://daileyaesthetics.com/"
+    },
+    {
+      "peptide": "ss-31",
+      "matchedAliases": [
+        "ss-31"
+      ],
+      "source": "website",
+      "sourceUrl": "https://daileyaesthetics.com/"
+    },
+    {
+      "peptide": "melanotan-2",
+      "matchedAliases": [
+        "melanotan 2",
+        "melanotan"
+      ],
+      "source": "website",
+      "sourceUrl": "https://daileyaesthetics.com/"
     }
   ],
   "hormone-treatment-centers-overland-park-ks-overland-park-ks": [
@@ -7530,6 +9438,22 @@
       "peptide": "nad-plus",
       "matchedAliases": [
         "nad+"
+      ],
+      "source": "website",
+      "sourceUrl": "https://hormonetreatmentcenters.com/self-assessment/female-assessment"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://hormonetreatmentcenters.com/self-assessment/female-assessment"
+    },
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
       ],
       "source": "website",
       "sourceUrl": "https://hormonetreatmentcenters.com/self-assessment/female-assessment"
@@ -7583,6 +9507,16 @@
       ],
       "source": "website",
       "sourceUrl": "https://starkpharmacy.com/"
+    }
+  ],
+  "battmer-robert-e-md-prairie-village-ks": [
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.naturalhormoneclinic.com/"
     }
   ],
   "sterling-wellness-medspa-prairie-village-ks": [
@@ -7693,6 +9627,14 @@
       ],
       "source": "website",
       "sourceUrl": "https://gamedaymenshealth.com/fort-mitchell/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://gamedaymenshealth.com/fort-mitchell/"
     }
   ],
   "gameday-mens-health-boston-trt-and-peptides-boston-ma": [
@@ -7732,6 +9674,14 @@
       "peptide": "nad-plus",
       "matchedAliases": [
         "nad+"
+      ],
+      "source": "website",
+      "sourceUrl": "https://gamedaymenshealth.com/boston-ma/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
       ],
       "source": "website",
       "sourceUrl": "https://gamedaymenshealth.com/boston-ma/"
@@ -7825,6 +9775,30 @@
       ],
       "source": "website",
       "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-boston-ma/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=boston-ma"
+    },
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-boston-ma/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=boston-ma"
+    },
+    {
+      "peptide": "liraglutide",
+      "matchedAliases": [
+        "liraglutide"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-boston-ma/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=boston-ma"
+    },
+    {
+      "peptide": "5-amino-1mq",
+      "matchedAliases": [
+        "5-amino-1mq"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-boston-ma/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=boston-ma"
     }
   ],
   "hormonally-balanced-burlington-ma": [
@@ -7900,6 +9874,14 @@
       ],
       "source": "website",
       "sourceUrl": "https://purehealthandwellnessga.zoca.com/?utm_source=googlemaps&utm_medium=googlemaps&utm_campaign=googlemaps"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://purehealthandwellnessga.zoca.com/?utm_source=googlemaps&utm_medium=googlemaps&utm_campaign=googlemaps"
     }
   ],
   "boston-vitality-stoneham-ma": [
@@ -7953,6 +9935,22 @@
       ],
       "source": "website",
       "sourceUrl": "https://www.vivawc.com/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vivawc.com/"
+    },
+    {
+      "peptide": "retatrutide",
+      "matchedAliases": [
+        "retatrutide"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vivawc.com/"
     }
   ],
   "gameday-men-s-health-watertown-trt-peptides-clinic-watertown-ma": [
@@ -7992,6 +9990,14 @@
       "peptide": "nad-plus",
       "matchedAliases": [
         "nad+"
+      ],
+      "source": "website",
+      "sourceUrl": "https://gamedaymenshealth.com/watertown/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
       ],
       "source": "website",
       "sourceUrl": "https://gamedaymenshealth.com/watertown/"
@@ -8076,6 +10082,40 @@
       ],
       "source": "website",
       "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-bethesda-md/"
+    },
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-bethesda-md/"
+    },
+    {
+      "peptide": "liraglutide",
+      "matchedAliases": [
+        "liraglutide"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-bethesda-md/"
+    },
+    {
+      "peptide": "5-amino-1mq",
+      "matchedAliases": [
+        "5-amino-1mq"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-bethesda-md/"
+    }
+  ],
+  "village-green-apothecary-bethesda-md": [
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://myvillagegreen.com/"
     }
   ],
   "the-wellness-lab-md-catonsville-md": [
@@ -8095,6 +10135,14 @@
         "tirzepatide",
         "mounjaro",
         "zepbound"
+      ],
+      "source": "website",
+      "sourceUrl": "https://thewellnesslabmd.com/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
       ],
       "source": "website",
       "sourceUrl": "https://thewellnesslabmd.com/"
@@ -8178,6 +10226,14 @@
       ],
       "source": "website",
       "sourceUrl": "https://gamedaymenshealth.com/owings-mills/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://gamedaymenshealth.com/owings-mills/"
     }
   ],
   "true-phoenix-functional-health-parkville-md": [
@@ -8188,6 +10244,16 @@
       ],
       "source": "website",
       "sourceUrl": "https://www.truephoenix.org/"
+    }
+  ],
+  "transcend-medspa-and-wellness-pikesville-md": [
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.transcendmw.com/"
     }
   ],
   "unalome-house-severna-park-md": [
@@ -8238,6 +10304,34 @@
       ],
       "source": "website",
       "sourceUrl": "https://thmclinic.com/"
+    },
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "https://thmclinic.com/"
+    }
+  ],
+  "lifemed-institute-timonium-md": [
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://lifemedinstitute.com/"
+    }
+  ],
+  "krasnick-regenerative-medicine-center-for-alternative-pain-treatment-ann-arbor-mi": [
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.krasnickregen.com/"
     }
   ],
   "genemedics-health-institute-birmingham-mi": [
@@ -8253,6 +10347,30 @@
       "peptide": "tirzepatide",
       "matchedAliases": [
         "tirzepatide"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.genemedics.com/"
+    },
+    {
+      "peptide": "liraglutide",
+      "matchedAliases": [
+        "liraglutide"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.genemedics.com/"
+    },
+    {
+      "peptide": "retatrutide",
+      "matchedAliases": [
+        "retatrutide"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.genemedics.com/"
+    },
+    {
+      "peptide": "igf-1-lr3",
+      "matchedAliases": [
+        "igf-1"
       ],
       "source": "website",
       "sourceUrl": "https://www.genemedics.com/"
@@ -8298,6 +10416,14 @@
       ],
       "source": "website",
       "sourceUrl": "https://gamedaymenshealth.com/bloomfieldhills/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://gamedaymenshealth.com/bloomfieldhills/"
     }
   ],
   "regencen-dr-gustav-lo-md-bloomfield-hills-mi": [
@@ -8324,6 +10450,17 @@
       ],
       "source": "website",
       "sourceUrl": "https://regencen.com/bloomfield-hills-mi/"
+    }
+  ],
+  "peptide-testosterone-replacement-therapy-clinic-detroit-mi": [
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg",
+        "human chorionic gonadotropin"
+      ],
+      "source": "website",
+      "sourceUrl": "https://detroit.purehormoneclinic.com/"
     }
   ],
   "betterclinix-grosse-pointe-mi": [
@@ -8413,6 +10550,14 @@
       ],
       "source": "website",
       "sourceUrl": "https://gamedaymenshealth.com/rochester/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://gamedaymenshealth.com/rochester/"
     }
   ],
   "haus-of-wellness-royal-oak-mi": [
@@ -8420,6 +10565,14 @@
       "peptide": "nad-plus",
       "matchedAliases": [
         "nad+"
+      ],
+      "source": "website",
+      "sourceUrl": "https://hausofwellnessmi.com/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
       ],
       "source": "website",
       "sourceUrl": "https://hausofwellnessmi.com/"
@@ -8526,6 +10679,14 @@
       ],
       "source": "website",
       "sourceUrl": "https://gamedaymenshealth.com/southfield-mi/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://gamedaymenshealth.com/southfield-mi/"
     }
   ],
   "gameday-mens-health-troy-ed-and-trt-clinic-troy-mi": [
@@ -8565,6 +10726,14 @@
       "peptide": "nad-plus",
       "matchedAliases": [
         "nad+"
+      ],
+      "source": "website",
+      "sourceUrl": "https://gamedaymenshealth.com/troy-mi/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
       ],
       "source": "website",
       "sourceUrl": "https://gamedaymenshealth.com/troy-mi/"
@@ -8619,6 +10788,40 @@
       ],
       "source": "website",
       "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-troy-mi/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=troy-mi"
+    },
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-troy-mi/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=troy-mi"
+    },
+    {
+      "peptide": "liraglutide",
+      "matchedAliases": [
+        "liraglutide"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-troy-mi/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=troy-mi"
+    },
+    {
+      "peptide": "5-amino-1mq",
+      "matchedAliases": [
+        "5-amino-1mq"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-troy-mi/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=troy-mi"
+    }
+  ],
+  "luna-med-spa-pllc-warren-mi": [
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "http://lymedspa.com/"
     }
   ],
   "verve-and-vigor-health-and-wellness-wyandotte-mi": [
@@ -8647,6 +10850,16 @@
       ],
       "source": "website",
       "sourceUrl": "https://www.legacyhrt.com/"
+    }
+  ],
+  "aervita-integrative-medicine-hyperbarics-edina-mn": [
+    {
+      "peptide": "oxytocin",
+      "matchedAliases": [
+        "oxytocin"
+      ],
+      "source": "website",
+      "sourceUrl": "http://www.aervita.com/"
     }
   ],
   "institute-for-regenerative-medicine-louis-saeger-md-edina-mn": [
@@ -8683,6 +10896,14 @@
       ],
       "source": "website",
       "sourceUrl": "https://litemedicalclinic.com/edina-minneapolis/?utm_source=google&utm_medium=organic&utm_campaign=gbp_edina"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://litemedicalclinic.com/edina-minneapolis/?utm_source=google&utm_medium=organic&utm_campaign=gbp_edina"
     }
   ],
   "lx-medical-edina-mn": [
@@ -8701,6 +10922,14 @@
       "peptide": "tirzepatide",
       "matchedAliases": [
         "tirzepatide"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.agelessmn.com/"
+    },
+    {
+      "peptide": "retatrutide",
+      "matchedAliases": [
+        "retatrutide"
       ],
       "source": "website",
       "sourceUrl": "https://www.agelessmn.com/"
@@ -8783,6 +11012,30 @@
       ],
       "source": "website",
       "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-minneapolis-mn/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=minneapolis-mn"
+    },
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-minneapolis-mn/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=minneapolis-mn"
+    },
+    {
+      "peptide": "liraglutide",
+      "matchedAliases": [
+        "liraglutide"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-minneapolis-mn/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=minneapolis-mn"
+    },
+    {
+      "peptide": "5-amino-1mq",
+      "matchedAliases": [
+        "5-amino-1mq"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-minneapolis-mn/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=minneapolis-mn"
     }
   ],
   "cur-wellness-clinic-minnetonka-mn": [
@@ -8816,6 +11069,14 @@
       "peptide": "nad-plus",
       "matchedAliases": [
         "nad+"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.mixpharmacy.com/"
+    },
+    {
+      "peptide": "liraglutide",
+      "matchedAliases": [
+        "liraglutide"
       ],
       "source": "website",
       "sourceUrl": "https://www.mixpharmacy.com/"
@@ -8877,6 +11138,14 @@
       ],
       "source": "website",
       "sourceUrl": "https://www.euverita.com/"
+    },
+    {
+      "peptide": "aod-9604",
+      "matchedAliases": [
+        "aod-9604"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.euverita.com/"
     }
   ],
   "mantality-health-chesterfield-missouri-chesterfield-mo": [
@@ -8905,6 +11174,16 @@
       ],
       "source": "website",
       "sourceUrl": "https://breakthroughrejuvenation.com/"
+    }
+  ],
+  "restorative-health-creve-coeur-mo": [
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "https://hormonereplacementstlouis.com/"
     }
   ],
   "clarity-health-and-aesthetics-kansas-city-mo": [
@@ -8947,6 +11226,16 @@
       "sourceUrl": "https://www.neuagehealthwellness.com/lake-st-louis-missouri/"
     }
   ],
+  "wittmer-rejuvenation-clinic-lake-st-louis-mo": [
+    {
+      "peptide": "thymosin-alpha-1",
+      "matchedAliases": [
+        "thymosin alpha-1"
+      ],
+      "source": "website",
+      "sourceUrl": "https://wittmerrejuvenationclinic.com/"
+    }
+  ],
   "gameday-mens-health-lees-summit-trt-peptide-and-ed-clinic-lees-summit-mo": [
     {
       "peptide": "semaglutide",
@@ -8984,6 +11273,14 @@
       "peptide": "nad-plus",
       "matchedAliases": [
         "nad+"
+      ],
+      "source": "website",
+      "sourceUrl": "https://gamedaymenshealth.com/lees-summit/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
       ],
       "source": "website",
       "sourceUrl": "https://gamedaymenshealth.com/lees-summit/"
@@ -9038,6 +11335,30 @@
       ],
       "source": "website",
       "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-kansas-city-mo/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=kansas-city-mo"
+    },
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-kansas-city-mo/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=kansas-city-mo"
+    },
+    {
+      "peptide": "liraglutide",
+      "matchedAliases": [
+        "liraglutide"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-kansas-city-mo/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=kansas-city-mo"
+    },
+    {
+      "peptide": "5-amino-1mq",
+      "matchedAliases": [
+        "5-amino-1mq"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-kansas-city-mo/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=kansas-city-mo"
     }
   ],
   "the-institute-of-natural-health-richmond-heights-mo": [
@@ -9045,6 +11366,14 @@
       "peptide": "nad-plus",
       "matchedAliases": [
         "nad+"
+      ],
+      "source": "website",
+      "sourceUrl": "http://inhstl.com/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
       ],
       "source": "website",
       "sourceUrl": "http://inhstl.com/"
@@ -9148,6 +11477,14 @@
       ],
       "source": "website",
       "sourceUrl": "https://gamedaymenshealth.com/asheville-nc/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://gamedaymenshealth.com/asheville-nc/"
     }
   ],
   "forum-health-cary-functional-medicine-clinic-formerly-inshape-medical-cary-nc": [
@@ -9197,6 +11534,14 @@
       "peptide": "nad-plus",
       "matchedAliases": [
         "nad+"
+      ],
+      "source": "website",
+      "sourceUrl": "https://gamedaymenshealth.com/cary/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
       ],
       "source": "website",
       "sourceUrl": "https://gamedaymenshealth.com/cary/"
@@ -9259,6 +11604,14 @@
       "peptide": "nad-plus",
       "matchedAliases": [
         "nad+"
+      ],
+      "source": "website",
+      "sourceUrl": "https://gamedaymenshealth.com/south-charlotte/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
       ],
       "source": "website",
       "sourceUrl": "https://gamedaymenshealth.com/south-charlotte/"
@@ -9440,6 +11793,31 @@
       ],
       "source": "website",
       "sourceUrl": "https://trtkingdom.com/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://trtkingdom.com/"
+    },
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg",
+        "human chorionic gonadotropin"
+      ],
+      "source": "website",
+      "sourceUrl": "https://trtkingdom.com/"
+    },
+    {
+      "peptide": "ss-31",
+      "matchedAliases": [
+        "ss-31"
+      ],
+      "source": "website",
+      "sourceUrl": "https://trtkingdom.com/"
     }
   ],
   "giv-wellness-mobile-iv-therapy-huntersville-nc": [
@@ -9448,6 +11826,14 @@
       "matchedAliases": [
         "nad+",
         "nad plus"
+      ],
+      "source": "website",
+      "sourceUrl": "https://givwellness.co/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
       ],
       "source": "website",
       "sourceUrl": "https://givwellness.co/"
@@ -9477,6 +11863,14 @@
       "peptide": "semaglutide",
       "matchedAliases": [
         "semaglutide"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.doctorscotts.com/"
+    },
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
       ],
       "source": "website",
       "sourceUrl": "https://www.doctorscotts.com/"
@@ -9522,6 +11916,14 @@
       ],
       "source": "website",
       "sourceUrl": "https://gamedaymenshealth.com/matthews-nc/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://gamedaymenshealth.com/matthews-nc/"
     }
   ],
   "biofunctional-med-raleigh-nc": [
@@ -9529,6 +11931,14 @@
       "peptide": "tirzepatide",
       "matchedAliases": [
         "tirzepatide"
+      ],
+      "source": "website",
+      "sourceUrl": "http://biofunctionalmed.com/"
+    },
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
       ],
       "source": "website",
       "sourceUrl": "http://biofunctionalmed.com/"
@@ -9574,6 +11984,14 @@
       ],
       "source": "website",
       "sourceUrl": "https://gamedaymenshealth.com/northeast-raleigh/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://gamedaymenshealth.com/northeast-raleigh/"
     }
   ],
   "gameday-men-s-health-raleigh-glenwood-nc-raleigh-nc": [
@@ -9613,6 +12031,14 @@
       "peptide": "nad-plus",
       "matchedAliases": [
         "nad+"
+      ],
+      "source": "website",
+      "sourceUrl": "https://gamedaymenshealth.com/glenwood-nc/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
       ],
       "source": "website",
       "sourceUrl": "https://gamedaymenshealth.com/glenwood-nc/"
@@ -9705,6 +12131,30 @@
       ],
       "source": "website",
       "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-raleigh-nc/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=raleigh-nc"
+    },
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-raleigh-nc/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=raleigh-nc"
+    },
+    {
+      "peptide": "liraglutide",
+      "matchedAliases": [
+        "liraglutide"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-raleigh-nc/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=raleigh-nc"
+    },
+    {
+      "peptide": "5-amino-1mq",
+      "matchedAliases": [
+        "5-amino-1mq"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-raleigh-nc/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=raleigh-nc"
     }
   ],
   "triangle-wellness-and-anti-aging-raleigh-nc": [
@@ -9712,6 +12162,14 @@
       "peptide": "nad-plus",
       "matchedAliases": [
         "nad+"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.trianglewellnessandantiaging.com/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
       ],
       "source": "website",
       "sourceUrl": "https://www.trianglewellnessandantiaging.com/"
@@ -9752,6 +12210,14 @@
       ],
       "source": "website",
       "sourceUrl": "https://www.dripalchemynyc.com/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.dripalchemynyc.com/"
     }
   ],
   "omaha-med-spa-omaha-ne": [
@@ -9759,6 +12225,14 @@
       "peptide": "semaglutide",
       "matchedAliases": [
         "semaglutide"
+      ],
+      "source": "website",
+      "sourceUrl": "http://www.omahamedspa.com/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
       ],
       "source": "website",
       "sourceUrl": "http://www.omahamedspa.com/"
@@ -9772,6 +12246,16 @@
       ],
       "source": "website",
       "sourceUrl": "http://myrxsolutions.net/"
+    }
+  ],
+  "vitality-rejuvenation-clinic-cherry-hill-township-nj": [
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "http://www.vitalityrejuvenation.com/"
     }
   ],
   "heal-from-within-longevity-and-peptide-wellness-center-hillsdale-nj": [
@@ -9794,6 +12278,16 @@
       "sourceUrl": "https://lumturiwellness.com/"
     }
   ],
+  "revita-life-voorhees-voorhees-township-nj": [
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "https://axiawh.com/locations/revita-life-of-voorhees/"
+    }
+  ],
   "strive-wellness-nj-mens-health-testosterone-replacement-therapy-peptide-therapy-iv-therapy-medical-weight-loss-westfield-nj": [
     {
       "peptide": "nad-plus",
@@ -9809,6 +12303,14 @@
       "peptide": "nad-plus",
       "matchedAliases": [
         "nad+"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.enhancedwellnessnm.com/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
       ],
       "source": "website",
       "sourceUrl": "https://www.enhancedwellnessnm.com/"
@@ -9864,6 +12366,14 @@
       ],
       "source": "website",
       "sourceUrl": "https://gamedaymenshealth.com/albuquerque-northeast-nm/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://gamedaymenshealth.com/albuquerque-northeast-nm/"
     }
   ],
   "injection-and-infusion-clinic-of-albuquerque-new-mexico-albuquerque-nm": [
@@ -9892,6 +12402,34 @@
       ],
       "source": "website",
       "sourceUrl": "https://www.mindbodyresetfm.com/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.mindbodyresetfm.com/"
+    }
+  ],
+  "modern-alchemist-compounding-pharmacy-albuquerque-nm": [
+    {
+      "peptide": "oxytocin",
+      "matchedAliases": [
+        "oxytocin"
+      ],
+      "source": "website",
+      "sourceUrl": "https://modernalchemistrx.com/"
+    }
+  ],
+  "nm-spirit-of-wellness-albuquerque-nm": [
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "http://nmspiritofwellness.com/"
     }
   ],
   "optimum-human-science-backed-wellness-beauty-and-recovery-albuquerque-nm": [
@@ -9960,6 +12498,30 @@
       "peptide": "hexarelin",
       "matchedAliases": [
         "hexarelin"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-albuquerque-nm/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=albuquerque-nm"
+    },
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-albuquerque-nm/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=albuquerque-nm"
+    },
+    {
+      "peptide": "liraglutide",
+      "matchedAliases": [
+        "liraglutide"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-albuquerque-nm/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=albuquerque-nm"
+    },
+    {
+      "peptide": "5-amino-1mq",
+      "matchedAliases": [
+        "5-amino-1mq"
       ],
       "source": "website",
       "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-albuquerque-nm/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=albuquerque-nm"
@@ -10096,6 +12658,14 @@
       "peptide": "semaglutide",
       "matchedAliases": [
         "semaglutide"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.talonwellness.com/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
       ],
       "source": "website",
       "sourceUrl": "https://www.talonwellness.com/"
@@ -10276,6 +12846,14 @@
       ],
       "source": "website",
       "sourceUrl": "https://radiantintegrativehealth.com/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://radiantintegrativehealth.com/"
     }
   ],
   "renew-vitality-testosterone-clinic-of-las-vegas-las-vegas-nv": [
@@ -10327,6 +12905,30 @@
       ],
       "source": "website",
       "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-las-vegas-nv/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=las-vegas-nv"
+    },
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-las-vegas-nv/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=las-vegas-nv"
+    },
+    {
+      "peptide": "liraglutide",
+      "matchedAliases": [
+        "liraglutide"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-las-vegas-nv/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=las-vegas-nv"
+    },
+    {
+      "peptide": "5-amino-1mq",
+      "matchedAliases": [
+        "5-amino-1mq"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-las-vegas-nv/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=las-vegas-nv"
     }
   ],
   "reset-iv-las-vegas-nv": [
@@ -10335,6 +12937,14 @@
       "matchedAliases": [
         "nad+",
         "nicotinamide adenine dinucleotide"
+      ],
+      "source": "website",
+      "sourceUrl": "http://www.resetiv.com/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
       ],
       "source": "website",
       "sourceUrl": "http://www.resetiv.com/"
@@ -10374,6 +12984,16 @@
       ],
       "source": "website",
       "sourceUrl": "http://sharedhealthwellness.com/"
+    }
+  ],
+  "trtmd-health-clinic-las-vegas-nv": [
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "http://www.trtmd.com/"
     }
   ],
   "vital-infusions-and-performance-las-vegas-nv": [
@@ -10435,6 +13055,30 @@
       ],
       "source": "website",
       "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-bayside-ny/"
+    },
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-bayside-ny/"
+    },
+    {
+      "peptide": "liraglutide",
+      "matchedAliases": [
+        "liraglutide"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-bayside-ny/"
+    },
+    {
+      "peptide": "5-amino-1mq",
+      "matchedAliases": [
+        "5-amino-1mq"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-bayside-ny/"
     }
   ],
   "atlas-mens-health-clinic-long-island-trt-peptides-weight-loss-clinic-east-meadow-ny": [
@@ -10469,6 +13113,24 @@
       ],
       "source": "website",
       "sourceUrl": "https://www.atlasmenshealth.com/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.atlasmenshealth.com/"
+    }
+  ],
+  "westchester-compounding-pharmacy-eastchester-ny": [
+    {
+      "peptide": "oxytocin",
+      "matchedAliases": [
+        "oxytocin"
+      ],
+      "source": "website",
+      "sourceUrl": "http://www.wc-rx.com/"
     }
   ],
   "balanced-health-and-wellness-long-beach-long-beach-ny": [
@@ -10510,6 +13172,14 @@
       "peptide": "nad-plus",
       "matchedAliases": [
         "nad+"
+      ],
+      "source": "website",
+      "sourceUrl": "http://www.atlasmenshealth.com/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
       ],
       "source": "website",
       "sourceUrl": "http://www.atlasmenshealth.com/"
@@ -10618,6 +13288,14 @@
       ],
       "source": "website",
       "sourceUrl": "https://gamedaymenshealth.com/flatiron-ny/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://gamedaymenshealth.com/flatiron-ny/"
     }
   ],
   "gameday-mens-health-manhattan-upper-east-side-new-york-ny": [
@@ -10660,6 +13338,14 @@
       ],
       "source": "website",
       "sourceUrl": "https://gamedaymenshealth.com/manhattan-upper-east-side/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://gamedaymenshealth.com/manhattan-upper-east-side/"
     }
   ],
   "next-health-new-york-ny": [
@@ -10667,6 +13353,14 @@
       "peptide": "nad-plus",
       "matchedAliases": [
         "nad+"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.next-health.com/pages/locations-new-york-city"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
       ],
       "source": "website",
       "sourceUrl": "https://www.next-health.com/pages/locations-new-york-city"
@@ -10747,6 +13441,30 @@
       ],
       "source": "website",
       "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-new-york-city-ny/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=new-york-city-ny"
+    },
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-new-york-city-ny/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=new-york-city-ny"
+    },
+    {
+      "peptide": "liraglutide",
+      "matchedAliases": [
+        "liraglutide"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-new-york-city-ny/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=new-york-city-ny"
+    },
+    {
+      "peptide": "5-amino-1mq",
+      "matchedAliases": [
+        "5-amino-1mq"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-new-york-city-ny/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=new-york-city-ny"
     }
   ],
   "the-fuel-stop-new-york-ny": [
@@ -10811,6 +13529,14 @@
       ],
       "source": "website",
       "sourceUrl": "https://advancedvitalityhrt.com/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://advancedvitalityhrt.com/"
     }
   ],
   "gameday-mens-health-north-cincinnati-trt-clinic-cincinnati-oh": [
@@ -10853,6 +13579,14 @@
       ],
       "source": "website",
       "sourceUrl": "https://gamedaymenshealth.com/north-cincinnati/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://gamedaymenshealth.com/north-cincinnati/"
     }
   ],
   "live-healthy-hydrate-cincinnati-oh": [
@@ -10879,6 +13613,14 @@
       "peptide": "nad-plus",
       "matchedAliases": [
         "nad+"
+      ],
+      "source": "website",
+      "sourceUrl": "https://primeivhydration.com/locations/ohio/cincinnati-45255/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
       ],
       "source": "website",
       "sourceUrl": "https://primeivhydration.com/locations/ohio/cincinnati-45255/"
@@ -10930,6 +13672,30 @@
       "peptide": "hexarelin",
       "matchedAliases": [
         "hexarelin"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-cincinnati-oh/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=cincinnati-oh"
+    },
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-cincinnati-oh/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=cincinnati-oh"
+    },
+    {
+      "peptide": "liraglutide",
+      "matchedAliases": [
+        "liraglutide"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-cincinnati-oh/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=cincinnati-oh"
+    },
+    {
+      "peptide": "5-amino-1mq",
+      "matchedAliases": [
+        "5-amino-1mq"
       ],
       "source": "website",
       "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-cincinnati-oh/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=cincinnati-oh"
@@ -10985,6 +13751,14 @@
       ],
       "source": "website",
       "sourceUrl": "https://gamedaymenshealth.com/grandview-heights/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://gamedaymenshealth.com/grandview-heights/"
     }
   ],
   "integrative-wellness-center-columbus-oh": [
@@ -11014,6 +13788,15 @@
         "tirzepatide",
         "mounjaro",
         "zepbound"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.ivimhealth.com/"
+    },
+    {
+      "peptide": "liraglutide",
+      "matchedAliases": [
+        "liraglutide",
+        "saxenda"
       ],
       "source": "website",
       "sourceUrl": "https://www.ivimhealth.com/"
@@ -11068,6 +13851,30 @@
       ],
       "source": "website",
       "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-columbus-oh/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=columbus-oh"
+    },
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-columbus-oh/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=columbus-oh"
+    },
+    {
+      "peptide": "liraglutide",
+      "matchedAliases": [
+        "liraglutide"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-columbus-oh/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=columbus-oh"
+    },
+    {
+      "peptide": "5-amino-1mq",
+      "matchedAliases": [
+        "5-amino-1mq"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-columbus-oh/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=columbus-oh"
     }
   ],
   "trio-pharmacy-columbus-oh": [
@@ -11101,6 +13908,14 @@
       "peptide": "nad-plus",
       "matchedAliases": [
         "nad+"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.nubalance.health/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
       ],
       "source": "website",
       "sourceUrl": "https://www.nubalance.health/"
@@ -11156,6 +13971,14 @@
       ],
       "source": "website",
       "sourceUrl": "https://gamedaymenshealth.com/hilliard/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://gamedaymenshealth.com/hilliard/"
     }
   ],
   "pure-health-aesthetics-and-wellness-lewis-center-oh": [
@@ -11166,6 +13989,16 @@
       ],
       "source": "website",
       "sourceUrl": "https://aestheticsandwellness.com/"
+    }
+  ],
+  "ageless-integrated-medicine-mason-oh": [
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "https://agelessmedicaldr.com/"
     }
   ],
   "amy-brenner-md-and-associates-mason-oh": [
@@ -11218,6 +14051,23 @@
       ],
       "source": "website",
       "sourceUrl": "https://www.affinitywholehealth.com/"
+    },
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg",
+        "human chorionic gonadotropin"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.affinitywholehealth.com/"
+    },
+    {
+      "peptide": "oxytocin",
+      "matchedAliases": [
+        "oxytocin"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.affinitywholehealth.com/"
     }
   ],
   "the-confidence-lab-powell-oh": [
@@ -11248,6 +14098,14 @@
       ],
       "source": "website",
       "sourceUrl": "https://everglowcincy.com/"
+    },
+    {
+      "peptide": "liraglutide",
+      "matchedAliases": [
+        "liraglutide"
+      ],
+      "source": "website",
+      "sourceUrl": "https://everglowcincy.com/"
     }
   ],
   "resurgence-vitality-edmond-ok": [
@@ -11266,6 +14124,16 @@
       ],
       "source": "website",
       "sourceUrl": "http://resurgencevitality.com/"
+    }
+  ],
+  "sherrys-drug-edmond-ok": [
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "http://sherrysdrug.com/"
     }
   ],
   "rapha-wellness-moore-ok": [
@@ -11338,6 +14206,14 @@
       ],
       "source": "website",
       "sourceUrl": "https://gamedaymenshealth.com/southwest-oklahoma-city-ok/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://gamedaymenshealth.com/southwest-oklahoma-city-ok/"
     }
   ],
   "longevity-okc-oklahoma-city-ok": [
@@ -11358,6 +14234,24 @@
       ],
       "source": "website",
       "sourceUrl": "http://www.optimalhealthassociates.com/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "http://www.optimalhealthassociates.com/"
+    }
+  ],
+  "prairie-gardens-pharmacy-oklahoma-city-ok": [
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.prairiegardenspharmacy.com/"
     }
   ],
   "sculptedmd-okc-oklahoma-city-ok": [
@@ -11375,6 +14269,14 @@
       "matchedAliases": [
         "tirzepatide",
         "mounjaro"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.sculptedmd.com/oklahoma/oklahoma-city/"
+    },
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
       ],
       "source": "website",
       "sourceUrl": "https://www.sculptedmd.com/oklahoma/oklahoma-city/"
@@ -11463,6 +14365,31 @@
       ],
       "source": "website",
       "sourceUrl": "https://elitetestosteroneclinic.com/?utm_campaign=gbp"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://elitetestosteroneclinic.com/?utm_campaign=gbp"
+    },
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg",
+        "human chorionic gonadotropin"
+      ],
+      "source": "website",
+      "sourceUrl": "https://elitetestosteroneclinic.com/?utm_campaign=gbp"
+    },
+    {
+      "peptide": "liraglutide",
+      "matchedAliases": [
+        "liraglutide"
+      ],
+      "source": "website",
+      "sourceUrl": "https://elitetestosteroneclinic.com/?utm_campaign=gbp"
     }
   ],
   "natural-family-health-clinic-beaverton-or": [
@@ -11473,6 +14400,24 @@
       ],
       "source": "website",
       "sourceUrl": "http://www.naturalfamilyhealthclinic.com/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "http://www.naturalfamilyhealthclinic.com/"
+    }
+  ],
+  "center-for-traditional-medicine-lake-oswego-or": [
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "https://oregenmed.com/"
     }
   ],
   "hormonesynergy-clinic-dr-kathyrn-retzler-lake-oswego-or": [
@@ -11493,6 +14438,16 @@
       "sourceUrl": "http://www.hormonesynergy.com/"
     }
   ],
+  "oregon-regenerative-medicine-lake-oswego-or": [
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "http://oregenmed.com/"
+    }
+  ],
   "alive-iv-and-wellness-portland-or": [
     {
       "peptide": "semaglutide",
@@ -11507,6 +14462,14 @@
       "peptide": "nad-plus",
       "matchedAliases": [
         "nad+"
+      ],
+      "source": "website",
+      "sourceUrl": "http://www.aliveivandwellness.com/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
       ],
       "source": "website",
       "sourceUrl": "http://www.aliveivandwellness.com/"
@@ -11566,6 +14529,22 @@
       ],
       "source": "website",
       "sourceUrl": "https://www.fullpotentialmen.com/tigard-portland-metro/"
+    },
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.fullpotentialmen.com/tigard-portland-metro/"
+    },
+    {
+      "peptide": "oxytocin",
+      "matchedAliases": [
+        "oxytocin"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.fullpotentialmen.com/tigard-portland-metro/"
     }
   ],
   "gateway-medical-pharmacy-long-term-care-and-compounding-pharmacy-portland-or": [
@@ -11587,6 +14566,16 @@
       ],
       "source": "website",
       "sourceUrl": "https://www.gatewaymedicalrx.com/"
+    }
+  ],
+  "hormones-and-holistic-healthcare-portland-or": [
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "http://www.drdebmckay.com/"
     }
   ],
   "key-laser-institute-for-cosmetic-regenerative-medicine-portland-or": [
@@ -11669,6 +14658,30 @@
       ],
       "source": "website",
       "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-southeast-portland-or/?utm_source=google&utm_medium=organic&utm_campaign=gmb"
+    },
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-southeast-portland-or/?utm_source=google&utm_medium=organic&utm_campaign=gmb"
+    },
+    {
+      "peptide": "liraglutide",
+      "matchedAliases": [
+        "liraglutide"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-southeast-portland-or/?utm_source=google&utm_medium=organic&utm_campaign=gmb"
+    },
+    {
+      "peptide": "5-amino-1mq",
+      "matchedAliases": [
+        "5-amino-1mq"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-southeast-portland-or/?utm_source=google&utm_medium=organic&utm_campaign=gmb"
     }
   ],
   "rise2health-portland-or": [
@@ -11707,11 +14720,29 @@
       "sourceUrl": "https://santepdx.com/"
     }
   ],
+  "the-natural-path-portland-or": [
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.naturalpathmed.com/"
+    }
+  ],
   "thrive-aesthetic-and-wellness-portland-or": [
     {
       "peptide": "nad-plus",
       "matchedAliases": [
         "nad+"
+      ],
+      "source": "website",
+      "sourceUrl": "http://www.thriveportland.com/"
+    },
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
       ],
       "source": "website",
       "sourceUrl": "http://www.thriveportland.com/"
@@ -11785,6 +14816,14 @@
       ],
       "source": "website",
       "sourceUrl": "https://gamedaymenshealth.com/tualatin/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://gamedaymenshealth.com/tualatin/"
     }
   ],
   "renew-vitality-testosterone-clinic-of-bala-cynwyd-bala-cynwyd-pa": [
@@ -11833,6 +14872,30 @@
       "peptide": "hexarelin",
       "matchedAliases": [
         "hexarelin"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-bala-cynwyd-pa/"
+    },
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-bala-cynwyd-pa/"
+    },
+    {
+      "peptide": "liraglutide",
+      "matchedAliases": [
+        "liraglutide"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-bala-cynwyd-pa/"
+    },
+    {
+      "peptide": "5-amino-1mq",
+      "matchedAliases": [
+        "5-amino-1mq"
       ],
       "source": "website",
       "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-bala-cynwyd-pa/"
@@ -11938,6 +15001,32 @@
       ],
       "source": "website",
       "sourceUrl": "http://www.youngermemd.com/"
+    },
+    {
+      "peptide": "thymosin-alpha-1",
+      "matchedAliases": [
+        "thymosin alpha-1"
+      ],
+      "source": "website",
+      "sourceUrl": "http://www.youngermemd.com/"
+    },
+    {
+      "peptide": "ss-31",
+      "matchedAliases": [
+        "ss-31"
+      ],
+      "source": "website",
+      "sourceUrl": "http://www.youngermemd.com/"
+    }
+  ],
+  "rejuvenate-infusions-and-wellness-spa-jenkintown-pa": [
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://rejuvenateinfusionsandwellnessspa.com/"
     }
   ],
   "dr-hormone-md-king-of-prussia-pa": [
@@ -11999,6 +15088,14 @@
       "matchedAliases": [
         "tirzepatide",
         "zepbound"
+      ],
+      "source": "website",
+      "sourceUrl": "https://azanimedicalspa.com/hormone-replacement-philadelphia/"
+    },
+    {
+      "peptide": "retatrutide",
+      "matchedAliases": [
+        "retatrutide"
       ],
       "source": "website",
       "sourceUrl": "https://azanimedicalspa.com/hormone-replacement-philadelphia/"
@@ -12102,6 +15199,71 @@
       ],
       "source": "website",
       "sourceUrl": "https://www.phillyantiaging.com/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.phillyantiaging.com/"
+    },
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.phillyantiaging.com/"
+    },
+    {
+      "peptide": "retatrutide",
+      "matchedAliases": [
+        "retatrutide"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.phillyantiaging.com/"
+    },
+    {
+      "peptide": "aod-9604",
+      "matchedAliases": [
+        "aod-9604"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.phillyantiaging.com/"
+    },
+    {
+      "peptide": "thymosin-alpha-1",
+      "matchedAliases": [
+        "thymosin alpha 1"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.phillyantiaging.com/"
+    },
+    {
+      "peptide": "igf-1-lr3",
+      "matchedAliases": [
+        "igf-1"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.phillyantiaging.com/"
+    },
+    {
+      "peptide": "dsip",
+      "matchedAliases": [
+        "dsip"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.phillyantiaging.com/"
+    },
+    {
+      "peptide": "melanotan-2",
+      "matchedAliases": [
+        "melanotan ii",
+        "melanotan"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.phillyantiaging.com/"
     }
   ],
   "renew-vitality-testosterone-clinic-of-philadelphia-philadelphia-pa": [
@@ -12150,6 +15312,30 @@
       "peptide": "hexarelin",
       "matchedAliases": [
         "hexarelin"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-philadelphia-pa/"
+    },
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-philadelphia-pa/"
+    },
+    {
+      "peptide": "liraglutide",
+      "matchedAliases": [
+        "liraglutide"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-philadelphia-pa/"
+    },
+    {
+      "peptide": "5-amino-1mq",
+      "matchedAliases": [
+        "5-amino-1mq"
       ],
       "source": "website",
       "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-philadelphia-pa/"
@@ -12218,6 +15404,64 @@
       ],
       "source": "website",
       "sourceUrl": "https://medtechmanagement.com/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://medtechmanagement.com/"
+    },
+    {
+      "peptide": "oxytocin",
+      "matchedAliases": [
+        "oxytocin"
+      ],
+      "source": "website",
+      "sourceUrl": "https://medtechmanagement.com/"
+    },
+    {
+      "peptide": "aod-9604",
+      "matchedAliases": [
+        "aod-9604"
+      ],
+      "source": "website",
+      "sourceUrl": "https://medtechmanagement.com/"
+    },
+    {
+      "peptide": "thymosin-alpha-1",
+      "matchedAliases": [
+        "thymosin alpha 1"
+      ],
+      "source": "website",
+      "sourceUrl": "https://medtechmanagement.com/"
+    },
+    {
+      "peptide": "igf-1-lr3",
+      "matchedAliases": [
+        "igf-1"
+      ],
+      "source": "website",
+      "sourceUrl": "https://medtechmanagement.com/"
+    },
+    {
+      "peptide": "dsip",
+      "matchedAliases": [
+        "dsip"
+      ],
+      "source": "website",
+      "sourceUrl": "https://medtechmanagement.com/"
+    }
+  ],
+  "murray-avenue-apothecary-holistic-health-apothecary-pittsburgh-pa": [
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "http://www.maapgh.com/"
     }
   ],
   "renew-vitality-testosterone-clinic-of-pittsburgh-pittsburgh-pa": [
@@ -12266,6 +15510,30 @@
       "peptide": "hexarelin",
       "matchedAliases": [
         "hexarelin"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-pittsburgh-pa/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=pittsburgh-pa"
+    },
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-pittsburgh-pa/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=pittsburgh-pa"
+    },
+    {
+      "peptide": "liraglutide",
+      "matchedAliases": [
+        "liraglutide"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-pittsburgh-pa/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=pittsburgh-pa"
+    },
+    {
+      "peptide": "5-amino-1mq",
+      "matchedAliases": [
+        "5-amino-1mq"
       ],
       "source": "website",
       "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-pittsburgh-pa/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=pittsburgh-pa"
@@ -12346,6 +15614,14 @@
       "peptide": "nad-plus",
       "matchedAliases": [
         "nad+"
+      ],
+      "source": "website",
+      "sourceUrl": "https://gamedaymenshealth.com/wexford/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
       ],
       "source": "website",
       "sourceUrl": "https://gamedaymenshealth.com/wexford/"
@@ -12461,6 +15737,14 @@
       ],
       "source": "website",
       "sourceUrl": "http://www.carenashville.com/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "http://www.carenashville.com/"
     }
   ],
   "edge-peptide-therapy-franklin-tn": [
@@ -12535,6 +15819,22 @@
       "peptide": "mots-c",
       "matchedAliases": [
         "mots-c"
+      ],
+      "source": "website",
+      "sourceUrl": "http://restorationwellnessmedspa.com/"
+    },
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "http://restorationwellnessmedspa.com/"
+    },
+    {
+      "peptide": "aod-9604",
+      "matchedAliases": [
+        "aod 9604"
       ],
       "source": "website",
       "sourceUrl": "http://restorationwellnessmedspa.com/"
@@ -12618,6 +15918,14 @@
       ],
       "source": "website",
       "sourceUrl": "https://www.belcourtaesthetics.com/"
+    },
+    {
+      "peptide": "thymosin-alpha-1",
+      "matchedAliases": [
+        "ta-1"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.belcourtaesthetics.com/"
     }
   ],
   "compass-human-performance-nashville-tn": [
@@ -12667,6 +15975,14 @@
       "peptide": "nad-plus",
       "matchedAliases": [
         "nad+"
+      ],
+      "source": "website",
+      "sourceUrl": "https://gamedaymenshealth.com/green-hills/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
       ],
       "source": "website",
       "sourceUrl": "https://gamedaymenshealth.com/green-hills/"
@@ -12755,6 +16071,14 @@
       ],
       "source": "website",
       "sourceUrl": "https://www.next-health.com/location/green-hills-tn"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.next-health.com/location/green-hills-tn"
     }
   ],
   "next-health-in-the-gulch-nashville-nashville-tn": [
@@ -12762,6 +16086,14 @@
       "peptide": "nad-plus",
       "matchedAliases": [
         "nad+"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.next-health.com/location/nashville"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
       ],
       "source": "website",
       "sourceUrl": "https://www.next-health.com/location/nashville"
@@ -12791,6 +16123,16 @@
       ],
       "source": "website",
       "sourceUrl": "https://relivehealth.com/west-nashville-tn/"
+    }
+  ],
+  "renew-health-and-wellness-nashville-tn": [
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "http://renewmetoday.com/"
     }
   ],
   "renew-vitality-testosterone-clinic-of-nashville-nashville-tn": [
@@ -12839,6 +16181,30 @@
       "peptide": "hexarelin",
       "matchedAliases": [
         "hexarelin"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-nashville/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=nashville"
+    },
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-nashville/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=nashville"
+    },
+    {
+      "peptide": "liraglutide",
+      "matchedAliases": [
+        "liraglutide"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-nashville/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=nashville"
+    },
+    {
+      "peptide": "5-amino-1mq",
+      "matchedAliases": [
+        "5-amino-1mq"
       ],
       "source": "website",
       "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-nashville/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=nashville"
@@ -12962,6 +16328,48 @@
       ],
       "source": "website",
       "sourceUrl": "https://www.sagewellnessandhealth.com/"
+    },
+    {
+      "peptide": "oxytocin",
+      "matchedAliases": [
+        "oxytocin"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.sagewellnessandhealth.com/"
+    },
+    {
+      "peptide": "aod-9604",
+      "matchedAliases": [
+        "aod-9604"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.sagewellnessandhealth.com/"
+    },
+    {
+      "peptide": "thymosin-alpha-1",
+      "matchedAliases": [
+        "thymosin alpha-1"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.sagewellnessandhealth.com/"
+    },
+    {
+      "peptide": "igf-1-lr3",
+      "matchedAliases": [
+        "igf-1 lr3",
+        "igf-1"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.sagewellnessandhealth.com/"
+    },
+    {
+      "peptide": "melanotan-2",
+      "matchedAliases": [
+        "melanotan ii",
+        "melanotan"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.sagewellnessandhealth.com/"
     }
   ],
   "serotonin-centers-medspa-nashville-tn": [
@@ -12979,6 +16387,14 @@
       "peptide": "nad-plus",
       "matchedAliases": [
         "nad+"
+      ],
+      "source": "website",
+      "sourceUrl": "http://www.vitainfusiontn.com/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
       ],
       "source": "website",
       "sourceUrl": "http://www.vitainfusiontn.com/"
@@ -13048,6 +16464,24 @@
       ],
       "source": "website",
       "sourceUrl": "https://alchemywellness.health/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://alchemywellness.health/"
+    }
+  ],
+  "alive-and-well-dallas-tx": [
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://aliveandwell.health/dallas"
     }
   ],
   "connie-casad-m-d-dallas-tx": [
@@ -13148,6 +16582,14 @@
       ],
       "source": "website",
       "sourceUrl": "https://gamedaymenshealth.com/dallas-north-tx/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://gamedaymenshealth.com/dallas-north-tx/"
     }
   ],
   "gameday-men-s-health-dallas-tx-lakewood-trt-ed-weight-loss-and-peptide-clinic-dallas-tx": [
@@ -13187,6 +16629,14 @@
       "peptide": "nad-plus",
       "matchedAliases": [
         "nad+"
+      ],
+      "source": "website",
+      "sourceUrl": "https://gamedaymenshealth.com/lakewood-tx/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
       ],
       "source": "website",
       "sourceUrl": "https://gamedaymenshealth.com/lakewood-tx/"
@@ -13236,6 +16686,16 @@
       ],
       "source": "website",
       "sourceUrl": "https://www.myfitmed.com/"
+    }
+  ],
+  "ohzone-clinics-formerly-equilyst-modern-medicine-dallas-tx": [
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.ohzoneclinics.com/"
     }
   ],
   "restore-hyper-wellness-dallas-tx": [
@@ -13418,6 +16878,14 @@
       ],
       "source": "website",
       "sourceUrl": "https://www.empowerpharmacy.com/?utm_source=gbp&utm_medium=organic&utm_campaign=location-listing-EPHO&y_source=1_MTA0OTA2NjA4Ny03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
+    },
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.empowerpharmacy.com/?utm_source=gbp&utm_medium=organic&utm_campaign=location-listing-EPHO&y_source=1_MTA0OTA2NjA4Ny03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
     }
   ],
   "houston-regenerative-medicine-houston-tx": [
@@ -13529,6 +16997,22 @@
       ],
       "source": "website",
       "sourceUrl": "http://www.puurhw.com/"
+    },
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "http://www.puurhw.com/"
+    },
+    {
+      "peptide": "liraglutide",
+      "matchedAliases": [
+        "liraglutide"
+      ],
+      "source": "website",
+      "sourceUrl": "http://www.puurhw.com/"
     }
   ],
   "relive-health-memorial-houston-houston-tx": [
@@ -13588,6 +17072,14 @@
       ],
       "source": "website",
       "sourceUrl": "https://relivehealth.com/memorial-houston-tx"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://relivehealth.com/memorial-houston-tx"
     }
   ],
   "renewfx-health-and-wellness-houston-tx": [
@@ -13632,6 +17124,14 @@
       ],
       "source": "website",
       "sourceUrl": "https://www.myrevived.com/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.myrevived.com/"
     }
   ],
   "river-oaks-drip-spa-iv-therapy-and-hydration-center-houston-tx": [
@@ -13640,6 +17140,14 @@
       "matchedAliases": [
         "nad+",
         "nicotinamide adenine dinucleotide"
+      ],
+      "source": "website",
+      "sourceUrl": "http://www.riveroaksdripspa.com/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
       ],
       "source": "website",
       "sourceUrl": "http://www.riveroaksdripspa.com/"
@@ -13725,6 +17233,14 @@
         "tirzepatide",
         "mounjaro",
         "zepbound"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.zmedclinic.com/locations/houston-tx/?utm_campaign=gmb"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
       ],
       "source": "website",
       "sourceUrl": "https://www.zmedclinic.com/locations/houston-tx/?utm_campaign=gmb"
@@ -13834,6 +17350,31 @@
       "peptide": "mots-c",
       "matchedAliases": [
         "mots-c"
+      ],
+      "source": "website",
+      "sourceUrl": "https://advancedpeptidetherapy.com/locations/kingwood-tx/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_content=kingwood-tx"
+    },
+    {
+      "peptide": "aod-9604",
+      "matchedAliases": [
+        "aod-9604"
+      ],
+      "source": "website",
+      "sourceUrl": "https://advancedpeptidetherapy.com/locations/kingwood-tx/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_content=kingwood-tx"
+    },
+    {
+      "peptide": "thymosin-alpha-1",
+      "matchedAliases": [
+        "thymosin alpha-1"
+      ],
+      "source": "website",
+      "sourceUrl": "https://advancedpeptidetherapy.com/locations/kingwood-tx/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_content=kingwood-tx"
+    },
+    {
+      "peptide": "igf-1-lr3",
+      "matchedAliases": [
+        "igf-1 lr3",
+        "igf-1"
       ],
       "source": "website",
       "sourceUrl": "https://advancedpeptidetherapy.com/locations/kingwood-tx/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_content=kingwood-tx"
@@ -13953,6 +17494,54 @@
       ],
       "source": "website",
       "sourceUrl": "https://elive-health.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp_elive"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://elive-health.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp_elive"
+    },
+    {
+      "peptide": "retatrutide",
+      "matchedAliases": [
+        "retatrutide"
+      ],
+      "source": "website",
+      "sourceUrl": "https://elive-health.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp_elive"
+    },
+    {
+      "peptide": "aod-9604",
+      "matchedAliases": [
+        "aod 9604"
+      ],
+      "source": "website",
+      "sourceUrl": "https://elive-health.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp_elive"
+    },
+    {
+      "peptide": "thymosin-alpha-1",
+      "matchedAliases": [
+        "thymosin alpha-1"
+      ],
+      "source": "website",
+      "sourceUrl": "https://elive-health.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp_elive"
+    },
+    {
+      "peptide": "igf-1-lr3",
+      "matchedAliases": [
+        "igf-1"
+      ],
+      "source": "website",
+      "sourceUrl": "https://elive-health.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp_elive"
+    },
+    {
+      "peptide": "dsip",
+      "matchedAliases": [
+        "dsip"
+      ],
+      "source": "website",
+      "sourceUrl": "https://elive-health.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp_elive"
     }
   ],
   "gameday-mens-health-north-plano-trt-peptide-and-ed-clinic-plano-tx": [
@@ -13995,6 +17584,14 @@
       ],
       "source": "website",
       "sourceUrl": "https://gamedaymenshealth.com/plano-north/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://gamedaymenshealth.com/plano-north/"
     }
   ],
   "precision-wellness-center-plano-tx": [
@@ -14002,6 +17599,14 @@
       "peptide": "semaglutide",
       "matchedAliases": [
         "semaglutide"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.precisionwellnessctr.com/"
+    },
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
       ],
       "source": "website",
       "sourceUrl": "https://www.precisionwellnessctr.com/"
@@ -14093,6 +17698,14 @@
       ],
       "source": "website",
       "sourceUrl": "https://gamedaymenshealth.com/alamo-ranch-tx/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://gamedaymenshealth.com/alamo-ranch-tx/"
     }
   ],
   "gameday-mens-health-stone-oak-trt-clinic-san-antonio-tx": [
@@ -14132,6 +17745,14 @@
       "peptide": "nad-plus",
       "matchedAliases": [
         "nad+"
+      ],
+      "source": "website",
+      "sourceUrl": "https://gamedaymenshealth.com/stone-oak/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
       ],
       "source": "website",
       "sourceUrl": "https://gamedaymenshealth.com/stone-oak/"
@@ -14192,6 +17813,32 @@
       ],
       "source": "website",
       "sourceUrl": "https://www.kaisermedicalmanagement.com/"
+    },
+    {
+      "peptide": "liraglutide",
+      "matchedAliases": [
+        "saxenda"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.kaisermedicalmanagement.com/"
+    },
+    {
+      "peptide": "retatrutide",
+      "matchedAliases": [
+        "retatrutide"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.kaisermedicalmanagement.com/"
+    }
+  ],
+  "sa-iv-center-san-antonio-tx": [
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "http://saivcenter.com/"
     }
   ],
   "sculpted-md-san-antonio-tx": [
@@ -14202,6 +17849,14 @@
       ],
       "source": "website",
       "sourceUrl": "https://www.sculptedmd.com/texas/san-antonio/?utm_source=google&utm_medium=local&utm_campaign=gbp_san_antonio"
+    },
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.sculptedmd.com/texas/san-antonio/?utm_source=google&utm_medium=local&utm_campaign=gbp_san_antonio"
     }
   ],
   "sweat-equity-infrared-saunas-san-antonio-tx": [
@@ -14209,6 +17864,14 @@
       "peptide": "nad-plus",
       "matchedAliases": [
         "nad+"
+      ],
+      "source": "website",
+      "sourceUrl": "https://sweatequitysa.com/"
+    },
+    {
+      "peptide": "oxytocin",
+      "matchedAliases": [
+        "oxytocin"
       ],
       "source": "website",
       "sourceUrl": "https://sweatequitysa.com/"
@@ -14275,6 +17938,14 @@
       ],
       "source": "website",
       "sourceUrl": "https://san-antonio-dominion-creek.thedripbar.com/?utm_source=san-antonio-dominion-creek-tx-google-my-business&utm_medium=organic&utm_campaign=profile-link"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://san-antonio-dominion-creek.thedripbar.com/?utm_source=san-antonio-dominion-creek-tx-google-my-business&utm_medium=organic&utm_campaign=profile-link"
     }
   ],
   "zikam-neighborhood-pharmacy-san-antonio-tx": [
@@ -14323,6 +17994,16 @@
       ],
       "source": "website",
       "sourceUrl": "https://herkare.com/locations/thewoodlands/?utm_source=TheWoodlandsGBP&utm_medium=organic&utm_campaign=GKPTraffic"
+    }
+  ],
+  "optimal-hormone-health-and-aesthetics-spring-tx": [
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "http://www.optimalhormone.com/?utm_source=GMBlisting&utm_medium=organic&utm_campaign=gmb"
     }
   ],
   "synergenx-northeast-san-antonio-hormone-health-and-trt-clinic-universal-city-tx": [
@@ -14392,6 +18073,40 @@
       ],
       "source": "website",
       "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-salt-lake-city-ut/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=salt-lake-city-ut"
+    },
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-salt-lake-city-ut/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=salt-lake-city-ut"
+    },
+    {
+      "peptide": "liraglutide",
+      "matchedAliases": [
+        "liraglutide"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-salt-lake-city-ut/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=salt-lake-city-ut"
+    },
+    {
+      "peptide": "5-amino-1mq",
+      "matchedAliases": [
+        "5-amino-1mq"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-salt-lake-city-ut/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=salt-lake-city-ut"
+    }
+  ],
+  "elite-regen-center-cottonwood-heights-cottonwood-heights-ut": [
+    {
+      "peptide": "retatrutide",
+      "matchedAliases": [
+        "retatrutide"
+      ],
+      "source": "website",
+      "sourceUrl": "https://eliteregencenter.com/?utm_campaign=gmb"
     }
   ],
   "mt-olympus-compounding-draper-ut": [
@@ -14448,6 +18163,14 @@
       ],
       "source": "website",
       "sourceUrl": "https://www.hormonetherapyutah.com/"
+    },
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.hormonetherapyutah.com/"
     }
   ],
   "aviva-woman-millcreek-ut": [
@@ -14466,6 +18189,16 @@
       ],
       "source": "website",
       "sourceUrl": "https://avivawoman.com/"
+    }
+  ],
+  "south-valley-compounding-pharmacy-riverton-ut": [
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "http://www.southvalleypharm.com/contact-us/"
     }
   ],
   "dr-stephanie-king-aprn-fnp-c-salt-lake-city-ut": [
@@ -14534,6 +18267,15 @@
       ],
       "source": "website",
       "sourceUrl": "https://truehealthcareutah.com/"
+    },
+    {
+      "peptide": "aod-9604",
+      "matchedAliases": [
+        "aod-9604",
+        "aod 9604"
+      ],
+      "source": "website",
+      "sourceUrl": "https://truehealthcareutah.com/"
     }
   ],
   "elite-wellness-salt-lake-city-ut": [
@@ -14593,6 +18335,14 @@
       "peptide": "nad-plus",
       "matchedAliases": [
         "nad+"
+      ],
+      "source": "website",
+      "sourceUrl": "https://simplywellness.com/"
+    },
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
       ],
       "source": "website",
       "sourceUrl": "https://simplywellness.com/"
@@ -14701,6 +18451,14 @@
       ],
       "source": "website",
       "sourceUrl": "https://thereclinic.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp"
+    },
+    {
+      "peptide": "aod-9604",
+      "matchedAliases": [
+        "aod-9604"
+      ],
+      "source": "website",
+      "sourceUrl": "https://thereclinic.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp"
     }
   ],
   "revity-medical-taylorsville-ut": [
@@ -14708,6 +18466,14 @@
       "peptide": "nad-plus",
       "matchedAliases": [
         "nad+"
+      ],
+      "source": "website",
+      "sourceUrl": "https://revitymedical.com/?utm_campaign=gmb"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
       ],
       "source": "website",
       "sourceUrl": "https://revitymedical.com/?utm_campaign=gmb"
@@ -14729,6 +18495,14 @@
       ],
       "source": "website",
       "sourceUrl": "https://www.onewellnessutah.com/?UTM_source=GBP_Listing&UTM_medium=Organic"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.onewellnessutah.com/?UTM_source=GBP_Listing&UTM_medium=Organic"
     }
   ],
   "kingstreet-apothecary-alexandria-va": [
@@ -14744,6 +18518,14 @@
       "peptide": "tirzepatide",
       "matchedAliases": [
         "tirzepatide"
+      ],
+      "source": "website",
+      "sourceUrl": "https://kingstreetapothecary.net/"
+    },
+    {
+      "peptide": "liraglutide",
+      "matchedAliases": [
+        "liraglutide"
       ],
       "source": "website",
       "sourceUrl": "https://kingstreetapothecary.net/"
@@ -14798,6 +18580,30 @@
       ],
       "source": "website",
       "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-alexandria/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=alexandria"
+    },
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-alexandria/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=alexandria"
+    },
+    {
+      "peptide": "liraglutide",
+      "matchedAliases": [
+        "liraglutide"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-alexandria/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=alexandria"
+    },
+    {
+      "peptide": "5-amino-1mq",
+      "matchedAliases": [
+        "5-amino-1mq"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalityhrt.com/location/testosterone-clinic-of-alexandria/?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=vitalityhrt&utm_content=alexandria"
     }
   ],
   "prestons-pharmacy-arlington-va-1": [
@@ -14808,6 +18614,14 @@
       ],
       "source": "website",
       "sourceUrl": "https://www.prestonspharmacy.com/"
+    },
+    {
+      "peptide": "liraglutide",
+      "matchedAliases": [
+        "liraglutide"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.prestonspharmacy.com/"
     }
   ],
   "prestons-compounding-pharmacy-falls-church-va": [
@@ -14815,6 +18629,14 @@
       "peptide": "nad-plus",
       "matchedAliases": [
         "nad+"
+      ],
+      "source": "website",
+      "sourceUrl": "http://prestonspharmacy.com/"
+    },
+    {
+      "peptide": "liraglutide",
+      "matchedAliases": [
+        "liraglutide"
       ],
       "source": "website",
       "sourceUrl": "http://prestonspharmacy.com/"
@@ -14909,6 +18731,14 @@
       ],
       "source": "website",
       "sourceUrl": "https://apex-healthwellness.com/"
+    },
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "https://apex-healthwellness.com/"
     }
   ],
   "dr-kate-kass-precision-medicine-bellevue-wa": [
@@ -14953,6 +18783,14 @@
       "peptide": "nad-plus",
       "matchedAliases": [
         "nad+"
+      ],
+      "source": "website",
+      "sourceUrl": "https://timelessregenerative.com/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
       ],
       "source": "website",
       "sourceUrl": "https://timelessregenerative.com/"
@@ -15071,6 +18909,14 @@
       ],
       "source": "website",
       "sourceUrl": "https://www.vitalitymedicalpnw.com/"
+    },
+    {
+      "peptide": "ss-31",
+      "matchedAliases": [
+        "ss-31"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.vitalitymedicalpnw.com/"
     }
   ],
   "genesis-wellness-and-aesthetics-redmond-wa": [
@@ -15094,6 +18940,14 @@
       "peptide": "nad-plus",
       "matchedAliases": [
         "nad+"
+      ],
+      "source": "website",
+      "sourceUrl": "http://www.genesiswa.com/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
       ],
       "source": "website",
       "sourceUrl": "http://www.genesiswa.com/"
@@ -15124,6 +18978,22 @@
       "matchedAliases": [
         "tirzepatide",
         "zepbound"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.fullpotentialmen.com/renton-seattle-metro/"
+    },
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.fullpotentialmen.com/renton-seattle-metro/"
+    },
+    {
+      "peptide": "oxytocin",
+      "matchedAliases": [
+        "oxytocin"
       ],
       "source": "website",
       "sourceUrl": "https://www.fullpotentialmen.com/renton-seattle-metro/"
@@ -15158,6 +19028,30 @@
       "peptide": "nad-plus",
       "matchedAliases": [
         "nad+"
+      ],
+      "source": "website",
+      "sourceUrl": "https://antiagingnorthwest.com/"
+    },
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "https://antiagingnorthwest.com/"
+    },
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "https://antiagingnorthwest.com/"
+    },
+    {
+      "peptide": "oxytocin",
+      "matchedAliases": [
+        "oxytocin"
       ],
       "source": "website",
       "sourceUrl": "https://antiagingnorthwest.com/"
@@ -15215,6 +19109,14 @@
       ],
       "source": "website",
       "sourceUrl": "https://www.klinic.com/"
+    },
+    {
+      "peptide": "retatrutide",
+      "matchedAliases": [
+        "retatrutide"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.klinic.com/"
     }
   ],
   "pinnacle-integrative-health-seattle-wa": [
@@ -15243,6 +19145,32 @@
       ],
       "source": "website",
       "sourceUrl": "http://www.seattlewellnessprograms.com/"
+    },
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "http://www.seattlewellnessprograms.com/"
+    },
+    {
+      "peptide": "oxytocin",
+      "matchedAliases": [
+        "oxytocin"
+      ],
+      "source": "website",
+      "sourceUrl": "http://www.seattlewellnessprograms.com/"
+    }
+  ],
+  "temple-natural-health-seattle-wa": [
+    {
+      "peptide": "hcg",
+      "matchedAliases": [
+        "hcg"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.templenaturalhealth.com/seattle-natural-medicine-naturopathy/"
     }
   ],
   "waters-edge-natural-medicine-seattle-wa": [
@@ -15253,6 +19181,16 @@
       ],
       "source": "website",
       "sourceUrl": "https://www.naturopathic.com/locations/seattle-wa.html?utm_source=GBP&utm_medium=organic&utm_campaign=GoogleBusinessProfile&utm_content=seattle"
+    }
+  ],
+  "the-regenerative-institute-spokane-wa": [
+    {
+      "peptide": "glutathione",
+      "matchedAliases": [
+        "glutathione"
+      ],
+      "source": "website",
+      "sourceUrl": "http://www.tri-regen.com/"
     }
   ],
   "okojie-wellness-testosterone-and-hormone-replacement-therapy-in-vancouver-washington-vancouver-wa": [

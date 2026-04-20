@@ -77,6 +77,18 @@ const PEPTIDE_RULES: Record<string, PeptideRule> = {
   "ghrp-2": { aliases: ["ghrp-2", "ghrp 2"] },
   "hexarelin": { aliases: ["hexarelin"] },
   "mots-c": { aliases: ["mots-c", "mots c"] },
+  "glutathione": { aliases: ["glutathione"] },
+  "hcg": { aliases: ["hcg", "human chorionic gonadotropin"] },
+  "liraglutide": { aliases: ["liraglutide", "saxenda", "victoza"] },
+  "5-amino-1mq": { aliases: ["5-amino-1mq", "5 amino 1mq", "5amino1mq", "5-amino 1mq"] },
+  "retatrutide": { aliases: ["retatrutide"] },
+  "oxytocin": { aliases: ["oxytocin"] },
+  "aod-9604": { aliases: ["aod-9604", "aod 9604", "aod9604"] },
+  "thymosin-alpha-1": { aliases: ["thymosin alpha-1", "thymosin alpha 1", "thymosin alpha1", "ta-1", "zadaxin"] },
+  "igf-1-lr3": { aliases: ["igf-1 lr3", "igf1 lr3", "igf-1lr3", "igf-1", "igf 1"] },
+  "dsip": { aliases: ["dsip", "delta sleep-inducing peptide", "delta sleep inducing peptide"] },
+  "ss-31": { aliases: ["ss-31", "ss 31", "elamipretide"] },
+  "melanotan-2": { aliases: ["melanotan-2", "melanotan 2", "melanotan ii", "mt-ii", "mt ii", "melanotan"] },
 };
 
 function compileMatchers(): Array<{ slug: string; mode: "any" | "all"; regexes: RegExp[] }> {
