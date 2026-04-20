@@ -31,14 +31,14 @@ export function websiteJsonLd() {
     "@context": "https://schema.org",
     "@type": "WebSite",
     name: "Peptides Nearby",
-    url: "https://peptidesnearby.com",
+    url: "https://www.peptidesnearby.com",
     description:
       "Find peptide therapy clinics, compounding pharmacies, and wellness centers near you.",
     potentialAction: {
       "@type": "SearchAction",
       target: {
         "@type": "EntryPoint",
-        urlTemplate: "https://peptidesnearby.com/states",
+        urlTemplate: "https://www.peptidesnearby.com/states",
       },
       "query-input": "required name=search_term_string",
     },

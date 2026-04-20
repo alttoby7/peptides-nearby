@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://peptidesnearby.com/sitemap.xml
+Sitemap: https://www.peptidesnearby.com/sitemap.xml

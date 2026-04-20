@@ -35,9 +35,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const goal = goals.find((g) => g.slug === slug);
   if (!goal) return {};
+  const thin = goal.providerCount < 5;
   return {
-    title: `${goal.name} Peptide Therapy — ${goal.providerCount} Providers`,
+    title: `${goal.name} Peptide Therapy${goal.providerCount > 0 ? ` — ${goal.providerCount} Providers` : ""}`,
     description: `${goal.description} Find ${goal.providerCount} providers offering peptide therapy for ${goal.name.toLowerCase()}.`,
+    robots: thin ? { index: false, follow: true } : undefined,
   };
 }
 
@@ -50,7 +52,7 @@ export default async function GoalPage({ params }: Props) {
     .map((s) => getProviderBySlug(s))
     .filter((p) => p !== undefined);
 
-  const BASE = "https://peptidesnearby.com";
+  const BASE = "https://www.peptidesnearby.com";
 
   return (
     <>

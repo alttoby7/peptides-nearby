@@ -7,7 +7,7 @@ import { CompareBar } from "@/components/compare/CompareBar";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://peptidesnearby.com"),
+  metadataBase: new URL("https://www.peptidesnearby.com"),
   title: {
     default: "Peptides Nearby — Find Peptide Therapy Near You",
     template: "%s | Peptides Nearby",

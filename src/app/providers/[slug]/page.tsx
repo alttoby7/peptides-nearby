@@ -51,7 +51,7 @@ export default async function ProviderPage({ params }: Props) {
   const citySlug = slugify(provider.address.city);
   const state = getStateBySlug(stateSlug);
   const reviews = getReviewsByProvider(slug);
-  const BASE = "https://peptidesnearby.com";
+  const BASE = "https://www.peptidesnearby.com";
 
   return (
     <>

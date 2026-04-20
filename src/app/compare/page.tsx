@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 };
 
 export default function ComparePage() {
-  const BASE = "https://peptidesnearby.com";
+  const BASE = "https://www.peptidesnearby.com";
   return (
     <>
       <JsonLd data={breadcrumbJsonLd([

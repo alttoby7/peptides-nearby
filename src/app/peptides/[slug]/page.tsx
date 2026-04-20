@@ -16,9 +16,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const service = getServiceBySlug(slug);
   if (!service) return {};
+  const thin = service.providerCount < 3;
+  const titleCount = service.providerCount > 0 ? ` — ${service.providerCount} Providers` : "";
   return {
-    title: `Find ${service.name}${service.name.toLowerCase().includes("therapy") ? "" : " Therapy"} Near You — ${service.providerCount} Providers`,
-    description: `${service.description} Browse ${service.providerCount} providers offering ${service.name} in ${service.cityCount} cities.`,
+    title: `Find ${service.name}${service.name.toLowerCase().includes("therapy") ? "" : " Therapy"} Near You${titleCount}`,
+    description: service.providerCount > 0
+      ? `${service.description} Browse ${service.providerCount} providers offering ${service.name} in ${service.cityCount} cities.`
+      : service.description,
+    robots: thin ? { index: false, follow: true } : undefined,
   };
 }
 
@@ -28,7 +33,7 @@ export default async function ServicePage({ params }: Props) {
   if (!service) notFound();
 
   const providers = getProvidersByService(slug);
-  const BASE = "https://peptidesnearby.com";
+  const BASE = "https://www.peptidesnearby.com";
 
   return (
     <>

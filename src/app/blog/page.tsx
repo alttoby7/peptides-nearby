@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 };
 
 export default function BlogHubPage() {
-  const BASE = "https://peptidesnearby.com";
+  const BASE = "https://www.peptidesnearby.com";
   const articles = getAllArticles();
 
   return (

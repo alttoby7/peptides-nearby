@@ -7308,25 +7308,6 @@
     "peptides": []
   },
   {
-    "slug": "fl-a1aalt-1500",
-    "name": "FL A1AAlt #1500",
-    "stateCode": "JU",
-    "state": "Jupiter",
-    "stateSlug": "jupiter",
-    "providerCount": 2,
-    "clinicCount": 0,
-    "pharmacyCount": 2,
-    "wellnessCenterCount": 0,
-    "providers": [
-      "palm-beach-compounding-pharmacy-fl-a1aalt-1500-ju",
-      "palm-beach-compounding-pharmacy-fl-a1aalt-1500-ju-1"
-    ],
-    "services": [
-      "peptide therapy"
-    ],
-    "peptides": []
-  },
-  {
     "slug": "fort-myers",
     "name": "Fort Myers",
     "stateCode": "FL",
@@ -9246,24 +9227,6 @@
     "peptides": []
   },
   {
-    "slug": "1333",
-    "name": "#1333",
-    "stateCode": "WE",
-    "state": "Westwood",
-    "stateSlug": "westwood",
-    "providerCount": 1,
-    "clinicCount": 0,
-    "pharmacyCount": 0,
-    "wellnessCenterCount": 1,
-    "providers": [
-      "regeneris-medspa-1333-we"
-    ],
-    "services": [
-      "peptide therapy"
-    ],
-    "peptides": []
-  },
-  {
     "slug": "10200-golf-course-rd-nw-ste-e",
     "name": "10200 Golf Course Rd NW ste e",
     "stateCode": "AL",
@@ -9275,42 +9238,6 @@
     "wellnessCenterCount": 1,
     "providers": [
       "vitality-wellness-llc-10200-golf-course-rd-nw-ste-e-al"
-    ],
-    "services": [
-      "peptide therapy"
-    ],
-    "peptides": []
-  },
-  {
-    "slug": "104-s-freya-st-suite-218",
-    "name": "104 S Freya St Suite 218",
-    "stateCode": "SP",
-    "state": "Spokane",
-    "stateSlug": "spokane",
-    "providerCount": 1,
-    "clinicCount": 1,
-    "pharmacyCount": 0,
-    "wellnessCenterCount": 0,
-    "providers": [
-      "spokane-vitality-center-dba-vitality-centers-nw-104-s-freya-st-suite-218-sp"
-    ],
-    "services": [
-      "peptide therapy"
-    ],
-    "peptides": []
-  },
-  {
-    "slug": "107-gamma-dr-220",
-    "name": "107 Gamma Dr # 220",
-    "stateCode": "PI",
-    "state": "Pittsburgh",
-    "stateSlug": "pittsburgh",
-    "providerCount": 1,
-    "clinicCount": 1,
-    "pharmacyCount": 0,
-    "wellnessCenterCount": 0,
-    "providers": [
-      "dr-jesse-a-sally-107-gamma-dr-220-pi"
     ],
     "services": [
       "peptide therapy"
@@ -9336,60 +9263,6 @@
     "peptides": []
   },
   {
-    "slug": "11350-mccormick-rd-ll9",
-    "name": "11350 McCormick Rd LL9",
-    "stateCode": "HU",
-    "state": "Hunt",
-    "stateSlug": "hunt",
-    "providerCount": 1,
-    "clinicCount": 0,
-    "pharmacyCount": 0,
-    "wellnessCenterCount": 1,
-    "providers": [
-      "wellness-plus-care-11350-mccormick-rd-ll9-hu"
-    ],
-    "services": [
-      "peptide therapy"
-    ],
-    "peptides": []
-  },
-  {
-    "slug": "12800-metcalf-ave-2",
-    "name": "12800 Metcalf Ave #2",
-    "stateCode": "OV",
-    "state": "Overland",
-    "stateSlug": "overland",
-    "providerCount": 1,
-    "clinicCount": 1,
-    "pharmacyCount": 0,
-    "wellnessCenterCount": 0,
-    "providers": [
-      "stem-doctor-regenerative-medicine-12800-metcalf-ave-2-ov"
-    ],
-    "services": [
-      "peptide therapy"
-    ],
-    "peptides": []
-  },
-  {
-    "slug": "1407-nw-85th-st",
-    "name": "1407 NW 85th St",
-    "stateCode": "SE",
-    "state": "Seattle",
-    "stateSlug": "seattle",
-    "providerCount": 1,
-    "clinicCount": 0,
-    "pharmacyCount": 1,
-    "wellnessCenterCount": 0,
-    "providers": [
-      "bob-johnson-pharmacy-1407-nw-85th-st-se"
-    ],
-    "services": [
-      "peptide therapy"
-    ],
-    "peptides": []
-  },
-  {
     "slug": "1574-w-broadway-105",
     "name": "1574 W Broadway #105",
     "stateCode": "MO",
@@ -9401,96 +9274,6 @@
     "wellnessCenterCount": 0,
     "providers": [
       "evolution-body-transformation-1574-w-broadway-105-mo"
-    ],
-    "services": [
-      "peptide therapy"
-    ],
-    "peptides": []
-  },
-  {
-    "slug": "1585-santa-barbara-blvd",
-    "name": "1585 Santa Barbara Blvd",
-    "stateCode": "TH",
-    "state": "The",
-    "stateSlug": "the",
-    "providerCount": 1,
-    "clinicCount": 1,
-    "pharmacyCount": 0,
-    "wellnessCenterCount": 0,
-    "providers": [
-      "central-florida-regenerative-medicine-1585-santa-barbara-blvd-th"
-    ],
-    "services": [
-      "peptide therapy"
-    ],
-    "peptides": []
-  },
-  {
-    "slug": "177-w-12300-s-122",
-    "name": "177 W 12300 S #122",
-    "stateCode": "DR",
-    "state": "Draper",
-    "stateSlug": "draper",
-    "providerCount": 1,
-    "clinicCount": 1,
-    "pharmacyCount": 0,
-    "wellnessCenterCount": 0,
-    "providers": [
-      "optimal-performance-clinic-opc-clinic-177-w-12300-s-122-dr"
-    ],
-    "services": [
-      "peptide therapy"
-    ],
-    "peptides": []
-  },
-  {
-    "slug": "20-chelsea-st",
-    "name": "20 Chelsea St",
-    "stateCode": "CH",
-    "state": "Charlestown",
-    "stateSlug": "charlestown",
-    "providerCount": 1,
-    "clinicCount": 0,
-    "pharmacyCount": 0,
-    "wellnessCenterCount": 1,
-    "providers": [
-      "vivolo-wellness-club-20-chelsea-st-ch"
-    ],
-    "services": [
-      "peptide therapy"
-    ],
-    "peptides": []
-  },
-  {
-    "slug": "214-s-lafayette-st",
-    "name": "214 S Lafayette St",
-    "stateCode": "SO",
-    "state": "South",
-    "stateSlug": "south",
-    "providerCount": 1,
-    "clinicCount": 1,
-    "pharmacyCount": 0,
-    "wellnessCenterCount": 0,
-    "providers": [
-      "essence-womens-health-and-weight-loss-clinic-214-s-lafayette-st-so"
-    ],
-    "services": [
-      "peptide therapy"
-    ],
-    "peptides": []
-  },
-  {
-    "slug": "2200-georgetown-dr-suite-102",
-    "name": "2200 Georgetown Dr Suite 102",
-    "stateCode": "SE",
-    "state": "Sewickley",
-    "stateSlug": "sewickley",
-    "providerCount": 1,
-    "clinicCount": 0,
-    "pharmacyCount": 0,
-    "wellnessCenterCount": 1,
-    "providers": [
-      "transformation-weight-loss-and-wellness-2200-georgetown-dr-suite-102-se"
     ],
     "services": [
       "peptide therapy"
@@ -9516,24 +9299,6 @@
     "peptides": []
   },
   {
-    "slug": "24-compton-rd-suite-203",
-    "name": "24 Compton Rd Suite 203",
-    "stateCode": "CI",
-    "state": "Cincinnati",
-    "stateSlug": "cincinnati",
-    "providerCount": 1,
-    "clinicCount": 1,
-    "pharmacyCount": 0,
-    "wellnessCenterCount": 0,
-    "providers": [
-      "idetox365-24-compton-rd-suite-203-ci"
-    ],
-    "services": [
-      "peptide therapy"
-    ],
-    "peptides": []
-  },
-  {
     "slug": "2500-wisconsin-ave-nw-112",
     "name": "2500 Wisconsin Ave NW #112",
     "stateCode": "WA",
@@ -9545,114 +9310,6 @@
     "wellnessCenterCount": 1,
     "providers": [
       "duo-wellness-rejuvenation-2500-wisconsin-ave-nw-112-wa"
-    ],
-    "services": [
-      "peptide therapy"
-    ],
-    "peptides": []
-  },
-  {
-    "slug": "260-tremont-st-8th-floor",
-    "name": "260 Tremont St 8th floor",
-    "stateCode": "BO",
-    "state": "Boston",
-    "stateSlug": "boston",
-    "providerCount": 1,
-    "clinicCount": 1,
-    "pharmacyCount": 0,
-    "wellnessCenterCount": 0,
-    "providers": [
-      "tufts-medical-center-total-joint-replacement-260-tremont-st-8th-floor-bo"
-    ],
-    "services": [
-      "peptide therapy"
-    ],
-    "peptides": []
-  },
-  {
-    "slug": "2920-n-green-valley-pkwy-ste-814",
-    "name": "2920 N Green Valley Pkwy STE 814",
-    "stateCode": "HE",
-    "state": "Henderson",
-    "stateSlug": "henderson",
-    "providerCount": 1,
-    "clinicCount": 0,
-    "pharmacyCount": 1,
-    "wellnessCenterCount": 0,
-    "providers": [
-      "las-vegas-scripts-rx-2920-n-green-valley-pkwy-ste-814-he"
-    ],
-    "services": [
-      "peptide therapy"
-    ],
-    "peptides": []
-  },
-  {
-    "slug": "300-brookside-ave-building-18",
-    "name": "300 Brookside Ave Building 18",
-    "stateCode": "SU",
-    "state": "Suite",
-    "stateSlug": "suite",
-    "providerCount": 1,
-    "clinicCount": 1,
-    "pharmacyCount": 0,
-    "wellnessCenterCount": 0,
-    "providers": [
-      "bebalanced-natural-hormone-weight-loss-300-brookside-ave-building-18-su"
-    ],
-    "services": [
-      "peptide therapy"
-    ],
-    "peptides": []
-  },
-  {
-    "slug": "31-st-james-ave-805",
-    "name": "31 St James Ave #805",
-    "stateCode": "BO",
-    "state": "Boston",
-    "stateSlug": "boston",
-    "providerCount": 1,
-    "clinicCount": 0,
-    "pharmacyCount": 0,
-    "wellnessCenterCount": 1,
-    "providers": [
-      "pelvic-health-support-hormones-pelvic-pain-sexual-wellness-it-s-all-connected-31-st-james-ave-805-bo"
-    ],
-    "services": [
-      "peptide therapy"
-    ],
-    "peptides": []
-  },
-  {
-    "slug": "322-armbrust-rd-suite-102",
-    "name": "322 Armbrust Rd Suite 102",
-    "stateCode": "YO",
-    "state": "Youngwood",
-    "stateSlug": "youngwood",
-    "providerCount": 1,
-    "clinicCount": 0,
-    "pharmacyCount": 0,
-    "wellnessCenterCount": 1,
-    "providers": [
-      "innovative-wellness-and-weight-loss-center-llc-322-armbrust-rd-suite-102-yo"
-    ],
-    "services": [
-      "peptide therapy"
-    ],
-    "peptides": []
-  },
-  {
-    "slug": "325-sentry-pkwy-suite-222",
-    "name": "325 Sentry Pkwy Suite 222",
-    "stateCode": "BL",
-    "state": "Blue",
-    "stateSlug": "blue",
-    "providerCount": 1,
-    "clinicCount": 0,
-    "pharmacyCount": 0,
-    "wellnessCenterCount": 1,
-    "providers": [
-      "infinite-wellness-llc-325-sentry-pkwy-suite-222-bl"
     ],
     "services": [
       "peptide therapy"
@@ -9678,24 +9335,6 @@
     "peptides": []
   },
   {
-    "slug": "3726-roswell-rd-ne",
-    "name": "3726 Roswell Rd NE",
-    "stateCode": "AT",
-    "state": "Atlanta",
-    "stateSlug": "atlanta",
-    "providerCount": 1,
-    "clinicCount": 1,
-    "pharmacyCount": 0,
-    "wellnessCenterCount": 0,
-    "providers": [
-      "hebe-aesthetics-and-vitality-3726-roswell-rd-ne-at"
-    ],
-    "services": [
-      "peptide therapy"
-    ],
-    "peptides": []
-  },
-  {
     "slug": "4360-cutler-ave-ne-ste-b1",
     "name": "4360 Cutler Ave NE Ste B1",
     "stateCode": "AL",
@@ -9707,42 +9346,6 @@
     "wellnessCenterCount": 1,
     "providers": [
       "the-wellness-lab-4360-cutler-ave-ne-ste-b1-al"
-    ],
-    "services": [
-      "peptide therapy"
-    ],
-    "peptides": []
-  },
-  {
-    "slug": "451-d-st-200",
-    "name": "451 D St #200",
-    "stateCode": "BO",
-    "state": "Boston",
-    "stateSlug": "boston",
-    "providerCount": 1,
-    "clinicCount": 0,
-    "pharmacyCount": 0,
-    "wellnessCenterCount": 1,
-    "providers": [
-      "vega-vitality-medspa-and-wellness-seaport-boston-451-d-st-200-bo"
-    ],
-    "services": [
-      "peptide therapy"
-    ],
-    "peptides": []
-  },
-  {
-    "slug": "4665-nautilus-ct-s",
-    "name": "4665 Nautilus Ct S",
-    "stateCode": "BO",
-    "state": "Boulder",
-    "stateSlug": "boulder",
-    "providerCount": 1,
-    "clinicCount": 0,
-    "pharmacyCount": 1,
-    "wellnessCenterCount": 0,
-    "providers": [
-      "pdc-pharmacy-colorado-4665-nautilus-ct-s-bo"
     ],
     "services": [
       "peptide therapy"
@@ -9768,186 +9371,6 @@
     "peptides": []
   },
   {
-    "slug": "5030-champion-blvd-suites-c2-c3",
-    "name": "5030 Champion Blvd Suites C2/C3",
-    "stateCode": "BO",
-    "state": "Boca",
-    "stateSlug": "boca",
-    "providerCount": 1,
-    "clinicCount": 0,
-    "pharmacyCount": 0,
-    "wellnessCenterCount": 1,
-    "providers": [
-      "wellness-and-hormone-centers-of-america-5030-champion-blvd-suites-c2-c3-bo"
-    ],
-    "services": [
-      "peptide therapy"
-    ],
-    "peptides": []
-  },
-  {
-    "slug": "51705-schoenherr-rd",
-    "name": "51705 Schoenherr Rd",
-    "stateCode": "SH",
-    "state": "Shelby",
-    "stateSlug": "shelby",
-    "providerCount": 1,
-    "clinicCount": 1,
-    "pharmacyCount": 0,
-    "wellnessCenterCount": 0,
-    "providers": [
-      "a-balanced-you-51705-schoenherr-rd-sh"
-    ],
-    "services": [
-      "peptide therapy"
-    ],
-    "peptides": []
-  },
-  {
-    "slug": "54-w-21st-st-suite-510",
-    "name": "54 W 21st St Suite 510",
-    "stateCode": "NE",
-    "state": "New",
-    "stateSlug": "new",
-    "providerCount": 1,
-    "clinicCount": 1,
-    "pharmacyCount": 0,
-    "wellnessCenterCount": 0,
-    "providers": [
-      "drip-alchemy-nyc-54-w-21st-st-suite-510-ne"
-    ],
-    "services": [
-      "peptide therapy"
-    ],
-    "peptides": []
-  },
-  {
-    "slug": "540-madison-oak-dr-suite-320",
-    "name": "540 Madison Oak Dr Suite 320",
-    "stateCode": "SA",
-    "state": "San",
-    "stateSlug": "san",
-    "providerCount": 1,
-    "clinicCount": 1,
-    "pharmacyCount": 0,
-    "wellnessCenterCount": 0,
-    "providers": [
-      "nexgenesis-healthcare-san-antonio-540-madison-oak-dr-suite-320-sa"
-    ],
-    "services": [
-      "peptide therapy"
-    ],
-    "peptides": []
-  },
-  {
-    "slug": "5760-okeechobee-blvd",
-    "name": "5760 Okeechobee Blvd",
-    "stateCode": "WE",
-    "state": "West",
-    "stateSlug": "west",
-    "providerCount": 1,
-    "clinicCount": 0,
-    "pharmacyCount": 1,
-    "wellnessCenterCount": 0,
-    "providers": [
-      "west-palm-pharmacy-5760-okeechobee-blvd-we"
-    ],
-    "services": [
-      "peptide therapy"
-    ],
-    "peptides": []
-  },
-  {
-    "slug": "600-e-70th-st",
-    "name": "600 E 70th St",
-    "stateCode": "SA",
-    "state": "Savannah",
-    "stateSlug": "savannah",
-    "providerCount": 1,
-    "clinicCount": 1,
-    "pharmacyCount": 0,
-    "wellnessCenterCount": 0,
-    "providers": [
-      "the-rejuvenation-clinic-carmela-a-pettigrew-md-600-e-70th-st-sa"
-    ],
-    "services": [
-      "peptide therapy"
-    ],
-    "peptides": []
-  },
-  {
-    "slug": "600-s-airport-rd-building-a-suite-g",
-    "name": "600 S Airport Rd Building A Suite G",
-    "stateCode": "LO",
-    "state": "Longmont",
-    "stateSlug": "longmont",
-    "providerCount": 1,
-    "clinicCount": 0,
-    "pharmacyCount": 0,
-    "wellnessCenterCount": 1,
-    "providers": [
-      "summit-wellness-group-600-s-airport-rd-building-a-suite-g-lo"
-    ],
-    "services": [
-      "peptide therapy"
-    ],
-    "peptides": []
-  },
-  {
-    "slug": "6214-se-milwaukie-ave",
-    "name": "6214 SE Milwaukie Ave",
-    "stateCode": "PO",
-    "state": "Portland",
-    "stateSlug": "portland",
-    "providerCount": 1,
-    "clinicCount": 1,
-    "pharmacyCount": 0,
-    "wellnessCenterCount": 0,
-    "providers": [
-      "health-in-her-hands-menopause-hrt-and-weight-loss-6214-se-milwaukie-ave-po"
-    ],
-    "services": [
-      "peptide therapy"
-    ],
-    "peptides": []
-  },
-  {
-    "slug": "6250-hollywood-blvd-unit-700",
-    "name": "6250 Hollywood Blvd unit 700",
-    "stateCode": "HO",
-    "state": "Hollywood",
-    "stateSlug": "hollywood",
-    "providerCount": 1,
-    "clinicCount": 1,
-    "pharmacyCount": 0,
-    "wellnessCenterCount": 0,
-    "providers": [
-      "revive-and-rejuvenate-6250-hollywood-blvd-unit-700-ho"
-    ],
-    "services": [
-      "peptide therapy"
-    ],
-    "peptides": []
-  },
-  {
-    "slug": "6420-gunpark-dr-ste-b",
-    "name": "6420 Gunpark Dr STE B",
-    "stateCode": "BO",
-    "state": "Boulder",
-    "stateSlug": "boulder",
-    "providerCount": 1,
-    "clinicCount": 1,
-    "pharmacyCount": 0,
-    "wellnessCenterCount": 0,
-    "providers": [
-      "thick-clinical-6420-gunpark-dr-ste-b-bo"
-    ],
-    "services": [
-      "peptide therapy"
-    ],
-    "peptides": []
-  },
-  {
     "slug": "6640-old-monroe-rd-g",
     "name": "6640 Old Monroe Rd G",
     "stateCode": "IN",
@@ -9966,96 +9389,6 @@
     "peptides": []
   },
   {
-    "slug": "7032-e-brainerd-rd-b",
-    "name": "7032 E Brainerd Rd B",
-    "stateCode": "CH",
-    "state": "Chattanooga",
-    "stateSlug": "chattanooga",
-    "providerCount": 1,
-    "clinicCount": 0,
-    "pharmacyCount": 1,
-    "wellnessCenterCount": 0,
-    "providers": [
-      "chattanooga-compounding-pharmacy-inc-7032-e-brainerd-rd-b-ch"
-    ],
-    "services": [
-      "peptide therapy"
-    ],
-    "peptides": []
-  },
-  {
-    "slug": "7310-esquire-ct",
-    "name": "7310 Esquire Ct",
-    "stateCode": "EL",
-    "state": "Elkridge",
-    "stateSlug": "elkridge",
-    "providerCount": 1,
-    "clinicCount": 0,
-    "pharmacyCount": 0,
-    "wellnessCenterCount": 1,
-    "providers": [
-      "the-maryland-center-for-hormones-and-wellness-llc-7310-esquire-ct-el"
-    ],
-    "services": [
-      "peptide therapy"
-    ],
-    "peptides": []
-  },
-  {
-    "slug": "7465-poplar-ave",
-    "name": "7465 Poplar Ave",
-    "stateCode": "GE",
-    "state": "Germantown",
-    "stateSlug": "germantown",
-    "providerCount": 1,
-    "clinicCount": 0,
-    "pharmacyCount": 1,
-    "wellnessCenterCount": 0,
-    "providers": [
-      "solutions-compounding-apothecary-7465-poplar-ave-ge"
-    ],
-    "services": [
-      "peptide therapy"
-    ],
-    "peptides": []
-  },
-  {
-    "slug": "7th-floor",
-    "name": "7th Floor",
-    "stateCode": "SU",
-    "state": "Suite",
-    "stateSlug": "suite",
-    "providerCount": 1,
-    "clinicCount": 0,
-    "pharmacyCount": 0,
-    "wellnessCenterCount": 1,
-    "providers": [
-      "thedoctorswellnessgroup-kenwood-7th-floor-su"
-    ],
-    "services": [
-      "peptide therapy"
-    ],
-    "peptides": []
-  },
-  {
-    "slug": "855-n-wolfe-st-room-248",
-    "name": "855 N Wolfe St Room 248",
-    "stateCode": "BA",
-    "state": "Baltimore",
-    "stateSlug": "baltimore",
-    "providerCount": 1,
-    "clinicCount": 1,
-    "pharmacyCount": 0,
-    "wellnessCenterCount": 0,
-    "providers": [
-      "jhu-als-center-for-cell-therapy-and-regeneration-research-855-n-wolfe-st-room-248-ba"
-    ],
-    "services": [
-      "peptide therapy"
-    ],
-    "peptides": []
-  },
-  {
     "slug": "900-camp-st-1225",
     "name": "900 Camp St #1225",
     "stateCode": "NE",
@@ -10067,42 +9400,6 @@
     "wellnessCenterCount": 0,
     "providers": [
       "the-menopause-clinic-perimenopause-and-menopause-care-900-camp-st-1225-ne"
-    ],
-    "services": [
-      "peptide therapy"
-    ],
-    "peptides": []
-  },
-  {
-    "slug": "9050-w-overland-rd-270",
-    "name": "9050 W Overland Rd #270",
-    "stateCode": "BO",
-    "state": "Boise",
-    "stateSlug": "boise",
-    "providerCount": 1,
-    "clinicCount": 0,
-    "pharmacyCount": 0,
-    "wellnessCenterCount": 1,
-    "providers": [
-      "bespoke-body-and-wellness-9050-w-overland-rd-270-bo"
-    ],
-    "services": [
-      "peptide therapy"
-    ],
-    "peptides": []
-  },
-  {
-    "slug": "925-blossom-hill-rd-1509-suite-105",
-    "name": "925 Blossom Hill Rd 1509 suite 105",
-    "stateCode": "SA",
-    "state": "San",
-    "stateSlug": "san",
-    "providerCount": 1,
-    "clinicCount": 1,
-    "pharmacyCount": 0,
-    "wellnessCenterCount": 0,
-    "providers": [
-      "randh-rejuvenation-and-health-aesthetics-925-blossom-hill-rd-1509-suite-105-sa"
     ],
     "services": [
       "peptide therapy"
@@ -10859,24 +10156,6 @@
     "wellnessCenterCount": 0,
     "providers": [
       "legacy-health-burnsville-burnsville-mn"
-    ],
-    "services": [
-      "peptide therapy"
-    ],
-    "peptides": []
-  },
-  {
-    "slug": "ca-94131",
-    "name": "CA 94131",
-    "stateCode": "US",
-    "state": "USA",
-    "stateSlug": "usa",
-    "providerCount": 1,
-    "clinicCount": 1,
-    "pharmacyCount": 0,
-    "wellnessCenterCount": 0,
-    "providers": [
-      "ray-and-dagmar-dolby-regeneration-medicine-building-ca-94131-us"
     ],
     "services": [
       "peptide therapy"
@@ -11831,24 +11110,6 @@
     "wellnessCenterCount": 0,
     "providers": [
       "the-healthy-choice-compounding-pharmacy-elmsford-ny"
-    ],
-    "services": [
-      "peptide therapy"
-    ],
-    "peptides": []
-  },
-  {
-    "slug": "embarcadero-ctr-lobby-level-5",
-    "name": "Embarcadero Ctr Lobby Level #5",
-    "stateCode": "SA",
-    "state": "San",
-    "stateSlug": "san",
-    "providerCount": 1,
-    "clinicCount": 1,
-    "pharmacyCount": 0,
-    "wellnessCenterCount": 0,
-    "providers": [
-      "prolotherapy-sf-embarcadero-ctr-lobby-level-5-sa"
     ],
     "services": [
       "peptide therapy"
@@ -13836,24 +13097,6 @@
     "peptides": []
   },
   {
-    "slug": "lot-98-1247-ka-ahumanu-st-ste-110",
-    "name": "lot 98-1247 Kaʻahumanu St STE 110",
-    "stateCode": "AI",
-    "state": "Aiea",
-    "stateSlug": "aiea",
-    "providerCount": 1,
-    "clinicCount": 0,
-    "pharmacyCount": 1,
-    "wellnessCenterCount": 0,
-    "providers": [
-      "newtown-square-pharmacy-lot-98-1247-ka-ahumanu-st-ste-110-ai"
-    ],
-    "services": [
-      "peptide therapy"
-    ],
-    "peptides": []
-  },
-  {
     "slug": "loveland",
     "name": "Loveland",
     "stateCode": "CO",
@@ -14279,24 +13522,6 @@
     "wellnessCenterCount": 0,
     "providers": [
       "energize-health-and-hormones-mill-valley-ca"
-    ],
-    "services": [
-      "peptide therapy"
-    ],
-    "peptides": []
-  },
-  {
-    "slug": "milwaukee",
-    "name": "Milwaukee",
-    "stateCode": "46",
-    "state": "4666",
-    "stateSlug": "4666",
-    "providerCount": 1,
-    "clinicCount": 0,
-    "pharmacyCount": 0,
-    "wellnessCenterCount": 1,
-    "providers": [
-      "medical-weightloss-and-wellness-inc-milwaukee-46"
     ],
     "services": [
       "peptide therapy"
@@ -14844,24 +14069,6 @@
     "peptides": []
   },
   {
-    "slug": "office-3",
-    "name": "Office #3",
-    "stateCode": "ED",
-    "state": "Edina",
-    "stateSlug": "edina",
-    "providerCount": 1,
-    "clinicCount": 1,
-    "pharmacyCount": 0,
-    "wellnessCenterCount": 0,
-    "providers": [
-      "bioharmony-health-office-3-ed"
-    ],
-    "services": [
-      "peptide therapy"
-    ],
-    "peptides": []
-  },
-  {
     "slug": "ogden",
     "name": "Ogden",
     "stateCode": "UT",
@@ -14916,24 +14123,6 @@
     "peptides": []
   },
   {
-    "slug": "or-97756",
-    "name": "OR 97756",
-    "stateCode": "US",
-    "state": "USA",
-    "stateSlug": "usa",
-    "providerCount": 1,
-    "clinicCount": 0,
-    "pharmacyCount": 1,
-    "wellnessCenterCount": 0,
-    "providers": [
-      "prescryptive-pharmacy-or-97756-us"
-    ],
-    "services": [
-      "peptide therapy"
-    ],
-    "peptides": []
-  },
-  {
     "slug": "orange-park",
     "name": "Orange Park",
     "stateCode": "FL",
@@ -14945,24 +14134,6 @@
     "wellnessCenterCount": 0,
     "providers": [
       "wells-road-pharmacy-orange-park-fl"
-    ],
-    "services": [
-      "peptide therapy"
-    ],
-    "peptides": []
-  },
-  {
-    "slug": "pa-15219",
-    "name": "PA 15219",
-    "stateCode": "US",
-    "state": "USA",
-    "stateSlug": "usa",
-    "providerCount": 1,
-    "clinicCount": 1,
-    "pharmacyCount": 0,
-    "wellnessCenterCount": 0,
-    "providers": [
-      "dr-valerie-donaldson-md-pa-15219-us"
     ],
     "services": [
       "peptide therapy"
@@ -15089,24 +14260,6 @@
     "wellnessCenterCount": 1,
     "providers": [
       "medical-spa-and-anti-aging-center-supreme-wellness-aesthetics-and-recovery-park-ridge-il"
-    ],
-    "services": [
-      "peptide therapy"
-    ],
-    "peptides": []
-  },
-  {
-    "slug": "parking-spot-9",
-    "name": "Parking spot 9",
-    "stateCode": "10",
-    "state": "10",
-    "stateSlug": "10",
-    "providerCount": 1,
-    "clinicCount": 0,
-    "pharmacyCount": 0,
-    "wellnessCenterCount": 1,
-    "providers": [
-      "april-berkovich-wellness-studio-parking-spot-9-10"
     ],
     "services": [
       "peptide therapy"
@@ -15341,24 +14494,6 @@
     "wellnessCenterCount": 0,
     "providers": [
       "superior-compounding-pharmacy-plymouth-mi"
-    ],
-    "services": [
-      "peptide therapy"
-    ],
-    "peptides": []
-  },
-  {
-    "slug": "pmb-2439",
-    "name": "PMB#2439",
-    "stateCode": "TH",
-    "state": "The",
-    "stateSlug": "the",
-    "providerCount": 1,
-    "clinicCount": 0,
-    "pharmacyCount": 0,
-    "wellnessCenterCount": 1,
-    "providers": [
-      "premier-health-and-wellness-the-woodlands-pmb-2439-th"
     ],
     "services": [
       "peptide therapy"
@@ -15809,42 +14944,6 @@
     "wellnessCenterCount": 1,
     "providers": [
       "prime-md-aesthetics-wellness-rolesville-rolesville-nc"
-    ],
-    "services": [
-      "peptide therapy"
-    ],
-    "peptides": []
-  },
-  {
-    "slug": "room-10",
-    "name": "Room 10",
-    "stateCode": "SA",
-    "state": "Salt",
-    "stateSlug": "salt",
-    "providerCount": 1,
-    "clinicCount": 0,
-    "pharmacyCount": 0,
-    "wellnessCenterCount": 1,
-    "providers": [
-      "thrive-aesthetics-and-wellness-room-10-sa"
-    ],
-    "services": [
-      "peptide therapy"
-    ],
-    "peptides": []
-  },
-  {
-    "slug": "room-21",
-    "name": "Room 21",
-    "stateCode": "DA",
-    "state": "Dallas",
-    "stateSlug": "dallas",
-    "providerCount": 1,
-    "clinicCount": 1,
-    "pharmacyCount": 0,
-    "wellnessCenterCount": 0,
-    "providers": [
-      "optimize-by-jaenix-room-21-da"
     ],
     "services": [
       "peptide therapy"
@@ -16662,24 +15761,6 @@
     "peptides": []
   },
   {
-    "slug": "ste-1233",
-    "name": "Ste. 1233",
-    "stateCode": "SA",
-    "state": "San",
-    "stateSlug": "san",
-    "providerCount": 1,
-    "clinicCount": 1,
-    "pharmacyCount": 0,
-    "wellnessCenterCount": 0,
-    "providers": [
-      "infinite-health-zone-integrative-medicine-san-francisco-ste-1233-sa"
-    ],
-    "services": [
-      "peptide therapy"
-    ],
-    "peptides": []
-  },
-  {
     "slug": "sterling",
     "name": "Sterling",
     "stateCode": "VA",
@@ -16691,24 +15772,6 @@
     "wellnessCenterCount": 0,
     "providers": [
       "alphaboost-sterling-va"
-    ],
-    "services": [
-      "peptide therapy"
-    ],
-    "peptides": []
-  },
-  {
-    "slug": "steubenville-pike-suite-310",
-    "name": "Steubenville Pike Suite 310",
-    "stateCode": "66",
-    "state": "6600",
-    "stateSlug": "6600",
-    "providerCount": 1,
-    "clinicCount": 1,
-    "pharmacyCount": 0,
-    "wellnessCenterCount": 0,
-    "providers": [
-      "qc-kinetix-pittsburgh-steubenville-pike-suite-310-66"
     ],
     "services": [
       "peptide therapy"
@@ -16781,204 +15844,6 @@
     "wellnessCenterCount": 0,
     "providers": [
       "thryv-medical-sugar-hill-sugar-hill-ga"
-    ],
-    "services": [
-      "peptide therapy"
-    ],
-    "peptides": []
-  },
-  {
-    "slug": "suite-100",
-    "name": "Suite 100",
-    "stateCode": "AT",
-    "state": "Atlanta",
-    "stateSlug": "atlanta",
-    "providerCount": 1,
-    "clinicCount": 1,
-    "pharmacyCount": 0,
-    "wellnessCenterCount": 0,
-    "providers": [
-      "castle-rock-hormone-health-atlanta-suite-100-at"
-    ],
-    "services": [
-      "peptide therapy"
-    ],
-    "peptides": []
-  },
-  {
-    "slug": "suite-110",
-    "name": "Suite 110",
-    "stateCode": "BR",
-    "state": "Bryn",
-    "stateSlug": "bryn",
-    "providerCount": 1,
-    "clinicCount": 1,
-    "pharmacyCount": 0,
-    "wellnessCenterCount": 0,
-    "providers": [
-      "anti-aging-and-longevity-center-of-philadelphia-suite-110-br"
-    ],
-    "services": [
-      "peptide therapy"
-    ],
-    "peptides": []
-  },
-  {
-    "slug": "suite-120",
-    "name": "Suite 120",
-    "stateCode": "BE",
-    "state": "Bellevue",
-    "stateSlug": "bellevue",
-    "providerCount": 1,
-    "clinicCount": 0,
-    "pharmacyCount": 0,
-    "wellnessCenterCount": 1,
-    "providers": [
-      "natural-rejuvenation-medspa-suite-120-be"
-    ],
-    "services": [
-      "peptide therapy"
-    ],
-    "peptides": []
-  },
-  {
-    "slug": "suite-120",
-    "name": "Suite 120",
-    "stateCode": "RA",
-    "state": "Raleigh",
-    "stateSlug": "raleigh",
-    "providerCount": 1,
-    "clinicCount": 0,
-    "pharmacyCount": 0,
-    "wellnessCenterCount": 1,
-    "providers": [
-      "hormone-wellness-md-suite-120-ra"
-    ],
-    "services": [
-      "peptide therapy"
-    ],
-    "peptides": []
-  },
-  {
-    "slug": "suite-1401",
-    "name": "suite 1401",
-    "stateCode": "HO",
-    "state": "Honolulu",
-    "stateSlug": "honolulu",
-    "providerCount": 1,
-    "clinicCount": 0,
-    "pharmacyCount": 0,
-    "wellnessCenterCount": 1,
-    "providers": [
-      "beachside-aesthetics-and-wellness-suite-1401-ho"
-    ],
-    "services": [
-      "peptide therapy"
-    ],
-    "peptides": []
-  },
-  {
-    "slug": "suite-222",
-    "name": "Suite 222",
-    "stateCode": "WA",
-    "state": "Wayne",
-    "stateSlug": "wayne",
-    "providerCount": 1,
-    "clinicCount": 1,
-    "pharmacyCount": 0,
-    "wellnessCenterCount": 0,
-    "providers": [
-      "philadelphia-integrative-medicine-suite-222-wa"
-    ],
-    "services": [
-      "peptide therapy"
-    ],
-    "peptides": []
-  },
-  {
-    "slug": "suite-302",
-    "name": "Suite 302",
-    "stateCode": "SA",
-    "state": "San",
-    "stateSlug": "san",
-    "providerCount": 1,
-    "clinicCount": 0,
-    "pharmacyCount": 0,
-    "wellnessCenterCount": 1,
-    "providers": [
-      "prime-vitality-total-wellness-and-medical-spa-suite-302-sa"
-    ],
-    "services": [
-      "peptide therapy"
-    ],
-    "peptides": []
-  },
-  {
-    "slug": "suite-400",
-    "name": "Suite 400",
-    "stateCode": "ME",
-    "state": "Memphis",
-    "stateSlug": "memphis",
-    "providerCount": 1,
-    "clinicCount": 0,
-    "pharmacyCount": 0,
-    "wellnessCenterCount": 1,
-    "providers": [
-      "poplar-avenue-clinic-womens-health-and-med-spa-suite-400-me"
-    ],
-    "services": [
-      "peptide therapy"
-    ],
-    "peptides": []
-  },
-  {
-    "slug": "suite-b1",
-    "name": "Suite B1",
-    "stateCode": "NE",
-    "state": "New",
-    "stateSlug": "new",
-    "providerCount": 1,
-    "clinicCount": 1,
-    "pharmacyCount": 0,
-    "wellnessCenterCount": 0,
-    "providers": [
-      "regenhealth-physicians-suite-b1-ne"
-    ],
-    "services": [
-      "peptide therapy"
-    ],
-    "peptides": []
-  },
-  {
-    "slug": "suite-h",
-    "name": "Suite H",
-    "stateCode": "HO",
-    "state": "Houston",
-    "stateSlug": "houston",
-    "providerCount": 1,
-    "clinicCount": 1,
-    "pharmacyCount": 0,
-    "wellnessCenterCount": 0,
-    "providers": [
-      "synergenx-vintage-park-hormone-health-and-trt-clinic-suite-h-ho"
-    ],
-    "services": [
-      "peptide therapy"
-    ],
-    "peptides": []
-  },
-  {
-    "slug": "suite100",
-    "name": "Suite100",
-    "stateCode": "BE",
-    "state": "Bend",
-    "stateSlug": "bend",
-    "providerCount": 1,
-    "clinicCount": 1,
-    "pharmacyCount": 0,
-    "wellnessCenterCount": 0,
-    "providers": [
-      "inspired-health-apothecary-suite100-be"
     ],
     "services": [
       "peptide therapy"
@@ -17166,24 +16031,6 @@
     "peptides": []
   },
   {
-    "slug": "tower-2",
-    "name": "Tower 2",
-    "stateCode": "4T",
-    "state": "4th",
-    "stateSlug": "4th",
-    "providerCount": 1,
-    "clinicCount": 1,
-    "pharmacyCount": 0,
-    "wellnessCenterCount": 0,
-    "providers": [
-      "qc-kinetix-dallas-tower-2-4t"
-    ],
-    "services": [
-      "peptide therapy"
-    ],
-    "peptides": []
-  },
-  {
     "slug": "town-center",
     "name": "Town Center",
     "stateCode": "OR",
@@ -17321,24 +16168,6 @@
     "wellnessCenterCount": 0,
     "providers": [
       "the-menopause-center-of-northern-virginia-vienna-va"
-    ],
-    "services": [
-      "peptide therapy"
-    ],
-    "peptides": []
-  },
-  {
-    "slug": "vineyard-office-building",
-    "name": "Vineyard Office Building",
-    "stateCode": "27",
-    "state": "275",
-    "stateSlug": "275",
-    "providerCount": 1,
-    "clinicCount": 1,
-    "pharmacyCount": 0,
-    "wellnessCenterCount": 0,
-    "providers": [
-      "revive-therapy-and-aesthetics-vineyard-office-building-27"
     ],
     "services": [
       "peptide therapy"
@@ -17915,24 +16744,6 @@
     "wellnessCenterCount": 0,
     "providers": [
       "psi-medical-group-wixom-mi"
-    ],
-    "services": [
-      "peptide therapy"
-    ],
-    "peptides": []
-  },
-  {
-    "slug": "women-and-infants-center",
-    "name": "Women and Infants Center",
-    "stateCode": "BI",
-    "state": "Birmingham",
-    "stateSlug": "birmingham",
-    "providerCount": 1,
-    "clinicCount": 1,
-    "pharmacyCount": 0,
-    "wellnessCenterCount": 0,
-    "providers": [
-      "uab-bone-marrow-transplant-women-and-infants-center-bi"
     ],
     "services": [
       "peptide therapy"

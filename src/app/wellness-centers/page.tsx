@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 
 export default function WellnessCentersPage() {
   const centers = getProvidersByType("wellness-center");
-  const BASE = "https://peptidesnearby.com";
+  const BASE = "https://www.peptidesnearby.com";
 
   return (
     <>

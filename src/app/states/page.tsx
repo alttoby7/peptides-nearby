@@ -16,8 +16,8 @@ export default function StatesPage() {
     <>
       <JsonLd
         data={breadcrumbJsonLd([
-          { name: "Home", url: "https://peptidesnearby.com" },
-          { name: "States", url: "https://peptidesnearby.com/states" },
+          { name: "Home", url: "https://www.peptidesnearby.com" },
+          { name: "States", url: "https://www.peptidesnearby.com/states" },
         ])}
       />
 

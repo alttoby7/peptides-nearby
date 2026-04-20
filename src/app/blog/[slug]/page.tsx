@@ -35,16 +35,16 @@ function blogPostingJsonLd(article: NonNullable<ReturnType<typeof getArticleBySl
     author: {
       "@type": "Organization",
       name: "Peptides Nearby",
-      url: "https://peptidesnearby.com",
+      url: "https://www.peptidesnearby.com",
     },
     publisher: {
       "@type": "Organization",
       name: "Peptides Nearby",
-      url: "https://peptidesnearby.com",
+      url: "https://www.peptidesnearby.com",
     },
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": `https://peptidesnearby.com/blog/${article.slug}`,
+      "@id": `https://www.peptidesnearby.com/blog/${article.slug}`,
     },
   };
 }
@@ -54,7 +54,7 @@ export default async function BlogArticlePage({ params }: Props) {
   const article = getArticleBySlug(slug);
   if (!article) notFound();
 
-  const BASE = "https://peptidesnearby.com";
+  const BASE = "https://www.peptidesnearby.com";
 
   return (
     <>

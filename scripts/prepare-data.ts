@@ -13,6 +13,31 @@ function stateSlug(state: string): string {
   return slugify(state);
 }
 
+// US state + DC + territory codes — anything outside this set gets dropped
+const VALID_STATE_CODES = new Set([
+  "AL","AK","AZ","AR","CA","CO","CT","DE","FL","GA",
+  "HI","ID","IL","IN","IA","KS","KY","LA","ME","MD",
+  "MA","MI","MN","MS","MO","MT","NE","NV","NH","NJ",
+  "NM","NY","NC","ND","OH","OK","OR","PA","RI","SC",
+  "SD","TN","TX","UT","VT","VA","WA","WV","WI","WY",
+  "DC","PR","VI","GU","AS","MP",
+]);
+
+// City-name validator: reject numeric-only, single/double letters, or obvious junk
+function isValidCityName(name: string): boolean {
+  if (!name) return false;
+  const trimmed = name.trim();
+  if (trimmed.length < 3) return false;
+  if (/^\d+$/.test(trimmed)) return false;
+  if (/^(st|rd|th|nd|ave|blvd|ln|dr)$/i.test(trimmed)) return false;
+  if (/\b(parking|spot|suite|unit|floor)\b/i.test(trimmed)) return false;
+  // Must contain at least one letter sequence of 3+
+  if (!/[A-Za-z]{3,}/.test(trimmed)) return false;
+  return true;
+}
+
+const rejectedLocalities: { reason: string; city?: string; stateCode?: string; state?: string }[] = [];
+
 // --- Load source data ---
 const ROOT = resolve(__dirname, "..");
 const RAW = resolve(ROOT, "data/raw");
@@ -91,10 +116,26 @@ for (const p of activeProviders) {
 // Merge with seed cities (ensures empty city pages exist)
 const citySet = new Map<string, RawCity>();
 for (const c of rawCities) {
+  if (!VALID_STATE_CODES.has(c.stateCode)) {
+    rejectedLocalities.push({ reason: "invalid-state-code", city: c.name, stateCode: c.stateCode, state: c.state });
+    continue;
+  }
+  if (!isValidCityName(c.name)) {
+    rejectedLocalities.push({ reason: "invalid-city-name", city: c.name, stateCode: c.stateCode, state: c.state });
+    continue;
+  }
   citySet.set(`${slugify(c.name)}|${c.stateCode}`, c);
 }
 // Also add any cities from providers not in seed list
 for (const p of activeProviders) {
+  if (!VALID_STATE_CODES.has(p.address.stateCode)) {
+    rejectedLocalities.push({ reason: "invalid-state-code", city: p.address.city, stateCode: p.address.stateCode, state: p.address.state });
+    continue;
+  }
+  if (!isValidCityName(p.address.city)) {
+    rejectedLocalities.push({ reason: "invalid-city-name", city: p.address.city, stateCode: p.address.stateCode, state: p.address.state });
+    continue;
+  }
   const key = `${slugify(p.address.city)}|${p.address.stateCode}`;
   if (!citySet.has(key)) {
     citySet.set(key, {
@@ -152,9 +193,17 @@ cities.sort((a, b) => b.providerCount - a.providerCount || a.name.localeCompare(
 writeFileSync(resolve(OUT, "cities.json"), JSON.stringify(cities, null, 2));
 console.log(`Wrote ${cities.length} cities to cities.json`);
 
+// Write locality rejection log for Supabase cleanup pass
+if (rejectedLocalities.length > 0) {
+  const logPath = resolve(ROOT, "data/malformed-locality-cleanup.log");
+  writeFileSync(logPath, JSON.stringify(rejectedLocalities, null, 2));
+  console.log(`Logged ${rejectedLocalities.length} rejected locality entries to malformed-locality-cleanup.log`);
+}
+
 // --- Build states.json ---
 const stateMap = new Map<string, { name: string; code: string; cities: Set<string>; providerCount: number }>();
 for (const c of cities) {
+  if (!VALID_STATE_CODES.has(c.stateCode)) continue;
   if (!stateMap.has(c.stateCode)) {
     stateMap.set(c.stateCode, {
       name: c.state,
@@ -466,7 +515,16 @@ writeFileSync(resolve(OUT, "search-index.json"), JSON.stringify(searchIndex, nul
 console.log(`Wrote ${searchIndex.length} entries to search-index.json`);
 
 // --- Generate sitemap.xml ---
-const BASE_URL = "https://peptidesnearby.com";
+const BASE_URL = "https://www.peptidesnearby.com";
+
+// Sitemap quality thresholds — pages below these get excluded from the sitemap
+// (they still render, but aren't advertised to Google until they earn their spot)
+const MIN_PROVIDERS_PEPTIDE = 3;
+const MIN_PROVIDERS_STATE = 10;
+const MIN_PROVIDERS_CITY = 3;
+const MIN_PROVIDERS_GOAL = 5;
+const MIN_PROVIDERS_TELEHEALTH_STATE = 3;
+
 const urls: string[] = [
   "/",
   "/states",
@@ -483,42 +541,66 @@ const urls: string[] = [
   "/terms",
 ];
 
-// State pages
+const sitemapStats = {
+  stateIncluded: 0, stateExcluded: 0,
+  cityIncluded: 0, cityExcluded: 0,
+  providerIncluded: 0,
+  peptideIncluded: 0, peptideExcluded: 0,
+  telehealthStateIncluded: 0, telehealthStateExcluded: 0,
+  goalIncluded: 0, goalExcluded: 0,
+  telehealthPeptideIncluded: 0,
+};
+
+// State pages — gate on provider count + valid state code
 for (const s of states) {
+  if (!VALID_STATE_CODES.has(s.code)) { sitemapStats.stateExcluded++; continue; }
+  if (s.providerCount < MIN_PROVIDERS_STATE) { sitemapStats.stateExcluded++; continue; }
   urls.push(`/${s.slug}`);
+  sitemapStats.stateIncluded++;
 }
 
-// City pages
+// City pages — gate on provider count
 for (const c of cities) {
+  if (c.providerCount < MIN_PROVIDERS_CITY) { sitemapStats.cityExcluded++; continue; }
   urls.push(`/${c.stateSlug}/${c.slug}`);
+  sitemapStats.cityIncluded++;
 }
 
-// Provider pages
+// Provider pages — keep all active providers (they're the core inventory)
 for (const p of activeProviders) {
-  const citySlug = slugify(p.address.city);
-  const stSlug = stateSlug(p.address.state);
   urls.push(`/providers/${p.slug}`);
+  sitemapStats.providerIncluded++;
 }
 
-// Service pages
+// Peptide pages — gate on provider count (this is the big thin-content fix)
 for (const s of services) {
+  if (s.providerCount < MIN_PROVIDERS_PEPTIDE) { sitemapStats.peptideExcluded++; continue; }
   urls.push(`/peptides/${s.slug}`);
+  sitemapStats.peptideIncluded++;
 }
 
 // Telehealth state pages
 for (const t of telehealthStates) {
+  if (t.providerCount < MIN_PROVIDERS_TELEHEALTH_STATE) { sitemapStats.telehealthStateExcluded++; continue; }
   urls.push(`/telehealth/${t.stateSlug}`);
+  sitemapStats.telehealthStateIncluded++;
 }
 
-// Goal pages
+// Goal pages — gate on provider count
 for (const g of goals) {
+  const providerCount = (g as { providerCount?: number }).providerCount ?? 0;
+  if (providerCount < MIN_PROVIDERS_GOAL) { sitemapStats.goalExcluded++; continue; }
   urls.push(`/goals/${g.slug}`);
+  sitemapStats.goalIncluded++;
 }
 
-// Telehealth peptide pages
+// Telehealth peptide pages — already filtered upstream (≥3 providers)
 for (const tp of telehealthPeptides) {
   urls.push(`/telehealth/peptides/${tp.slug}`);
+  sitemapStats.telehealthPeptideIncluded++;
 }
+
+console.log(`Sitemap quality gate: ${JSON.stringify(sitemapStats)}`);
 
 const today = new Date().toISOString().split("T")[0];
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>

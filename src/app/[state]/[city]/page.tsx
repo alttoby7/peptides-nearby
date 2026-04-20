@@ -20,9 +20,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { state: stateSlug, city: citySlug } = await params;
   const city = getCityBySlugAndStateSlug(citySlug, stateSlug);
   if (!city) return {};
+  const thin = city.providerCount < 3;
   return {
-    title: `Peptide Therapy in ${city.name}, ${city.stateCode} — ${city.providerCount} Providers`,
-    description: `Find ${city.providerCount} peptide therapy clinics, compounding pharmacies, and wellness centers in ${city.name}, ${city.stateCode}. Compare providers, services, and book your visit.`,
+    title: `Peptide Therapy in ${city.name}, ${city.stateCode}${city.providerCount > 0 ? ` — ${city.providerCount} Providers` : ""}`,
+    description: city.providerCount > 0
+      ? `Find ${city.providerCount} peptide therapy clinics, compounding pharmacies, and wellness centers in ${city.name}, ${city.stateCode}. Compare providers, services, and book your visit.`
+      : `Looking for peptide therapy in ${city.name}, ${city.stateCode}? Submit a local practice or explore online vendors.`,
+    robots: thin ? { index: false, follow: true } : undefined,
   };
 }
 
@@ -35,7 +39,7 @@ export default async function CityPage({ params }: Props) {
   if (!state) notFound();
 
   const providers = getProvidersByCity(citySlug, city.stateCode);
-  const BASE = "https://peptidesnearby.com";
+  const BASE = "https://www.peptidesnearby.com";
 
   return (
     <>

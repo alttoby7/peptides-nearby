@@ -45,7 +45,7 @@ export default async function TelehealthPeptidePage({ params }: Props) {
     .map((s) => getProviderBySlug(s))
     .filter((p) => p !== undefined);
 
-  const BASE = "https://peptidesnearby.com";
+  const BASE = "https://www.peptidesnearby.com";
 
   return (
     <>

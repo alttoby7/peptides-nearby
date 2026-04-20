@@ -30,7 +30,7 @@ export const metadata: Metadata = {
 };
 
 export default function TelehealthHubPage() {
-  const BASE = "https://peptidesnearby.com";
+  const BASE = "https://www.peptidesnearby.com";
   const totalProviders = new Set(telehealthStates.flatMap((s) => s.providerSlugs)).size;
 
   return (

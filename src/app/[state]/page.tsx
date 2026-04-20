@@ -15,9 +15,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { state: stateSlug } = await params;
   const state = getStateBySlug(stateSlug);
   if (!state) return {};
+  const thin = state.providerCount < 10;
   return {
-    title: `Peptide Therapy in ${state.name} — ${state.providerCount} Providers`,
+    title: `Peptide Therapy in ${state.name}${state.providerCount > 0 ? ` — ${state.providerCount} Providers` : ""}`,
     description: `Find peptide therapy clinics, compounding pharmacies, and wellness centers in ${state.name}. Browse ${state.cityCount} cities with ${state.providerCount} providers.`,
+    robots: thin ? { index: false, follow: true } : undefined,
   };
 }
 
@@ -27,7 +29,7 @@ export default async function StatePage({ params }: Props) {
   if (!state) notFound();
 
   const cities = getCitiesByStateSlug(stateSlug);
-  const BASE = "https://peptidesnearby.com";
+  const BASE = "https://www.peptidesnearby.com";
 
   return (
     <>
