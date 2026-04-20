@@ -6,7 +6,7 @@ import Link from "next/link";
 import searchIndexData from "@/lib/data/search-index.json";
 import type { SearchIndexEntry } from "@/lib/data/schemas";
 
-const searchIndex: SearchIndexEntry[] = searchIndexData as SearchIndexEntry[];
+const searchIndex = searchIndexData as unknown as SearchIndexEntry[];
 
 const TYPE_LABELS: Record<string, string> = {
   clinic: "Clinic",
