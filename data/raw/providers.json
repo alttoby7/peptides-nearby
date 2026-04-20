@@ -2267,7 +2267,9 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "sermorelin"
+    ],
     "insurance": "unknown",
     "hours": null,
     "featured": false,
@@ -2388,7 +2390,10 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "insurance": "unknown",
     "hours": null,
     "featured": false,
@@ -2778,7 +2783,10 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "insurance": "unknown",
     "hours": null,
     "featured": false,
@@ -7715,7 +7723,9 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "insurance": "accepted",
     "hours": null,
     "featured": false,
@@ -8056,7 +8066,10 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "nad-plus"
+    ],
     "insurance": "unknown",
     "hours": null,
     "featured": false,
@@ -10085,7 +10098,10 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "insurance": "accepted",
     "hours": null,
     "featured": false,
@@ -10595,7 +10611,9 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "insurance": "unknown",
     "hours": null,
     "featured": false,
@@ -11581,7 +11599,9 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "insurance": "unknown",
     "hours": null,
     "featured": false,
@@ -11610,7 +11630,9 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "insurance": "unknown",
     "hours": null,
     "featured": false,
@@ -13215,7 +13237,9 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "insurance": "unknown",
     "hours": null,
     "featured": false,
@@ -13244,7 +13268,9 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "insurance": "unknown",
     "hours": null,
     "featured": false,
@@ -13634,7 +13660,9 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "insurance": "accepted",
     "hours": null,
     "featured": false,
@@ -20168,7 +20196,9 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "insurance": "accepted",
     "hours": null,
     "featured": false,
@@ -21618,7 +21648,10 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "insurance": "varies",
     "hours": null,
     "featured": false,
@@ -23356,7 +23389,9 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "insurance": "unknown",
     "hours": null,
     "featured": false,
@@ -23385,7 +23420,9 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "insurance": "unknown",
     "hours": null,
     "featured": false,
@@ -24691,7 +24728,10 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "insurance": "accepted",
     "hours": null,
     "featured": false,
@@ -24991,7 +25031,9 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "insurance": "unknown",
     "hours": null,
     "featured": false,
@@ -25272,7 +25314,9 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "insurance": "accepted",
     "hours": null,
     "featured": false,
@@ -27761,7 +27805,10 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "insurance": "unknown",
     "hours": null,
     "featured": false,
@@ -28556,7 +28603,10 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "insurance": "unknown",
     "hours": null,
     "featured": false,
@@ -29276,7 +29326,9 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "cjc-1295-ipamorelin"
+    ],
     "insurance": "unknown",
     "hours": null,
     "featured": false,
@@ -30260,7 +30312,9 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "insurance": "unknown",
     "hours": null,
     "featured": false,
@@ -30618,7 +30672,10 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "insurance": "varies",
     "hours": null,
     "featured": false,
@@ -30830,7 +30887,10 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "ghrp-6"
+    ],
     "insurance": "varies",
     "hours": null,
     "featured": false,
@@ -32128,7 +32188,9 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "pt-141"
+    ],
     "insurance": "unknown",
     "hours": null,
     "featured": false,
@@ -32682,7 +32744,9 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "insurance": "varies",
     "hours": null,
     "featured": false,
@@ -33216,7 +33280,9 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "insurance": "varies",
     "hours": null,
     "featured": false,
@@ -40324,7 +40390,9 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "insurance": "unknown",
     "hours": null,
     "featured": false,
@@ -40965,7 +41033,9 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "insurance": "varies",
     "hours": null,
     "featured": false,
@@ -41081,7 +41151,10 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "insurance": "unknown",
     "hours": null,
     "featured": false,
@@ -42355,7 +42428,9 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "insurance": "unknown",
     "hours": null,
     "featured": false,
@@ -42684,7 +42759,10 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "insurance": "varies",
     "hours": null,
     "featured": false,
@@ -43906,7 +43984,9 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "insurance": "unknown",
     "hours": null,
     "featured": false,
@@ -48386,7 +48466,9 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "insurance": "varies",
     "hours": null,
     "featured": false,
@@ -50123,7 +50205,9 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "insurance": "unknown",
     "hours": null,
     "featured": false,
@@ -50386,7 +50470,9 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "insurance": "varies",
     "hours": null,
     "featured": false,
@@ -50998,7 +51084,9 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "cjc-1295-ipamorelin"
+    ],
     "insurance": "unknown",
     "hours": null,
     "featured": false,
@@ -51494,7 +51582,9 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "insurance": "unknown",
     "hours": null,
     "featured": false,
@@ -51587,7 +51677,9 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "insurance": "accepted",
     "hours": null,
     "featured": false,
@@ -51825,7 +51917,9 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "insurance": "varies",
     "hours": null,
     "featured": false,
@@ -51858,7 +51952,10 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "bpc-157",
+      "tb-500"
+    ],
     "insurance": "unknown",
     "hours": null,
     "featured": false,
@@ -52578,7 +52675,10 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "insurance": "varies",
     "hours": null,
     "featured": false,
@@ -53526,7 +53626,12 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide",
+      "sermorelin",
+      "pt-141"
+    ],
     "insurance": "varies",
     "hours": null,
     "featured": false,
@@ -55820,7 +55925,9 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "insurance": "accepted",
     "hours": null,
     "featured": false,
@@ -55911,7 +56018,9 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "insurance": "unknown",
     "hours": null,
     "featured": false,
@@ -55969,7 +56078,9 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "insurance": "varies",
     "hours": null,
     "featured": false,
@@ -58645,7 +58756,9 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "insurance": "unknown",
     "hours": null,
     "featured": false,
@@ -58674,7 +58787,9 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "insurance": "unknown",
     "hours": null,
     "featured": false,
@@ -60084,7 +60199,9 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "insurance": "unknown",
     "hours": null,
     "featured": false,
@@ -61546,7 +61663,10 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "insurance": "varies",
     "hours": null,
     "featured": false,
@@ -61861,7 +61981,9 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "insurance": "accepted",
     "hours": null,
     "featured": false,
@@ -62955,7 +63077,10 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "insurance": "unknown",
     "hours": null,
     "featured": false,
@@ -64585,7 +64710,9 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "insurance": "unknown",
     "hours": null,
     "featured": false,
@@ -66940,7 +67067,10 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "insurance": "unknown",
     "hours": null,
     "featured": false,
@@ -68814,7 +68944,9 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "insurance": "unknown",
     "hours": null,
     "featured": false,
@@ -70269,7 +70401,9 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "insurance": "unknown",
     "hours": null,
     "featured": false,
@@ -70750,7 +70884,9 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "insurance": "unknown",
     "hours": null,
     "featured": false,
@@ -75313,7 +75449,9 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "insurance": "unknown",
     "hours": null,
     "featured": false,
@@ -76407,7 +76545,9 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "insurance": "unknown",
     "hours": null,
     "featured": false,
@@ -78115,7 +78255,9 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "insurance": "varies",
     "hours": null,
     "featured": false,
@@ -78833,7 +78975,9 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "insurance": "varies",
     "hours": null,
     "featured": false,
@@ -78902,7 +79046,10 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "insurance": "unknown",
     "hours": null,
     "featured": false,
@@ -79024,7 +79171,9 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "insurance": "unknown",
     "hours": null,
     "featured": false,
@@ -79271,7 +79420,9 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "insurance": "unknown",
     "hours": null,
     "featured": false,
@@ -82017,7 +82168,9 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "insurance": "unknown",
     "hours": null,
     "featured": false,
@@ -82046,7 +82199,9 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "insurance": "unknown",
     "hours": null,
     "featured": false,
@@ -85281,7 +85436,9 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "insurance": "unknown",
     "hours": null,
     "featured": false,
@@ -85397,7 +85554,9 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "insurance": "unknown",
     "hours": null,
     "featured": false,
@@ -89466,7 +89625,9 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "insurance": "unknown",
     "hours": null,
     "featured": false,
@@ -90129,7 +90290,9 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "insurance": "varies",
     "hours": null,
     "featured": false,
@@ -90158,7 +90321,9 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "insurance": "varies",
     "hours": null,
     "featured": false,
@@ -90401,7 +90566,10 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "insurance": "unknown",
     "hours": null,
     "featured": false,
@@ -91640,7 +91808,9 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "insurance": "varies",
     "hours": null,
     "featured": false,
@@ -92019,7 +92189,9 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "insurance": "accepted",
     "hours": null,
     "featured": false,
@@ -92800,7 +92972,9 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "insurance": "varies",
     "hours": null,
     "featured": false,
@@ -93618,7 +93792,9 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "insurance": "unknown",
     "hours": null,
     "featured": false,
@@ -93796,7 +93972,10 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "insurance": "unknown",
     "hours": null,
     "featured": false,
@@ -94991,7 +95170,9 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "insurance": "unknown",
     "hours": null,
     "featured": false,
@@ -96599,7 +96780,9 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "insurance": "unknown",
     "hours": null,
     "featured": false,
@@ -101455,7 +101638,9 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "insurance": "unknown",
     "hours": null,
     "featured": false,
@@ -101546,7 +101731,9 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "insurance": "unknown",
     "hours": null,
     "featured": false,
@@ -102980,7 +103167,9 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "insurance": "varies",
     "hours": null,
     "featured": false,
