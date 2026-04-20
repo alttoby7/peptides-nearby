@@ -1113,7 +1113,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "salibas-pharmacy-tucson-oro-valley-az",
@@ -1194,7 +1194,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "az-mix-compounding-pharmacy-phoenix-az",
@@ -1548,7 +1548,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "hormone-fitness-scottsdale-az",
@@ -1905,7 +1905,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "renu-wellness-clinic-scottsdale-az",
@@ -1920,7 +1920,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "revolution-regenerative-scottsdale-az",
@@ -1965,7 +1965,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "scottsdale-pain-rehabilitation-dr-fred-arnold-scottsdale-az",
@@ -2119,7 +2119,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "vitalitymds-scottsdale-az",
@@ -2710,7 +2710,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "the-mens-clinic-for-wellness-and-vitality-tucson-az",
@@ -2755,7 +2755,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "tucson-valley-functional-medicine-tucson-az",
@@ -2770,7 +2770,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "tucson-wellness-md-tucson-az",
@@ -2802,7 +2802,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "accepted",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "wildberrymd-weight-loss-wellness-and-med-spa-tucson-az",
@@ -2910,7 +2910,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "pelvic-health-support-hormones-pelvic-pain-sexual-wellness-it-s-all-connected-31-st-james-ave-805-bo",
@@ -2940,7 +2940,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "pdc-pharmacy-colorado-4665-nautilus-ct-s-bo",
@@ -3145,7 +3145,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "accepted",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "doctor-guy-beverly-hills-ca",
@@ -3321,7 +3321,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "burbank-compounding-pharmacy-burbank-ca",
@@ -3369,7 +3369,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "silicon-valley-pharmacy-campbell-ca",
@@ -3468,7 +3468,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "accepted",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "coastal-wellness-md-corona-del-mar-ca-1",
@@ -3492,7 +3492,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "accepted",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "prime-medicine-alternative-medicine-doctor-hormone-treatment-corona-del-mar-ca",
@@ -3942,7 +3942,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "hallers-pharmacy-and-medical-supply-fremont-ca",
@@ -3972,7 +3972,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "wellness-club-365-glendale-ca",
@@ -4061,7 +4061,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "alevizos-medical-john-alevizos-do-irvine-ca",
@@ -4078,7 +4078,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "american-male-medical-irvine-california-irvine-ca",
@@ -4114,7 +4114,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "accepted",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "breen-center-for-optimal-health-irvine-ca",
@@ -4266,7 +4266,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "integrative-medical-center-irvine-ca",
@@ -4281,7 +4281,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "accepted",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "integrative-medicine-orange-county-irvine-ca",
@@ -4587,7 +4587,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "peptide-and-testosterone-therapy-dr-bradley-noon-bioprime-medical-irvine-ca-1",
@@ -4608,7 +4608,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "premium-health-irvine-ca",
@@ -4627,7 +4627,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "recharge-lab-iv-hydration-med-spa-irvine-ca",
@@ -4970,7 +4970,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "accepted",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "grand-specialty-pharmacy-los-angeles-ca",
@@ -6081,7 +6081,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "performance-health-and-wellness-newport-beach-ca",
@@ -6306,7 +6306,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "the-womens-vitality-center-oakland-ca",
@@ -6490,7 +6490,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "arcade-lane-compounding-pharmacy-pasadena-ca",
@@ -6535,7 +6535,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "melien-institute-of-regenerative-medicine-pasadena-ca",
@@ -6604,7 +6604,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "accepted",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "rejuve-anti-aging-rancho-santa-margarita-ca",
@@ -6828,7 +6828,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "gameday-men-s-health-central-sacramento-sacramento-ca",
@@ -7066,7 +7066,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "sacramento-naturopathic-medical-center-sacramento-ca",
@@ -7083,7 +7083,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "skindripity-medspa-and-aesthetics-sacramento-ca",
@@ -7117,7 +7117,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "timberlake-pharmacy-sacramento-ca",
@@ -7244,7 +7244,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "biohackr-health-san-francisco-ca",
@@ -7264,7 +7264,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "california-longevity-and-vitality-medical-institute-rachel-meek-do-san-francisco-ca",
@@ -7329,7 +7329,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "accepted",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "complete-wellness-and-aesthetics-san-francisco-ca",
@@ -7510,7 +7510,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "accepted",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "parnassus-heights-pharmacy-san-francisco-ca",
@@ -8154,7 +8154,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "san-jose-pharmacy-san-jose-ca",
@@ -8581,7 +8581,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "orglife-pharmacy-and-compounding-studio-city-ca",
@@ -8613,7 +8613,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "novel-compounding-pharmacy-sylmar-ca",
@@ -8677,7 +8677,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "accepted",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "pharmamia-retail-and-compounding-pharmacy-trabuco-canyon-ca",
@@ -8789,7 +8789,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "scriptworks-a-professional-pharmacy-walnut-creek-ca",
@@ -10599,7 +10599,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "balanced-health-medical-center-pllc-testosterone-therapy-washington-dc",
@@ -10704,7 +10704,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "gw-center-for-integrative-medicine-washington-dc",
@@ -10719,7 +10719,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "indigo-integrative-health-clinic-washington-dc",
@@ -10753,7 +10753,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "accepted",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "javan-wellness-dupont-washington-dc",
@@ -10843,7 +10843,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "performance-rejuvenation-center-anti-aging-and-trt-clinic-washington-dc",
@@ -10860,7 +10860,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "performance-rejuvenation-center-anti-aging-and-trt-clinic-washington-dc-1",
@@ -10877,7 +10877,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "pill-plus-pharmacy-washington-dc",
@@ -10977,7 +10977,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "the-dripbar-d-c-georgetown-washington-dc",
@@ -11205,7 +11205,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "anodyne-of-boca-raton-boca-raton-fl",
@@ -11250,7 +11250,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "cdrx-compounding-pharmacy-boca-raton-fl",
@@ -11295,7 +11295,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "cr8-health-wellness-and-aesthetics-boca-raton-fl",
@@ -11312,7 +11312,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "florida-regenerative-health-centers-boca-raton-fl",
@@ -11379,7 +11379,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "not-accepted",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "genesis-wellness-boca-raton-fl",
@@ -11441,7 +11441,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "lifegaines-med-spa-boca-raton-fl",
@@ -11785,7 +11785,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "womens-health-partners-llc-boca-raton-fl",
@@ -11800,7 +11800,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "dennis-m-lox-m-d-sports-and-regenerative-medicine-centers-clearwater-fl",
@@ -11834,7 +11834,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "apothecary-and-compounding-coral-springs-fl",
@@ -11941,7 +11941,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "accepted",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "advanced-scripts-compounding-pharmacy-debary-fl",
@@ -11959,7 +11959,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "palm-beach-pharmacy-deerfield-beach-fl",
@@ -12212,7 +12212,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "advanced-relief-institute-fort-lauderdale-fl",
@@ -12263,7 +12263,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "compounding-pharmacy-usa-fort-lauderdale-fl",
@@ -12341,7 +12341,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "florida-mens-health-center-fort-lauderdale-fl",
@@ -12358,7 +12358,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "fusion-wellness-center-fort-lauderdale-fl",
@@ -12373,7 +12373,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "garden-drug-and-medical-supply-fort-lauderdale-fl",
@@ -12504,7 +12504,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "method-health-fort-lauderdale-fl",
@@ -12522,7 +12522,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "ocean-chemist-pharmacy-apothecary-fort-lauderdale-fl",
@@ -12605,7 +12605,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "rejuvchip-fort-lauderdale-fl",
@@ -12662,7 +12662,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "the-remedy-iv-health-wellness-fort-lauderdale-fl",
@@ -12746,7 +12746,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "apothicare-360-compounding-pharmacy-fort-myers-fl",
@@ -12825,7 +12825,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "ocean-family-pharmacy-hallandale-beach-fl",
@@ -12977,7 +12977,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "citizen-pharmacy-jacksonville-fl",
@@ -12992,7 +12992,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "accepted",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "coastal-health-and-medical-spa-jacksonville-fl",
@@ -13041,7 +13041,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "duval-pharmacy-201-jacksonville-fl",
@@ -13105,7 +13105,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "gameday-mens-health-jacksonville-fl-lakewood-trt-clinic-jacksonville-fl",
@@ -13127,7 +13127,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "not-accepted",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "healing-advanced-solutions-health-clinic-jacksonville-fl",
@@ -13175,7 +13175,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "accepted",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "hrt-doctors-group-jacksonville-fl",
@@ -13190,7 +13190,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "hydro-med-spa-jacksonville-fl",
@@ -13222,7 +13222,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "legends-health-and-wellness-jacksonville-fl",
@@ -13392,7 +13392,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "renew-vitality-testosterone-clinic-of-jacksonville-jacksonville-fl",
@@ -13434,7 +13434,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "rhaine-health-and-wellness-jacksonville-fl",
@@ -13481,7 +13481,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "accepted",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "southeastern-pharmacy-jacksonville-fl",
@@ -13581,7 +13581,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "thin-md-med-spa-jacksonville-jacksonville-fl",
@@ -13631,7 +13631,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "accepted",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "town-and-country-pharm-jacksonville-jacksonville-fl",
@@ -13801,7 +13801,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "regenerative-medicine-training-institute-jupiter-fl",
@@ -13861,7 +13861,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "envizion-medical-land-o-lakes-fl",
@@ -13928,7 +13928,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "south-beach-wellness-center-lutz-fl",
@@ -14039,7 +14039,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "1st-rx-new-port-richey-fl",
@@ -14057,7 +14057,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "invigorate-wellness-medical-new-port-richey-fl",
@@ -14076,7 +14076,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "the-center-for-regenerative-medicine-north-miami-fl",
@@ -14185,7 +14185,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "cr8-health-pga-longevity-center-north-palm-beach-fl-1",
@@ -14202,7 +14202,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "forever-young-bhrt-medical-clinic-oakland-park-fl",
@@ -14240,7 +14240,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "peptides-and-hormones-oakland-park-fl-1",
@@ -14261,7 +14261,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "ocala-pharmacy-and-compounding-center-ocala-fl",
@@ -14291,7 +14291,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "wells-road-pharmacy-orange-park-fl",
@@ -14309,7 +14309,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "accepted",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "4ever-young-anti-aging-and-wellness-center-orlando-fl",
@@ -14388,7 +14388,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "accepted",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "atlas-method-trt-and-mens-health-orlando-fl",
@@ -14475,7 +14475,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "dr-phillips-specialty-pharmacy-orlando-fl",
@@ -14537,7 +14537,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "first-choice-pharmacy-orlando-fl",
@@ -14552,7 +14552,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "florida-center-for-hormones-and-wellness-orlando-fl",
@@ -14567,7 +14567,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "florida-regenerative-medicine-orlando-orlando-fl",
@@ -14591,7 +14591,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "florida-wellness-and-regenerative-medicine-llc-orlando-fl",
@@ -15008,7 +15008,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "aromotion-palm-beach-gardens-fl",
@@ -15023,7 +15023,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "east-coast-nuclear-pharmacy-palm-beach-gardens-fl",
@@ -15068,7 +15068,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "kustom-wellness-pharmacy-palm-beach-gardens-fl",
@@ -15131,7 +15131,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "physicians-rejuvenation-centers-palm-beach-gardens-fl",
@@ -15231,7 +15231,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "king-pharmacy-and-compounding-llc-palm-harbor-fl",
@@ -15264,7 +15264,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "medwise-pharmacy-plantation-fl",
@@ -15488,7 +15488,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "marco-drugs-and-compounding-south-miami-fl",
@@ -15627,7 +15627,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "biodesign-clinic-medspa-tampa-fl",
@@ -15679,7 +15679,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "carrollwood-compounding-center-and-pharmacy-tampa-fl",
@@ -15724,7 +15724,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "accepted",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "emerald-compounding-pharmacy-tampa-fl",
@@ -15758,7 +15758,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "functional-living-and-aesthetics-tampa-fl",
@@ -15773,7 +15773,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "garcia-weight-loss-aesthetics-and-hormone-therapy-tampa-fl",
@@ -15841,7 +15841,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "infinity-pharmacy-tampa-fl",
@@ -15888,7 +15888,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "medrock-pharmacy-tampa-fl",
@@ -16004,7 +16004,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "pure-health-and-hormone-center-tampa-fl",
@@ -16042,7 +16042,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "save-your-body-hormone-and-bioclinic-tampa-fl",
@@ -16057,7 +16057,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "stemcellix-tampa-fl",
@@ -16094,7 +16094,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "tampa-bay-total-wellness-anti-aging-med-spa-tampa-fl",
@@ -16147,7 +16147,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "the-institute-of-vitality-tampa-fl",
@@ -16198,7 +16198,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "triunity-wellness-tampa-fl",
@@ -16213,7 +16213,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "4ever-young-anti-aging-solutions-wellington-fl",
@@ -16260,7 +16260,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "palm-beach-anti-aging-and-regenerative-medicine-llc-wellington-fl",
@@ -16292,7 +16292,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "optimal-wellness-at-the-shops-at-wiregrass-wesley-chapel-fl",
@@ -16433,7 +16433,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "not-accepted",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "gardens-drugs-west-palm-beach-medical-equipment-and-compounding-pharmacy-west-palm-beach-fl",
@@ -16496,7 +16496,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "palm-beach-knee-regeneration-specialist-west-palm-beach-fl",
@@ -16638,7 +16638,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "vital-vita-wellness-west-palm-beach-fl",
@@ -16860,7 +16860,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "mayascript-compounding-pharmacy-and-wellness-center-winter-park-fl",
@@ -16890,7 +16890,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "regencen-dr-gustav-lo-md-winter-park-fl",
@@ -16941,7 +16941,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "formulate-rx-compounding-pharmacy-winter-springs-fl",
@@ -17058,7 +17058,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "accepted",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "morgan-compounding-pharmacy-alpharetta-ga",
@@ -17135,7 +17135,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "balanced-aesthetics-wellness-atlanta-ga",
@@ -17152,7 +17152,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "balanced-bodies-wellness-atlanta-atlanta-ga",
@@ -17167,7 +17167,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "bodylogicmd-of-atlanta-atlanta-ga",
@@ -17238,7 +17238,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "fit9-wellness-atlanta-ga",
@@ -17253,7 +17253,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "gameday-mens-health-atlanta-ga-buckhead-atlanta-ga",
@@ -17444,7 +17444,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "renew-vitality-testosterone-clinic-of-atlanta-atlanta-ga",
@@ -17676,7 +17676,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "mckinneys-apothecary-decatur-ga",
@@ -17786,7 +17786,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "plenus-wellness-center-marietta-ga",
@@ -17816,7 +17816,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "coastal-age-management-md-llc-pooler-ga",
@@ -17966,7 +17966,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "not-accepted",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "integrity-compounding-pharmacy-sandy-springs-ga",
@@ -18013,7 +18013,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "regen-therapeutics-sandy-springs-ga",
@@ -18572,7 +18572,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "accepted",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "atlanta-city-compounding-pharmacy-tucker-ga",
@@ -18791,7 +18791,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "center-for-regenerative-health-med-spa-honolulu-hi",
@@ -19101,7 +19101,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "michelles-beauty-and-wellness-center-llc-honolulu-hi",
@@ -19133,7 +19133,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "accepted",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "nexgenesis-healthcare-hawaii-honolulu-hi",
@@ -19290,7 +19290,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "redefined-hawaii-kailua-hi",
@@ -19413,7 +19413,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "accepted",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "wellness-plus-care-11350-mccormick-rd-ll9-hu",
@@ -19431,7 +19431,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "dr-rachel-poll-wanninger-clive-ia",
@@ -20298,7 +20298,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "integrative-medicine-of-idaho-boise-id",
@@ -21128,7 +21128,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "accepted",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "better-med-spa-and-wellness-chicago-il",
@@ -21153,7 +21153,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "bliss-md-chicago-il",
@@ -21248,7 +21248,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "chicago-health-mart-pharmacy-chicago-il",
@@ -21263,7 +21263,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "chicagoland-mens-health-low-testosterone-replacement-therapy-chicago-il",
@@ -21712,7 +21712,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "transformrx-wellness-and-weight-loss-chicago-il",
@@ -21941,7 +21941,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "accepted",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "ashland-health-la-grange-il",
@@ -21992,7 +21992,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "lombard-pharmacy-lombard-il",
@@ -22067,7 +22067,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "vitality-eternal-med-spa-in-chicago-illinois-oak-brook-il",
@@ -22286,7 +22286,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "accepted",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "anderson-longevity-clinic-carmel-in",
@@ -22408,7 +22408,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "leader-drug-store-carmel-in",
@@ -22442,7 +22442,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "qc-kinetix-carmel-carmel-in",
@@ -22519,7 +22519,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "willowbrook-pharmacy-carmel-in",
@@ -22596,7 +22596,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "geist-pharmacy-fishers-in",
@@ -23050,7 +23050,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "restore-health-center-indianapolis-in",
@@ -23305,7 +23305,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "palm-beach-compounding-pharmacy-fl-a1aalt-1500-ju",
@@ -23510,7 +23510,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "wellspring-regenerative-health-leawood-ks",
@@ -23669,7 +23669,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "intelligent-health-kc-overland-park-ks",
@@ -23684,7 +23684,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "accepted",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "kansas-regencares-medical-center-overland-park-ks",
@@ -23749,7 +23749,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "neuage-health-wellness-leawood-overland-park-ks",
@@ -23796,7 +23796,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "stark-edler-apothecary-overland-park-ks",
@@ -25899,7 +25899,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "recharge-on-clarendon-medspa-boston-ma",
@@ -25973,7 +25973,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "shah-wellness-and-medspa-boston-ma",
@@ -26048,7 +26048,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "vibe-wellness-boston-ma",
@@ -26202,7 +26202,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "v-care-pharmacy-of-chestnut-hill-chestnut-hill-ma",
@@ -26264,7 +26264,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "optimal-wellness-md-lynnfield-ma",
@@ -26279,7 +26279,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "women-s-wellness-and-menopause-center-of-the-north-shore-marblehead-ma",
@@ -26294,7 +26294,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "the-iv-hub-wellness-medford-ma",
@@ -26359,7 +26359,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "crown-colony-pharmacy-quincy-ma",
@@ -26422,7 +26422,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "boston-vitality-stoneham-ma",
@@ -26439,7 +26439,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "viva-wellness-center-stoneham-ma",
@@ -26696,7 +26696,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "erdman-pharmacy-baltimore-md",
@@ -26728,7 +26728,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "invein-aesthetics-baltimore-md",
@@ -26805,7 +26805,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "optihealth-institute-eric-c-nager-md-baltimore-md",
@@ -26895,7 +26895,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "whole-body-healthcare-baltimore-md",
@@ -26928,7 +26928,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "accepted",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "renew-vitality-testosterone-clinic-of-bethesda-md-bethesda-md",
@@ -27000,7 +27000,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "the-wellness-lab-md-catonsville-md",
@@ -27019,7 +27019,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "advanced-regenerative-medicine-chevy-chase-md",
@@ -27082,7 +27082,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "accepted",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "be-the-change-health-and-wellness-center-columbia-md",
@@ -27129,7 +27129,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "integrative-medicine-at-crossroads-ellicott-city-md",
@@ -27159,7 +27159,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "professional-arts-pharmacy-ellicott-city-md",
@@ -27264,7 +27264,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "accepted",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "womens-health-services-of-maryland-glen-burnie-md",
@@ -27389,7 +27389,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "gameday-mens-health-owings-mills-ed-and-trt-clinic-owings-mills-md",
@@ -27443,7 +27443,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "accepted",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "renew-wellness-center-parkville-md",
@@ -27475,7 +27475,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "medluxe-wellness-phoenix-md",
@@ -27505,7 +27505,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "strength-and-vitality-wellness-center-pikesville-md",
@@ -27552,7 +27552,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "wellpharma-pharmacy-retail-and-compounding-randallstown-md",
@@ -27587,7 +27587,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "professional-pharmacy-rosedale-md",
@@ -27970,7 +27970,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "renew-my-wellness-birmingham-mi",
@@ -28056,7 +28056,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "physicians-compounding-pharmacy-bloomfield-township-mi",
@@ -28161,7 +28161,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "accepted",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "4ever-health-michigan-detroit-mi",
@@ -28454,7 +28454,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "accepted",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "vios-compounding-pharmacy-livonia-mi",
@@ -28658,7 +28658,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "elivate-wellness-aesthetics-southfield-mi",
@@ -28727,7 +28727,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "dalcoma-specialty-pharmacy-and-compounding-services-sterling-heights-mi",
@@ -28794,7 +28794,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "accepted",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "medivera-compounding-pharmacy-formerly-known-as-university-compounding-pharmacy-troy-mi-1",
@@ -28911,7 +28911,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "westland-hgh-peptide-therapy-clinic-westland-mi",
@@ -28956,7 +28956,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "verve-and-vigor-health-and-wellness-wyandotte-mi",
@@ -29158,7 +29158,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "hypercharge-health-and-aesthetics-edina-mn",
@@ -29520,7 +29520,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "accepted",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "pure-therapy-minneapolis-mn",
@@ -29622,7 +29622,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "infinite-youth-medical-spa-minnetonka-mn",
@@ -29689,7 +29689,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "accepted",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "plymouth-neuropathy-and-regenerative-care-plymouth-mn",
@@ -30080,7 +30080,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "accepted",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "revital-womens-hormone-clinic-chesterfield-mo",
@@ -30174,7 +30174,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "accepted",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "albers-medical-pharmacy-kansas-city-mo",
@@ -30424,7 +30424,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "accepted",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "gameday-mens-health-lees-summit-trt-peptide-and-ed-clinic-lees-summit-mo",
@@ -30609,7 +30609,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "apex-specialty-pharmacy-riverside-mo",
@@ -30654,7 +30654,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "us-womens-medical-center-st-peters-mo",
@@ -30809,7 +30809,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "medical-arts-clayton-pharmacy-st-louis-mo",
@@ -31344,7 +31344,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "biltmore-restorative-medicine-and-aesthetics-asheville-nc",
@@ -31855,7 +31855,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "triangle-compounding-pharmacy-cary-nc",
@@ -31962,7 +31962,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "carefirst-specialty-pharmacy-charlotte-nc",
@@ -32024,7 +32024,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "companion-health-pllc-charlotte-nc",
@@ -32451,7 +32451,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "accepted",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "vitality-center-of-charlotte-charlotte-nc",
@@ -32498,7 +32498,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "vida-compounding-pharmacy-formerly-medicap-pharmacy-concord-nc",
@@ -32547,7 +32547,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "central-compounding-center-south-durham-nc",
@@ -32604,7 +32604,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "revival-hormone-health-garner-nc",
@@ -32619,7 +32619,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "vital-n-p-functional-wellness-hampstead-nc",
@@ -32833,7 +32833,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "simone-medical-matthews-nc",
@@ -32850,7 +32850,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "accepted",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "gps-pharmacy-mint-hill-nc",
@@ -32925,7 +32925,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "anti-aging-and-functional-medicine-raleigh-nc",
@@ -33232,7 +33232,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "person-street-pharmacy-raleigh-nc",
@@ -33475,7 +33475,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "carolina-regenerative-health-wake-forest-nc-1",
@@ -34749,7 +34749,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "new-hampshire-regenerative-center-manchester-nh",
@@ -34796,7 +34796,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "clifton-pharmacy-and-compounding-center-clifton-nj",
@@ -35044,7 +35044,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "blooming-cactus-wellness-albuquerque-nm",
@@ -35059,7 +35059,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "accepted",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "duran-central-pharmacy-albuquerque-nm",
@@ -35317,7 +35317,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "modern-alchemist-compounding-pharmacy-albuquerque-nm",
@@ -35625,7 +35625,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "zia-infused-wellness-albuquerque-nm",
@@ -35774,7 +35774,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "identity-hormones-and-healthcare-henderson-nv",
@@ -35871,7 +35871,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "xena-health-menopause-and-womens-health-clinic-henderson-nv",
@@ -35918,7 +35918,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "accepted",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "acrx-specialty-pharmacy-las-vegas-nv",
@@ -36065,7 +36065,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "accepted",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "bloom-regenerative-las-vegas-nv",
@@ -36100,7 +36100,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "cenegenics-las-vegas-las-vegas-nv",
@@ -36163,7 +36163,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "halcyon-health-las-vegas-nv",
@@ -36195,7 +36195,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "infinite-wellness-lv-las-vegas-nv",
@@ -36287,7 +36287,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "accepted",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "monicos-pharmacy-las-vegas-nv",
@@ -36520,7 +36520,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "share-health-regenerative-medicine-and-wellness-clinic-las-vegas-nv",
@@ -36538,7 +36538,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "solutions-specialty-pharmacy-las-vegas-nv",
@@ -36600,7 +36600,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "accepted",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "vesper-specialty-pharmacy-las-vegas-nv",
@@ -36647,7 +36647,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "accepted",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "well-care-pharmacy-long-term-care-las-vegas-nv",
@@ -36792,7 +36792,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "accepted",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "apex-peptide-therapy-brooklyn-ny",
@@ -36888,7 +36888,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "westchester-compounding-pharmacy-eastchester-ny",
@@ -36950,7 +36950,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "regenerative-health-ny-little-neck-ny",
@@ -37027,7 +37027,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "advitam-new-york-ny",
@@ -37042,7 +37042,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "anna-barbieri-md-new-york-ny",
@@ -37093,7 +37093,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "aziz-michael-md-new-york-ny",
@@ -37108,7 +37108,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "accepted",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "berejuved-medical-spa-and-wellness-studio-nyc-new-york-ny",
@@ -37125,7 +37125,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "bioidentical-hormones-nyc-new-york-ny",
@@ -37143,7 +37143,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "cherrys-pharmacy-new-york-ny",
@@ -37315,7 +37315,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "maxim-regen-new-york-ny",
@@ -37393,7 +37393,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "nyc-hormone-replacement-therapy-doctor-new-york-ny",
@@ -37408,7 +37408,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "ospina-medical-new-york-ny",
@@ -37796,7 +37796,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "ageless-vitality-center-cincinnati-oh",
@@ -37811,7 +37811,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "altev-community-pharmacy-cincinnati-oh",
@@ -37886,7 +37886,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "not-accepted",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "equitas-health-cincinnati-pharmacy-cincinnati-oh",
@@ -38284,7 +38284,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "your-wellness-center-cincinnati-oh",
@@ -38406,7 +38406,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "gameday-mens-health-grandview-heights-trt-clinic-columbus-oh",
@@ -38826,7 +38826,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "qc-kinetix-dublin-dublin-oh",
@@ -39314,7 +39314,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "central-ohio-aesthetics-clinic-powell-oh",
@@ -39344,7 +39344,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "regen-medical-ripal-parikh-d-o-powell-oh",
@@ -39436,7 +39436,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "accepted",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "bonza-health-upper-arlington-oh",
@@ -39729,7 +39729,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "sherrys-drug-edmond-ok",
@@ -39979,7 +39979,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "center-for-joint-relief-south-okc-oklahoma-city-ok",
@@ -40357,7 +40357,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "shared-wellness-dennis-e-sandler-md-oklahoma-city-ok",
@@ -40464,7 +40464,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "vital-injections-oklahoma-city-ok",
@@ -40494,7 +40494,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "accepted",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "resurgence-health-tulsa-ok",
@@ -40584,7 +40584,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "natural-family-health-clinic-beaverton-or",
@@ -41490,7 +41490,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "fairleys-pharmacy-inc-portland-or",
@@ -41556,7 +41556,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "gateway-medical-pharmacy-long-term-care-and-compounding-pharmacy-portland-or",
@@ -41608,7 +41608,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "lecare-pharmacy-portland-or",
@@ -41668,7 +41668,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "okojie-wellness-aesthetics-anti-aging-center-in-portland-oregon-portland-or",
@@ -41700,7 +41700,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "optimize-u-pdx-portland-or",
@@ -41717,7 +41717,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "oregon-natural-medicine-llc-portland-or",
@@ -41824,7 +41824,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "renew-vitality-testosterone-clinic-of-portland-portland-or",
@@ -41867,7 +41867,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "rise2health-portland-or",
@@ -41955,7 +41955,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "upgrade-medical-portland-or",
@@ -42164,7 +42164,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "renew-vitality-testosterone-clinic-of-bala-cynwyd-bala-cynwyd-pa",
@@ -42369,7 +42369,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "the-hormone-center-carnegie-pa",
@@ -42386,7 +42386,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "pleasant-hills-pharmacy-clairton-pa",
@@ -42572,7 +42572,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "accepted",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "porters-compounding-pharmacy-moon-township-pa",
@@ -42619,7 +42619,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "nucell-regenerative-health-narberth-pa",
@@ -42634,7 +42634,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "the-medicine-shoppe-compounding-pharmacy-and-integrative-wellness-center-oakmont-pa",
@@ -42854,7 +42854,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "philadelphia-womens-health-and-wellness-philadelphia-pa",
@@ -43077,7 +43077,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "bloomfield-drug-store-pittsburgh-pa",
@@ -43242,7 +43242,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "renew-vitality-testosterone-clinic-of-pittsburgh-pittsburgh-pa",
@@ -43285,7 +43285,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "schillers-apothecary-by-apotheco-pharmacy-pittsburgh-pa",
@@ -43484,7 +43484,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "accepted",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "bebalanced-natural-hormone-weight-loss-wexford-pa",
@@ -43630,7 +43630,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "dr-jesse-a-sally-107-gamma-dr-220-pi",
@@ -43645,7 +43645,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "health-in-her-hands-menopause-hrt-and-weight-loss-6214-se-milwaukie-ave-po",
@@ -43660,7 +43660,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "hormone-wellness-md-suite-120-ra",
@@ -43803,7 +43803,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "vita-sana-medical-center-building-b-sc",
@@ -44170,7 +44170,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "biltmore-restorative-medicine-sexual-wellness-and-aesthetics-greenville-sc",
@@ -44815,7 +44815,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "essence-womens-health-and-weight-loss-clinic-214-s-lafayette-st-so",
@@ -44845,7 +44845,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "bebalanced-natural-hormone-weight-loss-300-brookside-ave-building-18-su",
@@ -44905,7 +44905,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "arlington-apothecary-your-hometown-pharmacy-arlington-tn",
@@ -45630,7 +45630,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "ease-wellness-memphis-tn",
@@ -46555,7 +46555,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "revital-health-and-wellness-clinics-smyrna-tn",
@@ -46728,7 +46728,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "grace-pharmacy-and-compounding-center-cypress-tx",
@@ -46825,7 +46825,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "dallas-bioidentical-hormone-therapy-dallas-tx",
@@ -46887,7 +46887,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "doughertys-pharmacy-dallas-tx",
@@ -46937,7 +46937,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "formula-wellness-uptown-west-village-dallas-tx",
@@ -46954,7 +46954,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "gameday-mens-health-dallas-north-trt-peptide-and-ed-clinic-dallas-tx",
@@ -47018,7 +47018,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "infinity-functional-performance-llc-dallas-tx",
@@ -47063,7 +47063,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "living-well-dallas-dallas-tx",
@@ -47269,7 +47269,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "thrivemd-institue-llc-dallas-tx",
@@ -47730,7 +47730,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "her-down-there-houston-tx",
@@ -47895,7 +47895,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "lifestem-regenerative-medicine-houston-tx",
@@ -47928,7 +47928,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "medx-pharmacy-houston-houston-tx",
@@ -48013,7 +48013,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "relive-health-memorial-houston-houston-tx",
@@ -48105,7 +48105,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "river-oaks-drip-spa-iv-therapy-and-hydration-center-houston-tx",
@@ -48141,7 +48141,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "accepted",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "texas-pain-and-regenerative-medicine-samir-fahed-md-houston-tx",
@@ -48238,7 +48238,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "trinity-specialty-pharmacy-houston-tx",
@@ -48317,7 +48317,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "anchor-restorative-medicine-irving-tx",
@@ -48603,7 +48603,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "accepted",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "legacy-pain-and-regenerative-medicine-plano-tx",
@@ -48713,7 +48713,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "4ever-young-med-spa-and-wellness-center-san-antonio-san-antonio-tx",
@@ -48758,7 +48758,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "alamo-specialty-pharmacy-stone-oak-san-antonio-tx",
@@ -48803,7 +48803,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "aspire-regenerative-therapy-san-antonio-tx",
@@ -48867,7 +48867,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "accepted",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "champs-pharmacy-san-antonio-tx",
@@ -48944,7 +48944,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "evolve-med-group-san-antonio-tx",
@@ -49073,7 +49073,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "accepted",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "healthnet-bio-identical-hormones-san-antonio-san-antonio-tx",
@@ -49118,7 +49118,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "hormone-wellness-center-of-san-antonio-san-antonio-tx",
@@ -49148,7 +49148,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "kaiser-medical-management-san-antonio-tx",
@@ -49213,7 +49213,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "new-era-wellness-center-san-antonio-tx",
@@ -49258,7 +49258,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "pharmerica-san-antonio-tx",
@@ -49404,7 +49404,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "accepted",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "synergenx-sonterra-hormone-health-and-trt-clinic-san-antonio-tx",
@@ -49422,7 +49422,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "accepted",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "synergy-pharmacy-san-antonio-tx",
@@ -49579,7 +49579,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "zikam-drive-thru-pharmacy-and-compounding-schertz-tx",
@@ -49614,7 +49614,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "the-woodlands-compounding-pharmacy-shenandoah-tx",
@@ -49738,7 +49738,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "spring-branch-pharmacy-spring-branch-tx",
@@ -49816,7 +49816,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "loma-health-and-wellness-tomball-tx",
@@ -49849,7 +49849,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "quality-care-pharmacy-and-compounding-wylie-tx",
@@ -50056,7 +50056,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "mt-olympus-compounding-draper-ut",
@@ -50277,7 +50277,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "vitalize-hormone-and-wellness-midvale-ut",
@@ -50564,7 +50564,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "elite-wellness-salt-lake-city-ut",
@@ -51007,7 +51007,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "neighborhood-pharmacy-del-ray-alexandria-va",
@@ -51062,7 +51062,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "accepted",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "interventional-pain-and-regenerative-medicine-specialists-arlington-va",
@@ -51077,7 +51077,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "joule-wellness-pharmacy-arlington-va",
@@ -51125,7 +51125,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "assure-wellness-group-chesapeake-va-chesapeake-va",
@@ -51325,7 +51325,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "prestons-compounding-pharmacy-falls-church-va-1",
@@ -51762,7 +51762,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "center-for-hormone-health-and-wellness-llc-newport-news-va",
@@ -52214,7 +52214,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "accepted",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "the-menopause-center-of-northern-virginia-vienna-va",
@@ -52232,7 +52232,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "ancient-wellness-center-virginia-beach-va",
@@ -52981,7 +52981,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "inner-vitality-bellevue-wa",
@@ -53030,7 +53030,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "vibrant-health-bellevue-wa",
@@ -53045,7 +53045,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "optimal-biohealth-bothell-wa",
@@ -53159,7 +53159,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "the-dynamic-regenerative-care-clinic-gig-harbor-wa",
@@ -53219,7 +53219,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "kirkland-regenerative-health-kirkland-wa",
@@ -53364,7 +53364,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "natural-health-center-of-medical-lake-medical-lake-wa",
@@ -53511,7 +53511,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "new-wave-functional-and-aesthetic-medicine-renton-wa",
@@ -53609,7 +53609,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "accepted",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "biothrive-health-seattle-wa",
@@ -53624,7 +53624,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "dr-erin-thorne-feminine-functional-medicine-seattle-wa",
@@ -53643,7 +53643,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "accepted",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "dr-mark-wagner-m-d-seattle-wa",
@@ -53799,7 +53799,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "accepted",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "northwest-restorative-medicine-seattle-wa",
@@ -53814,7 +53814,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "pinnacle-integrative-health-seattle-wa",
@@ -53925,7 +53925,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "accepted",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "seattle-sports-and-regenerative-medicine-seattle-wa",
@@ -54024,7 +54024,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "kuslers-compounding-pharmacy-snohomish-wa",
@@ -54643,7 +54643,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": false
+    "telehealthAvailable": true
   },
   {
     "slug": "cellutions-now-vancouver-wa",
