@@ -113,6 +113,16 @@ export default function HomePage() {
                 </svg>
               </Link>
               <Link
+                href="/map"
+                className="inline-flex items-center gap-2 px-6 py-3 bg-white text-text-primary font-semibold rounded-xl border border-border-medium hover:border-accent hover:text-accent transition-colors shadow-sm"
+              >
+                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                </svg>
+                Find Near Me
+              </Link>
+              <Link
                 href="/submit"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-white text-text-primary font-semibold rounded-xl border border-border-medium hover:border-accent hover:text-accent transition-colors shadow-sm"
               >

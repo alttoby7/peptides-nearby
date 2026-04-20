@@ -75,6 +75,7 @@ export function Nav() {
           </Link>
           {[
             { href: "/states", label: "Browse" },
+            { href: "/map", label: "Map" },
             { href: "/clinics", label: "Clinics" },
             { href: "/pharmacies", label: "Pharmacies" },
             { href: "/telehealth", label: "Telehealth" },

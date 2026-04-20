@@ -98,6 +98,75 @@
   50% { opacity: 0.7; }
 }
 
+/* MarkerCluster overrides — match site palette */
+.marker-cluster-small {
+  background-color: rgba(14,165,233,0.15) !important;
+}
+.marker-cluster-small div {
+  background-color: rgba(14,165,233,0.55) !important;
+  color: #fff !important;
+  font-family: var(--font-body) !important;
+  font-weight: 600 !important;
+}
+.marker-cluster-medium {
+  background-color: rgba(14,165,233,0.2) !important;
+}
+.marker-cluster-medium div {
+  background-color: rgba(14,165,233,0.65) !important;
+  color: #fff !important;
+  font-family: var(--font-body) !important;
+  font-weight: 600 !important;
+}
+.marker-cluster-large {
+  background-color: rgba(14,165,233,0.25) !important;
+}
+.marker-cluster-large div {
+  background-color: rgba(14,165,233,0.75) !important;
+  color: #fff !important;
+  font-family: var(--font-body) !important;
+  font-weight: 600 !important;
+}
+
+/* Leaflet overrides — prevent Tailwind resets from breaking map controls */
+.leaflet-container {
+  font-family: var(--font-body), "DM Sans", sans-serif;
+}
+.leaflet-container a {
+  color: var(--color-accent);
+}
+.leaflet-popup-content-wrapper {
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(15,23,42,0.12);
+  border: 1px solid rgba(15,23,42,0.06);
+}
+.leaflet-popup-content {
+  margin: 12px 14px;
+  line-height: 1.5;
+}
+.leaflet-popup-tip {
+  box-shadow: none;
+}
+.leaflet-control-zoom a {
+  font-size: 16px !important;
+  line-height: 30px !important;
+  width: 30px !important;
+  height: 30px !important;
+  border-radius: 8px !important;
+  color: var(--color-text-primary) !important;
+  background: white !important;
+  border: 1px solid rgba(15,23,42,0.1) !important;
+}
+.leaflet-control-zoom {
+  border: none !important;
+  box-shadow: 0 2px 8px rgba(15,23,42,0.08) !important;
+  border-radius: 10px !important;
+  overflow: hidden;
+}
+.pn-user-location {
+  background: none !important;
+  border: none !important;
+}
+
 /* Accessibility */
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {

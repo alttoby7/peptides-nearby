@@ -56,6 +56,41 @@ export const ConsultationSchema = z.object({
   refillPolicy: z.string().optional(),
 });
 
+// Provider specialties (secondary classification, additive to primary type)
+export const SpecialtySchema = z.enum([
+  "medspa", "sports-recovery", "functional-medicine",
+  "longevity-clinic", "weight-loss-clinic", "hormone-clinic",
+]);
+export type Specialty = z.infer<typeof SpecialtySchema>;
+
+// Clinical focus areas (what conditions/goals the provider treats)
+export const ClinicalFocusSchema = z.enum([
+  "metabolic-weight-loss", "tissue-repair-injury", "cognitive-neuro",
+  "growth-hormone", "immune-longevity", "sexual-wellness",
+]);
+export type ClinicalFocus = z.infer<typeof ClinicalFocusSchema>;
+
+// Delivery methods offered
+export const DeliveryMethodSchema = z.enum([
+  "injectable", "oral", "nasal-spray", "topical",
+]);
+export type DeliveryMethod = z.infer<typeof DeliveryMethodSchema>;
+
+// Business model
+export const BusinessModelSchema = z.enum([
+  "membership", "pay-per-treatment", "telehealth-hybrid",
+]);
+export type BusinessModel = z.infer<typeof BusinessModelSchema>;
+
+// Trust signals
+export const TrustSignalsSchema = z.object({
+  pcabAccredited: z.boolean().default(false),
+  coaAvailable: z.boolean().default(false),
+  medicalSupervision: z.boolean().default(false),
+  boardCertified: z.array(z.string()).default([]),
+});
+export type TrustSignals = z.infer<typeof TrustSignalsSchema>;
+
 // Provider (source record)
 export const ProviderSchema = z.object({
   slug: z.string(),
@@ -86,6 +121,12 @@ export const ProviderSchema = z.object({
   consultation: ConsultationSchema.optional(),
   verificationTier: VerificationTierSchema.default("listed"),
   treatmentGoals: z.array(z.string()).default([]),
+  // 5-dimension framework
+  specialties: z.array(SpecialtySchema).default([]),
+  clinicalFocus: z.array(ClinicalFocusSchema).default([]),
+  deliveryMethods: z.array(DeliveryMethodSchema).default([]),
+  businessModel: BusinessModelSchema.optional(),
+  trustSignals: TrustSignalsSchema.default({}),
 });
 export type Provider = z.infer<typeof ProviderSchema>;
 
@@ -102,8 +143,25 @@ export const SearchIndexEntrySchema = z.object({
   verificationTier: VerificationTierSchema,
   insurance: InsuranceSchema,
   telehealthAvailable: z.boolean(),
+  specialties: z.array(z.string()).default([]),
+  clinicalFocus: z.array(z.string()).default([]),
+  deliveryMethods: z.array(z.string()).default([]),
+  trustSignalCount: z.number().default(0),
+  businessModel: z.string().optional(),
 });
 export type SearchIndexEntry = z.infer<typeof SearchIndexEntrySchema>;
+
+// Map index entry (lightweight for map rendering)
+export const MapIndexEntrySchema = z.object({
+  slug: z.string(),
+  name: z.string(),
+  type: ProviderTypeSchema,
+  lat: z.number(),
+  lng: z.number(),
+  city: z.string(),
+  stateCode: z.string(),
+});
+export type MapIndexEntry = z.infer<typeof MapIndexEntrySchema>;
 
 // Provider review (exported from Supabase, approved only)
 export const ProviderReviewSchema = z.object({

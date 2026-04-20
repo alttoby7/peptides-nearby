@@ -535,6 +535,33 @@ const searchIndex: SearchIndexEntry[] = activeProviders.map((p) => ({
 writeFileSync(resolve(OUT, "search-index.json"), JSON.stringify(searchIndex, null, 2));
 console.log(`Wrote ${searchIndex.length} entries to search-index.json`);
 
+// --- Build map-index.json (lightweight for client-side map) ---
+interface MapIndexEntry {
+  slug: string;
+  name: string;
+  type: "clinic" | "pharmacy" | "wellness-center";
+  lat: number;
+  lng: number;
+  city: string;
+  stateCode: string;
+}
+
+const mapIndex: MapIndexEntry[] = activeProviders
+  .filter((p) => p.address.lat != null && p.address.lng != null && VALID_STATE_CODES.has(p.address.stateCode))
+  .map((p) => ({
+    slug: p.slug,
+    name: p.name,
+    type: p.type,
+    lat: p.address.lat!,
+    lng: p.address.lng!,
+    city: p.address.city,
+    stateCode: p.address.stateCode,
+  }));
+
+mkdirSync(resolve(PUBLIC, "data"), { recursive: true });
+writeFileSync(resolve(PUBLIC, "data/map-index.json"), JSON.stringify(mapIndex));
+console.log(`Wrote ${mapIndex.length} entries to public/data/map-index.json (${(JSON.stringify(mapIndex).length / 1024).toFixed(0)} KB)`);
+
 // --- Generate sitemap.xml ---
 const BASE_URL = "https://www.peptidesnearby.com";
 
@@ -556,6 +583,7 @@ const urls: string[] = [
   "/compare",
   "/telehealth",
   "/blog",
+  "/map",
   "/submit",
   "/about",
   "/privacy",

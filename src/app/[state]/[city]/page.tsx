@@ -6,6 +6,7 @@ import { getProvidersByCity } from "@/lib/data/providers";
 import { getStateBySlug } from "@/lib/data/states";
 import { JsonLd, breadcrumbJsonLd, itemListJsonLd } from "@/components/seo/JsonLd";
 import { FilteredProviderList } from "@/components/filters/ProviderFilters";
+import CityMapWrapper from "@/components/map/CityMapWrapper";
 
 type Props = { params: Promise<{ state: string; city: string }> };
 
@@ -82,6 +83,10 @@ export default async function CityPage({ params }: Props) {
               ? `${providers.length} ${providers.length === 1 ? "provider" : "providers"} offering peptide therapy in ${city.name}.`
               : `No providers listed in ${city.name} yet.`}
           </p>
+
+          {providers.length > 0 && (
+            <CityMapWrapper city={city.name} stateCode={city.stateCode} />
+          )}
 
           {providers.length > 0 ? (
             <FilteredProviderList providers={providers} />

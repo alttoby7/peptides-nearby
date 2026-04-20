@@ -1,0 +1,22 @@
+[
+  {
+    "slug": "carolina-integrative-wellness-1135-kildaire-farm-rd-108-ca",
+    "address": "1135 Kildaire Farm Rd #108, CA",
+    "reason": "geocoding_failed"
+  },
+  {
+    "slug": "pure-health-and-wellness-iv-therapy-weightloss-and-facials-ste-540-ma",
+    "address": "4343 Shallowford Rd Bldg 500, Ste 540, MA",
+    "reason": "geocoding_failed"
+  },
+  {
+    "slug": "evolution-body-transformation-1574-w-broadway-105-mo",
+    "address": "1574 W Broadway #105, MO",
+    "reason": "geocoding_failed"
+  },
+  {
+    "slug": "regenhealth-physicians-suite-b1-ne",
+    "address": "Suite B1, NE",
+    "reason": "geocoding_failed"
+  }
+]
