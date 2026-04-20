@@ -9,3 +9,6 @@ next-env.d.ts
 .wrangler/
 *.log
 .DS_Store
+
+# Large caches — regenerable, kept local only
+data/website-text-cache.json

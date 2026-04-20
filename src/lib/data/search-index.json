@@ -20,7 +20,9 @@
     "city": "Vineyard Office Building",
     "stateCode": "27",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -755,7 +757,9 @@
     "city": "Madison",
     "stateCode": "AL",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -1010,7 +1014,9 @@
     "city": "3726 Roswell Rd NE",
     "stateCode": "AT",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -1175,7 +1181,10 @@
     "city": "Phoenix",
     "stateCode": "AZ",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -1205,7 +1214,9 @@
     "city": "Phoenix",
     "stateCode": "AZ",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -1250,7 +1261,9 @@
     "city": "Phoenix",
     "stateCode": "AZ",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -1295,7 +1308,9 @@
     "city": "Scottsdale",
     "stateCode": "AZ",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -1370,7 +1385,10 @@
     "city": "Scottsdale",
     "stateCode": "AZ",
     "type": "pharmacy",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -1385,7 +1403,10 @@
     "city": "Scottsdale",
     "stateCode": "AZ",
     "type": "pharmacy",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -1400,7 +1421,10 @@
     "city": "Scottsdale",
     "stateCode": "AZ",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "sermorelin"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -1490,7 +1514,20 @@
     "city": "Scottsdale",
     "stateCode": "AZ",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "bpc-157",
+      "cjc-1295-ipamorelin",
+      "epithalon",
+      "ghk-cu",
+      "mots-c",
+      "pt-141",
+      "selank",
+      "semaglutide",
+      "semax",
+      "sermorelin",
+      "tb-500",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -1505,7 +1542,11 @@
     "city": "Scottsdale",
     "stateCode": "AZ",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -1520,7 +1561,9 @@
     "city": "Scottsdale",
     "stateCode": "AZ",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -1550,7 +1593,9 @@
     "city": "Scottsdale",
     "stateCode": "AZ",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -1625,7 +1670,9 @@
     "city": "Scottsdale",
     "stateCode": "AZ",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -1670,7 +1717,16 @@
     "city": "Scottsdale",
     "stateCode": "AZ",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "bpc-157",
+      "cjc-1295-ipamorelin",
+      "epithalon",
+      "ghk-cu",
+      "pt-141",
+      "selank",
+      "semax",
+      "tb-500"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -1685,7 +1741,9 @@
     "city": "Scottsdale",
     "stateCode": "AZ",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -1790,7 +1848,9 @@
     "city": "Scottsdale",
     "stateCode": "AZ",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -1940,7 +2000,12 @@
     "city": "Scottsdale",
     "stateCode": "AZ",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -1955,7 +2020,9 @@
     "city": "Scottsdale",
     "stateCode": "AZ",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -1970,7 +2037,10 @@
     "city": "Scottsdale",
     "stateCode": "AZ",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -1985,7 +2055,9 @@
     "city": "Scottsdale",
     "stateCode": "AZ",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -2015,7 +2087,12 @@
     "city": "Scottsdale",
     "stateCode": "AZ",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "bpc-157",
+      "mots-c",
+      "nad-plus",
+      "selank"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -2135,7 +2212,10 @@
     "city": "Tucson",
     "stateCode": "AZ",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "sermorelin"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -2210,7 +2290,9 @@
     "city": "Tucson",
     "stateCode": "AZ",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -2285,7 +2367,13 @@
     "city": "Tucson",
     "stateCode": "AZ",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -2375,7 +2463,10 @@
     "city": "Tucson",
     "stateCode": "AZ",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -2480,7 +2571,14 @@
     "city": "Tucson",
     "stateCode": "AZ",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "hexarelin",
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -2495,7 +2593,10 @@
     "city": "Tucson",
     "stateCode": "AZ",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -2510,7 +2611,10 @@
     "city": "Tucson",
     "stateCode": "AZ",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -2645,7 +2749,9 @@
     "city": "Tucson",
     "stateCode": "AZ",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -2675,7 +2781,10 @@
     "city": "Tucson",
     "stateCode": "AZ",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "sermorelin"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -2885,7 +2994,9 @@
     "city": "1135 Kildaire Farm Rd #108",
     "stateCode": "CA",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -2930,7 +3041,10 @@
     "city": "Berkeley",
     "stateCode": "CA",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -2960,7 +3074,9 @@
     "city": "Beverly Hills",
     "stateCode": "CA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "pt-141"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -2975,7 +3091,9 @@
     "city": "Beverly Hills",
     "stateCode": "CA",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -3035,7 +3153,15 @@
     "city": "Beverly Hills",
     "stateCode": "CA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "bpc-157",
+      "cjc-1295-ipamorelin",
+      "ghk-cu",
+      "semaglutide",
+      "sermorelin",
+      "tb-500",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -3065,7 +3191,14 @@
     "city": "Beverly Hills",
     "stateCode": "CA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "hexarelin",
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -3080,7 +3213,9 @@
     "city": "Beverly Hills",
     "stateCode": "CA",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -3095,7 +3230,11 @@
     "city": "Beverly Hills",
     "stateCode": "CA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "cjc-1295-ipamorelin",
+      "semaglutide",
+      "sermorelin"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -3125,7 +3264,17 @@
     "city": "Brea",
     "stateCode": "CA",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "bpc-157",
+      "ghk-cu",
+      "nad-plus",
+      "selank",
+      "semaglutide",
+      "sermorelin",
+      "tb-500",
+      "tesamorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -3170,7 +3319,9 @@
     "city": "Campbell",
     "stateCode": "CA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -3260,7 +3411,15 @@
     "city": "Corona Del Mar",
     "stateCode": "CA",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "ghk-cu",
+      "nad-plus",
+      "pt-141",
+      "selank",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -3275,7 +3434,15 @@
     "city": "Corona Del Mar",
     "stateCode": "CA",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "ghk-cu",
+      "nad-plus",
+      "pt-141",
+      "selank",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -3290,7 +3457,10 @@
     "city": "Corona Del Mar",
     "stateCode": "CA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -3305,7 +3475,10 @@
     "city": "Corona Del Mar",
     "stateCode": "CA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -3320,7 +3493,15 @@
     "city": "Costa Mesa",
     "stateCode": "CA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "bpc-157",
+      "cjc-1295-ipamorelin",
+      "nad-plus",
+      "pt-141",
+      "sermorelin",
+      "tb-500",
+      "tesamorelin"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -3335,7 +3516,9 @@
     "city": "Costa Mesa",
     "stateCode": "CA",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -3350,7 +3533,9 @@
     "city": "Costa Mesa",
     "stateCode": "CA",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -3485,7 +3670,9 @@
     "city": "Elk Grove",
     "stateCode": "CA",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -3620,7 +3807,10 @@
     "city": "Folsom",
     "stateCode": "CA",
     "type": "pharmacy",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "sermorelin"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -3740,7 +3930,18 @@
     "city": "Glendale",
     "stateCode": "CA",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "bpc-157",
+      "cjc-1295-ipamorelin",
+      "epithalon",
+      "ghk-cu",
+      "kisspeptin",
+      "nad-plus",
+      "pt-141",
+      "selank",
+      "sermorelin",
+      "tb-500"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -3815,7 +4016,9 @@
     "city": "Irvine",
     "stateCode": "CA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -3830,7 +4033,11 @@
     "city": "Irvine",
     "stateCode": "CA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "pt-141",
+      "semaglutide",
+      "sermorelin"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -3860,7 +4067,9 @@
     "city": "Irvine",
     "stateCode": "CA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "sermorelin"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -3875,7 +4084,9 @@
     "city": "Irvine",
     "stateCode": "CA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "sermorelin"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -3935,7 +4146,11 @@
     "city": "Irvine",
     "stateCode": "CA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "kisspeptin",
+      "selank",
+      "semax"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -3950,7 +4165,11 @@
     "city": "Irvine",
     "stateCode": "CA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "kisspeptin",
+      "selank",
+      "semax"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -3965,7 +4184,9 @@
     "city": "Irvine",
     "stateCode": "CA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -4130,7 +4351,18 @@
     "city": "Irvine",
     "stateCode": "CA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "bpc-157",
+      "cjc-1295-ipamorelin",
+      "ghk-cu",
+      "kisspeptin",
+      "nad-plus",
+      "semaglutide",
+      "semax",
+      "sermorelin",
+      "tb-500",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -4145,7 +4377,18 @@
     "city": "Irvine",
     "stateCode": "CA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "bpc-157",
+      "cjc-1295-ipamorelin",
+      "ghk-cu",
+      "kisspeptin",
+      "nad-plus",
+      "semaglutide",
+      "semax",
+      "sermorelin",
+      "tb-500",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -4160,7 +4403,9 @@
     "city": "Irvine",
     "stateCode": "CA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -4175,7 +4420,9 @@
     "city": "Irvine",
     "stateCode": "CA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -4265,7 +4512,12 @@
     "city": "Irvine",
     "stateCode": "CA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "bpc-157",
+      "nad-plus",
+      "sermorelin",
+      "tesamorelin"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -4280,7 +4532,12 @@
     "city": "Irvine",
     "stateCode": "CA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "bpc-157",
+      "nad-plus",
+      "sermorelin",
+      "tesamorelin"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -4295,7 +4552,11 @@
     "city": "Irvine",
     "stateCode": "CA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -4310,7 +4571,11 @@
     "city": "Irvine",
     "stateCode": "CA",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -4400,7 +4665,9 @@
     "city": "Irvine",
     "stateCode": "CA",
     "type": "pharmacy",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -4445,7 +4712,13 @@
     "city": "Laguna Hills",
     "stateCode": "CA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -4460,7 +4733,9 @@
     "city": "Laguna Niguel",
     "stateCode": "CA",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -4475,7 +4750,13 @@
     "city": "Lake Forest",
     "stateCode": "CA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -4505,7 +4786,9 @@
     "city": "Los Angeles",
     "stateCode": "CA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -4565,7 +4848,9 @@
     "city": "Los Angeles",
     "stateCode": "CA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -4640,7 +4925,20 @@
     "city": "Los Angeles",
     "stateCode": "CA",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "bpc-157",
+      "epithalon",
+      "ghk-cu",
+      "nad-plus",
+      "pt-141",
+      "selank",
+      "semaglutide",
+      "semax",
+      "sermorelin",
+      "tb-500",
+      "tesamorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -4670,7 +4968,9 @@
     "city": "Los Angeles",
     "stateCode": "CA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "sermorelin"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -4700,7 +5000,9 @@
     "city": "Los Angeles",
     "stateCode": "CA",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -4730,7 +5032,9 @@
     "city": "Los Angeles",
     "stateCode": "CA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -4775,7 +5079,13 @@
     "city": "Los Angeles",
     "stateCode": "CA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "bpc-157",
+      "cjc-1295-ipamorelin",
+      "ghk-cu",
+      "pt-141",
+      "tb-500"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -4790,7 +5100,9 @@
     "city": "Los Angeles",
     "stateCode": "CA",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -4910,7 +5222,9 @@
     "city": "Los Gatos",
     "stateCode": "CA",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "pt-141"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -4940,7 +5254,14 @@
     "city": "Los Gatos",
     "stateCode": "CA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "hexarelin",
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -4970,7 +5291,10 @@
     "city": "Los Gatos",
     "stateCode": "CA",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -5015,7 +5339,13 @@
     "city": "Milpitas",
     "stateCode": "CA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -5075,7 +5405,9 @@
     "city": "Newport Beach",
     "stateCode": "CA",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -5090,7 +5422,9 @@
     "city": "Newport Beach",
     "stateCode": "CA",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -5105,7 +5439,9 @@
     "city": "Newport Beach",
     "stateCode": "CA",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -5180,7 +5516,12 @@
     "city": "Newport Beach",
     "stateCode": "CA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "bpc-157",
+      "semaglutide",
+      "tesamorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -5300,7 +5641,10 @@
     "city": "Newport Beach",
     "stateCode": "CA",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "ghk-cu",
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -5450,7 +5794,10 @@
     "city": "Newport Beach",
     "stateCode": "CA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -5555,7 +5902,9 @@
     "city": "Newport Beach",
     "stateCode": "CA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -5630,7 +5979,10 @@
     "city": "Newport Beach",
     "stateCode": "CA",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -5675,7 +6027,9 @@
     "city": "Newport Beach",
     "stateCode": "CA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -5810,7 +6164,13 @@
     "city": "North Hollywood",
     "stateCode": "CA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -5840,7 +6200,9 @@
     "city": "Oakland",
     "stateCode": "CA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -6020,7 +6382,11 @@
     "city": "Pasadena",
     "stateCode": "CA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "ghk-cu",
+      "nad-plus",
+      "pt-141"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -6110,7 +6476,10 @@
     "city": "Porter Ranch",
     "stateCode": "CA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "sermorelin"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -6125,7 +6494,9 @@
     "city": "Rancho Cordova",
     "stateCode": "CA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -6140,7 +6511,11 @@
     "city": "Rancho Santa Margarita",
     "stateCode": "CA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -6170,7 +6545,14 @@
     "city": "Rocklin",
     "stateCode": "CA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "hexarelin",
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -6215,7 +6597,10 @@
     "city": "Roseville",
     "stateCode": "CA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -6245,7 +6630,11 @@
     "city": "Sacramento",
     "stateCode": "CA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -6320,7 +6709,9 @@
     "city": "Sacramento",
     "stateCode": "CA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -6335,7 +6726,13 @@
     "city": "Sacramento",
     "stateCode": "CA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -6350,7 +6747,13 @@
     "city": "Sacramento",
     "stateCode": "CA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -6365,7 +6768,9 @@
     "city": "Sacramento",
     "stateCode": "CA",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -6440,7 +6845,9 @@
     "city": "Sacramento",
     "stateCode": "CA",
     "type": "pharmacy",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -6515,7 +6922,14 @@
     "city": "Sacramento",
     "stateCode": "CA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "hexarelin",
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -6650,7 +7064,13 @@
     "city": "San Bruno",
     "stateCode": "CA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -6710,7 +7130,11 @@
     "city": "San Francisco",
     "stateCode": "CA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "semaglutide",
+      "sermorelin"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -6740,7 +7164,10 @@
     "city": "San Francisco",
     "stateCode": "CA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "pt-141"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -6830,7 +7257,13 @@
     "city": "San Francisco",
     "stateCode": "CA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -6845,7 +7278,9 @@
     "city": "San Francisco",
     "stateCode": "CA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -6860,7 +7295,9 @@
     "city": "San Francisco",
     "stateCode": "CA",
     "type": "pharmacy",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -6905,7 +7342,10 @@
     "city": "San Francisco",
     "stateCode": "CA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -6935,7 +7375,9 @@
     "city": "San Francisco",
     "stateCode": "CA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -6980,7 +7422,11 @@
     "city": "San Francisco",
     "stateCode": "CA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -6995,7 +7441,9 @@
     "city": "San Francisco",
     "stateCode": "CA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -7025,7 +7473,14 @@
     "city": "San Francisco",
     "stateCode": "CA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "hexarelin",
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -7310,7 +7765,9 @@
     "city": "San Jose",
     "stateCode": "CA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -7325,7 +7782,13 @@
     "city": "San Jose",
     "stateCode": "CA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -7370,7 +7833,9 @@
     "city": "San Jose",
     "stateCode": "CA",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -7415,7 +7880,9 @@
     "city": "San Jose",
     "stateCode": "CA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -7460,7 +7927,9 @@
     "city": "San Jose",
     "stateCode": "CA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -7490,7 +7959,14 @@
     "city": "San Jose",
     "stateCode": "CA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "hexarelin",
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -7520,7 +7996,9 @@
     "city": "San Jose",
     "stateCode": "CA",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -7595,7 +8073,10 @@
     "city": "San Jose",
     "stateCode": "CA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -7775,7 +8256,9 @@
     "city": "Santa Clara",
     "stateCode": "CA",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -7805,7 +8288,9 @@
     "city": "Santa Monica",
     "stateCode": "CA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -7835,7 +8320,10 @@
     "city": "Saratoga",
     "stateCode": "CA",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -7865,7 +8353,11 @@
     "city": "Sherman Oaks",
     "stateCode": "CA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -7940,7 +8432,9 @@
     "city": "Studio City",
     "stateCode": "CA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -7955,7 +8449,9 @@
     "city": "Studio City",
     "stateCode": "CA",
     "type": "pharmacy",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -8000,7 +8496,9 @@
     "city": "Tarzana",
     "stateCode": "CA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -8030,7 +8528,9 @@
     "city": "Torrance",
     "stateCode": "CA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -8075,7 +8575,13 @@
     "city": "Tustin",
     "stateCode": "CA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -8180,7 +8686,9 @@
     "city": "West Hollywood",
     "stateCode": "CA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -8225,7 +8733,9 @@
     "city": "20 Chelsea St",
     "stateCode": "CH",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -9935,7 +10445,11 @@
     "city": "Room 21",
     "stateCode": "DA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "pt-141",
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -10070,7 +10584,9 @@
     "city": "Washington",
     "stateCode": "DC",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -10190,7 +10706,9 @@
     "city": "Washington",
     "stateCode": "DC",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -10205,7 +10723,9 @@
     "city": "Washington",
     "stateCode": "DC",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -10265,7 +10785,14 @@
     "city": "Washington",
     "stateCode": "DC",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "hexarelin",
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -10310,7 +10837,10 @@
     "city": "Washington",
     "stateCode": "DC",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -10355,7 +10885,11 @@
     "city": "Washington",
     "stateCode": "DC",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -10430,7 +10964,10 @@
     "city": "Altamonte Springs",
     "stateCode": "FL",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -10490,7 +11027,10 @@
     "city": "Boca Raton",
     "stateCode": "FL",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "pt-141"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -10505,7 +11045,9 @@
     "city": "Boca Raton",
     "stateCode": "FL",
     "type": "pharmacy",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -10610,7 +11152,9 @@
     "city": "Boca Raton",
     "stateCode": "FL",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -10670,7 +11214,13 @@
     "city": "Boca Raton",
     "stateCode": "FL",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -10715,7 +11265,9 @@
     "city": "Boca Raton",
     "stateCode": "FL",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "sermorelin"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -10745,7 +11297,10 @@
     "city": "Boca Raton",
     "stateCode": "FL",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "sermorelin"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -10790,7 +11345,10 @@
     "city": "Boca Raton",
     "stateCode": "FL",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -10880,7 +11438,9 @@
     "city": "Boca Raton",
     "stateCode": "FL",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -10895,7 +11455,20 @@
     "city": "Boca Raton",
     "stateCode": "FL",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "bpc-157",
+      "cjc-1295-ipamorelin",
+      "ghk-cu",
+      "mots-c",
+      "nad-plus",
+      "selank",
+      "semaglutide",
+      "semax",
+      "sermorelin",
+      "tb-500",
+      "tesamorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -10910,7 +11483,9 @@
     "city": "Boca Raton",
     "stateCode": "FL",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -10955,7 +11530,14 @@
     "city": "Boca Raton",
     "stateCode": "FL",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "hexarelin",
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -11030,7 +11612,9 @@
     "city": "Boca Raton",
     "stateCode": "FL",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -11075,7 +11659,11 @@
     "city": "Clearwater",
     "stateCode": "FL",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "bpc-157",
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -11135,7 +11723,9 @@
     "city": "Dania Beach",
     "stateCode": "FL",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -11195,7 +11785,9 @@
     "city": "DeBary",
     "stateCode": "FL",
     "type": "pharmacy",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -11255,7 +11847,9 @@
     "city": "Delray Beach",
     "stateCode": "FL",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -11270,7 +11864,10 @@
     "city": "Delray Beach",
     "stateCode": "FL",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -11285,7 +11882,10 @@
     "city": "Delray Beach",
     "stateCode": "FL",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -11300,7 +11900,10 @@
     "city": "Delray Beach",
     "stateCode": "FL",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -11405,7 +12008,9 @@
     "city": "Fort Lauderdale",
     "stateCode": "FL",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -11480,7 +12085,13 @@
     "city": "Fort Lauderdale",
     "stateCode": "FL",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "bpc-157",
+      "semaglutide",
+      "sermorelin",
+      "tb-500",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -11555,7 +12166,10 @@
     "city": "Fort Lauderdale",
     "stateCode": "FL",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -11570,7 +12184,9 @@
     "city": "Fort Lauderdale",
     "stateCode": "FL",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -11615,7 +12231,10 @@
     "city": "Fort Lauderdale",
     "stateCode": "FL",
     "type": "pharmacy",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -11690,7 +12309,10 @@
     "city": "Fort Lauderdale",
     "stateCode": "FL",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "ghk-cu",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -11720,7 +12342,10 @@
     "city": "Fort Lauderdale",
     "stateCode": "FL",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -11765,7 +12390,9 @@
     "city": "Fort Lauderdale",
     "stateCode": "FL",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -11780,7 +12407,12 @@
     "city": "Fort Lauderdale",
     "stateCode": "FL",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -11840,7 +12472,18 @@
     "city": "Fort Lauderdale",
     "stateCode": "FL",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "bpc-157",
+      "ghk-cu",
+      "mots-c",
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tb-500",
+      "tesamorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -11855,7 +12498,9 @@
     "city": "Fort Lauderdale",
     "stateCode": "FL",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -11870,7 +12515,9 @@
     "city": "Fort Lauderdale",
     "stateCode": "FL",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -11915,7 +12562,11 @@
     "city": "Fort Lauderdale",
     "stateCode": "FL",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -11990,7 +12641,10 @@
     "city": "Greenacres",
     "stateCode": "FL",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -12185,7 +12839,9 @@
     "city": "Jacksonville",
     "stateCode": "FL",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -12260,7 +12916,11 @@
     "city": "Jacksonville",
     "stateCode": "FL",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "bpc-157",
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -12275,7 +12935,13 @@
     "city": "Jacksonville",
     "stateCode": "FL",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -12365,7 +13031,9 @@
     "city": "Jacksonville",
     "stateCode": "FL",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "bpc-157"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -12530,7 +13198,10 @@
     "city": "Jacksonville",
     "stateCode": "FL",
     "type": "pharmacy",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -12545,7 +13216,14 @@
     "city": "Jacksonville",
     "stateCode": "FL",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "hexarelin",
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -12560,7 +13238,9 @@
     "city": "Jacksonville",
     "stateCode": "FL",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -12665,7 +13345,11 @@
     "city": "Jacksonville",
     "stateCode": "FL",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -12695,7 +13379,12 @@
     "city": "Jacksonville",
     "stateCode": "FL",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -12710,7 +13399,10 @@
     "city": "Jacksonville",
     "stateCode": "FL",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -12725,7 +13417,9 @@
     "city": "Jacksonville",
     "stateCode": "FL",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "sermorelin"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -12845,7 +13539,9 @@
     "city": "Jupiter",
     "stateCode": "FL",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -12905,7 +13601,10 @@
     "city": "Jupiter",
     "stateCode": "FL",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -12980,7 +13679,11 @@
     "city": "Land O' Lakes",
     "stateCode": "FL",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -13010,7 +13713,9 @@
     "city": "Lutz",
     "stateCode": "FL",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -13055,7 +13760,10 @@
     "city": "Lutz",
     "stateCode": "FL",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -13085,7 +13793,10 @@
     "city": "Maitland",
     "stateCode": "FL",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -13145,7 +13856,10 @@
     "city": "New Port Richey",
     "stateCode": "FL",
     "type": "pharmacy",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -13160,7 +13874,11 @@
     "city": "New Port Richey",
     "stateCode": "FL",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -13250,7 +13968,9 @@
     "city": "North Palm Beach",
     "stateCode": "FL",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -13265,7 +13985,9 @@
     "city": "North Palm Beach",
     "stateCode": "FL",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -13280,7 +14002,9 @@
     "city": "North Palm Beach",
     "stateCode": "FL",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -13295,7 +14019,9 @@
     "city": "Oakland Park",
     "stateCode": "FL",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -13310,7 +14036,13 @@
     "city": "Oakland Park",
     "stateCode": "FL",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "bpc-157",
+      "cjc-1295-ipamorelin",
+      "nad-plus",
+      "pt-141",
+      "sermorelin"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -13325,7 +14057,13 @@
     "city": "Oakland Park",
     "stateCode": "FL",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "bpc-157",
+      "cjc-1295-ipamorelin",
+      "nad-plus",
+      "pt-141",
+      "sermorelin"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -13370,7 +14108,10 @@
     "city": "Orange Park",
     "stateCode": "FL",
     "type": "pharmacy",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -13385,7 +14126,10 @@
     "city": "Orlando",
     "stateCode": "FL",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -13430,7 +14174,17 @@
     "city": "Orlando",
     "stateCode": "FL",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "bpc-157",
+      "cjc-1295-ipamorelin",
+      "hexarelin",
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tesamorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -13475,7 +14229,9 @@
     "city": "Orlando",
     "stateCode": "FL",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -13505,7 +14261,15 @@
     "city": "Orlando",
     "stateCode": "FL",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "bpc-157",
+      "ghk-cu",
+      "semaglutide",
+      "sermorelin",
+      "tb-500",
+      "tesamorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -13535,7 +14299,9 @@
     "city": "Orlando",
     "stateCode": "FL",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -13610,7 +14376,14 @@
     "city": "Orlando",
     "stateCode": "FL",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "bpc-157",
+      "cjc-1295-ipamorelin",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -13640,7 +14413,11 @@
     "city": "Orlando",
     "stateCode": "FL",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "bpc-157",
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -13655,7 +14432,9 @@
     "city": "Orlando",
     "stateCode": "FL",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -13715,7 +14494,9 @@
     "city": "Orlando",
     "stateCode": "FL",
     "type": "pharmacy",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -13730,7 +14511,9 @@
     "city": "Orlando",
     "stateCode": "FL",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -13895,7 +14678,10 @@
     "city": "Orlando",
     "stateCode": "FL",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -13910,7 +14696,9 @@
     "city": "Orlando",
     "stateCode": "FL",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "bpc-157"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -13985,7 +14773,11 @@
     "city": "Palm Beach",
     "stateCode": "FL",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "semaglutide",
+      "sermorelin"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -14105,7 +14897,9 @@
     "city": "Palm Beach Gardens",
     "stateCode": "FL",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -14135,7 +14929,11 @@
     "city": "Palm Beach Gardens",
     "stateCode": "FL",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "pt-141",
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -14165,7 +14963,11 @@
     "city": "Palm Beach Gardens",
     "stateCode": "FL",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -14180,7 +14982,14 @@
     "city": "Palm Beach Gardens",
     "stateCode": "FL",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "hexarelin",
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -14195,7 +15004,10 @@
     "city": "Palm Beach Gardens",
     "stateCode": "FL",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -14240,7 +15052,10 @@
     "city": "Plantation",
     "stateCode": "FL",
     "type": "pharmacy",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -14255,7 +15070,10 @@
     "city": "Plantation",
     "stateCode": "FL",
     "type": "pharmacy",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -14270,7 +15088,10 @@
     "city": "Plantation",
     "stateCode": "FL",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "bpc-157",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -14285,7 +15106,10 @@
     "city": "Plantation",
     "stateCode": "FL",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "bpc-157",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -14300,7 +15124,9 @@
     "city": "Pompano Beach",
     "stateCode": "FL",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -14465,7 +15291,9 @@
     "city": "Spring Hill",
     "stateCode": "FL",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -14600,7 +15428,9 @@
     "city": "Tampa",
     "stateCode": "FL",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -14615,7 +15445,10 @@
     "city": "Tampa",
     "stateCode": "FL",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -14690,7 +15523,11 @@
     "city": "Tampa",
     "stateCode": "FL",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "bpc-157",
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -14720,7 +15557,9 @@
     "city": "Tampa",
     "stateCode": "FL",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "sermorelin"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -14750,7 +15589,11 @@
     "city": "Tampa",
     "stateCode": "FL",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -14840,7 +15683,9 @@
     "city": "Tampa",
     "stateCode": "FL",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -14855,7 +15700,10 @@
     "city": "Tampa",
     "stateCode": "FL",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -14870,7 +15718,9 @@
     "city": "Tampa",
     "stateCode": "FL",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -14915,7 +15765,9 @@
     "city": "Tampa",
     "stateCode": "FL",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -14945,7 +15797,13 @@
     "city": "Tampa",
     "stateCode": "FL",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -14990,7 +15848,13 @@
     "city": "Tampa",
     "stateCode": "FL",
     "type": "pharmacy",
-    "peptides": [],
+    "peptides": [
+      "ghk-cu",
+      "nad-plus",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -15005,7 +15869,10 @@
     "city": "Tampa",
     "stateCode": "FL",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -15035,7 +15902,10 @@
     "city": "Tampa",
     "stateCode": "FL",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -15050,7 +15920,9 @@
     "city": "Tampa",
     "stateCode": "FL",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "sermorelin"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -15140,7 +16012,9 @@
     "city": "Wellington",
     "stateCode": "FL",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -15170,7 +16044,9 @@
     "city": "Wesley Chapel",
     "stateCode": "FL",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -15185,7 +16061,10 @@
     "city": "Wesley Chapel",
     "stateCode": "FL",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -15230,7 +16109,10 @@
     "city": "West Palm Beach",
     "stateCode": "FL",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -15275,7 +16157,10 @@
     "city": "West Palm Beach",
     "stateCode": "FL",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -15290,7 +16175,13 @@
     "city": "West Palm Beach",
     "stateCode": "FL",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -15470,7 +16361,9 @@
     "city": "West Palm Beach",
     "stateCode": "FL",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -15485,7 +16378,11 @@
     "city": "West Palm Beach",
     "stateCode": "FL",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -15500,7 +16397,9 @@
     "city": "West Palm Beach",
     "stateCode": "FL",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -15515,7 +16414,10 @@
     "city": "West Palm Beach",
     "stateCode": "FL",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -15605,7 +16507,10 @@
     "city": "Wilton Manors",
     "stateCode": "FL",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tesamorelin"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -15635,7 +16540,9 @@
     "city": "Windermere",
     "stateCode": "FL",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -15740,7 +16647,11 @@
     "city": "Winter Park",
     "stateCode": "FL",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "semaglutide",
+      "sermorelin"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -15770,7 +16681,9 @@
     "city": "Winter Park",
     "stateCode": "FL",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -15785,7 +16698,12 @@
     "city": "Winter Springs",
     "stateCode": "FL",
     "type": "pharmacy",
-    "peptides": [],
+    "peptides": [
+      "ghk-cu",
+      "nad-plus",
+      "pt-141",
+      "sermorelin"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -15860,7 +16778,9 @@
     "city": "Alpharetta",
     "stateCode": "GA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "sermorelin"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -15875,7 +16795,9 @@
     "city": "Alpharetta",
     "stateCode": "GA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -15920,7 +16842,9 @@
     "city": "Atlanta",
     "stateCode": "GA",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -15965,7 +16889,9 @@
     "city": "Atlanta",
     "stateCode": "GA",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -16025,7 +16951,10 @@
     "city": "Atlanta",
     "stateCode": "GA",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -16040,7 +16969,13 @@
     "city": "Atlanta",
     "stateCode": "GA",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "bpc-157",
+      "epithalon",
+      "ghk-cu",
+      "nad-plus",
+      "tb-500"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -16070,7 +17005,13 @@
     "city": "Atlanta",
     "stateCode": "GA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -16235,7 +17176,9 @@
     "city": "Atlanta",
     "stateCode": "GA",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -16250,7 +17193,14 @@
     "city": "Atlanta",
     "stateCode": "GA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "hexarelin",
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -16295,7 +17245,13 @@
     "city": "Atlanta",
     "stateCode": "GA",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "bpc-157",
+      "ghk-cu",
+      "mots-c",
+      "nad-plus",
+      "sermorelin"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -16340,7 +17296,9 @@
     "city": "Atlanta",
     "stateCode": "GA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -16550,7 +17508,10 @@
     "city": "Marietta",
     "stateCode": "GA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -16715,7 +17676,18 @@
     "city": "Roswell",
     "stateCode": "GA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "bpc-157",
+      "ghk-cu",
+      "mots-c",
+      "nad-plus",
+      "selank",
+      "semaglutide",
+      "semax",
+      "tb-500",
+      "tesamorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -16760,7 +17732,9 @@
     "city": "Sandy Springs",
     "stateCode": "GA",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -17210,7 +18184,11 @@
     "city": "Smyrna",
     "stateCode": "GA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "semaglutide",
+      "sermorelin"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -17225,7 +18203,13 @@
     "city": "Smyrna",
     "stateCode": "GA",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -17285,7 +18269,9 @@
     "city": "Sugar Hill",
     "stateCode": "GA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -17300,7 +18286,11 @@
     "city": "Suwanee",
     "stateCode": "GA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -17390,7 +18380,9 @@
     "city": "Aiea",
     "stateCode": "HI",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -17450,7 +18442,9 @@
     "city": "Hilo",
     "stateCode": "HI",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -17495,7 +18489,11 @@
     "city": "Honolulu",
     "stateCode": "HI",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -17555,7 +18553,9 @@
     "city": "Honolulu",
     "stateCode": "HI",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -17660,7 +18660,11 @@
     "city": "Honolulu",
     "stateCode": "HI",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -17690,7 +18694,10 @@
     "city": "Honolulu",
     "stateCode": "HI",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -17735,7 +18742,9 @@
     "city": "Honolulu",
     "stateCode": "HI",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -17795,7 +18804,13 @@
     "city": "Honolulu",
     "stateCode": "HI",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -17825,7 +18840,9 @@
     "city": "Honolulu",
     "stateCode": "HI",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -17960,7 +18977,13 @@
     "city": "Kailua",
     "stateCode": "HI",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -18095,7 +19118,10 @@
     "city": "Suite H",
     "stateCode": "HO",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "pt-141",
+      "sermorelin"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -18110,7 +19136,10 @@
     "city": "11350 McCormick Rd LL9",
     "stateCode": "HU",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -18335,7 +19364,14 @@
     "city": "Des Moines",
     "stateCode": "IA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "hexarelin",
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -18635,7 +19671,9 @@
     "city": "West Des Moines",
     "stateCode": "IA",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -19730,7 +20768,9 @@
     "city": "Chicago",
     "stateCode": "IL",
     "type": "pharmacy",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -19745,7 +20785,10 @@
     "city": "Chicago",
     "stateCode": "IL",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -19805,7 +20848,16 @@
     "city": "Chicago",
     "stateCode": "IL",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "cjc-1295-ipamorelin",
+      "epithalon",
+      "ghk-cu",
+      "nad-plus",
+      "semaglutide",
+      "sermorelin",
+      "tesamorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -19820,7 +20872,9 @@
     "city": "Chicago",
     "stateCode": "IL",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -19880,7 +20934,10 @@
     "city": "Chicago",
     "stateCode": "IL",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -19925,7 +20982,9 @@
     "city": "Chicago",
     "stateCode": "IL",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "sermorelin"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -19940,7 +20999,9 @@
     "city": "Chicago",
     "stateCode": "IL",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "sermorelin"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -19985,7 +21046,10 @@
     "city": "Chicago",
     "stateCode": "IL",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "bpc-157",
+      "tb-500"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -20045,7 +21109,9 @@
     "city": "Chicago",
     "stateCode": "IL",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -20240,7 +21306,14 @@
     "city": "Chicago",
     "stateCode": "IL",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "hexarelin",
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -20270,7 +21343,9 @@
     "city": "Chicago",
     "stateCode": "IL",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -20300,7 +21375,9 @@
     "city": "Chicago",
     "stateCode": "IL",
     "type": "pharmacy",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -20345,7 +21422,11 @@
     "city": "Chicago",
     "stateCode": "IL",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -20360,7 +21441,9 @@
     "city": "Chicago",
     "stateCode": "IL",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "mots-c"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -20420,7 +21503,14 @@
     "city": "Elmhurst",
     "stateCode": "IL",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "bpc-157",
+      "cjc-1295-ipamorelin",
+      "kisspeptin",
+      "pt-141",
+      "semaglutide",
+      "sermorelin"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -20570,7 +21660,11 @@
     "city": "Lake Forest",
     "stateCode": "IL",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -20585,7 +21679,9 @@
     "city": "Libertyville",
     "stateCode": "IL",
     "type": "pharmacy",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -20675,7 +21771,15 @@
     "city": "Oak Brook",
     "stateCode": "IL",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "bpc-157",
+      "mots-c",
+      "nad-plus",
+      "semaglutide",
+      "sermorelin",
+      "tesamorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -20705,7 +21809,9 @@
     "city": "Warrenville",
     "stateCode": "IL",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -20750,7 +21856,9 @@
     "city": "6640 Old Monroe Rd G",
     "stateCode": "IN",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -20855,7 +21963,13 @@
     "city": "Carmel",
     "stateCode": "IN",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "ghk-cu",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -20885,7 +21999,9 @@
     "city": "Carmel",
     "stateCode": "IN",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -21005,7 +22121,11 @@
     "city": "Carmel",
     "stateCode": "IN",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "pt-141",
+      "sermorelin"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -21065,7 +22185,9 @@
     "city": "Carmel",
     "stateCode": "IN",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -21290,7 +22412,9 @@
     "city": "Greenwood",
     "stateCode": "IN",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "bpc-157"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -21320,7 +22444,20 @@
     "city": "Greenwood",
     "stateCode": "IN",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "bpc-157",
+      "cjc-1295-ipamorelin",
+      "epithalon",
+      "ghk-cu",
+      "mots-c",
+      "nad-plus",
+      "pt-141",
+      "selank",
+      "semaglutide",
+      "tb-500",
+      "tesamorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -21470,7 +22607,10 @@
     "city": "Indianapolis",
     "stateCode": "IN",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -21515,7 +22655,9 @@
     "city": "Indianapolis",
     "stateCode": "IN",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -21530,7 +22672,10 @@
     "city": "Indianapolis",
     "stateCode": "IN",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "bpc-157",
+      "sermorelin"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -22010,7 +23155,12 @@
     "city": "Leawood",
     "stateCode": "KS",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -22025,7 +23175,9 @@
     "city": "Leawood",
     "stateCode": "KS",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -22145,7 +23297,17 @@
     "city": "Overland Park",
     "stateCode": "KS",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "bpc-157",
+      "epithalon",
+      "ghk-cu",
+      "mots-c",
+      "nad-plus",
+      "pt-141",
+      "tb-500",
+      "tesamorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -22160,7 +23322,13 @@
     "city": "Overland Park",
     "stateCode": "KS",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "bpc-157",
+      "ghk-cu",
+      "nad-plus",
+      "tb-500",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -22190,7 +23358,10 @@
     "city": "Overland Park",
     "stateCode": "KS",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -22235,7 +23406,9 @@
     "city": "Overland Park",
     "stateCode": "KS",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -22250,7 +23423,9 @@
     "city": "Overland Park",
     "stateCode": "KS",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "bpc-157"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -22310,7 +23485,9 @@
     "city": "Overland Park",
     "stateCode": "KS",
     "type": "pharmacy",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -22385,7 +23562,10 @@
     "city": "Prairie Village",
     "stateCode": "KS",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -22415,7 +23595,14 @@
     "city": "Roeland Park",
     "stateCode": "KS",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "bpc-157",
+      "nad-plus",
+      "semaglutide",
+      "sermorelin",
+      "tesamorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -22460,7 +23647,13 @@
     "city": "Crestview Hills",
     "stateCode": "KY",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -24305,7 +25498,13 @@
     "city": "Boston",
     "stateCode": "MA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -24350,7 +25549,10 @@
     "city": "Boston",
     "stateCode": "MA",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -24365,7 +25567,9 @@
     "city": "Boston",
     "stateCode": "MA",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -24380,7 +25584,9 @@
     "city": "Boston",
     "stateCode": "MA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -24395,7 +25601,14 @@
     "city": "Boston",
     "stateCode": "MA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "hexarelin",
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -24575,7 +25788,11 @@
     "city": "Burlington",
     "stateCode": "MA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -24680,7 +25897,9 @@
     "city": "Framingham",
     "stateCode": "MA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -24740,7 +25959,10 @@
     "city": "Medford",
     "stateCode": "MA",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "sermorelin"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -24785,7 +26007,9 @@
     "city": "Norwood",
     "stateCode": "MA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -24845,7 +26069,9 @@
     "city": "Ste 540",
     "stateCode": "MA",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -24860,7 +26086,9 @@
     "city": "Stoneham",
     "stateCode": "MA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -24875,7 +26103,13 @@
     "city": "Stoneham",
     "stateCode": "MA",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "cjc-1295-ipamorelin",
+      "semaglutide",
+      "sermorelin",
+      "tesamorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -24935,7 +26169,13 @@
     "city": "Watertown",
     "stateCode": "MA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -25130,7 +26370,9 @@
     "city": "Baltimore",
     "stateCode": "MD",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -25325,7 +26567,10 @@
     "city": "Bethesda",
     "stateCode": "MD",
     "type": "pharmacy",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -25340,7 +26585,14 @@
     "city": "Bethesda",
     "stateCode": "MD",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "hexarelin",
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -25400,7 +26652,10 @@
     "city": "Catonsville",
     "stateCode": "MD",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -25445,7 +26700,10 @@
     "city": "College Park",
     "stateCode": "MD",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -25655,7 +26913,10 @@
     "city": "Glen Burnie",
     "stateCode": "MD",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -25775,7 +27036,13 @@
     "city": "Owings Mills",
     "stateCode": "MD",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -25835,7 +27102,9 @@
     "city": "Parkville",
     "stateCode": "MD",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -25985,7 +27254,9 @@
     "city": "Severna Park",
     "stateCode": "MD",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -26000,7 +27271,10 @@
     "city": "Silver Spring",
     "stateCode": "MD",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -26015,7 +27289,9 @@
     "city": "Silver Spring",
     "stateCode": "MD",
     "type": "pharmacy",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -26045,7 +27321,9 @@
     "city": "Silver Spring",
     "stateCode": "MD",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "sermorelin"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -26255,7 +27533,10 @@
     "city": "Birmingham",
     "stateCode": "MI",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -26330,7 +27611,13 @@
     "city": "Bloomfield Hills",
     "stateCode": "MI",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -26345,7 +27632,11 @@
     "city": "Bloomfield Hills",
     "stateCode": "MI",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "semaglutide",
+      "sermorelin"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -26705,7 +27996,9 @@
     "city": "Grosse Pointe",
     "stateCode": "MI",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -26720,7 +28013,11 @@
     "city": "Grosse Pointe",
     "stateCode": "MI",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -26795,7 +28092,9 @@
     "city": "Northville",
     "stateCode": "MI",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -26825,7 +28124,13 @@
     "city": "Rochester",
     "stateCode": "MI",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -26900,7 +28205,9 @@
     "city": "Royal Oak",
     "stateCode": "MI",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -26945,7 +28252,14 @@
     "city": "South Lyon",
     "stateCode": "MI",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "bpc-157",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tb-500",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -26960,7 +28274,9 @@
     "city": "Southfield",
     "stateCode": "MI",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -26975,7 +28291,13 @@
     "city": "Southfield",
     "stateCode": "MI",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -27050,7 +28372,13 @@
     "city": "Troy",
     "stateCode": "MI",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -27110,7 +28438,14 @@
     "city": "Troy",
     "stateCode": "MI",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "hexarelin",
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -27230,7 +28565,9 @@
     "city": "Wyandotte",
     "stateCode": "MI",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -27305,7 +28642,10 @@
     "city": "Burnsville",
     "stateCode": "MN",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -27440,7 +28780,10 @@
     "city": "Edina",
     "stateCode": "MN",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "bpc-157",
+      "tb-500"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -27455,7 +28798,10 @@
     "city": "Edina",
     "stateCode": "MN",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -27470,7 +28816,9 @@
     "city": "Edina",
     "stateCode": "MN",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -27530,7 +28878,9 @@
     "city": "Maple Grove",
     "stateCode": "MN",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -27560,7 +28910,9 @@
     "city": "Mendota Heights",
     "stateCode": "MN",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -27755,7 +29107,10 @@
     "city": "Minneapolis",
     "stateCode": "MN",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -27785,7 +29140,14 @@
     "city": "Minneapolis",
     "stateCode": "MN",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "hexarelin",
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -27845,7 +29207,9 @@
     "city": "Minnetonka",
     "stateCode": "MN",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -27890,7 +29254,11 @@
     "city": "Oakdale",
     "stateCode": "MN",
     "type": "pharmacy",
-    "peptides": [],
+    "peptides": [
+      "bpc-157",
+      "nad-plus",
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -28130,7 +29498,15 @@
     "city": "Wayzata",
     "stateCode": "MN",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "bpc-157",
+      "nad-plus",
+      "selank",
+      "semaglutide",
+      "semax",
+      "tb-500",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -28280,7 +29656,10 @@
     "city": "Chesterfield",
     "stateCode": "MO",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -28325,7 +29704,9 @@
     "city": "Cottleville",
     "stateCode": "MO",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -28415,7 +29796,9 @@
     "city": "Kansas City",
     "stateCode": "MO",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -28490,7 +29873,9 @@
     "city": "Kansas City",
     "stateCode": "MO",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -28565,7 +29950,9 @@
     "city": "Kansas City",
     "stateCode": "MO",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -28595,7 +29982,9 @@
     "city": "Lake St Louis",
     "stateCode": "MO",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "bpc-157"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -28625,7 +30014,13 @@
     "city": "Lee's Summit",
     "stateCode": "MO",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -28730,7 +30125,14 @@
     "city": "North Kansas City",
     "stateCode": "MO",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "hexarelin",
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -28775,7 +30177,9 @@
     "city": "Richmond Heights",
     "stateCode": "MO",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -28850,7 +30254,10 @@
     "city": "St. Louis",
     "stateCode": "MO",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -28970,7 +30377,9 @@
     "city": "St. Louis",
     "stateCode": "MO",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -29045,7 +30454,9 @@
     "city": "St. Louis",
     "stateCode": "MO",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "bpc-157"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -29060,7 +30471,9 @@
     "city": "St. Louis",
     "stateCode": "MO",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "bpc-157"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -29195,7 +30608,9 @@
     "city": "St. Louis",
     "stateCode": "MO",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "sermorelin"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -29630,7 +31045,13 @@
     "city": "Asheville",
     "stateCode": "NC",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -29960,7 +31381,9 @@
     "city": "Cary",
     "stateCode": "NC",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -29975,7 +31398,13 @@
     "city": "Cary",
     "stateCode": "NC",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -30155,7 +31584,9 @@
     "city": "Charlotte",
     "stateCode": "NC",
     "type": "pharmacy",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -30215,7 +31646,9 @@
     "city": "Charlotte",
     "stateCode": "NC",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -30230,7 +31663,13 @@
     "city": "Charlotte",
     "stateCode": "NC",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -30275,7 +31714,10 @@
     "city": "Charlotte",
     "stateCode": "NC",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -30395,7 +31837,11 @@
     "city": "Charlotte",
     "stateCode": "NC",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -30500,7 +31946,9 @@
     "city": "Charlotte",
     "stateCode": "NC",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -30560,7 +32008,11 @@
     "city": "Charlotte",
     "stateCode": "NC",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -30605,7 +32057,9 @@
     "city": "Charlotte",
     "stateCode": "NC",
     "type": "pharmacy",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -30620,7 +32074,9 @@
     "city": "Concord",
     "stateCode": "NC",
     "type": "pharmacy",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -30650,7 +32106,9 @@
     "city": "Cornelius",
     "stateCode": "NC",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -30695,7 +32153,16 @@
     "city": "Durham",
     "stateCode": "NC",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "bpc-157",
+      "cjc-1295-ipamorelin",
+      "ghk-cu",
+      "nad-plus",
+      "pt-141",
+      "sermorelin",
+      "tb-500",
+      "tesamorelin"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -30800,7 +32267,9 @@
     "city": "Huntersville",
     "stateCode": "NC",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -30830,7 +32299,10 @@
     "city": "Huntersville",
     "stateCode": "NC",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -30845,7 +32317,9 @@
     "city": "Indian Trail",
     "stateCode": "NC",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -30890,7 +32364,13 @@
     "city": "Matthews",
     "stateCode": "NC",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -31040,7 +32520,9 @@
     "city": "Raleigh",
     "stateCode": "NC",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -31085,7 +32567,13 @@
     "city": "Raleigh",
     "stateCode": "NC",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -31100,7 +32588,13 @@
     "city": "Raleigh",
     "stateCode": "NC",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -31145,7 +32639,10 @@
     "city": "Raleigh",
     "stateCode": "NC",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -31190,7 +32687,9 @@
     "city": "Raleigh",
     "stateCode": "NC",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -31325,7 +32824,9 @@
     "city": "Raleigh",
     "stateCode": "NC",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -31355,7 +32856,14 @@
     "city": "Raleigh",
     "stateCode": "NC",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "hexarelin",
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -31400,7 +32908,9 @@
     "city": "Raleigh",
     "stateCode": "NC",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -31550,7 +33060,9 @@
     "city": "Waxhaw",
     "stateCode": "NC",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -32225,7 +33737,11 @@
     "city": "54 W 21st St Suite 510",
     "stateCode": "NE",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "ghk-cu",
+      "nad-plus",
+      "sermorelin"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -32585,7 +34101,9 @@
     "city": "Omaha",
     "stateCode": "NE",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -32735,7 +34253,9 @@
     "city": "Papillion",
     "stateCode": "NE",
     "type": "pharmacy",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -32855,7 +34375,9 @@
     "city": "Hillsdale",
     "stateCode": "NJ",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -32870,7 +34392,9 @@
     "city": "Hoboken",
     "stateCode": "NJ",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -32975,7 +34499,9 @@
     "city": "Westfield",
     "stateCode": "NJ",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -33125,7 +34651,9 @@
     "city": "Albuquerque",
     "stateCode": "NM",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -33170,7 +34698,9 @@
     "city": "Albuquerque",
     "stateCode": "NM",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -33185,7 +34715,13 @@
     "city": "Albuquerque",
     "stateCode": "NM",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -33230,7 +34766,10 @@
     "city": "Albuquerque",
     "stateCode": "NM",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "ghk-cu",
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -33305,7 +34844,9 @@
     "city": "Albuquerque",
     "stateCode": "NM",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -33365,7 +34906,9 @@
     "city": "Albuquerque",
     "stateCode": "NM",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -33455,7 +34998,9 @@
     "city": "Albuquerque",
     "stateCode": "NM",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -33470,7 +35015,14 @@
     "city": "Albuquerque",
     "stateCode": "NM",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "hexarelin",
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -33500,7 +35052,9 @@
     "city": "Albuquerque",
     "stateCode": "NM",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -33665,7 +35219,10 @@
     "city": "Rio Rancho",
     "stateCode": "NM",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -33695,7 +35252,9 @@
     "city": "Rio Rancho",
     "stateCode": "NM",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -33710,7 +35269,11 @@
     "city": "Henderson",
     "stateCode": "NV",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "pt-141",
+      "sermorelin"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -33725,7 +35288,12 @@
     "city": "Henderson",
     "stateCode": "NV",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -33785,7 +35353,11 @@
     "city": "Henderson",
     "stateCode": "NV",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "epithalon",
+      "nad-plus",
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -33815,7 +35387,9 @@
     "city": "Henderson",
     "stateCode": "NV",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -33860,7 +35434,9 @@
     "city": "Las Vegas",
     "stateCode": "NV",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -33920,7 +35496,12 @@
     "city": "Las Vegas",
     "stateCode": "NV",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -33935,7 +35516,10 @@
     "city": "Las Vegas",
     "stateCode": "NV",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "pt-141"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -33950,7 +35534,11 @@
     "city": "Las Vegas",
     "stateCode": "NV",
     "type": "pharmacy",
-    "peptides": [],
+    "peptides": [
+      "bpc-157",
+      "cjc-1295-ipamorelin",
+      "ghk-cu"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -34010,7 +35598,9 @@
     "city": "Las Vegas",
     "stateCode": "NV",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -34025,7 +35615,10 @@
     "city": "Las Vegas",
     "stateCode": "NV",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -34085,7 +35678,10 @@
     "city": "Las Vegas",
     "stateCode": "NV",
     "type": "pharmacy",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -34115,7 +35711,9 @@
     "city": "Las Vegas",
     "stateCode": "NV",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -34205,7 +35803,9 @@
     "city": "Las Vegas",
     "stateCode": "NV",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -34310,7 +35910,9 @@
     "city": "Las Vegas",
     "stateCode": "NV",
     "type": "pharmacy",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -34325,7 +35927,9 @@
     "city": "Las Vegas",
     "stateCode": "NV",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -34370,7 +35974,14 @@
     "city": "Las Vegas",
     "stateCode": "NV",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "hexarelin",
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -34385,7 +35996,9 @@
     "city": "Las Vegas",
     "stateCode": "NV",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -34400,7 +36013,10 @@
     "city": "Las Vegas",
     "stateCode": "NV",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -34430,7 +36046,10 @@
     "city": "Las Vegas",
     "stateCode": "NV",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -34520,7 +36139,9 @@
     "city": "Las Vegas",
     "stateCode": "NV",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -34595,7 +36216,14 @@
     "city": "Bayside",
     "stateCode": "NY",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "hexarelin",
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -34760,7 +36388,12 @@
     "city": "East Meadow",
     "stateCode": "NY",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -34850,7 +36483,9 @@
     "city": "Long Beach",
     "stateCode": "NY",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -34955,7 +36590,12 @@
     "city": "New York",
     "stateCode": "NY",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -34985,7 +36625,9 @@
     "city": "New York",
     "stateCode": "NY",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -35000,7 +36642,10 @@
     "city": "New York",
     "stateCode": "NY",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -35045,7 +36690,9 @@
     "city": "New York",
     "stateCode": "NY",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -35060,7 +36707,9 @@
     "city": "New York",
     "stateCode": "NY",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -35075,7 +36724,9 @@
     "city": "New York",
     "stateCode": "NY",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -35090,7 +36741,13 @@
     "city": "New York",
     "stateCode": "NY",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -35105,7 +36762,13 @@
     "city": "New York",
     "stateCode": "NY",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -35210,7 +36873,9 @@
     "city": "New York",
     "stateCode": "NY",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -35285,7 +36950,11 @@
     "city": "New York",
     "stateCode": "NY",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -35345,7 +37014,14 @@
     "city": "New York",
     "stateCode": "NY",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "hexarelin",
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -35390,7 +37066,9 @@
     "city": "New York",
     "stateCode": "NY",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -35480,7 +37158,10 @@
     "city": "Staten Island",
     "stateCode": "NY",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -35495,7 +37176,9 @@
     "city": "Williamsville",
     "stateCode": "NY",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -35600,7 +37283,11 @@
     "city": "Cincinnati",
     "stateCode": "OH",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "ghk-cu",
+      "nad-plus",
+      "selank"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -35780,7 +37467,13 @@
     "city": "Cincinnati",
     "stateCode": "OH",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -35810,7 +37503,10 @@
     "city": "Cincinnati",
     "stateCode": "OH",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -35855,7 +37551,9 @@
     "city": "Cincinnati",
     "stateCode": "OH",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -35900,7 +37598,14 @@
     "city": "Cincinnati",
     "stateCode": "OH",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "hexarelin",
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -36080,7 +37785,9 @@
     "city": "Cincinnati",
     "stateCode": "OH",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -36200,7 +37907,13 @@
     "city": "Columbus",
     "stateCode": "OH",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -36245,7 +37958,9 @@
     "city": "Columbus",
     "stateCode": "OH",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -36260,7 +37975,10 @@
     "city": "Columbus",
     "stateCode": "OH",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -36455,7 +38173,14 @@
     "city": "Columbus",
     "stateCode": "OH",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "hexarelin",
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -36530,7 +38255,10 @@
     "city": "Columbus",
     "stateCode": "OH",
     "type": "pharmacy",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -36575,7 +38303,10 @@
     "city": "Dublin",
     "stateCode": "OH",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "sermorelin"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -36695,7 +38426,9 @@
     "city": "Grove City",
     "stateCode": "OH",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -36740,7 +38473,13 @@
     "city": "Hilliard",
     "stateCode": "OH",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -36785,7 +38524,9 @@
     "city": "Lewis Center",
     "stateCode": "OH",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -36890,7 +38631,10 @@
     "city": "Mason",
     "stateCode": "OH",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -37040,7 +38784,12 @@
     "city": "Powell",
     "stateCode": "OH",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "ghk-cu",
+      "nad-plus",
+      "pt-141",
+      "sermorelin"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -37100,7 +38849,9 @@
     "city": "Powell",
     "stateCode": "OH",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -37190,7 +38941,9 @@
     "city": "West Chester Township",
     "stateCode": "OH",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -37205,7 +38958,9 @@
     "city": "West Chester Township",
     "stateCode": "OH",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -37445,7 +39200,10 @@
     "city": "Edmond",
     "stateCode": "OK",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -37550,7 +39308,9 @@
     "city": "Moore",
     "stateCode": "OK",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -37625,7 +39385,9 @@
     "city": "Norman",
     "stateCode": "OK",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "sermorelin"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -37685,7 +39447,9 @@
     "city": "Oklahoma City",
     "stateCode": "OK",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -37835,7 +39599,13 @@
     "city": "Oklahoma City",
     "stateCode": "OK",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -37880,7 +39650,9 @@
     "city": "Oklahoma City",
     "stateCode": "OK",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -37970,7 +39742,9 @@
     "city": "Oklahoma City",
     "stateCode": "OK",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -38045,7 +39819,10 @@
     "city": "Oklahoma City",
     "stateCode": "OK",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -38150,7 +39927,9 @@
     "city": "Oklahoma City",
     "stateCode": "OK",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -38255,7 +40034,17 @@
     "city": "Beaverton",
     "stateCode": "OR",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "bpc-157",
+      "ghk-cu",
+      "mots-c",
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tb-500",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -38270,7 +40059,9 @@
     "city": "Beaverton",
     "stateCode": "OR",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -38930,7 +40721,10 @@
     "city": "Lake Oswego",
     "stateCode": "OR",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -39020,7 +40814,10 @@
     "city": "Portland",
     "stateCode": "OR",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -39125,7 +40922,9 @@
     "city": "Portland",
     "stateCode": "OR",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -39140,7 +40939,10 @@
     "city": "Portland",
     "stateCode": "OR",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -39200,7 +41002,11 @@
     "city": "Portland",
     "stateCode": "OR",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -39215,7 +41021,10 @@
     "city": "Portland",
     "stateCode": "OR",
     "type": "pharmacy",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -39245,7 +41054,9 @@
     "city": "Portland",
     "stateCode": "OR",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -39320,7 +41131,9 @@
     "city": "Portland",
     "stateCode": "OR",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -39350,7 +41163,9 @@
     "city": "Portland",
     "stateCode": "OR",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -39470,7 +41285,14 @@
     "city": "Portland",
     "stateCode": "OR",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "hexarelin",
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -39500,7 +41322,10 @@
     "city": "Portland",
     "stateCode": "OR",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -39515,7 +41340,10 @@
     "city": "Portland",
     "stateCode": "OR",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -39560,7 +41388,9 @@
     "city": "Portland",
     "stateCode": "OR",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -39590,7 +41420,9 @@
     "city": "Portland",
     "stateCode": "OR",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -39635,7 +41467,10 @@
     "city": "Tigard",
     "stateCode": "OR",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -39680,7 +41515,13 @@
     "city": "Tualatin",
     "stateCode": "OR",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -39770,7 +41611,14 @@
     "city": "Bala Cynwyd",
     "stateCode": "PA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "hexarelin",
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -39965,7 +41813,9 @@
     "city": "Carnegie",
     "stateCode": "PA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -39995,7 +41845,19 @@
     "city": "Conshohocken",
     "stateCode": "PA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "bpc-157",
+      "cjc-1295-ipamorelin",
+      "epithalon",
+      "ghk-cu",
+      "mots-c",
+      "selank",
+      "semaglutide",
+      "semax",
+      "sermorelin",
+      "tb-500",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -40130,7 +41992,12 @@
     "city": "King of Prussia",
     "stateCode": "PA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "sermorelin",
+      "tesamorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -40145,7 +42012,9 @@
     "city": "Moon Township",
     "stateCode": "PA",
     "type": "pharmacy",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -40235,7 +42104,10 @@
     "city": "Philadelphia",
     "stateCode": "PA",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -40385,7 +42257,20 @@
     "city": "Philadelphia",
     "stateCode": "PA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "bpc-157",
+      "cjc-1295-ipamorelin",
+      "epithalon",
+      "nad-plus",
+      "pt-141",
+      "selank",
+      "semaglutide",
+      "semax",
+      "sermorelin",
+      "tb-500",
+      "tesamorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -40460,7 +42345,14 @@
     "city": "Philadelphia",
     "stateCode": "PA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "hexarelin",
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -40595,7 +42487,10 @@
     "city": "Pittsburgh",
     "stateCode": "PA",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "sermorelin"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -40625,7 +42520,9 @@
     "city": "Pittsburgh",
     "stateCode": "PA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -40700,7 +42597,12 @@
     "city": "Pittsburgh",
     "stateCode": "PA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "bpc-157",
+      "ghk-cu",
+      "tb-500",
+      "tesamorelin"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -40760,7 +42662,14 @@
     "city": "Pittsburgh",
     "stateCode": "PA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "hexarelin",
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -40775,7 +42684,10 @@
     "city": "Pittsburgh",
     "stateCode": "PA",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -40850,7 +42762,9 @@
     "city": "Pittsburgh",
     "stateCode": "PA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -40970,7 +42884,9 @@
     "city": "Wexford",
     "stateCode": "PA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -41015,7 +42931,13 @@
     "city": "Wexford",
     "stateCode": "PA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -41255,7 +43177,10 @@
     "city": "Ste. 1233",
     "stateCode": "SA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -41270,7 +43195,12 @@
     "city": "Suite 302",
     "stateCode": "SA",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "bpc-157",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -41285,7 +43215,10 @@
     "city": "Building B",
     "stateCode": "SC",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -41630,7 +43563,11 @@
     "city": "Fort Mill",
     "stateCode": "SC",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -42485,7 +44422,9 @@
     "city": "Brentwood",
     "stateCode": "TN",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -42770,7 +44709,9 @@
     "city": "Franklin",
     "stateCode": "TN",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "bpc-157"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -43070,7 +45011,16 @@
     "city": "Lebanon",
     "stateCode": "TN",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "bpc-157",
+      "epithalon",
+      "kisspeptin",
+      "mots-c",
+      "nad-plus",
+      "sermorelin",
+      "tb-500",
+      "tesamorelin"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -43445,7 +45395,9 @@
     "city": "Murfreesboro",
     "stateCode": "TN",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -43505,7 +45457,9 @@
     "city": "Nashville",
     "stateCode": "TN",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -43520,7 +45474,15 @@
     "city": "Nashville",
     "stateCode": "TN",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "bpc-157",
+      "cjc-1295-ipamorelin",
+      "ghk-cu",
+      "mots-c",
+      "semaglutide",
+      "tesamorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -43535,7 +45497,9 @@
     "city": "Nashville",
     "stateCode": "TN",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -43580,7 +45544,13 @@
     "city": "Nashville",
     "stateCode": "TN",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -43595,7 +45565,9 @@
     "city": "Nashville",
     "stateCode": "TN",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -43640,7 +45612,10 @@
     "city": "Nashville",
     "stateCode": "TN",
     "type": "pharmacy",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -43685,7 +45660,11 @@
     "city": "Nashville",
     "stateCode": "TN",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -43715,7 +45694,9 @@
     "city": "Nashville",
     "stateCode": "TN",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "sermorelin"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -43730,7 +45711,9 @@
     "city": "Nashville",
     "stateCode": "TN",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -43745,7 +45728,9 @@
     "city": "Nashville",
     "stateCode": "TN",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -43760,7 +45745,9 @@
     "city": "Nashville",
     "stateCode": "TN",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -43775,7 +45762,11 @@
     "city": "Nashville",
     "stateCode": "TN",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "bpc-157",
+      "ghk-cu",
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -43805,7 +45796,14 @@
     "city": "Nashville",
     "stateCode": "TN",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "hexarelin",
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -43820,7 +45818,10 @@
     "city": "Nashville",
     "stateCode": "TN",
     "type": "pharmacy",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -43835,7 +45836,20 @@
     "city": "Nashville",
     "stateCode": "TN",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "bpc-157",
+      "cjc-1295-ipamorelin",
+      "epithalon",
+      "ghk-cu",
+      "kisspeptin",
+      "mots-c",
+      "nad-plus",
+      "pt-141",
+      "selank",
+      "semax",
+      "tb-500",
+      "tesamorelin"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -43850,7 +45864,9 @@
     "city": "Nashville",
     "stateCode": "TN",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -43880,7 +45896,9 @@
     "city": "Nashville",
     "stateCode": "TN",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -43895,7 +45913,9 @@
     "city": "Nashville",
     "stateCode": "TN",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -43955,7 +45975,10 @@
     "city": "Addison",
     "stateCode": "TX",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -44000,7 +46023,10 @@
     "city": "Arlington",
     "stateCode": "TX",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -44060,7 +46086,9 @@
     "city": "Cibolo",
     "stateCode": "TX",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -44135,7 +46163,9 @@
     "city": "Dallas",
     "stateCode": "TX",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -44165,7 +46195,9 @@
     "city": "Dallas",
     "stateCode": "TX",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -44195,7 +46227,9 @@
     "city": "Dallas",
     "stateCode": "TX",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -44255,7 +46289,10 @@
     "city": "Dallas",
     "stateCode": "TX",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -44270,7 +46307,9 @@
     "city": "Dallas",
     "stateCode": "TX",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -44285,7 +46324,9 @@
     "city": "Dallas",
     "stateCode": "TX",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -44300,7 +46341,13 @@
     "city": "Dallas",
     "stateCode": "TX",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -44315,7 +46362,13 @@
     "city": "Dallas",
     "stateCode": "TX",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -44330,7 +46383,12 @@
     "city": "Dallas",
     "stateCode": "TX",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -44405,7 +46463,9 @@
     "city": "Dallas",
     "stateCode": "TX",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "sermorelin"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -44525,7 +46585,9 @@
     "city": "Dallas",
     "stateCode": "TX",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -44540,7 +46602,9 @@
     "city": "Dallas",
     "stateCode": "TX",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -44570,7 +46634,10 @@
     "city": "Dallas",
     "stateCode": "TX",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "pt-141",
+      "sermorelin"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -44615,7 +46682,9 @@
     "city": "Dallas",
     "stateCode": "TX",
     "type": "pharmacy",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -44630,7 +46699,9 @@
     "city": "Dallas",
     "stateCode": "TX",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -44645,7 +46716,10 @@
     "city": "Dallas",
     "stateCode": "TX",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -44795,7 +46869,9 @@
     "city": "Houston",
     "stateCode": "TX",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -44885,7 +46961,9 @@
     "city": "Houston",
     "stateCode": "TX",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -44945,7 +47023,13 @@
     "city": "Houston",
     "stateCode": "TX",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "bpc-157",
+      "cjc-1295-ipamorelin",
+      "sermorelin",
+      "tb-500",
+      "tesamorelin"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -44975,7 +47059,13 @@
     "city": "Houston",
     "stateCode": "TX",
     "type": "pharmacy",
-    "peptides": [],
+    "peptides": [
+      "ghk-cu",
+      "nad-plus",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -45065,7 +47155,10 @@
     "city": "Houston",
     "stateCode": "TX",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -45080,7 +47173,9 @@
     "city": "Houston",
     "stateCode": "TX",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -45125,7 +47220,9 @@
     "city": "Houston",
     "stateCode": "TX",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -45140,7 +47237,11 @@
     "city": "Houston",
     "stateCode": "TX",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "cjc-1295-ipamorelin",
+      "nad-plus",
+      "tb-500"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -45185,7 +47286,10 @@
     "city": "Houston",
     "stateCode": "TX",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -45215,7 +47319,9 @@
     "city": "Houston",
     "stateCode": "TX",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -45260,7 +47366,10 @@
     "city": "Houston",
     "stateCode": "TX",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -45275,7 +47384,15 @@
     "city": "Houston",
     "stateCode": "TX",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "bpc-157",
+      "cjc-1295-ipamorelin",
+      "ghk-cu",
+      "nad-plus",
+      "sermorelin",
+      "tb-500",
+      "tesamorelin"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -45290,7 +47407,11 @@
     "city": "Houston",
     "stateCode": "TX",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -45320,7 +47441,10 @@
     "city": "Houston",
     "stateCode": "TX",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -45350,7 +47474,9 @@
     "city": "Houston",
     "stateCode": "TX",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -45365,7 +47491,10 @@
     "city": "Houston",
     "stateCode": "TX",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "pt-141",
+      "sermorelin"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -45440,7 +47569,11 @@
     "city": "Houston",
     "stateCode": "TX",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -45455,7 +47588,10 @@
     "city": "Houston",
     "stateCode": "TX",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -45530,7 +47666,10 @@
     "city": "Houston",
     "stateCode": "TX",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -45575,7 +47714,9 @@
     "city": "Irving",
     "stateCode": "TX",
     "type": "pharmacy",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -45635,7 +47776,20 @@
     "city": "Kingwood",
     "stateCode": "TX",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "bpc-157",
+      "cjc-1295-ipamorelin",
+      "epithalon",
+      "ghrp-6",
+      "mots-c",
+      "pt-141",
+      "selank",
+      "semaglutide",
+      "semax",
+      "sermorelin",
+      "tb-500",
+      "tesamorelin"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -45725,7 +47879,22 @@
     "city": "New Braunfels",
     "stateCode": "TX",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "bpc-157",
+      "epithalon",
+      "ghk-cu",
+      "kisspeptin",
+      "mots-c",
+      "nad-plus",
+      "pt-141",
+      "selank",
+      "semaglutide",
+      "semax",
+      "sermorelin",
+      "tb-500",
+      "tesamorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -45755,7 +47924,13 @@
     "city": "Plano",
     "stateCode": "TX",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -45815,7 +47990,9 @@
     "city": "Plano",
     "stateCode": "TX",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -45995,7 +48172,9 @@
     "city": "San Antonio",
     "stateCode": "TX",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -46055,7 +48234,9 @@
     "city": "San Antonio",
     "stateCode": "TX",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "sermorelin"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -46115,7 +48296,11 @@
     "city": "San Antonio",
     "stateCode": "TX",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "bpc-157",
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -46145,7 +48330,13 @@
     "city": "San Antonio",
     "stateCode": "TX",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -46160,7 +48351,13 @@
     "city": "San Antonio",
     "stateCode": "TX",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -46175,7 +48372,11 @@
     "city": "San Antonio",
     "stateCode": "TX",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "bpc-157",
+      "semaglutide",
+      "tb-500"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -46205,7 +48406,9 @@
     "city": "San Antonio",
     "stateCode": "TX",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -46295,7 +48498,10 @@
     "city": "San Antonio",
     "stateCode": "TX",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -46460,7 +48666,9 @@
     "city": "San Antonio",
     "stateCode": "TX",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -46505,7 +48713,9 @@
     "city": "San Antonio",
     "stateCode": "TX",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -46520,7 +48730,10 @@
     "city": "San Antonio",
     "stateCode": "TX",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "pt-141",
+      "sermorelin"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -46535,7 +48748,10 @@
     "city": "San Antonio",
     "stateCode": "TX",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "pt-141",
+      "sermorelin"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -46565,7 +48781,11 @@
     "city": "San Antonio",
     "stateCode": "TX",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -46670,7 +48890,9 @@
     "city": "San Antonio",
     "stateCode": "TX",
     "type": "pharmacy",
-    "peptides": [],
+    "peptides": [
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -46700,7 +48922,9 @@
     "city": "Schertz",
     "stateCode": "TX",
     "type": "pharmacy",
-    "peptides": [],
+    "peptides": [
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -46715,7 +48939,10 @@
     "city": "Shavano Park",
     "stateCode": "TX",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -46805,7 +49032,9 @@
     "city": "Spring",
     "stateCode": "TX",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "pt-141"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -46940,7 +49169,10 @@
     "city": "Universal City",
     "stateCode": "TX",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "pt-141",
+      "sermorelin"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -47060,7 +49292,14 @@
     "city": "Bountiful",
     "stateCode": "UT",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "hexarelin",
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -47150,7 +49389,9 @@
     "city": "Draper",
     "stateCode": "UT",
     "type": "pharmacy",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -47210,7 +49451,10 @@
     "city": "Farmington",
     "stateCode": "UT",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -47285,7 +49529,10 @@
     "city": "Holladay",
     "stateCode": "UT",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -47345,7 +49592,9 @@
     "city": "Lehi",
     "stateCode": "UT",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "sermorelin"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -47375,7 +49624,10 @@
     "city": "Millcreek",
     "stateCode": "UT",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -47615,7 +49867,16 @@
     "city": "Salt Lake City",
     "stateCode": "UT",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "bpc-157",
+      "cjc-1295-ipamorelin",
+      "mots-c",
+      "semaglutide",
+      "sermorelin",
+      "tb-500",
+      "tesamorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -47630,7 +49891,9 @@
     "city": "Salt Lake City",
     "stateCode": "UT",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -47750,7 +50013,10 @@
     "city": "Salt Lake City",
     "stateCode": "UT",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -47780,7 +50046,12 @@
     "city": "Salt Lake City",
     "stateCode": "UT",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -47870,7 +50141,9 @@
     "city": "Sandy",
     "stateCode": "UT",
     "type": "pharmacy",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -47885,7 +50158,9 @@
     "city": "Sandy",
     "stateCode": "UT",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -47945,7 +50220,18 @@
     "city": "Sandy",
     "stateCode": "UT",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "bpc-157",
+      "cjc-1295-ipamorelin",
+      "ghk-cu",
+      "mots-c",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tb-500",
+      "tesamorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -47960,7 +50246,9 @@
     "city": "Taylorsville",
     "stateCode": "UT",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -47990,7 +50278,10 @@
     "city": "Woods Cross",
     "stateCode": "UT",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "sermorelin"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -48020,7 +50311,10 @@
     "city": "Alexandria",
     "stateCode": "VA",
     "type": "pharmacy",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -48050,7 +50344,14 @@
     "city": "Alexandria",
     "stateCode": "VA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "hexarelin",
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -48125,7 +50426,9 @@
     "city": "Arlington",
     "stateCode": "VA",
     "type": "pharmacy",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -48320,7 +50623,9 @@
     "city": "Falls Church",
     "stateCode": "VA",
     "type": "pharmacy",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -48755,7 +51060,9 @@
     "city": "Midlothian",
     "stateCode": "VA",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -49205,7 +51512,9 @@
     "city": "Sterling",
     "stateCode": "VA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "sermorelin"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -49220,7 +51529,10 @@
     "city": "Vienna",
     "stateCode": "VA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -49325,7 +51637,11 @@
     "city": "Virginia Beach",
     "stateCode": "VA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "pt-141",
+      "sermorelin"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -49880,7 +52196,11 @@
     "city": "Bellevue",
     "stateCode": "WA",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -49925,7 +52245,10 @@
     "city": "Bellevue",
     "stateCode": "WA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -49955,7 +52278,9 @@
     "city": "Bellevue",
     "stateCode": "WA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -50000,7 +52325,10 @@
     "city": "Bellevue",
     "stateCode": "WA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -50030,7 +52358,10 @@
     "city": "Bothell",
     "stateCode": "WA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -50045,7 +52376,9 @@
     "city": "Chehalis",
     "stateCode": "WA",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -50075,7 +52408,9 @@
     "city": "Edmonds",
     "stateCode": "WA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -50120,7 +52455,9 @@
     "city": "Gig Harbor",
     "stateCode": "WA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -50315,7 +52652,16 @@
     "city": "Lynnwood",
     "stateCode": "WA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "ghk-cu",
+      "hexarelin",
+      "nad-plus",
+      "pt-141",
+      "semaglutide",
+      "sermorelin",
+      "tesamorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -50405,7 +52751,11 @@
     "city": "Redmond",
     "stateCode": "WA",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -50435,7 +52785,9 @@
     "city": "Renton",
     "stateCode": "WA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -50450,7 +52802,10 @@
     "city": "Renton",
     "stateCode": "WA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -50540,7 +52895,12 @@
     "city": "Seattle",
     "stateCode": "WA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus",
+      "semaglutide",
+      "sermorelin",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -50570,7 +52930,11 @@
     "city": "Seattle",
     "stateCode": "WA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "bpc-157",
+      "mots-c",
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -50615,7 +52979,10 @@
     "city": "Seattle",
     "stateCode": "WA",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -50720,7 +53087,9 @@
     "city": "Seattle",
     "stateCode": "WA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "semaglutide"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -50750,7 +53119,9 @@
     "city": "Seattle",
     "stateCode": "WA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -50870,7 +53241,10 @@
     "city": "Seattle",
     "stateCode": "WA",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "sermorelin"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -50915,7 +53289,9 @@
     "city": "Seattle",
     "stateCode": "WA",
     "type": "clinic",
-    "peptides": [],
+    "peptides": [
+      "sermorelin"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -51605,7 +53981,9 @@
     "city": "Vancouver",
     "stateCode": "WA",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "nad-plus"
+    ],
     "services": [
       "peptide therapy"
     ],
@@ -52715,7 +55093,10 @@
     "city": "Monona",
     "stateCode": "WI",
     "type": "wellness-center",
-    "peptides": [],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
     "services": [
       "peptide therapy"
     ],

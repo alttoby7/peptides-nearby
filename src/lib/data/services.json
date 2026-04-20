@@ -8,28 +8,140 @@
     "description": "Peptide therapy uses targeted peptides for wellness, anti-aging, weight loss, and recovery."
   },
   {
+    "slug": "semaglutide",
+    "name": "Semaglutide",
+    "type": "peptide",
+    "providerCount": 387,
+    "cityCount": 180,
+    "description": "Semaglutide is a GLP-1 receptor agonist used for weight management."
+  },
+  {
+    "slug": "nad-plus",
+    "name": "NAD+",
+    "type": "therapy",
+    "providerCount": 386,
+    "cityCount": 174,
+    "description": "NAD+ therapy supports cellular energy, metabolism, and anti-aging."
+  },
+  {
+    "slug": "tirzepatide",
+    "name": "Tirzepatide",
+    "type": "peptide",
+    "providerCount": 292,
+    "cityCount": 149,
+    "description": "Tirzepatide is a dual GIP/GLP-1 receptor agonist for weight loss and blood sugar control."
+  },
+  {
+    "slug": "sermorelin",
+    "name": "Sermorelin",
+    "type": "peptide",
+    "providerCount": 188,
+    "cityCount": 114,
+    "description": "Sermorelin is a growth hormone-releasing hormone analog used for anti-aging therapy."
+  },
+  {
+    "slug": "pt-141",
+    "name": "PT-141",
+    "type": "peptide",
+    "providerCount": 130,
+    "cityCount": 93,
+    "description": "PT-141 (Bremelanotide) is a peptide used for sexual health and libido."
+  },
+  {
     "slug": "bpc-157",
     "name": "BPC-157",
     "type": "peptide",
-    "providerCount": 0,
-    "cityCount": 0,
+    "providerCount": 71,
+    "cityCount": 48,
     "description": "BPC-157 is a peptide used for tissue repair, joint healing, and gut health."
-  },
-  {
-    "slug": "cjc-1295-ipamorelin",
-    "name": "CJC-1295 / Ipamorelin",
-    "type": "peptide",
-    "providerCount": 0,
-    "cityCount": 0,
-    "description": "CJC-1295 and Ipamorelin are growth hormone-releasing peptides used for anti-aging and body composition."
   },
   {
     "slug": "ghk-cu",
     "name": "GHK-Cu",
     "type": "peptide",
-    "providerCount": 0,
-    "cityCount": 0,
+    "providerCount": 44,
+    "cityCount": 34,
     "description": "GHK-Cu is a copper peptide used for skin rejuvenation and wound healing."
+  },
+  {
+    "slug": "tb-500",
+    "name": "TB-500",
+    "type": "peptide",
+    "providerCount": 38,
+    "cityCount": 31,
+    "description": "TB-500 (Thymosin Beta-4) is a peptide used for tissue repair and recovery."
+  },
+  {
+    "slug": "hexarelin",
+    "name": "Hexarelin",
+    "type": "therapy",
+    "providerCount": 35,
+    "cityCount": 35,
+    "description": "Find providers offering hexarelin near you."
+  },
+  {
+    "slug": "tesamorelin",
+    "name": "Tesamorelin",
+    "type": "therapy",
+    "providerCount": 32,
+    "cityCount": 28,
+    "description": "Find providers offering tesamorelin near you."
+  },
+  {
+    "slug": "cjc-1295-ipamorelin",
+    "name": "CJC-1295 / Ipamorelin",
+    "type": "peptide",
+    "providerCount": 30,
+    "cityCount": 22,
+    "description": "CJC-1295 and Ipamorelin are growth hormone-releasing peptides used for anti-aging and body composition."
+  },
+  {
+    "slug": "mots-c",
+    "name": "Mots C",
+    "type": "therapy",
+    "providerCount": 20,
+    "cityCount": 18,
+    "description": "Find providers offering mots c near you."
+  },
+  {
+    "slug": "selank",
+    "name": "Selank",
+    "type": "therapy",
+    "providerCount": 20,
+    "cityCount": 16,
+    "description": "Find providers offering selank near you."
+  },
+  {
+    "slug": "epithalon",
+    "name": "Epithalon",
+    "type": "therapy",
+    "providerCount": 15,
+    "cityCount": 14,
+    "description": "Find providers offering epithalon near you."
+  },
+  {
+    "slug": "semax",
+    "name": "Semax",
+    "type": "therapy",
+    "providerCount": 15,
+    "cityCount": 11,
+    "description": "Find providers offering semax near you."
+  },
+  {
+    "slug": "kisspeptin",
+    "name": "Kisspeptin",
+    "type": "therapy",
+    "providerCount": 9,
+    "cityCount": 6,
+    "description": "Find providers offering kisspeptin near you."
+  },
+  {
+    "slug": "ghrp-6",
+    "name": "Ghrp 6",
+    "type": "therapy",
+    "providerCount": 1,
+    "cityCount": 1,
+    "description": "Find providers offering ghrp 6 near you."
   },
   {
     "slug": "hormone-therapy",
@@ -46,54 +158,6 @@
     "providerCount": 0,
     "cityCount": 0,
     "description": "Intravenous vitamin and nutrient therapy for hydration, recovery, and wellness."
-  },
-  {
-    "slug": "nad-plus",
-    "name": "NAD+",
-    "type": "therapy",
-    "providerCount": 0,
-    "cityCount": 0,
-    "description": "NAD+ therapy supports cellular energy, metabolism, and anti-aging."
-  },
-  {
-    "slug": "pt-141",
-    "name": "PT-141",
-    "type": "peptide",
-    "providerCount": 0,
-    "cityCount": 0,
-    "description": "PT-141 (Bremelanotide) is a peptide used for sexual health and libido."
-  },
-  {
-    "slug": "semaglutide",
-    "name": "Semaglutide",
-    "type": "peptide",
-    "providerCount": 0,
-    "cityCount": 0,
-    "description": "Semaglutide is a GLP-1 receptor agonist used for weight management."
-  },
-  {
-    "slug": "sermorelin",
-    "name": "Sermorelin",
-    "type": "peptide",
-    "providerCount": 0,
-    "cityCount": 0,
-    "description": "Sermorelin is a growth hormone-releasing hormone analog used for anti-aging therapy."
-  },
-  {
-    "slug": "tb-500",
-    "name": "TB-500",
-    "type": "peptide",
-    "providerCount": 0,
-    "cityCount": 0,
-    "description": "TB-500 (Thymosin Beta-4) is a peptide used for tissue repair and recovery."
-  },
-  {
-    "slug": "tirzepatide",
-    "name": "Tirzepatide",
-    "type": "peptide",
-    "providerCount": 0,
-    "cityCount": 0,
-    "description": "Tirzepatide is a dual GIP/GLP-1 receptor agonist for weight loss and blood sugar control."
   },
   {
     "slug": "weight-loss",
