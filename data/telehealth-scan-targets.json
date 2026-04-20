@@ -1,0 +1,1981 @@
+[
+  {
+    "slug": "mattr-biowellness-club",
+    "name": "MATTR Biowellness Club",
+    "website": "https://www.mattrbiowellnessclub.com",
+    "city": "Austin",
+    "stateCode": "TX",
+    "peptides": [
+      "Semaglutide",
+      "Tirzepatide",
+      "Sermorelin",
+      "Tesamorelin",
+      "CJC-1295/Ipamorelin",
+      "BPC-157",
+      "TB-500",
+      "GHK-Cu",
+      "NAD+",
+      "PT-141",
+      "Epithalon",
+      "MOTs-C",
+      "ARA-290",
+      "Humanin",
+      "SS-31",
+      "Thymosin Alpha-1",
+      "Semax",
+      "Selank",
+      "DSIP",
+      "Melanotan II",
+      "Pinealon"
+    ]
+  },
+  {
+    "slug": "austin-regenerative-therapy",
+    "name": "Austin Regenerative Therapy",
+    "website": "https://austinregen.com",
+    "city": "Austin",
+    "stateCode": "TX",
+    "peptides": [
+      "BPC-157",
+      "Semaglutide",
+      "Tirzepatide",
+      "Sermorelin",
+      "Tesamorelin",
+      "CJC-1295/Ipamorelin",
+      "GHK-Cu",
+      "PT-141",
+      "TB-500",
+      "Epithalon",
+      "SS-31",
+      "Thymosin Alpha-1",
+      "Selank",
+      "Semax",
+      "DSIP",
+      "Melanotan II",
+      "Liraglutide",
+      "5-Amino 1MQ",
+      "AOD-9604",
+      "Cerebrolysin",
+      "Dihexa",
+      "ARA-290"
+    ]
+  },
+  {
+    "slug": "nirvanix-health",
+    "name": "Nirvanix Health",
+    "website": "https://nirvanixhealth.com",
+    "city": "Austin",
+    "stateCode": "TX",
+    "peptides": [
+      "Sermorelin",
+      "GHK-Cu",
+      "NAD+",
+      "Glutathione",
+      "Semaglutide"
+    ]
+  },
+  {
+    "slug": "valley-healthspan",
+    "name": "Valley Healthspan",
+    "website": "https://valleyhealthspan.com/",
+    "city": "Phoenix",
+    "stateCode": "AZ",
+    "peptides": [
+      "BPC-157",
+      "Semaglutide",
+      "Sermorelin",
+      "CJC-1295/Ipamorelin"
+    ]
+  },
+  {
+    "slug": "beso-wellness-and-beauty",
+    "name": "Beso Wellness and Beauty",
+    "website": "https://www.besowb.com/",
+    "city": "Phoenix",
+    "stateCode": "AZ",
+    "peptides": [
+      "BPC-157",
+      "Semaglutide",
+      "Tirzepatide",
+      "Sermorelin",
+      "CJC-1295/Ipamorelin",
+      "GHK-Cu",
+      "PT-141",
+      "NAD+",
+      "Epithalon",
+      "DSIP",
+      "Kisspeptin-10",
+      "Cerebrolysin",
+      "Semax",
+      "Selank"
+    ]
+  },
+  {
+    "slug": "fix-medical-group-scottsdale",
+    "name": "FIX Medical Group",
+    "website": "https://fixmedicalgroup.com/scottsdaleaz/",
+    "city": "Scottsdale",
+    "stateCode": "AZ",
+    "peptides": [
+      "BPC-157",
+      "Tirzepatide",
+      "TB-500"
+    ]
+  },
+  {
+    "slug": "modernized-wellness",
+    "name": "Modernized Wellness",
+    "website": "https://www.modernizedwellness.com/",
+    "city": "Scottsdale",
+    "stateCode": "AZ",
+    "peptides": [
+      "BPC-157",
+      "Semaglutide",
+      "Sermorelin"
+    ]
+  },
+  {
+    "slug": "valley-medical-weight-loss",
+    "name": "Valley Medical Weight Loss",
+    "website": "https://www.valleymedicalweightloss.com/",
+    "city": "Phoenix",
+    "stateCode": "AZ",
+    "peptides": [
+      "Semaglutide",
+      "Tirzepatide"
+    ]
+  },
+  {
+    "slug": "covalent-health-wellness-aesthetics",
+    "name": "Covalent Health Wellness & Aesthetics",
+    "website": "https://covalenthealth.org",
+    "city": "Miami",
+    "stateCode": "FL",
+    "peptides": [
+      "BPC-157",
+      "CJC-1295/Ipamorelin",
+      "Thymosin Alpha-1",
+      "Semax",
+      "Selank",
+      "Semaglutide",
+      "Tirzepatide"
+    ]
+  },
+  {
+    "slug": "integrative-health-miami",
+    "name": "Integrative Health Miami",
+    "website": "https://integrativehealthmiami.com",
+    "city": "Miami",
+    "stateCode": "FL",
+    "peptides": [
+      "BPC-157",
+      "Semaglutide",
+      "Sermorelin",
+      "CJC-1295/Ipamorelin"
+    ]
+  },
+  {
+    "slug": "vive-ageless-weight-loss",
+    "name": "Vive Ageless Weight Loss Center",
+    "website": "https://www.viveagelessweightloss.com",
+    "city": "Coral Gables",
+    "stateCode": "FL",
+    "peptides": [
+      "Semaglutide",
+      "Tirzepatide",
+      "Ipamorelin"
+    ]
+  },
+  {
+    "slug": "the-biostation-fort-lauderdale",
+    "name": "The BioStation",
+    "website": "https://thebiostation.com",
+    "city": "Fort Lauderdale",
+    "stateCode": "FL",
+    "peptides": [
+      "BPC-157",
+      "GHK-Cu",
+      "Semaglutide"
+    ]
+  },
+  {
+    "slug": "hybrid-medical-solution",
+    "name": "Hybrid Medical Solution",
+    "website": "https://www.hybridmedicalsolution.com",
+    "city": "Boca Raton",
+    "stateCode": "FL",
+    "peptides": [
+      "BPC-157",
+      "Sermorelin",
+      "CJC-1295/Ipamorelin",
+      "AOD-9604",
+      "Semaglutide"
+    ]
+  },
+  {
+    "slug": "premium-health-care-pharmacy",
+    "name": "Premium Health Care Pharmacy",
+    "website": "https://www.phcpharmacy.com",
+    "city": "Miami",
+    "stateCode": "FL",
+    "peptides": [
+      "BPC-157",
+      "Semaglutide",
+      "Sermorelin",
+      "CJC-1295/Ipamorelin"
+    ]
+  },
+  {
+    "slug": "vitalogy-health-integrative-medicine",
+    "name": "Vitalogy Health and Integrative Medicine",
+    "website": "https://www.vitalogydenver.com",
+    "city": "Denver",
+    "stateCode": "CO",
+    "peptides": [
+      "Semaglutide",
+      "Tirzepatide",
+      "Sermorelin",
+      "BPC-157"
+    ]
+  },
+  {
+    "slug": "denver-wellness-aesthetics-center",
+    "name": "Denver Wellness & Aesthetics Center",
+    "website": "https://denverwellnessaesthetic.com",
+    "city": "Englewood",
+    "stateCode": "CO",
+    "peptides": [
+      "BPC-157",
+      "Thymosin Beta 4",
+      "Tesamorelin",
+      "Sermorelin",
+      "CJC-1295/Ipamorelin",
+      "Semaglutide"
+    ]
+  },
+  {
+    "slug": "balanced-healthcare",
+    "name": "Balanced Healthcare",
+    "website": "https://www.balancedhc.org",
+    "city": "Denver",
+    "stateCode": "CO",
+    "peptides": [
+      "BPC-157",
+      "Semaglutide",
+      "Sermorelin",
+      "CJC-1295/Ipamorelin"
+    ]
+  },
+  {
+    "slug": "onus-iv-therapy-longevity",
+    "name": "Onus IV Therapy + Longevity",
+    "website": "https://www.onusiv.com",
+    "city": "Denver",
+    "stateCode": "CO",
+    "peptides": [
+      "NAD+",
+      "Semaglutide",
+      "Tirzepatide",
+      "BPC-157",
+      "Sermorelin"
+    ]
+  },
+  {
+    "slug": "aria-integrative-health",
+    "name": "Aria Integrative Health",
+    "website": "https://ariaintegrativehealth.com",
+    "city": "Denver",
+    "stateCode": "CO",
+    "peptides": [
+      "Semaglutide",
+      "BPC-157",
+      "Sermorelin",
+      "CJC-1295/Ipamorelin"
+    ]
+  },
+  {
+    "slug": "gleam-medical-spa",
+    "name": "Gleam Medical Spa",
+    "website": "https://gleammedspa.com",
+    "city": "Denver",
+    "stateCode": "CO",
+    "peptides": [
+      "Semaglutide",
+      "Tirzepatide",
+      "BPC-157"
+    ]
+  },
+  {
+    "slug": "denver-regenerative-medicine",
+    "name": "Denver Regenerative Medicine",
+    "website": "https://denverregenerativemedicine.com",
+    "city": "Denver",
+    "stateCode": "CO",
+    "peptides": [
+      "Semaglutide",
+      "BPC-157",
+      "Sermorelin",
+      "CJC-1295/Ipamorelin"
+    ]
+  },
+  {
+    "slug": "evexias-medical-denver",
+    "name": "Evexias Medical Denver",
+    "website": "https://evexiasdenver.com",
+    "city": "Denver",
+    "stateCode": "CO",
+    "peptides": [
+      "Semaglutide",
+      "Tirzepatide",
+      "BPC-157",
+      "Sermorelin",
+      "CJC-1295/Ipamorelin",
+      "PT-141"
+    ]
+  },
+  {
+    "slug": "r2-medical-clinic",
+    "name": "R2 Medical Clinic",
+    "website": "https://r2medicalclinic.com",
+    "city": "Denver",
+    "stateCode": "CO",
+    "peptides": [
+      "BPC-157",
+      "Semaglutide",
+      "Tirzepatide",
+      "Sermorelin",
+      "CJC-1295/Ipamorelin"
+    ]
+  },
+  {
+    "slug": "restorative-injectables",
+    "name": "Restorative Injectables Med Spa",
+    "website": "https://restorativeinjectables.com",
+    "city": "Denver",
+    "stateCode": "CO",
+    "peptides": [
+      "Semaglutide",
+      "BPC-157",
+      "Tirzepatide"
+    ]
+  },
+  {
+    "slug": "thrive-health-solutions",
+    "name": "Thrive Health Solutions",
+    "website": "https://thrivecolorado.com",
+    "city": "Englewood",
+    "stateCode": "CO",
+    "peptides": [
+      "Semaglutide",
+      "Tirzepatide",
+      "BPC-157",
+      "Sermorelin",
+      "CJC-1295/Ipamorelin"
+    ]
+  },
+  {
+    "slug": "fitmd-usa",
+    "name": "FitMD",
+    "website": "https://fitmdusa.com",
+    "city": "Northglenn",
+    "stateCode": "CO",
+    "peptides": [
+      "Sermorelin",
+      "CJC-1295/Ipamorelin",
+      "PT-141",
+      "Semaglutide",
+      "BPC-157"
+    ]
+  },
+  {
+    "slug": "modern-surgical-arts-denver",
+    "name": "Modern Surgical Arts of Denver",
+    "website": "https://modernsurgicalarts.com",
+    "city": "Highlands Ranch",
+    "stateCode": "CO",
+    "peptides": [
+      "Semaglutide",
+      "Tirzepatide",
+      "BPC-157",
+      "Sermorelin"
+    ]
+  },
+  {
+    "slug": "front-range-wellness-aesthetics",
+    "name": "Front Range Wellness & Aesthetics",
+    "website": "https://frontrangewellnessaesthetics.com",
+    "city": "Colorado Springs",
+    "stateCode": "CO",
+    "peptides": [
+      "BPC-157",
+      "Semaglutide",
+      "Tirzepatide",
+      "Sermorelin",
+      "CJC-1295/Ipamorelin"
+    ]
+  },
+  {
+    "slug": "reveal-medspa",
+    "name": "Reveal MedSpa",
+    "website": "https://revealmedspas.com",
+    "city": "Colorado Springs",
+    "stateCode": "CO",
+    "peptides": [
+      "BPC-157",
+      "Semaglutide",
+      "Sermorelin"
+    ]
+  },
+  {
+    "slug": "house-of-aesthetix",
+    "name": "House of Aesthetix",
+    "website": "https://houseofaesthetix.com",
+    "city": "San Diego",
+    "stateCode": "CA",
+    "peptides": [
+      "BPC-157",
+      "Semaglutide",
+      "Tirzepatide",
+      "NAD+",
+      "GHK-Cu"
+    ]
+  },
+  {
+    "slug": "livv-natural-health",
+    "name": "LIVV Natural Health",
+    "website": "https://livvnatural.com",
+    "city": "San Diego",
+    "stateCode": "CA",
+    "peptides": [
+      "BPC-157",
+      "Semaglutide",
+      "CJC-1295/Ipamorelin",
+      "Sermorelin",
+      "GHK-Cu",
+      "NAD+"
+    ]
+  },
+  {
+    "slug": "oasis-health-and-medicine",
+    "name": "Oasis Health and Medicine",
+    "website": "https://oasishealthandmedicine.com",
+    "city": "Encinitas",
+    "stateCode": "CA",
+    "peptides": [
+      "BPC-157",
+      "Semaglutide",
+      "Sermorelin",
+      "CJC-1295/Ipamorelin"
+    ]
+  },
+  {
+    "slug": "accelerate-health-clinics",
+    "name": "Accelerate Health Clinics",
+    "website": "https://ah-clinics.com",
+    "city": "San Diego",
+    "stateCode": "CA",
+    "peptides": [
+      "BPC-157",
+      "Semaglutide",
+      "Sermorelin",
+      "CJC-1295/Ipamorelin",
+      "TB-500",
+      "NAD+"
+    ]
+  },
+  {
+    "slug": "capitis-medical-aesthetics",
+    "name": "Capitis Medical & Aesthetics",
+    "website": "https://www.capitismedicalaesthetics.com",
+    "city": "San Diego",
+    "stateCode": "CA",
+    "peptides": [
+      "BPC-157",
+      "Semaglutide",
+      "CJC-1295/Ipamorelin",
+      "Sermorelin",
+      "GHK-Cu"
+    ]
+  },
+  {
+    "slug": "ithrivemd",
+    "name": "iThriveMD",
+    "website": "https://www.ithrivemd.com",
+    "city": "San Diego",
+    "stateCode": "CA",
+    "peptides": [
+      "Semaglutide",
+      "Tirzepatide",
+      "BPC-157",
+      "NAD+",
+      "Sermorelin"
+    ]
+  },
+  {
+    "slug": "viva-wellness-medical-group",
+    "name": "Viva Wellness Medical Group",
+    "website": "https://vivawellness.com",
+    "city": "San Diego",
+    "stateCode": "CA",
+    "peptides": [
+      "Semaglutide",
+      "Tirzepatide"
+    ]
+  },
+  {
+    "slug": "inner-path-naturopathic",
+    "name": "Inner Path Naturopathic",
+    "website": "https://www.innerpathnaturopathic.com",
+    "city": "San Diego",
+    "stateCode": "CA",
+    "peptides": [
+      "BPC-157",
+      "Semaglutide",
+      "Sermorelin",
+      "CJC-1295/Ipamorelin"
+    ]
+  },
+  {
+    "slug": "nowak-aesthetics",
+    "name": "Nowak Aesthetics",
+    "website": "https://drnowak.com",
+    "city": "Chula Vista",
+    "stateCode": "CA",
+    "peptides": [
+      "BPC-157",
+      "Semaglutide",
+      "Sermorelin",
+      "CJC-1295/Ipamorelin"
+    ]
+  },
+  {
+    "slug": "tulsi-wellness-club",
+    "name": "Tulsi Wellness Club",
+    "website": "https://wearetulsi.com",
+    "city": "Del Mar",
+    "stateCode": "CA",
+    "peptides": [
+      "BPC-157",
+      "Semaglutide",
+      "Sermorelin",
+      "NAD+"
+    ]
+  },
+  {
+    "slug": "university-compounding-pharmacy",
+    "name": "University Compounding Pharmacy",
+    "website": "https://www.ucprx.com",
+    "city": "San Diego",
+    "stateCode": "CA",
+    "peptides": [
+      "Semaglutide",
+      "BPC-157"
+    ]
+  },
+  {
+    "slug": "beauty-lounge-medical-spa",
+    "name": "Beauty Lounge Medical Spa",
+    "website": "https://beautyloungesanmarcos.com",
+    "city": "San Diego",
+    "stateCode": "CA",
+    "peptides": [
+      "Semaglutide",
+      "Tirzepatide",
+      "BPC-157"
+    ]
+  },
+  {
+    "slug": "atlas-health-institute",
+    "name": "Atlas Health Institute",
+    "website": "https://www.atlashealthinstitute.com",
+    "city": "Las Vegas",
+    "stateCode": "NV",
+    "peptides": [
+      "BPC-157",
+      "Semaglutide",
+      "Sermorelin",
+      "CJC-1295/Ipamorelin"
+    ]
+  },
+  {
+    "slug": "sky-health-wellness-clinic",
+    "name": "Sky Health Wellness Clinic",
+    "website": "https://www.skyhealthnv.com",
+    "city": "Las Vegas",
+    "stateCode": "NV",
+    "peptides": [
+      "BPC-157",
+      "Semaglutide",
+      "Tirzepatide",
+      "Sermorelin",
+      "Tesamorelin",
+      "Retatrutide",
+      "KPV",
+      "Thymosin Alpha-1"
+    ]
+  },
+  {
+    "slug": "body-balance-medical",
+    "name": "Body Balance Medical",
+    "website": "https://bodybalancemedical.com",
+    "city": "Las Vegas",
+    "stateCode": "NV",
+    "peptides": [
+      "Semaglutide",
+      "Sermorelin",
+      "Gonadorelin"
+    ]
+  },
+  {
+    "slug": "american-medical-wellness",
+    "name": "American Medical Wellness",
+    "website": "https://www.americanmedicalwellness.com",
+    "city": "Henderson",
+    "stateCode": "NV",
+    "peptides": [
+      "PT-141",
+      "Semaglutide",
+      "Sermorelin",
+      "BPC-157"
+    ]
+  },
+  {
+    "slug": "regenerate-medical-concierge",
+    "name": "Regenerate Medical Concierge",
+    "website": "https://regeneratemedicalconcierge.com",
+    "city": "Henderson",
+    "stateCode": "NV",
+    "peptides": [
+      "BPC-157",
+      "Semaglutide",
+      "Sermorelin"
+    ]
+  },
+  {
+    "slug": "american-wellness-pharmacy",
+    "name": "American Wellness Pharmacy",
+    "website": "https://www.americanwellnesspharmacy.com",
+    "city": "Las Vegas",
+    "stateCode": "NV",
+    "peptides": [
+      "BPC-157",
+      "TB-500",
+      "Tesamorelin",
+      "Semaglutide",
+      "Sermorelin"
+    ]
+  },
+  {
+    "slug": "wellness-at-century-city",
+    "name": "Wellness at Century City",
+    "website": "https://www.wellnessatcenturycity.com",
+    "city": "Los Angeles",
+    "stateCode": "CA",
+    "peptides": [
+      "BPC-157",
+      "Semaglutide",
+      "Tirzepatide",
+      "Sermorelin",
+      "Ipamorelin",
+      "CJC-1295/Ipamorelin",
+      "Tesamorelin",
+      "AOD-9604",
+      "Thymosin Alpha-1",
+      "GHK-Cu",
+      "PT-141",
+      "Epitalon",
+      "Cerebrolysin",
+      "Dihexa",
+      "Selank",
+      "Semax"
+    ]
+  },
+  {
+    "slug": "citrin-wellness",
+    "name": "Citrin Wellness",
+    "website": "https://www.doctorguy.com",
+    "city": "Beverly Hills",
+    "stateCode": "CA",
+    "peptides": [
+      "BPC-157",
+      "Semaglutide",
+      "Tirzepatide",
+      "PT-141",
+      "GHK-Cu",
+      "Cerebrolysin",
+      "Dihexa",
+      "Semax",
+      "Selank"
+    ]
+  },
+  {
+    "slug": "dr-daniel-benhuri",
+    "name": "Dr. Daniel Benhuri, MD",
+    "website": "https://www.danielbenhurimd.com",
+    "city": "Beverly Hills",
+    "stateCode": "CA",
+    "peptides": [
+      "Semaglutide",
+      "Tirzepatide",
+      "Tesamorelin",
+      "PT-141",
+      "BPC-157",
+      "NAD+"
+    ]
+  },
+  {
+    "slug": "optimal-health-wellness-pasadena",
+    "name": "Optimal Health & Wellness",
+    "website": "https://www.opthealthwellness.com",
+    "city": "Pasadena",
+    "stateCode": "CA",
+    "peptides": [
+      "Semaglutide"
+    ]
+  },
+  {
+    "slug": "dr-golberg-wellness",
+    "name": "Dr. GolBerg Aesthetics & Wellness",
+    "website": "https://www.drgolberg.nyc",
+    "city": "New York",
+    "stateCode": "NY",
+    "peptides": [
+      "Tirzepatide",
+      "Semaglutide"
+    ]
+  },
+  {
+    "slug": "advitam",
+    "name": "+advitam",
+    "website": "https://www.myadvitam.com",
+    "city": "New York",
+    "stateCode": "NY",
+    "peptides": [
+      "Semaglutide",
+      "Tirzepatide"
+    ]
+  },
+  {
+    "slug": "refine-by-tulsi",
+    "name": "Refine By Tulsi",
+    "website": "https://refinebytulsi.com",
+    "city": "Chicago",
+    "stateCode": "IL",
+    "peptides": [
+      "BPC-157",
+      "Semaglutide",
+      "Tirzepatide",
+      "CJC-1295",
+      "Sermorelin"
+    ]
+  },
+  {
+    "slug": "revitalize-iv-solutions-medspa",
+    "name": "Revitalize IV Solutions & MedSpa",
+    "website": "https://www.revitalizeivsolutions.com",
+    "city": "Chicago",
+    "stateCode": "IL",
+    "peptides": [
+      "BPC-157",
+      "TB-500",
+      "Semaglutide",
+      "Sermorelin",
+      "GHRP-6",
+      "Ipamorelin"
+    ]
+  },
+  {
+    "slug": "wholehealth-chicago",
+    "name": "WholeHealth Chicago",
+    "website": "https://wholehealthchicago.com",
+    "city": "Chicago",
+    "stateCode": "IL",
+    "peptides": [
+      "Semaglutide",
+      "Tirzepatide",
+      "Thymosin Alpha-1",
+      "PT-141"
+    ]
+  },
+  {
+    "slug": "chicago-arthritis-regenerative-medicine",
+    "name": "Chicago Arthritis and Regenerative Medicine",
+    "website": "https://chicagoarthritis.com",
+    "city": "Chicago",
+    "stateCode": "IL",
+    "peptides": [
+      "Semaglutide",
+      "Tirzepatide",
+      "CJC-1295",
+      "AOD-9604"
+    ]
+  },
+  {
+    "slug": "revived-personalized-wellness",
+    "name": "Revived Personalized Wellness",
+    "website": "https://www.myrevived.com",
+    "city": "Houston",
+    "stateCode": "TX",
+    "peptides": [
+      "BPC-157",
+      "CJC-1295",
+      "Ipamorelin",
+      "Sermorelin",
+      "Tirzepatide"
+    ]
+  },
+  {
+    "slug": "performance-pain-sports-medicine",
+    "name": "Performance Pain and Sports Medicine",
+    "website": "https://www.performancepain.com",
+    "city": "Houston",
+    "stateCode": "TX",
+    "peptides": [
+      "Tirzepatide",
+      "CJC-1295",
+      "Ipamorelin",
+      "Semaglutide"
+    ]
+  },
+  {
+    "slug": "houston-concierge-medicine",
+    "name": "Houston Concierge Medicine & Wellness Center",
+    "website": "https://www.houstonconciergemedicine.com",
+    "city": "Houston",
+    "stateCode": "TX",
+    "peptides": [
+      "BPC-157",
+      "Semaglutide",
+      "Tirzepatide"
+    ]
+  },
+  {
+    "slug": "vida-aesthetics-and-wellness",
+    "name": "Vida Aesthetics and Wellness",
+    "website": "https://allmyvida.com",
+    "city": "Houston",
+    "stateCode": "TX",
+    "peptides": [
+      "AOD-9604",
+      "Semaglutide"
+    ]
+  },
+  {
+    "slug": "reviverx-pharmacy",
+    "name": "ReviveRX Pharmacy",
+    "website": "https://reviverx.com",
+    "city": "Houston",
+    "stateCode": "TX",
+    "peptides": [
+      "BPC-157",
+      "Semaglutide",
+      "Tirzepatide"
+    ]
+  },
+  {
+    "slug": "empower-pharmacy",
+    "name": "Empower Pharmacy",
+    "website": "https://www.empowerpharmacy.com",
+    "city": "Houston",
+    "stateCode": "TX",
+    "peptides": [
+      "GHK-Cu",
+      "Semaglutide",
+      "Tirzepatide",
+      "BPC-157"
+    ]
+  },
+  {
+    "slug": "balanced-aesthetics-wellness",
+    "name": "Balanced Aesthetics + Wellness",
+    "website": "https://balancedaestheticsmedspa.com",
+    "city": "Atlanta",
+    "stateCode": "GA",
+    "peptides": [
+      "Semaglutide",
+      "Tirzepatide"
+    ]
+  },
+  {
+    "slug": "nip-and-tuck-plastic-surgery",
+    "name": "Nip & Tuck Plastic Surgery",
+    "website": "https://www.drnipandtuck.com",
+    "city": "Atlanta",
+    "stateCode": "GA",
+    "peptides": [
+      "Semaglutide"
+    ]
+  },
+  {
+    "slug": "compass-human-performance",
+    "name": "Compass Human Performance",
+    "website": "https://compasshp.com",
+    "city": "Nashville",
+    "stateCode": "TN",
+    "peptides": [
+      "Semaglutide",
+      "CJC-1295",
+      "Ipamorelin",
+      "BPC-157",
+      "AOD-9604",
+      "GHK-Cu",
+      "MOTS-C"
+    ]
+  },
+  {
+    "slug": "nashville-hormone-integrative-medicine",
+    "name": "Nashville Hormone & Integrative Medicine Center",
+    "website": "https://nashvillehormone.com",
+    "city": "Nashville",
+    "stateCode": "TN",
+    "peptides": [
+      "Semaglutide",
+      "Tirzepatide"
+    ]
+  },
+  {
+    "slug": "rise-regenerative-medicine",
+    "name": "Rise Regenerative Medicine",
+    "website": "https://riseregenmed.com",
+    "city": "Seattle",
+    "stateCode": "WA",
+    "peptides": [
+      "Semaglutide",
+      "GHK-Cu"
+    ]
+  },
+  {
+    "slug": "seattle-plastic-surgery-center",
+    "name": "Seattle Plastic Surgery Center",
+    "website": "https://www.seattleplasticsurgery.com",
+    "city": "Seattle",
+    "stateCode": "WA",
+    "peptides": [
+      "Sermorelin",
+      "Semaglutide",
+      "Tirzepatide",
+      "NAD+"
+    ]
+  },
+  {
+    "slug": "upgrade-pdx",
+    "name": "Upgrade PDX",
+    "website": "https://www.upgradepdx.com",
+    "city": "Portland",
+    "stateCode": "OR",
+    "peptides": [
+      "BPC-157",
+      "TB-500",
+      "KPV",
+      "GHK-Cu",
+      "Epithalon",
+      "Sermorelin",
+      "CJC-1295",
+      "Ipamorelin",
+      "GHRP-6",
+      "Tesamorelin",
+      "Semaglutide",
+      "Tirzepatide",
+      "Cerebrolysin",
+      "ARA-290",
+      "Pinealon"
+    ]
+  },
+  {
+    "slug": "thrive-aesthetic-and-wellness",
+    "name": "Thrive Aesthetic & Wellness",
+    "website": "https://www.thriveportland.com",
+    "city": "Portland",
+    "stateCode": "OR",
+    "peptides": [
+      "Sermorelin",
+      "Tesamorelin",
+      "GHK-Cu",
+      "BPC-157",
+      "Semaglutide",
+      "Tirzepatide"
+    ]
+  },
+  {
+    "slug": "macwellness-dr-lindsey-nelson",
+    "name": "MACWellness - Dr. Lindsey Nelson, ND",
+    "website": "https://www.drlindseysnelson.com",
+    "city": "Portland",
+    "stateCode": "OR",
+    "peptides": [
+      "Semaglutide",
+      "Tirzepatide",
+      "Sermorelin",
+      "Ipamorelin",
+      "AOD-9604",
+      "Tesamorelin",
+      "BPC-157",
+      "KPV",
+      "MOTS-C",
+      "Selank",
+      "Semax",
+      "DSIP",
+      "Oxytocin"
+    ]
+  },
+  {
+    "slug": "weight-loss-clinic-portland",
+    "name": "Weight Loss Clinic Portland",
+    "website": "https://weightlossclinicportland.com",
+    "city": "Portland",
+    "stateCode": "OR",
+    "peptides": [
+      "Semaglutide",
+      "Tirzepatide"
+    ]
+  },
+  {
+    "slug": "new-era-pharmacy",
+    "name": "New Era Pharmacy",
+    "website": "https://newerapharmacy.com",
+    "city": "Portland",
+    "stateCode": "OR",
+    "peptides": [
+      "Semaglutide"
+    ]
+  },
+  {
+    "slug": "omni-sculpt-md",
+    "name": "OMNI SCULPT MD",
+    "website": "https://omnisculptmd.com",
+    "city": "Dallas",
+    "stateCode": "TX",
+    "peptides": [
+      "Semaglutide",
+      "Tirzepatide",
+      "BPC-157",
+      "CJC-1295/Ipamorelin",
+      "AOD-9604",
+      "Liraglutide",
+      "GHK-Cu"
+    ]
+  },
+  {
+    "slug": "ifusion-wellness-iv-bars",
+    "name": "iFusion Wellness & iV Bars",
+    "website": "https://ifusiondallas.com",
+    "city": "Dallas",
+    "stateCode": "TX",
+    "peptides": [
+      "Semaglutide",
+      "BPC-157",
+      "Sermorelin",
+      "CJC-1295/Ipamorelin",
+      "PT-141",
+      "DSIP"
+    ]
+  },
+  {
+    "slug": "formula-wellness-center",
+    "name": "Formula Wellness Center",
+    "website": "https://formulawellness.com",
+    "city": "Dallas",
+    "stateCode": "TX",
+    "peptides": [
+      "BPC-157",
+      "Semaglutide",
+      "CJC-1295/Ipamorelin",
+      "GHK-Cu"
+    ]
+  },
+  {
+    "slug": "aesteem-aesthetics",
+    "name": "Aesteem Aesthetics",
+    "website": "https://aesteemaesthetics.com",
+    "city": "Dallas",
+    "stateCode": "TX",
+    "peptides": [
+      "Semaglutide",
+      "NAD+",
+      "GHK-Cu",
+      "Methylene Blue"
+    ]
+  },
+  {
+    "slug": "thrivemd-dallas",
+    "name": "ThriveMD",
+    "website": "https://www.thrivemddallas.com",
+    "city": "Dallas",
+    "stateCode": "TX",
+    "peptides": [
+      "BPC-157",
+      "Sermorelin",
+      "Semaglutide",
+      "CJC-1295/Ipamorelin"
+    ]
+  },
+  {
+    "slug": "vitalyc-medspa-dallas",
+    "name": "Vitalyc Medspa",
+    "website": "https://www.vitalyc.com",
+    "city": "Dallas",
+    "stateCode": "TX",
+    "peptides": [
+      "Semaglutide",
+      "Tirzepatide",
+      "BPC-157"
+    ]
+  },
+  {
+    "slug": "1st-innovative-health-wellness",
+    "name": "1st Innovative Health & Wellness Group",
+    "website": "https://www.innovativehealthdallas.com",
+    "city": "Dallas",
+    "stateCode": "TX",
+    "peptides": [
+      "BPC-157",
+      "Semaglutide"
+    ]
+  },
+  {
+    "slug": "renew-vitality-dallas",
+    "name": "Renew Vitality",
+    "website": "https://www.vitalityhrt.com",
+    "city": "Dallas",
+    "stateCode": "TX",
+    "peptides": [
+      "Semaglutide",
+      "BPC-157",
+      "Sermorelin",
+      "CJC-1295/Ipamorelin"
+    ]
+  },
+  {
+    "slug": "newu-hydration-lounge-san-jose",
+    "name": "NewU Hydration Lounge",
+    "website": "https://newuhydrationlounge.com/san-jose-wellness-injections-pricing/",
+    "city": "San Jose",
+    "stateCode": "CA",
+    "peptides": [
+      "BPC-157",
+      "AOD-9604",
+      "CJC-1295/Ipamorelin",
+      "Semaglutide",
+      "Tirzepatide",
+      "Retatrutide"
+    ]
+  },
+  {
+    "slug": "true-you-aesthetic-san-jose",
+    "name": "True You Aesthetic",
+    "website": "https://www.trueyouaesthetic.com/medical-weight-loss-in-san-jose/",
+    "city": "San Jose",
+    "stateCode": "CA",
+    "peptides": [
+      "BPC-157",
+      "Semaglutide",
+      "Tirzepatide"
+    ]
+  },
+  {
+    "slug": "frontline-alternative-medicine-san-antonio",
+    "name": "Frontline Alternative Medicine",
+    "website": "https://www.frontlinealternativemedicine.com/peptide-therapy",
+    "city": "San Antonio",
+    "stateCode": "TX",
+    "peptides": [
+      "BPC-157",
+      "CJC-1295/Ipamorelin",
+      "Sermorelin",
+      "Semaglutide"
+    ]
+  },
+  {
+    "slug": "organix-haus-of-vitality-san-antonio",
+    "name": "Organix Haus of Vitality",
+    "website": "https://ohvitality.squarespace.com/",
+    "city": "San Antonio",
+    "stateCode": "TX",
+    "peptides": [
+      "Semaglutide",
+      "Tirzepatide"
+    ]
+  },
+  {
+    "slug": "timberwood-aesthetics-san-antonio",
+    "name": "Timberwood Aesthetics",
+    "website": "https://www.timberwoodaesthetics.com/post/the-power-of-peptides-unlocking-personalized-wellness-at-timberwood-aesthetics",
+    "city": "San Antonio",
+    "stateCode": "TX",
+    "peptides": [
+      "CJC-1295/Ipamorelin",
+      "Semaglutide",
+      "Tirzepatide",
+      "NAD+"
+    ]
+  },
+  {
+    "slug": "intercoastal-health-jacksonville",
+    "name": "Intercoastal Health",
+    "website": "https://intercoastalhealth.com/peptide-therapy-treatment-jacksonville-florida/",
+    "city": "Jacksonville",
+    "stateCode": "FL",
+    "peptides": [
+      "BPC-157",
+      "Sermorelin",
+      "PT-141",
+      "Semaglutide"
+    ]
+  },
+  {
+    "slug": "walk-by-faith-wellness-jacksonville",
+    "name": "Walk By Faith Wellness",
+    "website": "https://www.walkbyfaithwellness.com/",
+    "city": "Jacksonville",
+    "stateCode": "FL",
+    "peptides": [
+      "Semaglutide",
+      "Tirzepatide"
+    ]
+  },
+  {
+    "slug": "fusion-regenerative-therapies-orlando",
+    "name": "Fusion Regenerative Therapies",
+    "website": "https://fusionregenerativetherapies.com/peptide-therapy/",
+    "city": "Orlando",
+    "stateCode": "FL",
+    "peptides": [
+      "BPC-157",
+      "Sermorelin",
+      "PT-141",
+      "Semaglutide"
+    ]
+  },
+  {
+    "slug": "mercy-medical-and-wellness-orlando",
+    "name": "Mercy Medical and Wellness",
+    "website": "https://www.mercymedicalandwellness.org/services",
+    "city": "Orlando",
+    "stateCode": "FL",
+    "peptides": [
+      "Semaglutide",
+      "Tirzepatide"
+    ]
+  },
+  {
+    "slug": "choiceone-medspa-orlando",
+    "name": "ChoiceOne MedSpa Orlando",
+    "website": "https://choiceonemedspa.com/orlando-medical-spa-iv-therapy/",
+    "city": "Orlando",
+    "stateCode": "FL",
+    "peptides": [
+      "Semaglutide",
+      "Tirzepatide",
+      "NAD+"
+    ]
+  },
+  {
+    "slug": "evexias-health-solutions-orlando",
+    "name": "EVEXIAS Health Solutions Orlando",
+    "website": "https://www.evexias.com/orlando-fl/what-we-do/peptide-therapy/",
+    "city": "Orlando",
+    "stateCode": "FL",
+    "peptides": [
+      "Sermorelin",
+      "Semaglutide"
+    ]
+  },
+  {
+    "slug": "4ever-young-north-raleigh",
+    "name": "4Ever Young North Raleigh",
+    "website": "https://4everyoungantiaging.com/north-raleigh/",
+    "city": "Raleigh",
+    "stateCode": "NC",
+    "peptides": [
+      "Semaglutide",
+      "Tirzepatide"
+    ]
+  },
+  {
+    "slug": "triangle-functional-medicine-raleigh",
+    "name": "Triangle Functional Medicine",
+    "website": "https://trianglefunctionalmedicine.com/peptide-therapy/",
+    "city": "Raleigh",
+    "stateCode": "NC",
+    "peptides": [
+      "BPC-157",
+      "CJC-1295/Ipamorelin",
+      "Sermorelin",
+      "Semaglutide"
+    ]
+  },
+  {
+    "slug": "tru-wellness-charlotte",
+    "name": "TRU Wellness",
+    "website": "https://truwellnesscharlotte.com/",
+    "city": "Charlotte",
+    "stateCode": "NC",
+    "peptides": [
+      "Semaglutide",
+      "Tirzepatide"
+    ]
+  },
+  {
+    "slug": "cosmetic-and-wellness-institute-charlotte",
+    "name": "The Cosmetic & Wellness Institute",
+    "website": "https://cosmeticwellnessinstitute.com/our-approach",
+    "city": "Charlotte",
+    "stateCode": "NC",
+    "peptides": [
+      "Semaglutide",
+      "Tirzepatide"
+    ]
+  },
+  {
+    "slug": "altitude-medspa-salt-lake-city",
+    "name": "Altitude Medspa",
+    "website": "https://altitudemedspa.co/services/body-health/medical-weight-loss/",
+    "city": "Salt Lake City",
+    "stateCode": "UT",
+    "peptides": [
+      "Semaglutide",
+      "Tirzepatide"
+    ]
+  },
+  {
+    "slug": "simply-wellness-salt-lake-city",
+    "name": "Simply Wellness",
+    "website": "https://simplywellness.com/",
+    "city": "Salt Lake City",
+    "stateCode": "UT",
+    "peptides": [
+      "Semaglutide",
+      "Tirzepatide",
+      "NAD+",
+      "Sermorelin"
+    ]
+  },
+  {
+    "slug": "medical-cosmetic-enhancements-washington",
+    "name": "Medical Cosmetic Enhancements",
+    "website": "https://www.medicalcosmetic.org/services/peptide-therapy",
+    "city": "Washington",
+    "stateCode": "DC",
+    "peptides": [
+      "BPC-157",
+      "CJC-1295/Ipamorelin",
+      "Semaglutide"
+    ]
+  },
+  {
+    "slug": "american-medical-clinic-tampa",
+    "name": "American Medical Clinic",
+    "website": "https://www.americanmedicalclinics.org/primary-care-and-wellness-clinic-services/wellness-spa/weight-loss",
+    "city": "Tampa",
+    "stateCode": "FL",
+    "peptides": [
+      "Semaglutide"
+    ]
+  },
+  {
+    "slug": "the-dripbar-new-tampa",
+    "name": "The DRIPBaR New Tampa",
+    "website": "https://tampa.thedripbar.com/services-menu/wellness-services/semaglutide-and-tirzepatide/",
+    "city": "Tampa",
+    "stateCode": "FL",
+    "peptides": [
+      "Semaglutide",
+      "Tirzepatide"
+    ]
+  },
+  {
+    "slug": "victory-health-medical-group-tampa",
+    "name": "Victory Health Medical Group",
+    "website": "https://www.victoryhealthmg.com/home",
+    "city": "Tampa",
+    "stateCode": "FL",
+    "peptides": [
+      "Semaglutide"
+    ]
+  },
+  {
+    "slug": "tampa-weight-loss-institute",
+    "name": "Tampa Weight Loss Institute",
+    "website": "https://tampaweightlossinstitute.com/weight-loss-medications/semaglutide-for-weight-loss/",
+    "city": "Tampa",
+    "stateCode": "FL",
+    "peptides": [
+      "Semaglutide"
+    ]
+  },
+  {
+    "slug": "npoc-wellness-and-hydration-baltimore",
+    "name": "NPOC Wellness & Hydration",
+    "website": "https://www.npocwellness.com/",
+    "city": "Baltimore",
+    "stateCode": "MD",
+    "peptides": [
+      "Semaglutide"
+    ]
+  },
+  {
+    "slug": "sinch-weight-loss-indianapolis",
+    "name": "Sinch Weight Loss Indianapolis",
+    "website": "https://www.sinchweightloss.com/indianapolis/",
+    "city": "Indianapolis",
+    "stateCode": "IN",
+    "peptides": [
+      "Semaglutide",
+      "Tirzepatide"
+    ]
+  },
+  {
+    "slug": "sinch-weight-loss-new-orleans",
+    "name": "Sinch Weight Loss New Orleans",
+    "website": "https://www.sinchweightloss.com/new-orleans/",
+    "city": "New Orleans",
+    "stateCode": "LA",
+    "peptides": [
+      "Semaglutide",
+      "Tirzepatide"
+    ]
+  },
+  {
+    "slug": "slim-med-inc-sacramento",
+    "name": "Slim Med Inc.",
+    "website": "https://www.slimmedinc.com/contact/",
+    "city": "Sacramento",
+    "stateCode": "CA",
+    "peptides": [
+      "Semaglutide"
+    ]
+  },
+  {
+    "slug": "destination-aesthetics-sacramento",
+    "name": "Destination Aesthetics Medical Spa",
+    "website": "https://www.destinationaesthetics.com/gallery/body/medical-weight-loss-program/216/",
+    "city": "Sacramento",
+    "stateCode": "CA",
+    "peptides": [
+      "Semaglutide",
+      "Tirzepatide"
+    ]
+  },
+  {
+    "slug": "propel-therapeutics-sacramento",
+    "name": "Propel Therapeutics",
+    "website": "https://www.propeltherapeutics.com/semaglutide-injections",
+    "city": "Sacramento",
+    "stateCode": "CA",
+    "peptides": [
+      "Semaglutide"
+    ]
+  },
+  {
+    "slug": "liu-plastic-surgery-sacramento",
+    "name": "Liu Plastic Surgery Sacramento",
+    "website": "https://www.liuplasticsurgerysacramento.com/non-surgical/medical-weight-loss/",
+    "city": "Sacramento",
+    "stateCode": "CA",
+    "peptides": [
+      "Semaglutide"
+    ]
+  },
+  {
+    "slug": "boston-medical-aesthetics",
+    "name": "Boston Medical Aesthetics",
+    "website": "https://www.bostonmedicalaesthetics.net/body-contouring/medical-weight-loss/",
+    "city": "Boston",
+    "stateCode": "MA",
+    "peptides": [
+      "Semaglutide",
+      "Tirzepatide"
+    ]
+  },
+  {
+    "slug": "boston-beautox",
+    "name": "Boston Beautox",
+    "website": "https://www.bostonbeautox.com/weight-management",
+    "city": "Boston",
+    "stateCode": "MA",
+    "peptides": [
+      "Semaglutide"
+    ]
+  },
+  {
+    "slug": "iv-league-hydration-boston-l-street",
+    "name": "IV League Hydration Boston L Street",
+    "website": "https://ivleaguehydrate.com/service/semaglutide-injection-3-months/",
+    "city": "Boston",
+    "stateCode": "MA",
+    "peptides": [
+      "Semaglutide"
+    ]
+  },
+  {
+    "slug": "womens-wellness-and-hormone-center-kansas-city",
+    "name": "Michael J. Barnthouse, MD Womens Wellness & Hormone Center",
+    "website": "https://www.drbarnthousegyn.com/semaglutide/",
+    "city": "Kansas City",
+    "stateCode": "MO",
+    "peptides": [
+      "Semaglutide"
+    ]
+  },
+  {
+    "slug": "restore-hyper-wellness-kansas-city-zona-rosa",
+    "name": "Restore Hyper Wellness Kansas City - Zona Rosa",
+    "website": "https://www.restore.com/local/glp1-medication-mo-kansas-city-zona-rosa-mo014",
+    "city": "Kansas City",
+    "stateCode": "MO",
+    "peptides": [
+      "Semaglutide",
+      "Tirzepatide"
+    ]
+  },
+  {
+    "slug": "plaza-aesthetics-and-wellness-kansas-city",
+    "name": "Plaza Aesthetics & Wellness",
+    "website": "https://www.plazamedicalspa.com/semaglutide-injections-kansas-city/",
+    "city": "Kansas City",
+    "stateCode": "MO",
+    "peptides": [
+      "Semaglutide"
+    ]
+  },
+  {
+    "slug": "yes-aesthetics-kansas-city",
+    "name": "YES Aesthetics",
+    "website": "https://yesaesthetics.com/services/medical-weight-loss/",
+    "city": "Kansas City",
+    "stateCode": "MO",
+    "peptides": [
+      "Semaglutide"
+    ]
+  },
+  {
+    "slug": "new-life-wellness-services-pittsburgh",
+    "name": "New Life Wellness Services",
+    "website": "https://newlifewellnesspittsburgh.com/weight-loss-solutions",
+    "city": "Pittsburgh",
+    "stateCode": "PA",
+    "peptides": [
+      "Semaglutide",
+      "Tirzepatide"
+    ]
+  },
+  {
+    "slug": "cincinnati-plastic-surgery",
+    "name": "Cincinnati Plastic Surgery",
+    "website": "https://www.cincinnatiplasticsurgery.com/trizepatide",
+    "city": "Cincinnati",
+    "stateCode": "OH",
+    "peptides": [
+      "Semaglutide",
+      "Tirzepatide"
+    ]
+  },
+  {
+    "slug": "the-health-experiences-cincinnati",
+    "name": "The Health Experiences",
+    "website": "https://the.healthcare/",
+    "city": "Cincinnati",
+    "stateCode": "OH",
+    "peptides": [
+      "Semaglutide"
+    ]
+  },
+  {
+    "slug": "live-healthy-hydrate-cincinnati",
+    "name": "Live Healthy Hydrate",
+    "website": "https://www.livehealthyhydrate.com/semaglutide-weight-loss",
+    "city": "Cincinnati",
+    "stateCode": "OH",
+    "peptides": [
+      "Semaglutide",
+      "Tirzepatide"
+    ]
+  },
+  {
+    "slug": "wellness-one-memphis",
+    "name": "Wellness One Memphis, PC",
+    "website": "https://www.wellnessonememphis.com/semaglutide/",
+    "city": "Memphis",
+    "stateCode": "TN",
+    "peptides": [
+      "Semaglutide"
+    ]
+  },
+  {
+    "slug": "body-shots-memphis",
+    "name": "Body Shots",
+    "website": "https://bodyshotsclinic.com/",
+    "city": "Memphis",
+    "stateCode": "TN",
+    "peptides": [
+      "Semaglutide",
+      "Tirzepatide"
+    ]
+  },
+  {
+    "slug": "st-julien-aesthetics-baton-rouge",
+    "name": "St. Julien Aesthetics",
+    "website": "https://www.stjulienaesthetics.com/semaglutide",
+    "city": "Baton Rouge",
+    "stateCode": "LA",
+    "peptides": [
+      "Semaglutide"
+    ]
+  },
+  {
+    "slug": "metfit-rx-baton-rouge",
+    "name": "MetFit-Rx",
+    "website": "https://www.metfitrx.com/",
+    "city": "Baton Rouge",
+    "stateCode": "LA",
+    "peptides": [
+      "Semaglutide",
+      "Tirzepatide"
+    ]
+  },
+  {
+    "slug": "anivea-aesthetics-and-wellness-baton-rouge",
+    "name": "Anivea Aesthetics and Wellness",
+    "website": "https://aniveaaesthetics.com/semaglutideweightlosss",
+    "city": "Baton Rouge",
+    "stateCode": "LA",
+    "peptides": [
+      "Semaglutide"
+    ]
+  },
+  {
+    "slug": "ehc-buffalo",
+    "name": "EHC Buffalo: Kalpana Patel, MD",
+    "website": "https://ehcbuffalo.com/semaglutide-treatment-in-buffalo-ny/",
+    "city": "Buffalo",
+    "stateCode": "NY",
+    "peptides": [
+      "Semaglutide"
+    ]
+  },
+  {
+    "slug": "ethereal-beauty-buffalo",
+    "name": "Ethereal Beauty Buffalo",
+    "website": "https://www.etherealbeautybuffalo.com/weight-loss",
+    "city": "Buffalo",
+    "stateCode": "NY",
+    "peptides": [
+      "Semaglutide"
+    ]
+  },
+  {
+    "slug": "advanced-skin-and-vein-care-centers-lexington",
+    "name": "Advanced Skin & Vein Care Centers",
+    "website": "https://www.kentuckymedspa.com/weight-loss-program",
+    "city": "Lexington",
+    "stateCode": "KY",
+    "peptides": [
+      "Semaglutide"
+    ]
+  },
+  {
+    "slug": "lexington-wellness-and-weight-loss",
+    "name": "Lexington Wellness and Weight Loss",
+    "website": "https://www.lexingtonwellnessandweightloss.com/injection-medications",
+    "city": "Lexington",
+    "stateCode": "KY",
+    "peptides": [
+      "Semaglutide",
+      "Tirzepatide"
+    ]
+  },
+  {
+    "slug": "health-and-wellness-center-st-louis",
+    "name": "The Health & Wellness Center",
+    "website": "https://stlthwc.com/services/",
+    "city": "St. Louis",
+    "stateCode": "MO",
+    "peptides": [
+      "Semaglutide"
+    ]
+  },
+  {
+    "slug": "columbus-mens-clinic",
+    "name": "Columbus Men's Clinic",
+    "website": "https://columbusmensclinic.com/weight-loss/",
+    "city": "Columbus",
+    "stateCode": "OH",
+    "peptides": [
+      "Semaglutide"
+    ]
+  },
+  {
+    "slug": "hydrate-me-med-spa-columbus-grandview",
+    "name": "Hydrate Me Med Spa Grandview",
+    "website": "https://hydratememedspa.com/semaglutide/",
+    "city": "Columbus",
+    "stateCode": "OH",
+    "peptides": [
+      "Semaglutide",
+      "Tirzepatide"
+    ]
+  },
+  {
+    "slug": "aesthetic-repository-minneapolis",
+    "name": "Aesthetic Repository",
+    "website": "https://aestheticrepository.com/",
+    "city": "Minneapolis",
+    "stateCode": "MN",
+    "peptides": [
+      "Semaglutide",
+      "Tirzepatide"
+    ]
+  },
+  {
+    "slug": "coolblue-image-milwaukee",
+    "name": "CoolBlue Image",
+    "website": "https://www.coolblueimage.com/simaglutide/",
+    "city": "Milwaukee",
+    "stateCode": "WI",
+    "peptides": [
+      "Semaglutide"
+    ]
+  },
+  {
+    "slug": "ivme-now-milwaukee",
+    "name": "IVme Now Milwaukee",
+    "website": "https://ivmenow.com/author/ivme_user/",
+    "city": "Milwaukee",
+    "stateCode": "WI",
+    "peptides": [
+      "Semaglutide",
+      "NAD+"
+    ]
+  },
+  {
+    "slug": "okey-weight-management-clinic-oklahoma-city",
+    "name": "Okey Weight Management Clinic",
+    "website": "https://okeyweight.com/",
+    "city": "Oklahoma City",
+    "stateCode": "OK",
+    "peptides": [
+      "Semaglutide"
+    ]
+  },
+  {
+    "slug": "restore-hyper-wellness-tulsa-south",
+    "name": "Restore Hyper Wellness Tulsa - South",
+    "website": "https://www.restore.com/local/glp1-medication-ok-tulsa-south-ok002",
+    "city": "Tulsa",
+    "stateCode": "OK",
+    "peptides": [
+      "Semaglutide",
+      "Tirzepatide"
+    ]
+  },
+  {
+    "slug": "easy-weight-loss-tulsa",
+    "name": "Easy Weight Loss Tulsa",
+    "website": "https://www.easyweightlosstulsa.com/",
+    "city": "Tulsa",
+    "stateCode": "OK",
+    "peptides": [
+      "Semaglutide"
+    ]
+  },
+  {
+    "slug": "bayside-medspa-norfolk",
+    "name": "Bayside Medspa",
+    "website": "https://www.baysidemedspa.com/semaglutide",
+    "city": "Norfolk",
+    "stateCode": "VA",
+    "peptides": [
+      "Semaglutide"
+    ]
+  },
+  {
+    "slug": "guy-trengove-jones-md-norfolk",
+    "name": "Guy Trengove-Jones MD PC",
+    "website": "https://www.guytjonesplasticsurgery.com/semaglutide",
+    "city": "Norfolk",
+    "stateCode": "VA",
+    "peptides": [
+      "Semaglutide"
+    ]
+  },
+  {
+    "slug": "healthy-you-wellness-spa-norfolk",
+    "name": "Healthy You Wellness Spa",
+    "website": "https://www.hywspa.com/weight-loss",
+    "city": "Norfolk",
+    "stateCode": "VA",
+    "peptides": [
+      "Semaglutide"
+    ]
+  },
+  {
+    "slug": "restore-hyper-wellness-virginia-beach",
+    "name": "Restore Hyper Wellness Virginia Beach",
+    "website": "https://www.restore.com/local/glp1-medication-va-virginia-beach-va001",
+    "city": "Virginia Beach",
+    "stateCode": "VA",
+    "peptides": [
+      "Semaglutide",
+      "Tirzepatide"
+    ]
+  },
+  {
+    "slug": "boise-biologics",
+    "name": "Boise Biologics Regenerative Medicine",
+    "website": "https://boisebiologics.com/overview-of-weight-loss-semaglutide/",
+    "city": "Boise",
+    "stateCode": "ID",
+    "peptides": [
+      "Semaglutide",
+      "Tirzepatide"
+    ]
+  },
+  {
+    "slug": "nugen-wellness-boise",
+    "name": "NuGen Wellness Center",
+    "website": "https://nugenweightloss.com/",
+    "city": "Boise",
+    "stateCode": "ID",
+    "peptides": [
+      "Semaglutide"
+    ]
+  },
+  {
+    "slug": "libellula-health-tucson",
+    "name": "Libellula Health",
+    "website": "https://www.libellulahealth.com/",
+    "city": "Tucson",
+    "stateCode": "AZ",
+    "peptides": [
+      "Semaglutide"
+    ]
+  },
+  {
+    "slug": "sinch-weight-loss-tucson",
+    "name": "Sinch Weight Loss Tucson",
+    "website": "https://www.sinchweightloss.com/tucson/",
+    "city": "Tucson",
+    "stateCode": "AZ",
+    "peptides": [
+      "Semaglutide",
+      "Tirzepatide"
+    ]
+  },
+  {
+    "slug": "lavida-medspa-mesa",
+    "name": "LaVida Medspa of Mesa",
+    "website": "https://www.lavidamedspa.com/semaglutide",
+    "city": "Mesa",
+    "stateCode": "AZ",
+    "peptides": [
+      "Semaglutide"
+    ]
+  },
+  {
+    "slug": "mesa-medical-weight-loss",
+    "name": "Mesa Medical Weight Loss",
+    "website": "https://mesamedicalweightloss.com/smaglutide/",
+    "city": "Mesa",
+    "stateCode": "AZ",
+    "peptides": [
+      "Semaglutide"
+    ]
+  },
+  {
+    "slug": "tera-fe-medical-spa-mesa",
+    "name": "Tera Fe Medical Spa",
+    "website": "https://www.terafe.com/weightmanagement",
+    "city": "Mesa",
+    "stateCode": "AZ",
+    "peptides": [
+      "Semaglutide",
+      "Tirzepatide"
+    ]
+  },
+  {
+    "slug": "hawaii-natural-medicine-honolulu",
+    "name": "Hawaii Natural Medicine",
+    "website": "https://www.hawaiinaturalmedicine.com/service/weight-loss",
+    "city": "Honolulu",
+    "stateCode": "HI",
+    "peptides": [
+      "Semaglutide",
+      "Tirzepatide"
+    ]
+  },
+  {
+    "slug": "preventative-medical-clinic-omaha-dodge",
+    "name": "Preventative Medical Clinic",
+    "website": "https://omahapmc.com/wellness/weight-loss/semaglutide/",
+    "city": "Omaha",
+    "stateCode": "NE",
+    "peptides": [
+      "Semaglutide",
+      "Tirzepatide"
+    ]
+  },
+  {
+    "slug": "carbon-world-health-madison",
+    "name": "Carbon World Health",
+    "website": "https://www.carbonworldhealth.com/semaglutide",
+    "city": "Madison",
+    "stateCode": "WI",
+    "peptides": [
+      "Semaglutide"
+    ]
+  },
+  {
+    "slug": "medical-weight-controls-long-beach",
+    "name": "Medical Weight Controls",
+    "website": "https://medicalweightcontrols.com/pages/long-beach",
+    "city": "Long Beach",
+    "stateCode": "CA",
+    "peptides": [
+      "Semaglutide",
+      "Retatrutide"
+    ]
+  },
+  {
+    "slug": "downtown-medspa-jersey-city",
+    "name": "Downtown Medspa",
+    "website": "https://www.downtownmedspa.com/services/semaglutide-weight-loss-injection",
+    "city": "Jersey City",
+    "stateCode": "NJ",
+    "peptides": [
+      "Semaglutide",
+      "Tirzepatide"
+    ]
+  },
+  {
+    "slug": "marys-access-clinic-tacoma",
+    "name": "Marys Access Clinic, PLLC",
+    "website": "https://www.marysaccessclinic.com/",
+    "city": "Tacoma",
+    "stateCode": "WA",
+    "peptides": [
+      "Semaglutide",
+      "Tirzepatide"
+    ]
+  },
+  {
+    "slug": "maximum-results-weight-loss-center-fayetteville",
+    "name": "Maximum Results Weight Loss Center",
+    "website": "https://www.maxweightlosscenter.com/semaglutide/",
+    "city": "Fayetteville",
+    "stateCode": "NC",
+    "peptides": [
+      "Semaglutide"
+    ]
+  },
+  {
+    "slug": "louisville-center-for-weight-loss",
+    "name": "Louisville Center for Weight Loss",
+    "website": "https://louisvillecenterforweightloss.com/",
+    "city": "Louisville",
+    "stateCode": "KY",
+    "peptides": [
+      "Semaglutide",
+      "Tirzepatide"
+    ]
+  }
+]

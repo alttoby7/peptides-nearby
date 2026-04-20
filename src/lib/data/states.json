@@ -1,0 +1,1635 @@
+[
+  {
+    "slug": "florida",
+    "name": "Florida",
+    "code": "FL",
+    "providerCount": 361,
+    "cityCount": 62,
+    "cities": [
+      "altamonte-springs",
+      "belleair-bluffs",
+      "boca-raton",
+      "clearwater",
+      "coral-springs",
+      "dania-beach",
+      "davie",
+      "debary",
+      "deerfield-beach",
+      "delray-beach",
+      "fort-lauderdale",
+      "fort-myers",
+      "gibsonton",
+      "greenacres",
+      "hallandale-beach",
+      "hollywood",
+      "jacksonville",
+      "jacksonville-beach",
+      "jupiter",
+      "kenneth-city",
+      "kissimmee",
+      "lake-mary",
+      "land-o-lakes",
+      "largo",
+      "lutz",
+      "maitland",
+      "miami",
+      "miami-beach",
+      "new-port-richey",
+      "north-miami",
+      "north-palm-beach",
+      "oakland-park",
+      "ocala",
+      "odessa",
+      "orange-park",
+      "orlando",
+      "palm-beach",
+      "palm-beach-gardens",
+      "palm-harbor",
+      "palmetto-bay",
+      "plantation",
+      "pompano-beach",
+      "ponte-vedra-beach",
+      "riverview",
+      "riviera-beach",
+      "sarasota",
+      "south-miami",
+      "spring-hill",
+      "st-augustine",
+      "st-petersburg",
+      "sunrise",
+      "tampa",
+      "wellington",
+      "wesley-chapel",
+      "west-palm-beach",
+      "weston",
+      "wilton-manors",
+      "windermere",
+      "winter-garden",
+      "winter-haven",
+      "winter-park",
+      "winter-springs"
+    ]
+  },
+  {
+    "slug": "ca",
+    "name": "CA",
+    "code": "CA",
+    "providerCount": 356,
+    "cityCount": 88,
+    "cities": [
+      "1135-kildaire-farm-rd-108",
+      "anaheim",
+      "arcadia",
+      "bakersfield",
+      "berkeley",
+      "beverly-hills",
+      "brea",
+      "burbank",
+      "burlingame",
+      "campbell",
+      "carmichael",
+      "chatsworth",
+      "chula-vista",
+      "citrus-heights",
+      "corona-del-mar",
+      "costa-mesa",
+      "cupertino",
+      "danville",
+      "davis",
+      "el-dorado-hills",
+      "elk-grove",
+      "encino",
+      "fair-oaks",
+      "fairfax",
+      "folsom",
+      "fontana",
+      "fountain-valley",
+      "fremont",
+      "fresno",
+      "glendale",
+      "granite-bay",
+      "huntington-beach",
+      "irvine",
+      "laguna-hills",
+      "laguna-niguel",
+      "lake-forest",
+      "long-beach",
+      "los-angeles",
+      "los-gatos",
+      "menlo-park",
+      "mill-valley",
+      "milpitas",
+      "mission-viejo",
+      "modesto",
+      "moreno-valley",
+      "newark",
+      "newport-beach",
+      "north-hollywood",
+      "novato",
+      "oakland",
+      "oceanside",
+      "orange",
+      "oxnard",
+      "pacifica",
+      "palo-alto",
+      "pasadena",
+      "porter-ranch",
+      "rancho-cordova",
+      "rancho-santa-margarita",
+      "riverside",
+      "rocklin",
+      "roseville",
+      "sacramento",
+      "san-bruno",
+      "san-diego",
+      "san-francisco",
+      "san-jose",
+      "san-ramon",
+      "santa-ana",
+      "santa-clara",
+      "santa-monica",
+      "saratoga",
+      "scotts-valley",
+      "sherman-oaks",
+      "south-san-francisco",
+      "stockton",
+      "studio-city",
+      "sunnyvale",
+      "sylmar",
+      "tarzana",
+      "torrance",
+      "trabuco-canyon",
+      "tustin",
+      "van-nuys",
+      "walnut-creek",
+      "west-covina",
+      "west-hollywood",
+      "westminster"
+    ]
+  },
+  {
+    "slug": "texas",
+    "name": "Texas",
+    "code": "TX",
+    "providerCount": 202,
+    "cityCount": 40,
+    "cities": [
+      "addison",
+      "anna",
+      "arlington",
+      "austin",
+      "bellaire",
+      "carrollton",
+      "cibolo",
+      "corpus-christi",
+      "cypress",
+      "dallas",
+      "el-paso",
+      "fort-worth",
+      "frisco",
+      "garland",
+      "grand-prairie",
+      "highland-village",
+      "houston",
+      "irving",
+      "katy",
+      "kingwood",
+      "lewisville",
+      "lubbock",
+      "mckinney",
+      "mesquite",
+      "new-braunfels",
+      "plano",
+      "richardson",
+      "sachse",
+      "san-antonio",
+      "schertz",
+      "shavano-park",
+      "shenandoah",
+      "southlake",
+      "spring",
+      "spring-branch",
+      "stafford",
+      "the-woodlands",
+      "tomball",
+      "universal-city",
+      "wylie"
+    ]
+  },
+  {
+    "slug": "nc",
+    "name": "NC",
+    "code": "NC",
+    "providerCount": 194,
+    "cityCount": 33,
+    "cities": [
+      "angier",
+      "apex",
+      "arden",
+      "asheville",
+      "candler",
+      "cary",
+      "chapel-hill",
+      "charlotte",
+      "concord",
+      "cornelius",
+      "durham",
+      "fayetteville",
+      "garner",
+      "greensboro",
+      "hampstead",
+      "hendersonville",
+      "holly-springs",
+      "huntersville",
+      "indian-trail",
+      "leland",
+      "matthews",
+      "mint-hill",
+      "mooresville",
+      "pineville",
+      "raleigh",
+      "rocky-mount",
+      "rolesville",
+      "southern-pines",
+      "wake-forest",
+      "waxhaw",
+      "wilmington",
+      "winston-salem",
+      "woodfin"
+    ]
+  },
+  {
+    "slug": "virginia",
+    "name": "Virginia",
+    "code": "VA",
+    "providerCount": 123,
+    "cityCount": 26,
+    "cities": [
+      "aldie",
+      "alexandria",
+      "arlington",
+      "chesapeake",
+      "chester",
+      "fairfax",
+      "falls-church",
+      "fredericksburg",
+      "gate-city",
+      "glen-allen",
+      "henrico",
+      "manassas",
+      "marshall",
+      "mclean",
+      "mechanicsville",
+      "midlothian",
+      "newport-news",
+      "norfolk",
+      "north-chesterfield",
+      "portsmouth",
+      "richmond",
+      "sterling",
+      "vienna",
+      "virginia-beach",
+      "warrenton",
+      "williamsburg"
+    ]
+  },
+  {
+    "slug": "washington",
+    "name": "Washington",
+    "code": "WA",
+    "providerCount": 121,
+    "cityCount": 32,
+    "cities": [
+      "2500-wisconsin-ave-nw-112",
+      "4801-wisconsin-ave-nw",
+      "bellevue",
+      "bothell",
+      "chehalis",
+      "des-moines",
+      "edmonds",
+      "federal-way",
+      "gig-harbor",
+      "kent",
+      "kirkland",
+      "liberty-lake",
+      "long-beach",
+      "lynnwood",
+      "medical-lake",
+      "mill-creek",
+      "mountlake-terrace",
+      "nine-mile-falls",
+      "poulsbo",
+      "redmond",
+      "renton",
+      "richland",
+      "seattle",
+      "shoreline",
+      "snohomish",
+      "south-bend",
+      "spokane",
+      "spokane-valley",
+      "suite-222",
+      "tacoma",
+      "tukwila",
+      "vancouver"
+    ]
+  },
+  {
+    "slug": "ohio",
+    "name": "Ohio",
+    "code": "OH",
+    "providerCount": 120,
+    "cityCount": 33,
+    "cities": [
+      "blue-ash",
+      "boardman",
+      "centerville",
+      "cincinnati",
+      "cleveland",
+      "columbus",
+      "dayton",
+      "dublin",
+      "fairfield",
+      "gahanna",
+      "grove-city",
+      "hamilton",
+      "harrison",
+      "hilliard",
+      "lebanon",
+      "lewis-center",
+      "liberty-township",
+      "lima",
+      "marysville",
+      "mason",
+      "milford",
+      "north-royalton",
+      "pickerington",
+      "plain-city",
+      "powell",
+      "reading",
+      "reynoldsburg",
+      "springdale",
+      "toledo",
+      "upper-arlington",
+      "west-chester-township",
+      "westerville",
+      "worthington"
+    ]
+  },
+  {
+    "slug": "colorado",
+    "name": "Colorado",
+    "code": "CO",
+    "providerCount": 111,
+    "cityCount": 29,
+    "cities": [
+      "225-s-union-blvd",
+      "arvada",
+      "aurora",
+      "boulder",
+      "broomfield",
+      "castle-rock",
+      "centennial",
+      "colorado-springs",
+      "denver",
+      "erie",
+      "frisco",
+      "golden",
+      "grand-junction",
+      "greeley",
+      "greenwood-village",
+      "highlands-ranch",
+      "lafayette",
+      "lakewood",
+      "littleton",
+      "lone-tree",
+      "longmont",
+      "louisville",
+      "loveland",
+      "lyons",
+      "monument",
+      "niwot",
+      "parker",
+      "thornton",
+      "woodland-park"
+    ]
+  },
+  {
+    "slug": "arizona",
+    "name": "Arizona",
+    "code": "AZ",
+    "providerCount": 110,
+    "cityCount": 13,
+    "cities": [
+      "cave-creek",
+      "chandler",
+      "fountain-hills",
+      "gilbert",
+      "glendale",
+      "mesa",
+      "oro-valley",
+      "paradise-valley",
+      "phoenix",
+      "pima",
+      "scottsdale",
+      "tempe",
+      "tucson"
+    ]
+  },
+  {
+    "slug": "tennessee",
+    "name": "Tennessee",
+    "code": "TN",
+    "providerCount": 105,
+    "cityCount": 18,
+    "cities": [
+      "arlington",
+      "bartlett",
+      "brentwood",
+      "collierville",
+      "columbia",
+      "cordova",
+      "franklin",
+      "germantown",
+      "goodlettsville",
+      "greenbrier",
+      "knoxville",
+      "lakeland",
+      "lebanon",
+      "memphis",
+      "murfreesboro",
+      "nashville",
+      "nolensville",
+      "smyrna"
+    ]
+  },
+  {
+    "slug": "wisconsin",
+    "name": "Wisconsin",
+    "code": "WI",
+    "providerCount": 102,
+    "cityCount": 25,
+    "cities": [
+      "brookfield",
+      "cedarburg",
+      "cross-plains",
+      "fitchburg",
+      "germantown",
+      "greenfield",
+      "madison",
+      "mcfarland",
+      "menomonee-falls",
+      "mequon",
+      "middleton",
+      "milwaukee",
+      "monona",
+      "new-berlin",
+      "pewaukee",
+      "shorewood",
+      "sun-prairie",
+      "thiensville",
+      "verona",
+      "waukesha",
+      "waunakee",
+      "wauwatosa",
+      "west-allis",
+      "west-milwaukee",
+      "whitefish-bay"
+    ]
+  },
+  {
+    "slug": "georgia",
+    "name": "Georgia",
+    "code": "GA",
+    "providerCount": 101,
+    "cityCount": 27,
+    "cities": [
+      "acworth",
+      "alpharetta",
+      "athens",
+      "atlanta",
+      "buford",
+      "cumming",
+      "decatur",
+      "dunwoody",
+      "johns-creek",
+      "kennesaw",
+      "lawrenceville",
+      "marietta",
+      "peachtree-corners",
+      "pooler",
+      "richmond-hill",
+      "riverdale",
+      "roswell",
+      "sandy-springs",
+      "savannah",
+      "smyrna",
+      "st-simons-island",
+      "statesboro",
+      "stone-mountain",
+      "sugar-hill",
+      "suwanee",
+      "tucker",
+      "woodstock"
+    ]
+  },
+  {
+    "slug": "oregon",
+    "name": "Oregon",
+    "code": "OR",
+    "providerCount": 99,
+    "cityCount": 11,
+    "cities": [
+      "beaverton",
+      "bend",
+      "gresham",
+      "lake-oswego",
+      "medford",
+      "portland",
+      "roseburg",
+      "tigard",
+      "town-center",
+      "tualatin",
+      "wilsonville"
+    ]
+  },
+  {
+    "slug": "pennsylvania",
+    "name": "Pennsylvania",
+    "code": "PA",
+    "providerCount": 92,
+    "cityCount": 33,
+    "cities": [
+      "altoona",
+      "ardmore",
+      "bala-cynwyd",
+      "belle-vernon",
+      "bethel-park",
+      "blue-bell",
+      "bryn-mawr",
+      "canonsburg",
+      "carnegie",
+      "clairton",
+      "conshohocken",
+      "delmont",
+      "fort-washington",
+      "hatboro",
+      "horsham",
+      "ingomar",
+      "irwin",
+      "jenkintown",
+      "king-of-prussia",
+      "moon-township",
+      "murrysville",
+      "narberth",
+      "oakmont",
+      "philadelphia",
+      "phoenixville",
+      "pittsburgh",
+      "sharpsburg",
+      "west-mifflin",
+      "west-view",
+      "wexford",
+      "wynnewood",
+      "yardley",
+      "zelienople"
+    ]
+  },
+  {
+    "slug": "maryland",
+    "name": "Maryland",
+    "code": "MD",
+    "providerCount": 77,
+    "cityCount": 29,
+    "cities": [
+      "annapolis",
+      "baltimore",
+      "bethesda",
+      "catonsville",
+      "chevy-chase",
+      "college-park",
+      "columbia",
+      "crofton",
+      "eldersburg",
+      "ellicott-city",
+      "gaithersburg",
+      "glen-burnie",
+      "glenelg",
+      "gwynn-oak",
+      "kensington",
+      "lanham",
+      "new-carrollton",
+      "nottingham",
+      "owings-mills",
+      "parkville",
+      "phoenix",
+      "pikesville",
+      "randallstown",
+      "rockville",
+      "rosedale",
+      "severna-park",
+      "silver-spring",
+      "timonium",
+      "towson"
+    ]
+  },
+  {
+    "slug": "indiana",
+    "name": "Indiana",
+    "code": "IN",
+    "providerCount": 73,
+    "cityCount": 17,
+    "cities": [
+      "6640-old-monroe-rd-g",
+      "9525-n-meridian-st",
+      "avon",
+      "brownsburg",
+      "carmel",
+      "clarksville",
+      "columbus",
+      "fishers",
+      "floyds-knobs",
+      "greenwood",
+      "indianapolis",
+      "jasper",
+      "jeffersonville",
+      "new-albany",
+      "noblesville",
+      "salem",
+      "westfield"
+    ]
+  },
+  {
+    "slug": "missouri",
+    "name": "Missouri",
+    "code": "MO",
+    "providerCount": 72,
+    "cityCount": 21,
+    "cities": [
+      "1574-w-broadway-105",
+      "3520-davis-dr",
+      "blue-springs",
+      "brentwood",
+      "chesterfield",
+      "cottleville",
+      "creve-coeur",
+      "des-peres",
+      "jefferson-city",
+      "kansas-city",
+      "lake-st-louis",
+      "lee-s-summit",
+      "liberty",
+      "north-kansas-city",
+      "o-fallon",
+      "richmond-heights",
+      "riverside",
+      "sappington",
+      "st-louis",
+      "st-peters",
+      "weldon-spring"
+    ]
+  },
+  {
+    "slug": "illinois",
+    "name": "Illinois",
+    "code": "IL",
+    "providerCount": 69,
+    "cityCount": 22,
+    "cities": [
+      "arlington-heights",
+      "chicago",
+      "chicago-ridge",
+      "des-plaines",
+      "elmhurst",
+      "evanston",
+      "fairview-heights",
+      "glen-ellyn",
+      "glendale-heights",
+      "glenview",
+      "itasca",
+      "la-grange",
+      "lake-forest",
+      "libertyville",
+      "lombard",
+      "naperville",
+      "northbrook",
+      "oak-brook",
+      "park-ridge",
+      "warrenville",
+      "willowbrook",
+      "woodridge"
+    ]
+  },
+  {
+    "slug": "mi",
+    "name": "MI",
+    "code": "MI",
+    "providerCount": 69,
+    "cityCount": 31,
+    "cities": [
+      "ann-arbor",
+      "bingham-farms",
+      "birmingham",
+      "bloomfield-hills",
+      "bloomfield-township",
+      "dearborn",
+      "detroit",
+      "farmington-hills",
+      "grosse-pointe",
+      "highland-park",
+      "huntington-woods",
+      "lake-orion",
+      "livonia",
+      "northville",
+      "plymouth",
+      "rochester",
+      "rochester-hills",
+      "roseville",
+      "royal-oak",
+      "shelby-township",
+      "south-lyon",
+      "southfield",
+      "st-clair-shores",
+      "sterling-heights",
+      "troy",
+      "warren",
+      "waterford-township",
+      "west-bloomfield-township",
+      "westland",
+      "wixom",
+      "wyandotte"
+    ]
+  },
+  {
+    "slug": "idaho",
+    "name": "Idaho",
+    "code": "ID",
+    "providerCount": 66,
+    "cityCount": 10,
+    "cities": [
+      "boise",
+      "caldwell",
+      "coeur-d-alene",
+      "eagle",
+      "garden-city",
+      "idaho-falls",
+      "kuna",
+      "meridian",
+      "nampa",
+      "post-falls"
+    ]
+  },
+  {
+    "slug": "utah",
+    "name": "Utah",
+    "code": "UT",
+    "providerCount": 65,
+    "cityCount": 21,
+    "cities": [
+      "bountiful",
+      "cottonwood-heights",
+      "draper",
+      "farmington",
+      "holladay",
+      "kaysville",
+      "layton",
+      "lehi",
+      "midvale",
+      "millcreek",
+      "murray",
+      "north-salt-lake",
+      "ogden",
+      "park-city",
+      "provo",
+      "riverton",
+      "salt-lake-city",
+      "sandy",
+      "taylorsville",
+      "west-valley-city",
+      "woods-cross"
+    ]
+  },
+  {
+    "slug": "sc",
+    "name": "SC",
+    "code": "SC",
+    "providerCount": 64,
+    "cityCount": 13,
+    "cities": [
+      "building-b",
+      "charleston",
+      "daniel-island",
+      "fort-mill",
+      "greenville",
+      "hilton-head-island",
+      "indian-land",
+      "johns-island",
+      "lake-wylie",
+      "mt-pleasant",
+      "myrtle-beach",
+      "north-charleston",
+      "summerville"
+    ]
+  },
+  {
+    "slug": "minnesota",
+    "name": "Minnesota",
+    "code": "MN",
+    "providerCount": 62,
+    "cityCount": 23,
+    "cities": [
+      "bloomington",
+      "burnsville",
+      "chanhassen",
+      "eagan",
+      "eden-prairie",
+      "edina",
+      "lakeville",
+      "mahtomedi",
+      "maple-grove",
+      "mendota-heights",
+      "minneapolis",
+      "minnetonka",
+      "oakdale",
+      "plymouth",
+      "richfield",
+      "saint-paul",
+      "sartell",
+      "savage",
+      "shoreview",
+      "st-louis-park",
+      "st-paul",
+      "stillwater",
+      "wayzata"
+    ]
+  },
+  {
+    "slug": "new-york",
+    "name": "New York",
+    "code": "NY",
+    "providerCount": 62,
+    "cityCount": 21,
+    "cities": [
+      "bayside",
+      "bronx",
+      "brooklyn",
+      "buffalo",
+      "east-meadow",
+      "eastchester",
+      "elmsford",
+      "jamaica",
+      "kingston",
+      "little-neck",
+      "long-beach",
+      "long-island-city",
+      "manhasset",
+      "manhattan",
+      "new-york",
+      "rego-park",
+      "rochester",
+      "scarsdale",
+      "staten-island",
+      "williamsville",
+      "woodbury"
+    ]
+  },
+  {
+    "slug": "oklahoma",
+    "name": "Oklahoma",
+    "code": "OK",
+    "providerCount": 61,
+    "cityCount": 10,
+    "cities": [
+      "blanchard",
+      "edmond",
+      "jones",
+      "moore",
+      "newcastle",
+      "nichols-hills",
+      "norman",
+      "oklahoma-city",
+      "tulsa",
+      "yukon"
+    ]
+  },
+  {
+    "slug": "alabama",
+    "name": "Alabama",
+    "code": "AL",
+    "providerCount": 60,
+    "cityCount": 15,
+    "cities": [
+      "10200-golf-course-rd-nw-ste-e",
+      "4360-cutler-ave-ne-ste-b1",
+      "alabaster",
+      "birmingham",
+      "dothan",
+      "homewood",
+      "hoover",
+      "huntsville",
+      "madison",
+      "mountain-brook",
+      "oneonta",
+      "pelham",
+      "pinson",
+      "trussville",
+      "vestavia-hills"
+    ]
+  },
+  {
+    "slug": "louisiana",
+    "name": "Louisiana",
+    "code": "LA",
+    "providerCount": 60,
+    "cityCount": 13,
+    "cities": [
+      "alexandria",
+      "baton-rouge",
+      "chalmette",
+      "covington",
+      "gretna",
+      "harahan",
+      "harvey",
+      "jefferson",
+      "lafayette",
+      "metairie",
+      "new-orleans",
+      "shreveport",
+      "slidell"
+    ]
+  },
+  {
+    "slug": "nevada",
+    "name": "Nevada",
+    "code": "NV",
+    "providerCount": 59,
+    "cityCount": 3,
+    "cities": [
+      "henderson",
+      "las-vegas",
+      "reno"
+    ]
+  },
+  {
+    "slug": "kentucky",
+    "name": "Kentucky",
+    "code": "KY",
+    "providerCount": 56,
+    "cityCount": 11,
+    "cities": [
+      "crestview-hills",
+      "hurstbourne",
+      "independence",
+      "lexington",
+      "louisville",
+      "paducah",
+      "parkway",
+      "prospect",
+      "shepherdsville",
+      "somerset",
+      "st-matthews"
+    ]
+  },
+  {
+    "slug": "massachusetts",
+    "name": "Massachusetts",
+    "code": "MA",
+    "providerCount": 55,
+    "cityCount": 30,
+    "cities": [
+      "acton",
+      "arlington",
+      "attleboro",
+      "auburndale",
+      "boston",
+      "brookline",
+      "burlington",
+      "cambridge",
+      "canton",
+      "chestnut-hill",
+      "dedham",
+      "framingham",
+      "lexington",
+      "lynnfield",
+      "marblehead",
+      "medford",
+      "needham",
+      "newton",
+      "norwood",
+      "quincy",
+      "raynham",
+      "roslindale",
+      "ste-540",
+      "stoneham",
+      "waltham",
+      "watertown",
+      "wellesley",
+      "west-bridgewater",
+      "weymouth",
+      "worcester"
+    ]
+  },
+  {
+    "slug": "new-mexico",
+    "name": "New Mexico",
+    "code": "NM",
+    "providerCount": 48,
+    "cityCount": 5,
+    "cities": [
+      "albuquerque",
+      "bernalillo",
+      "corrales",
+      "los-ranchos-de-albuquerque",
+      "rio-rancho"
+    ]
+  },
+  {
+    "slug": "hawaii",
+    "name": "Hawaii",
+    "code": "HI",
+    "providerCount": 46,
+    "cityCount": 7,
+    "cities": [
+      "aiea",
+      "hilo",
+      "honolulu",
+      "kailua",
+      "kailua-kona",
+      "kihei",
+      "kilauea"
+    ]
+  },
+  {
+    "slug": "iowa",
+    "name": "Iowa",
+    "code": "IA",
+    "providerCount": 40,
+    "cityCount": 10,
+    "cities": [
+      "clive",
+      "des-moines",
+      "grimes",
+      "iowa-city",
+      "johnston",
+      "pleasant-hill",
+      "urbandale",
+      "waterloo",
+      "waukee",
+      "west-des-moines"
+    ]
+  },
+  {
+    "slug": "ks",
+    "name": "KS",
+    "code": "KS",
+    "providerCount": 38,
+    "cityCount": 12,
+    "cities": [
+      "basehor",
+      "kansas-city",
+      "leawood",
+      "lenexa",
+      "manhattan",
+      "mission",
+      "olathe",
+      "overland-park",
+      "prairie-village",
+      "roeland-park",
+      "shawnee",
+      "wichita"
+    ]
+  },
+  {
+    "slug": "nebraska",
+    "name": "Nebraska",
+    "code": "NE",
+    "providerCount": 37,
+    "cityCount": 8,
+    "cities": [
+      "54-w-21st-st-suite-510",
+      "900-camp-st-1225",
+      "elkhorn",
+      "la-vista",
+      "lincoln",
+      "omaha",
+      "papillion",
+      "suite-b1"
+    ]
+  },
+  {
+    "slug": "district-of-columbia",
+    "name": "District of Columbia",
+    "code": "DC",
+    "providerCount": 28,
+    "cityCount": 1,
+    "cities": [
+      "washington"
+    ]
+  },
+  {
+    "slug": "nj",
+    "name": "NJ",
+    "code": "NJ",
+    "providerCount": 13,
+    "cityCount": 11,
+    "cities": [
+      "cherry-hill-township",
+      "clifton",
+      "englewood-cliffs",
+      "hillsdale",
+      "hoboken",
+      "jersey-city",
+      "montclair",
+      "newark",
+      "paramus",
+      "voorhees-township",
+      "westfield"
+    ]
+  },
+  {
+    "slug": "boston",
+    "name": "Boston",
+    "code": "BO",
+    "providerCount": 7,
+    "cityCount": 7,
+    "cities": [
+      "260-tremont-st-8th-floor",
+      "31-st-james-ave-805",
+      "451-d-st-200",
+      "4665-nautilus-ct-s",
+      "5030-champion-blvd-suites-c2-c3",
+      "6420-gunpark-dr-ste-b",
+      "9050-w-overland-rd-270"
+    ]
+  },
+  {
+    "slug": "san",
+    "name": "San",
+    "code": "SA",
+    "providerCount": 7,
+    "cityCount": 7,
+    "cities": [
+      "540-madison-oak-dr-suite-320",
+      "600-e-70th-st",
+      "925-blossom-hill-rd-1509-suite-105",
+      "embarcadero-ctr-lobby-level-5",
+      "room-10",
+      "ste-1233",
+      "suite-302"
+    ]
+  },
+  {
+    "slug": "ms",
+    "name": "MS",
+    "code": "MS",
+    "providerCount": 4,
+    "cityCount": 3,
+    "cities": [
+      "biloxi",
+      "madison",
+      "southaven"
+    ]
+  },
+  {
+    "slug": "hollywood",
+    "name": "Hollywood",
+    "code": "HO",
+    "providerCount": 3,
+    "cityCount": 3,
+    "cities": [
+      "6250-hollywood-blvd-unit-700",
+      "suite-1401",
+      "suite-h"
+    ]
+  },
+  {
+    "slug": "usa",
+    "name": "USA",
+    "code": "US",
+    "providerCount": 3,
+    "cityCount": 3,
+    "cities": [
+      "ca-94131",
+      "or-97756",
+      "pa-15219"
+    ]
+  },
+  {
+    "slug": "atlanta",
+    "name": "Atlanta",
+    "code": "AT",
+    "providerCount": 2,
+    "cityCount": 2,
+    "cities": [
+      "3726-roswell-rd-ne",
+      "suite-100"
+    ]
+  },
+  {
+    "slug": "bellevue",
+    "name": "Bellevue",
+    "code": "BE",
+    "providerCount": 2,
+    "cityCount": 2,
+    "cities": [
+      "suite-120",
+      "suite100"
+    ]
+  },
+  {
+    "slug": "charlestown",
+    "name": "Charlestown",
+    "code": "CH",
+    "providerCount": 2,
+    "cityCount": 2,
+    "cities": [
+      "20-chelsea-st",
+      "7032-e-brainerd-rd-b"
+    ]
+  },
+  {
+    "slug": "jupiter",
+    "name": "Jupiter",
+    "code": "JU",
+    "providerCount": 2,
+    "cityCount": 1,
+    "cities": [
+      "fl-a1aalt-1500"
+    ]
+  },
+  {
+    "slug": "me",
+    "name": "ME",
+    "code": "ME",
+    "providerCount": 2,
+    "cityCount": 2,
+    "cities": [
+      "portland",
+      "suite-400"
+    ]
+  },
+  {
+    "slug": "seattle",
+    "name": "Seattle",
+    "code": "SE",
+    "providerCount": 2,
+    "cityCount": 2,
+    "cities": [
+      "1407-nw-85th-st",
+      "2200-georgetown-dr-suite-102"
+    ]
+  },
+  {
+    "slug": "suite",
+    "name": "Suite",
+    "code": "SU",
+    "providerCount": 2,
+    "cityCount": 2,
+    "cities": [
+      "300-brookside-ave-building-18",
+      "7th-floor"
+    ]
+  },
+  {
+    "slug": "the",
+    "name": "The",
+    "code": "TH",
+    "providerCount": 2,
+    "cityCount": 2,
+    "cities": [
+      "1585-santa-barbara-blvd",
+      "pmb-2439"
+    ]
+  },
+  {
+    "slug": "westwood",
+    "name": "Westwood",
+    "code": "WE",
+    "providerCount": 2,
+    "cityCount": 2,
+    "cities": [
+      "1333",
+      "5760-okeechobee-blvd"
+    ]
+  },
+  {
+    "slug": "10",
+    "name": "10",
+    "code": "10",
+    "providerCount": 1,
+    "cityCount": 1,
+    "cities": [
+      "parking-spot-9"
+    ]
+  },
+  {
+    "slug": "275",
+    "name": "275",
+    "code": "27",
+    "providerCount": 1,
+    "cityCount": 1,
+    "cities": [
+      "vineyard-office-building"
+    ]
+  },
+  {
+    "slug": "4666",
+    "name": "4666",
+    "code": "46",
+    "providerCount": 1,
+    "cityCount": 1,
+    "cities": [
+      "milwaukee"
+    ]
+  },
+  {
+    "slug": "4th",
+    "name": "4th",
+    "code": "4T",
+    "providerCount": 1,
+    "cityCount": 1,
+    "cities": [
+      "tower-2"
+    ]
+  },
+  {
+    "slug": "6600",
+    "name": "6600",
+    "code": "66",
+    "providerCount": 1,
+    "cityCount": 1,
+    "cities": [
+      "steubenville-pike-suite-310"
+    ]
+  },
+  {
+    "slug": "aiea",
+    "name": "Aiea",
+    "code": "AI",
+    "providerCount": 1,
+    "cityCount": 1,
+    "cities": [
+      "lot-98-1247-ka-ahumanu-st-ste-110"
+    ]
+  },
+  {
+    "slug": "ar",
+    "name": "AR",
+    "code": "AR",
+    "providerCount": 1,
+    "cityCount": 1,
+    "cities": [
+      "west-memphis"
+    ]
+  },
+  {
+    "slug": "baltimore",
+    "name": "Baltimore",
+    "code": "BA",
+    "providerCount": 1,
+    "cityCount": 1,
+    "cities": [
+      "855-n-wolfe-st-room-248"
+    ]
+  },
+  {
+    "slug": "birmingham",
+    "name": "Birmingham",
+    "code": "BI",
+    "providerCount": 1,
+    "cityCount": 1,
+    "cities": [
+      "women-and-infants-center"
+    ]
+  },
+  {
+    "slug": "blue",
+    "name": "Blue",
+    "code": "BL",
+    "providerCount": 1,
+    "cityCount": 1,
+    "cities": [
+      "325-sentry-pkwy-suite-222"
+    ]
+  },
+  {
+    "slug": "bryn",
+    "name": "Bryn",
+    "code": "BR",
+    "providerCount": 1,
+    "cityCount": 1,
+    "cities": [
+      "suite-110"
+    ]
+  },
+  {
+    "slug": "cincinnati",
+    "name": "Cincinnati",
+    "code": "CI",
+    "providerCount": 1,
+    "cityCount": 1,
+    "cities": [
+      "24-compton-rd-suite-203"
+    ]
+  },
+  {
+    "slug": "dallas",
+    "name": "Dallas",
+    "code": "DA",
+    "providerCount": 1,
+    "cityCount": 1,
+    "cities": [
+      "room-21"
+    ]
+  },
+  {
+    "slug": "draper",
+    "name": "Draper",
+    "code": "DR",
+    "providerCount": 1,
+    "cityCount": 1,
+    "cities": [
+      "177-w-12300-s-122"
+    ]
+  },
+  {
+    "slug": "edina",
+    "name": "Edina",
+    "code": "ED",
+    "providerCount": 1,
+    "cityCount": 1,
+    "cities": [
+      "office-3"
+    ]
+  },
+  {
+    "slug": "elkridge",
+    "name": "Elkridge",
+    "code": "EL",
+    "providerCount": 1,
+    "cityCount": 1,
+    "cities": [
+      "7310-esquire-ct"
+    ]
+  },
+  {
+    "slug": "germantown",
+    "name": "Germantown",
+    "code": "GE",
+    "providerCount": 1,
+    "cityCount": 1,
+    "cities": [
+      "7465-poplar-ave"
+    ]
+  },
+  {
+    "slug": "henderson",
+    "name": "Henderson",
+    "code": "HE",
+    "providerCount": 1,
+    "cityCount": 1,
+    "cities": [
+      "2920-n-green-valley-pkwy-ste-814"
+    ]
+  },
+  {
+    "slug": "hunt",
+    "name": "Hunt",
+    "code": "HU",
+    "providerCount": 1,
+    "cityCount": 1,
+    "cities": [
+      "11350-mccormick-rd-ll9"
+    ]
+  },
+  {
+    "slug": "longmont",
+    "name": "Longmont",
+    "code": "LO",
+    "providerCount": 1,
+    "cityCount": 1,
+    "cities": [
+      "600-s-airport-rd-building-a-suite-g"
+    ]
+  },
+  {
+    "slug": "nh",
+    "name": "NH",
+    "code": "NH",
+    "providerCount": 1,
+    "cityCount": 1,
+    "cities": [
+      "manchester"
+    ]
+  },
+  {
+    "slug": "overland",
+    "name": "Overland",
+    "code": "OV",
+    "providerCount": 1,
+    "cityCount": 1,
+    "cities": [
+      "12800-metcalf-ave-2"
+    ]
+  },
+  {
+    "slug": "pittsburgh",
+    "name": "Pittsburgh",
+    "code": "PI",
+    "providerCount": 1,
+    "cityCount": 1,
+    "cities": [
+      "107-gamma-dr-220"
+    ]
+  },
+  {
+    "slug": "portland",
+    "name": "Portland",
+    "code": "PO",
+    "providerCount": 1,
+    "cityCount": 1,
+    "cities": [
+      "6214-se-milwaukie-ave"
+    ]
+  },
+  {
+    "slug": "raleigh",
+    "name": "Raleigh",
+    "code": "RA",
+    "providerCount": 1,
+    "cityCount": 1,
+    "cities": [
+      "suite-120"
+    ]
+  },
+  {
+    "slug": "ri",
+    "name": "RI",
+    "code": "RI",
+    "providerCount": 1,
+    "cityCount": 1,
+    "cities": [
+      "warwick"
+    ]
+  },
+  {
+    "slug": "shelby",
+    "name": "Shelby",
+    "code": "SH",
+    "providerCount": 1,
+    "cityCount": 1,
+    "cities": [
+      "51705-schoenherr-rd"
+    ]
+  },
+  {
+    "slug": "south",
+    "name": "South",
+    "code": "SO",
+    "providerCount": 1,
+    "cityCount": 1,
+    "cities": [
+      "214-s-lafayette-st"
+    ]
+  },
+  {
+    "slug": "spokane",
+    "name": "Spokane",
+    "code": "SP",
+    "providerCount": 1,
+    "cityCount": 1,
+    "cities": [
+      "104-s-freya-st-suite-218"
+    ]
+  },
+  {
+    "slug": "wv",
+    "name": "WV",
+    "code": "WV",
+    "providerCount": 1,
+    "cityCount": 1,
+    "cities": [
+      "charleston"
+    ]
+  },
+  {
+    "slug": "youngwood",
+    "name": "Youngwood",
+    "code": "YO",
+    "providerCount": 1,
+    "cityCount": 1,
+    "cities": [
+      "322-armbrust-rd-suite-102"
+    ]
+  },
+  {
+    "slug": "alaska",
+    "name": "Alaska",
+    "code": "AK",
+    "providerCount": 0,
+    "cityCount": 1,
+    "cities": [
+      "anchorage"
+    ]
+  }
+]

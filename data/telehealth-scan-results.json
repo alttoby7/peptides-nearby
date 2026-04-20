@@ -1,0 +1,2754 @@
+[
+  {
+    "slug": "valley-medical-weight-loss",
+    "name": "Valley Medical Weight Loss",
+    "website": "https://www.valleymedicalweightloss.com",
+    "city": "Phoenix",
+    "stateCode": "AZ",
+    "telehealthFound": true,
+    "evidence": [
+      "Found keywords: telehealth, virtual visit, virtual care, virtual appointment, video consultation"
+    ],
+    "visitTypes": [
+      "video",
+      "phone",
+      "async"
+    ],
+    "statesServed": [],
+    "confidence": "high",
+    "pagesChecked": [
+      "https://www.valleymedicalweightloss.com",
+      "https://www.valleymedicalweightloss.com/telehealth"
+    ]
+  },
+  {
+    "slug": "reveal-medspa",
+    "name": "Reveal MedSpa",
+    "website": "https://revealmedspas.com",
+    "city": "Colorado Springs",
+    "stateCode": "CO",
+    "telehealthFound": true,
+    "evidence": [
+      "Found keywords: nationwide"
+    ],
+    "visitTypes": [
+      "async"
+    ],
+    "statesServed": [
+      "nationwide"
+    ],
+    "confidence": "high",
+    "pagesChecked": [
+      "https://revealmedspas.com",
+      "https://revealmedspas.com/services"
+    ]
+  },
+  {
+    "slug": "american-medical-wellness",
+    "name": "American Medical Wellness",
+    "website": "https://www.americanmedicalwellness.com",
+    "city": "Henderson",
+    "stateCode": "NV",
+    "telehealthFound": true,
+    "evidence": [
+      "Found keywords: telehealth, telemedicine, virtual visit, online visit"
+    ],
+    "visitTypes": [
+      "phone",
+      "async"
+    ],
+    "statesServed": [],
+    "confidence": "high",
+    "pagesChecked": [
+      "https://www.americanmedicalwellness.com",
+      "https://www.americanmedicalwellness.com/services",
+      "https://www.americanmedicalwellness.com/telemedicine"
+    ]
+  },
+  {
+    "slug": "dr-daniel-benhuri",
+    "name": "Dr. Daniel Benhuri, MD",
+    "website": "https://www.danielbenhurimd.com",
+    "city": "Beverly Hills",
+    "stateCode": "CA",
+    "telehealthFound": true,
+    "evidence": [
+      "Found keywords: telehealth, telemedicine, virtual visit"
+    ],
+    "visitTypes": [
+      "phone",
+      "async"
+    ],
+    "statesServed": [],
+    "confidence": "high",
+    "pagesChecked": [
+      "https://www.danielbenhurimd.com",
+      "https://www.danielbenhurimd.com/telemedicine"
+    ]
+  },
+  {
+    "slug": "reviverx-pharmacy",
+    "name": "ReviveRX Pharmacy",
+    "website": "https://reviverx.com",
+    "city": "Houston",
+    "stateCode": "TX",
+    "telehealthFound": true,
+    "evidence": [
+      "Found keywords: telemedicine, nationwide"
+    ],
+    "visitTypes": [
+      "async"
+    ],
+    "statesServed": [
+      "nationwide"
+    ],
+    "confidence": "high",
+    "pagesChecked": [
+      "https://reviverx.com"
+    ]
+  },
+  {
+    "slug": "empower-pharmacy",
+    "name": "Empower Pharmacy",
+    "website": "https://www.empowerpharmacy.com",
+    "city": "Houston",
+    "stateCode": "TX",
+    "telehealthFound": true,
+    "evidence": [
+      "Found keywords: nationwide"
+    ],
+    "visitTypes": [
+      "async"
+    ],
+    "statesServed": [
+      "nationwide"
+    ],
+    "confidence": "high",
+    "pagesChecked": [
+      "https://www.empowerpharmacy.com"
+    ]
+  },
+  {
+    "slug": "body-balance-medical",
+    "name": "Body Balance Medical",
+    "website": "https://bodybalancemedical.com",
+    "city": "Las Vegas",
+    "stateCode": "NV",
+    "telehealthFound": true,
+    "evidence": [
+      "Found keywords: telehealth, telemedicine, virtual visit, virtual appointment, video consultation"
+    ],
+    "visitTypes": [
+      "video",
+      "phone",
+      "async"
+    ],
+    "statesServed": [],
+    "confidence": "high",
+    "pagesChecked": [
+      "https://bodybalancemedical.com",
+      "https://bodybalancemedical.com/telehealth"
+    ]
+  },
+  {
+    "slug": "balanced-aesthetics-wellness",
+    "name": "Balanced Aesthetics + Wellness",
+    "website": "https://balancedaestheticsmedspa.com",
+    "city": "Atlanta",
+    "stateCode": "GA",
+    "telehealthFound": true,
+    "evidence": [
+      "Found keywords: telehealth, nationwide"
+    ],
+    "visitTypes": [
+      "async"
+    ],
+    "statesServed": [
+      "nationwide"
+    ],
+    "confidence": "high",
+    "pagesChecked": [
+      "https://balancedaestheticsmedspa.com",
+      "https://balancedaestheticsmedspa.com/telehealth"
+    ]
+  },
+  {
+    "slug": "renew-vitality-dallas",
+    "name": "Renew Vitality",
+    "website": "https://www.vitalityhrt.com",
+    "city": "Dallas",
+    "stateCode": "TX",
+    "telehealthFound": true,
+    "evidence": [
+      "Found keywords: nationwide"
+    ],
+    "visitTypes": [
+      "async"
+    ],
+    "statesServed": [
+      "nationwide"
+    ],
+    "confidence": "high",
+    "pagesChecked": [
+      "https://www.vitalityhrt.com"
+    ]
+  },
+  {
+    "slug": "the-dripbar-new-tampa",
+    "name": "The DRIPBaR New Tampa",
+    "website": "https://tampa.thedripbar.com/services-menu/wellness-services/semaglutide-and-tirzepatide",
+    "city": "Tampa",
+    "stateCode": "FL",
+    "telehealthFound": true,
+    "evidence": [
+      "Found keywords: all states"
+    ],
+    "visitTypes": [
+      "async"
+    ],
+    "statesServed": [
+      "nationwide"
+    ],
+    "confidence": "high",
+    "pagesChecked": [
+      "https://tampa.thedripbar.com/services-menu/wellness-services/semaglutide-and-tirzepatide",
+      "https://tampa.thedripbar.com/services-menu/wellness-services/semaglutide-and-tirzepatide/telehealth",
+      "https://tampa.thedripbar.com/services-menu/wellness-services/semaglutide-and-tirzepatide/virtual-visits",
+      "https://tampa.thedripbar.com/services-menu/wellness-services/semaglutide-and-tirzepatide/services",
+      "https://tampa.thedripbar.com/services-menu/wellness-services/semaglutide-and-tirzepatide/telemedicine",
+      "https://tampa.thedripbar.com/services-menu/wellness-services/semaglutide-and-tirzepatide/online-visits"
+    ]
+  },
+  {
+    "slug": "vive-ageless-weight-loss",
+    "name": "Vive Ageless Weight Loss Center",
+    "website": "https://www.viveagelessweightloss.com",
+    "city": "Coral Gables",
+    "stateCode": "FL",
+    "telehealthFound": true,
+    "evidence": [
+      "Found keywords: telehealth, online consultation"
+    ],
+    "visitTypes": [
+      "async"
+    ],
+    "statesServed": [],
+    "confidence": "medium",
+    "pagesChecked": [
+      "https://www.viveagelessweightloss.com",
+      "https://www.viveagelessweightloss.com/telehealth",
+      "https://www.viveagelessweightloss.com/services"
+    ]
+  },
+  {
+    "slug": "covalent-health-wellness-aesthetics",
+    "name": "Covalent Health Wellness & Aesthetics",
+    "website": "https://covalenthealth.org",
+    "city": "Miami",
+    "stateCode": "FL",
+    "telehealthFound": true,
+    "evidence": [
+      "Found keywords: telemedicine"
+    ],
+    "visitTypes": [
+      "async"
+    ],
+    "statesServed": [],
+    "confidence": "medium",
+    "pagesChecked": [
+      "https://covalenthealth.org"
+    ]
+  },
+  {
+    "slug": "beso-wellness-and-beauty",
+    "name": "Beso Wellness and Beauty",
+    "website": "https://www.besowb.com",
+    "city": "Phoenix",
+    "stateCode": "AZ",
+    "telehealthFound": true,
+    "evidence": [
+      "Found keywords: telemedicine"
+    ],
+    "visitTypes": [
+      "async"
+    ],
+    "statesServed": [],
+    "confidence": "medium",
+    "pagesChecked": [
+      "https://www.besowb.com",
+      "https://www.besowb.com/telehealth",
+      "https://www.besowb.com/virtual-visits",
+      "https://www.besowb.com/services",
+      "https://www.besowb.com/telemedicine",
+      "https://www.besowb.com/online-visits"
+    ]
+  },
+  {
+    "slug": "fix-medical-group-scottsdale",
+    "name": "FIX Medical Group",
+    "website": "https://fixmedicalgroup.com/scottsdaleaz",
+    "city": "Scottsdale",
+    "stateCode": "AZ",
+    "telehealthFound": true,
+    "evidence": [
+      "Found keywords: online consultation"
+    ],
+    "visitTypes": [
+      "async"
+    ],
+    "statesServed": [],
+    "confidence": "medium",
+    "pagesChecked": [
+      "https://fixmedicalgroup.com/scottsdaleaz",
+      "https://fixmedicalgroup.com/scottsdaleaz/services"
+    ]
+  },
+  {
+    "slug": "balanced-healthcare",
+    "name": "Balanced Healthcare",
+    "website": "https://www.balancedhc.org",
+    "city": "Denver",
+    "stateCode": "CO",
+    "telehealthFound": true,
+    "evidence": [
+      "Found keywords: telemedicine, virtual care"
+    ],
+    "visitTypes": [
+      "video",
+      "phone",
+      "async"
+    ],
+    "statesServed": [],
+    "confidence": "medium",
+    "pagesChecked": [
+      "https://www.balancedhc.org",
+      "https://www.balancedhc.org/services"
+    ]
+  },
+  {
+    "slug": "vitalogy-health-integrative-medicine",
+    "name": "Vitalogy Health and Integrative Medicine",
+    "website": "https://www.vitalogydenver.com",
+    "city": "Denver",
+    "stateCode": "CO",
+    "telehealthFound": true,
+    "evidence": [
+      "Found keywords: telehealth, video visit"
+    ],
+    "visitTypes": [
+      "video",
+      "async"
+    ],
+    "statesServed": [],
+    "confidence": "medium",
+    "pagesChecked": [
+      "https://www.vitalogydenver.com",
+      "https://www.vitalogydenver.com/telehealth",
+      "https://www.vitalogydenver.com/services"
+    ]
+  },
+  {
+    "slug": "restorative-injectables",
+    "name": "Restorative Injectables Med Spa",
+    "website": "https://restorativeinjectables.com",
+    "city": "Denver",
+    "stateCode": "CO",
+    "telehealthFound": true,
+    "evidence": [
+      "Found keywords: telehealth"
+    ],
+    "visitTypes": [
+      "async"
+    ],
+    "statesServed": [],
+    "confidence": "medium",
+    "pagesChecked": [
+      "https://restorativeinjectables.com"
+    ]
+  },
+  {
+    "slug": "the-biostation-fort-lauderdale",
+    "name": "The BioStation",
+    "website": "https://thebiostation.com",
+    "city": "Fort Lauderdale",
+    "stateCode": "FL",
+    "telehealthFound": true,
+    "evidence": [
+      "Found keywords: telehealth"
+    ],
+    "visitTypes": [
+      "async"
+    ],
+    "statesServed": [],
+    "confidence": "medium",
+    "pagesChecked": [
+      "https://thebiostation.com",
+      "https://thebiostation.com/telehealth"
+    ]
+  },
+  {
+    "slug": "livv-natural-health",
+    "name": "LIVV Natural Health",
+    "website": "https://livvnatural.com",
+    "city": "San Diego",
+    "stateCode": "CA",
+    "telehealthFound": true,
+    "evidence": [
+      "Found keywords: telemedicine"
+    ],
+    "visitTypes": [
+      "async"
+    ],
+    "statesServed": [],
+    "confidence": "medium",
+    "pagesChecked": [
+      "https://livvnatural.com",
+      "https://livvnatural.com/services",
+      "https://livvnatural.com/telemedicine"
+    ]
+  },
+  {
+    "slug": "modern-surgical-arts-denver",
+    "name": "Modern Surgical Arts of Denver",
+    "website": "https://modernsurgicalarts.com",
+    "city": "Highlands Ranch",
+    "stateCode": "CO",
+    "telehealthFound": true,
+    "evidence": [
+      "Found keywords: telehealth"
+    ],
+    "visitTypes": [
+      "phone",
+      "async"
+    ],
+    "statesServed": [],
+    "confidence": "medium",
+    "pagesChecked": [
+      "https://modernsurgicalarts.com",
+      "https://modernsurgicalarts.com/services"
+    ]
+  },
+  {
+    "slug": "ithrivemd",
+    "name": "iThriveMD",
+    "website": "https://www.ithrivemd.com",
+    "city": "San Diego",
+    "stateCode": "CA",
+    "telehealthFound": true,
+    "evidence": [
+      "Found keywords: telehealth, video visit"
+    ],
+    "visitTypes": [
+      "video",
+      "async"
+    ],
+    "statesServed": [],
+    "confidence": "medium",
+    "pagesChecked": [
+      "https://www.ithrivemd.com",
+      "https://www.ithrivemd.com/telehealth",
+      "https://www.ithrivemd.com/virtual-visits",
+      "https://www.ithrivemd.com/services",
+      "https://www.ithrivemd.com/telemedicine",
+      "https://www.ithrivemd.com/online-visits"
+    ]
+  },
+  {
+    "slug": "house-of-aesthetix",
+    "name": "House of Aesthetix",
+    "website": "https://houseofaesthetix.com",
+    "city": "San Diego",
+    "stateCode": "CA",
+    "telehealthFound": true,
+    "evidence": [
+      "Found keywords: telehealth, remote consultation"
+    ],
+    "visitTypes": [
+      "async"
+    ],
+    "statesServed": [],
+    "confidence": "medium",
+    "pagesChecked": [
+      "https://houseofaesthetix.com",
+      "https://houseofaesthetix.com/services"
+    ]
+  },
+  {
+    "slug": "sky-health-wellness-clinic",
+    "name": "Sky Health Wellness Clinic",
+    "website": "https://www.skyhealthnv.com",
+    "city": "Las Vegas",
+    "stateCode": "NV",
+    "telehealthFound": true,
+    "evidence": [
+      "Found keywords: telehealth"
+    ],
+    "visitTypes": [
+      "phone",
+      "async"
+    ],
+    "statesServed": [],
+    "confidence": "medium",
+    "pagesChecked": [
+      "https://www.skyhealthnv.com"
+    ]
+  },
+  {
+    "slug": "wellness-at-century-city",
+    "name": "Wellness at Century City",
+    "website": "https://www.wellnessatcenturycity.com",
+    "city": "Los Angeles",
+    "stateCode": "CA",
+    "telehealthFound": true,
+    "evidence": [
+      "Found keywords: telehealth"
+    ],
+    "visitTypes": [
+      "async"
+    ],
+    "statesServed": [],
+    "confidence": "medium",
+    "pagesChecked": [
+      "https://www.wellnessatcenturycity.com",
+      "https://www.wellnessatcenturycity.com/services"
+    ]
+  },
+  {
+    "slug": "dr-golberg-wellness",
+    "name": "Dr. GolBerg Aesthetics & Wellness",
+    "website": "https://www.drgolberg.nyc",
+    "city": "New York",
+    "stateCode": "NY",
+    "telehealthFound": true,
+    "evidence": [
+      "Found keywords: telemedicine"
+    ],
+    "visitTypes": [
+      "async"
+    ],
+    "statesServed": [],
+    "confidence": "medium",
+    "pagesChecked": [
+      "https://www.drgolberg.nyc"
+    ]
+  },
+  {
+    "slug": "advitam",
+    "name": "+advitam",
+    "website": "https://www.myadvitam.com",
+    "city": "New York",
+    "stateCode": "NY",
+    "telehealthFound": true,
+    "evidence": [
+      "Found keywords: telehealth, remote consultation"
+    ],
+    "visitTypes": [
+      "video",
+      "async"
+    ],
+    "statesServed": [],
+    "confidence": "medium",
+    "pagesChecked": [
+      "https://www.myadvitam.com",
+      "https://www.myadvitam.com/telehealth",
+      "https://www.myadvitam.com/services"
+    ]
+  },
+  {
+    "slug": "houston-concierge-medicine",
+    "name": "Houston Concierge Medicine & Wellness Center",
+    "website": "https://www.houstonconciergemedicine.com",
+    "city": "Houston",
+    "stateCode": "TX",
+    "telehealthFound": true,
+    "evidence": [
+      "Found keywords: telemedicine"
+    ],
+    "visitTypes": [
+      "async"
+    ],
+    "statesServed": [],
+    "confidence": "medium",
+    "pagesChecked": [
+      "https://www.houstonconciergemedicine.com"
+    ]
+  },
+  {
+    "slug": "chicago-arthritis-regenerative-medicine",
+    "name": "Chicago Arthritis and Regenerative Medicine",
+    "website": "https://chicagoarthritis.com",
+    "city": "Chicago",
+    "stateCode": "IL",
+    "telehealthFound": true,
+    "evidence": [
+      "Found keywords: telehealth, telemedicine"
+    ],
+    "visitTypes": [
+      "phone",
+      "async"
+    ],
+    "statesServed": [],
+    "confidence": "medium",
+    "pagesChecked": [
+      "https://chicagoarthritis.com",
+      "https://chicagoarthritis.com/telehealth",
+      "https://chicagoarthritis.com/telemedicine"
+    ]
+  },
+  {
+    "slug": "formula-wellness-center",
+    "name": "Formula Wellness Center",
+    "website": "https://formulawellness.com",
+    "city": "Dallas",
+    "stateCode": "TX",
+    "telehealthFound": true,
+    "evidence": [
+      "Found keywords: telehealth, telemedicine"
+    ],
+    "visitTypes": [
+      "video",
+      "phone",
+      "async"
+    ],
+    "statesServed": [],
+    "confidence": "medium",
+    "pagesChecked": [
+      "https://formulawellness.com",
+      "https://formulawellness.com/telemedicine"
+    ]
+  },
+  {
+    "slug": "timberwood-aesthetics-san-antonio",
+    "name": "Timberwood Aesthetics",
+    "website": "https://www.timberwoodaesthetics.com/post/the-power-of-peptides-unlocking-personalized-wellness-at-timberwood-aesthetics",
+    "city": "San Antonio",
+    "stateCode": "TX",
+    "telehealthFound": true,
+    "evidence": [
+      "Found keywords: telehealth, telemedicine"
+    ],
+    "visitTypes": [
+      "video"
+    ],
+    "statesServed": [],
+    "confidence": "medium",
+    "pagesChecked": [
+      "https://www.timberwoodaesthetics.com/post/the-power-of-peptides-unlocking-personalized-wellness-at-timberwood-aesthetics",
+      "https://www.timberwoodaesthetics.com/post/the-power-of-peptides-unlocking-personalized-wellness-at-timberwood-aesthetics/telehealth",
+      "https://www.timberwoodaesthetics.com/post/the-power-of-peptides-unlocking-personalized-wellness-at-timberwood-aesthetics/virtual-visits",
+      "https://www.timberwoodaesthetics.com/post/the-power-of-peptides-unlocking-personalized-wellness-at-timberwood-aesthetics/services",
+      "https://www.timberwoodaesthetics.com/post/the-power-of-peptides-unlocking-personalized-wellness-at-timberwood-aesthetics/telemedicine",
+      "https://www.timberwoodaesthetics.com/post/the-power-of-peptides-unlocking-personalized-wellness-at-timberwood-aesthetics/online-visits"
+    ]
+  },
+  {
+    "slug": "tru-wellness-charlotte",
+    "name": "TRU Wellness",
+    "website": "https://truwellnesscharlotte.com",
+    "city": "Charlotte",
+    "stateCode": "NC",
+    "telehealthFound": true,
+    "evidence": [
+      "Found keywords: telehealth"
+    ],
+    "visitTypes": [
+      "async"
+    ],
+    "statesServed": [],
+    "confidence": "medium",
+    "pagesChecked": [
+      "https://truwellnesscharlotte.com",
+      "https://truwellnesscharlotte.com/services"
+    ]
+  },
+  {
+    "slug": "npoc-wellness-and-hydration-baltimore",
+    "name": "NPOC Wellness & Hydration",
+    "website": "https://www.npocwellness.com",
+    "city": "Baltimore",
+    "stateCode": "MD",
+    "telehealthFound": true,
+    "evidence": [
+      "Found keywords: telehealth"
+    ],
+    "visitTypes": [
+      "async"
+    ],
+    "statesServed": [],
+    "confidence": "medium",
+    "pagesChecked": [
+      "https://www.npocwellness.com"
+    ]
+  },
+  {
+    "slug": "american-medical-clinic-tampa",
+    "name": "American Medical Clinic",
+    "website": "https://www.americanmedicalclinics.org/primary-care-and-wellness-clinic-services/wellness-spa/weight-loss",
+    "city": "Tampa",
+    "stateCode": "FL",
+    "telehealthFound": true,
+    "evidence": [
+      "Found keywords: telehealth"
+    ],
+    "visitTypes": [
+      "async"
+    ],
+    "statesServed": [],
+    "confidence": "medium",
+    "pagesChecked": [
+      "https://www.americanmedicalclinics.org/primary-care-and-wellness-clinic-services/wellness-spa/weight-loss"
+    ]
+  },
+  {
+    "slug": "boston-medical-aesthetics",
+    "name": "Boston Medical Aesthetics",
+    "website": "https://www.bostonmedicalaesthetics.net/body-contouring/medical-weight-loss",
+    "city": "Boston",
+    "stateCode": "MA",
+    "telehealthFound": true,
+    "evidence": [
+      "Found keywords: telehealth"
+    ],
+    "visitTypes": [
+      "video",
+      "async"
+    ],
+    "statesServed": [],
+    "confidence": "medium",
+    "pagesChecked": [
+      "https://www.bostonmedicalaesthetics.net/body-contouring/medical-weight-loss"
+    ]
+  },
+  {
+    "slug": "restore-hyper-wellness-kansas-city-zona-rosa",
+    "name": "Restore Hyper Wellness Kansas City - Zona Rosa",
+    "website": "https://www.restore.com/local/glp1-medication-mo-kansas-city-zona-rosa-mo014",
+    "city": "Kansas City",
+    "stateCode": "MO",
+    "telehealthFound": true,
+    "evidence": [
+      "Found keywords: telemedicine"
+    ],
+    "visitTypes": [
+      "async"
+    ],
+    "statesServed": [],
+    "confidence": "medium",
+    "pagesChecked": [
+      "https://www.restore.com/local/glp1-medication-mo-kansas-city-zona-rosa-mo014"
+    ]
+  },
+  {
+    "slug": "victory-health-medical-group-tampa",
+    "name": "Victory Health Medical Group",
+    "website": "https://www.victoryhealthmg.com/home",
+    "city": "Tampa",
+    "stateCode": "FL",
+    "telehealthFound": true,
+    "evidence": [
+      "Found keywords: telehealth, telemedicine"
+    ],
+    "visitTypes": [
+      "phone",
+      "async"
+    ],
+    "statesServed": [],
+    "confidence": "medium",
+    "pagesChecked": [
+      "https://www.victoryhealthmg.com/home",
+      "https://www.victoryhealthmg.com/home/telehealth",
+      "https://www.victoryhealthmg.com/home/virtual-visits",
+      "https://www.victoryhealthmg.com/home/services",
+      "https://www.victoryhealthmg.com/home/telemedicine",
+      "https://www.victoryhealthmg.com/home/online-visits"
+    ]
+  },
+  {
+    "slug": "propel-therapeutics-sacramento",
+    "name": "Propel Therapeutics",
+    "website": "https://www.propeltherapeutics.com/semaglutide-injections",
+    "city": "Sacramento",
+    "stateCode": "CA",
+    "telehealthFound": true,
+    "evidence": [
+      "Found keywords: telehealth, telemedicine"
+    ],
+    "visitTypes": [
+      "async"
+    ],
+    "statesServed": [],
+    "confidence": "medium",
+    "pagesChecked": [
+      "https://www.propeltherapeutics.com/semaglutide-injections",
+      "https://www.propeltherapeutics.com/semaglutide-injections/telehealth",
+      "https://www.propeltherapeutics.com/semaglutide-injections/virtual-visits",
+      "https://www.propeltherapeutics.com/semaglutide-injections/services",
+      "https://www.propeltherapeutics.com/semaglutide-injections/telemedicine",
+      "https://www.propeltherapeutics.com/semaglutide-injections/online-visits"
+    ]
+  },
+  {
+    "slug": "body-shots-memphis",
+    "name": "Body Shots",
+    "website": "https://bodyshotsclinic.com",
+    "city": "Memphis",
+    "stateCode": "TN",
+    "telehealthFound": true,
+    "evidence": [
+      "Found keywords: telehealth"
+    ],
+    "visitTypes": [
+      "phone",
+      "async"
+    ],
+    "statesServed": [],
+    "confidence": "medium",
+    "pagesChecked": [
+      "https://bodyshotsclinic.com"
+    ]
+  },
+  {
+    "slug": "cincinnati-plastic-surgery",
+    "name": "Cincinnati Plastic Surgery",
+    "website": "https://www.cincinnatiplasticsurgery.com/trizepatide",
+    "city": "Cincinnati",
+    "stateCode": "OH",
+    "telehealthFound": true,
+    "evidence": [
+      "Found keywords: telehealth, telemedicine"
+    ],
+    "visitTypes": [
+      "async"
+    ],
+    "statesServed": [],
+    "confidence": "medium",
+    "pagesChecked": [
+      "https://www.cincinnatiplasticsurgery.com/trizepatide",
+      "https://www.cincinnatiplasticsurgery.com/trizepatide/telehealth",
+      "https://www.cincinnatiplasticsurgery.com/trizepatide/virtual-visits",
+      "https://www.cincinnatiplasticsurgery.com/trizepatide/services",
+      "https://www.cincinnatiplasticsurgery.com/trizepatide/telemedicine",
+      "https://www.cincinnatiplasticsurgery.com/trizepatide/online-visits"
+    ]
+  },
+  {
+    "slug": "advanced-skin-and-vein-care-centers-lexington",
+    "name": "Advanced Skin & Vein Care Centers",
+    "website": "https://www.kentuckymedspa.com/weight-loss-program",
+    "city": "Lexington",
+    "stateCode": "KY",
+    "telehealthFound": true,
+    "evidence": [
+      "Found keywords: telehealth, telemedicine"
+    ],
+    "visitTypes": [
+      "phone",
+      "async"
+    ],
+    "statesServed": [],
+    "confidence": "medium",
+    "pagesChecked": [
+      "https://www.kentuckymedspa.com/weight-loss-program",
+      "https://www.kentuckymedspa.com/weight-loss-program/telehealth",
+      "https://www.kentuckymedspa.com/weight-loss-program/virtual-visits",
+      "https://www.kentuckymedspa.com/weight-loss-program/services",
+      "https://www.kentuckymedspa.com/weight-loss-program/telemedicine",
+      "https://www.kentuckymedspa.com/weight-loss-program/online-visits"
+    ]
+  },
+  {
+    "slug": "columbus-mens-clinic",
+    "name": "Columbus Men's Clinic",
+    "website": "https://columbusmensclinic.com/weight-loss",
+    "city": "Columbus",
+    "stateCode": "OH",
+    "telehealthFound": true,
+    "evidence": [
+      "Found keywords: telehealth"
+    ],
+    "visitTypes": [
+      "phone",
+      "async"
+    ],
+    "statesServed": [],
+    "confidence": "medium",
+    "pagesChecked": [
+      "https://columbusmensclinic.com/weight-loss",
+      "https://columbusmensclinic.com/weight-loss/telehealth"
+    ]
+  },
+  {
+    "slug": "restore-hyper-wellness-tulsa-south",
+    "name": "Restore Hyper Wellness Tulsa - South",
+    "website": "https://www.restore.com/local/glp1-medication-ok-tulsa-south-ok002",
+    "city": "Tulsa",
+    "stateCode": "OK",
+    "telehealthFound": true,
+    "evidence": [
+      "Found keywords: telemedicine"
+    ],
+    "visitTypes": [
+      "async"
+    ],
+    "statesServed": [],
+    "confidence": "medium",
+    "pagesChecked": [
+      "https://www.restore.com/local/glp1-medication-ok-tulsa-south-ok002"
+    ]
+  },
+  {
+    "slug": "restore-hyper-wellness-virginia-beach",
+    "name": "Restore Hyper Wellness Virginia Beach",
+    "website": "https://www.restore.com/local/glp1-medication-va-virginia-beach-va001",
+    "city": "Virginia Beach",
+    "stateCode": "VA",
+    "telehealthFound": true,
+    "evidence": [
+      "Found keywords: telemedicine"
+    ],
+    "visitTypes": [
+      "async"
+    ],
+    "statesServed": [],
+    "confidence": "medium",
+    "pagesChecked": [
+      "https://www.restore.com/local/glp1-medication-va-virginia-beach-va001"
+    ]
+  },
+  {
+    "slug": "healthy-you-wellness-spa-norfolk",
+    "name": "Healthy You Wellness Spa",
+    "website": "https://www.hywspa.com/weight-loss",
+    "city": "Norfolk",
+    "stateCode": "VA",
+    "telehealthFound": true,
+    "evidence": [
+      "Found keywords: telehealth, telemedicine"
+    ],
+    "visitTypes": [
+      "phone",
+      "async"
+    ],
+    "statesServed": [],
+    "confidence": "medium",
+    "pagesChecked": [
+      "https://www.hywspa.com/weight-loss",
+      "https://www.hywspa.com/weight-loss/telehealth",
+      "https://www.hywspa.com/weight-loss/virtual-visits",
+      "https://www.hywspa.com/weight-loss/services",
+      "https://www.hywspa.com/weight-loss/telemedicine",
+      "https://www.hywspa.com/weight-loss/online-visits"
+    ]
+  },
+  {
+    "slug": "bayside-medspa-norfolk",
+    "name": "Bayside Medspa",
+    "website": "https://www.baysidemedspa.com/semaglutide",
+    "city": "Norfolk",
+    "stateCode": "VA",
+    "telehealthFound": true,
+    "evidence": [
+      "Found keywords: telehealth, telemedicine"
+    ],
+    "visitTypes": [
+      "async"
+    ],
+    "statesServed": [],
+    "confidence": "medium",
+    "pagesChecked": [
+      "https://www.baysidemedspa.com/semaglutide",
+      "https://www.baysidemedspa.com/semaglutide/telehealth",
+      "https://www.baysidemedspa.com/semaglutide/virtual-visits",
+      "https://www.baysidemedspa.com/semaglutide/services",
+      "https://www.baysidemedspa.com/semaglutide/telemedicine",
+      "https://www.baysidemedspa.com/semaglutide/online-visits"
+    ]
+  },
+  {
+    "slug": "medical-weight-controls-long-beach",
+    "name": "Medical Weight Controls",
+    "website": "https://medicalweightcontrols.com/pages/long-beach",
+    "city": "Long Beach",
+    "stateCode": "CA",
+    "telehealthFound": true,
+    "evidence": [
+      "Found keywords: telehealth, telemedicine"
+    ],
+    "visitTypes": [
+      "phone",
+      "async"
+    ],
+    "statesServed": [],
+    "confidence": "medium",
+    "pagesChecked": [
+      "https://medicalweightcontrols.com/pages/long-beach",
+      "https://medicalweightcontrols.com/pages/long-beach/telehealth",
+      "https://medicalweightcontrols.com/pages/long-beach/virtual-visits",
+      "https://medicalweightcontrols.com/pages/long-beach/services",
+      "https://medicalweightcontrols.com/pages/long-beach/telemedicine",
+      "https://medicalweightcontrols.com/pages/long-beach/online-visits"
+    ]
+  },
+  {
+    "slug": "marys-access-clinic-tacoma",
+    "name": "Marys Access Clinic, PLLC",
+    "website": "https://www.marysaccessclinic.com",
+    "city": "Tacoma",
+    "stateCode": "WA",
+    "telehealthFound": true,
+    "evidence": [
+      "Found keywords: telehealth"
+    ],
+    "visitTypes": [
+      "async"
+    ],
+    "statesServed": [],
+    "confidence": "medium",
+    "pagesChecked": [
+      "https://www.marysaccessclinic.com",
+      "https://www.marysaccessclinic.com/telehealth"
+    ]
+  },
+  {
+    "slug": "tera-fe-medical-spa-mesa",
+    "name": "Tera Fe Medical Spa",
+    "website": "https://www.terafe.com/weightmanagement",
+    "city": "Mesa",
+    "stateCode": "AZ",
+    "telehealthFound": true,
+    "evidence": [
+      "Found keywords: telehealth, telemedicine"
+    ],
+    "visitTypes": [
+      "phone",
+      "async"
+    ],
+    "statesServed": [],
+    "confidence": "medium",
+    "pagesChecked": [
+      "https://www.terafe.com/weightmanagement",
+      "https://www.terafe.com/weightmanagement/telehealth",
+      "https://www.terafe.com/weightmanagement/virtual-visits",
+      "https://www.terafe.com/weightmanagement/services",
+      "https://www.terafe.com/weightmanagement/telemedicine",
+      "https://www.terafe.com/weightmanagement/online-visits"
+    ]
+  },
+  {
+    "slug": "modernized-wellness",
+    "name": "Modernized Wellness",
+    "website": "https://www.modernizedwellness.com",
+    "city": "Scottsdale",
+    "stateCode": "AZ",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://www.modernizedwellness.com"
+    ]
+  },
+  {
+    "slug": "nirvanix-health",
+    "name": "Nirvanix Health",
+    "website": "https://nirvanixhealth.com",
+    "city": "Austin",
+    "stateCode": "TX",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://nirvanixhealth.com",
+      "https://nirvanixhealth.com/services"
+    ]
+  },
+  {
+    "slug": "mattr-biowellness-club",
+    "name": "MATTR Biowellness Club",
+    "website": "https://www.mattrbiowellnessclub.com",
+    "city": "Austin",
+    "stateCode": "TX",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://www.mattrbiowellnessclub.com"
+    ]
+  },
+  {
+    "slug": "valley-healthspan",
+    "name": "Valley Healthspan",
+    "website": "https://valleyhealthspan.com",
+    "city": "Phoenix",
+    "stateCode": "AZ",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://valleyhealthspan.com",
+      "https://valleyhealthspan.com/services"
+    ]
+  },
+  {
+    "slug": "hybrid-medical-solution",
+    "name": "Hybrid Medical Solution",
+    "website": "https://www.hybridmedicalsolution.com",
+    "city": "Boca Raton",
+    "stateCode": "FL",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://www.hybridmedicalsolution.com",
+      "https://www.hybridmedicalsolution.com/services"
+    ]
+  },
+  {
+    "slug": "austin-regenerative-therapy",
+    "name": "Austin Regenerative Therapy",
+    "website": "https://austinregen.com",
+    "city": "Austin",
+    "stateCode": "TX",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://austinregen.com"
+    ]
+  },
+  {
+    "slug": "onus-iv-therapy-longevity",
+    "name": "Onus IV Therapy + Longevity",
+    "website": "https://www.onusiv.com",
+    "city": "Denver",
+    "stateCode": "CO",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://www.onusiv.com"
+    ]
+  },
+  {
+    "slug": "premium-health-care-pharmacy",
+    "name": "Premium Health Care Pharmacy",
+    "website": "https://www.phcpharmacy.com",
+    "city": "Miami",
+    "stateCode": "FL",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://www.phcpharmacy.com"
+    ]
+  },
+  {
+    "slug": "denver-wellness-aesthetics-center",
+    "name": "Denver Wellness & Aesthetics Center",
+    "website": "https://denverwellnessaesthetic.com",
+    "city": "Englewood",
+    "stateCode": "CO",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://denverwellnessaesthetic.com",
+      "https://denverwellnessaesthetic.com/services"
+    ]
+  },
+  {
+    "slug": "aria-integrative-health",
+    "name": "Aria Integrative Health",
+    "website": "https://ariaintegrativehealth.com",
+    "city": "Denver",
+    "stateCode": "CO",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://ariaintegrativehealth.com",
+      "https://ariaintegrativehealth.com/telehealth",
+      "https://ariaintegrativehealth.com/services"
+    ]
+  },
+  {
+    "slug": "r2-medical-clinic",
+    "name": "R2 Medical Clinic",
+    "website": "https://r2medicalclinic.com",
+    "city": "Denver",
+    "stateCode": "CO",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://r2medicalclinic.com",
+      "https://r2medicalclinic.com/telehealth",
+      "https://r2medicalclinic.com/virtual-visits",
+      "https://r2medicalclinic.com/services",
+      "https://r2medicalclinic.com/telemedicine",
+      "https://r2medicalclinic.com/online-visits"
+    ]
+  },
+  {
+    "slug": "gleam-medical-spa",
+    "name": "Gleam Medical Spa",
+    "website": "https://gleammedspa.com",
+    "city": "Denver",
+    "stateCode": "CO",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://gleammedspa.com",
+      "https://gleammedspa.com/services"
+    ]
+  },
+  {
+    "slug": "denver-regenerative-medicine",
+    "name": "Denver Regenerative Medicine",
+    "website": "https://denverregenerativemedicine.com",
+    "city": "Denver",
+    "stateCode": "CO",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://denverregenerativemedicine.com"
+    ]
+  },
+  {
+    "slug": "front-range-wellness-aesthetics",
+    "name": "Front Range Wellness & Aesthetics",
+    "website": "https://frontrangewellnessaesthetics.com",
+    "city": "Colorado Springs",
+    "stateCode": "CO",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://frontrangewellnessaesthetics.com"
+    ]
+  },
+  {
+    "slug": "accelerate-health-clinics",
+    "name": "Accelerate Health Clinics",
+    "website": "https://ah-clinics.com",
+    "city": "San Diego",
+    "stateCode": "CA",
+    "telehealthFound": false,
+    "evidence": [
+      "Could not fetch website"
+    ],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": []
+  },
+  {
+    "slug": "thrive-health-solutions",
+    "name": "Thrive Health Solutions",
+    "website": "https://thrivecolorado.com",
+    "city": "Englewood",
+    "stateCode": "CO",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://thrivecolorado.com",
+      "https://thrivecolorado.com/services"
+    ]
+  },
+  {
+    "slug": "capitis-medical-aesthetics",
+    "name": "Capitis Medical & Aesthetics",
+    "website": "https://www.capitismedicalaesthetics.com",
+    "city": "San Diego",
+    "stateCode": "CA",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://www.capitismedicalaesthetics.com"
+    ]
+  },
+  {
+    "slug": "fitmd-usa",
+    "name": "FitMD",
+    "website": "https://fitmdusa.com",
+    "city": "Northglenn",
+    "stateCode": "CO",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://fitmdusa.com",
+      "https://fitmdusa.com/services"
+    ]
+  },
+  {
+    "slug": "inner-path-naturopathic",
+    "name": "Inner Path Naturopathic",
+    "website": "https://www.innerpathnaturopathic.com",
+    "city": "San Diego",
+    "stateCode": "CA",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://www.innerpathnaturopathic.com"
+    ]
+  },
+  {
+    "slug": "integrative-health-miami",
+    "name": "Integrative Health Miami",
+    "website": "https://integrativehealthmiami.com",
+    "city": "Miami",
+    "stateCode": "FL",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://integrativehealthmiami.com",
+      "https://integrativehealthmiami.com/services"
+    ]
+  },
+  {
+    "slug": "oasis-health-and-medicine",
+    "name": "Oasis Health and Medicine",
+    "website": "https://oasishealthandmedicine.com",
+    "city": "Encinitas",
+    "stateCode": "CA",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://oasishealthandmedicine.com"
+    ]
+  },
+  {
+    "slug": "tulsi-wellness-club",
+    "name": "Tulsi Wellness Club",
+    "website": "https://wearetulsi.com",
+    "city": "Del Mar",
+    "stateCode": "CA",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://wearetulsi.com",
+      "https://wearetulsi.com/services"
+    ]
+  },
+  {
+    "slug": "university-compounding-pharmacy",
+    "name": "University Compounding Pharmacy",
+    "website": "https://www.ucprx.com",
+    "city": "San Diego",
+    "stateCode": "CA",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://www.ucprx.com"
+    ]
+  },
+  {
+    "slug": "viva-wellness-medical-group",
+    "name": "Viva Wellness Medical Group",
+    "website": "https://vivawellness.com",
+    "city": "San Diego",
+    "stateCode": "CA",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://vivawellness.com",
+      "https://vivawellness.com/services"
+    ]
+  },
+  {
+    "slug": "nowak-aesthetics",
+    "name": "Nowak Aesthetics",
+    "website": "https://drnowak.com",
+    "city": "Chula Vista",
+    "stateCode": "CA",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://drnowak.com",
+      "https://drnowak.com/services"
+    ]
+  },
+  {
+    "slug": "atlas-health-institute",
+    "name": "Atlas Health Institute",
+    "website": "https://www.atlashealthinstitute.com",
+    "city": "Las Vegas",
+    "stateCode": "NV",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://www.atlashealthinstitute.com",
+      "https://www.atlashealthinstitute.com/services"
+    ]
+  },
+  {
+    "slug": "american-wellness-pharmacy",
+    "name": "American Wellness Pharmacy",
+    "website": "https://www.americanwellnesspharmacy.com",
+    "city": "Las Vegas",
+    "stateCode": "NV",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://www.americanwellnesspharmacy.com"
+    ]
+  },
+  {
+    "slug": "regenerate-medical-concierge",
+    "name": "Regenerate Medical Concierge",
+    "website": "https://regeneratemedicalconcierge.com",
+    "city": "Henderson",
+    "stateCode": "NV",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://regeneratemedicalconcierge.com",
+      "https://regeneratemedicalconcierge.com/services"
+    ]
+  },
+  {
+    "slug": "citrin-wellness",
+    "name": "Citrin Wellness",
+    "website": "https://www.doctorguy.com",
+    "city": "Beverly Hills",
+    "stateCode": "CA",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://www.doctorguy.com",
+      "https://www.doctorguy.com/services"
+    ]
+  },
+  {
+    "slug": "optimal-health-wellness-pasadena",
+    "name": "Optimal Health & Wellness",
+    "website": "https://www.opthealthwellness.com",
+    "city": "Pasadena",
+    "stateCode": "CA",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://www.opthealthwellness.com",
+      "https://www.opthealthwellness.com/services"
+    ]
+  },
+  {
+    "slug": "revitalize-iv-solutions-medspa",
+    "name": "Revitalize IV Solutions & MedSpa",
+    "website": "https://www.revitalizeivsolutions.com",
+    "city": "Chicago",
+    "stateCode": "IL",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://www.revitalizeivsolutions.com",
+      "https://www.revitalizeivsolutions.com/services"
+    ]
+  },
+  {
+    "slug": "beauty-lounge-medical-spa",
+    "name": "Beauty Lounge Medical Spa",
+    "website": "https://beautyloungesanmarcos.com",
+    "city": "San Diego",
+    "stateCode": "CA",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://beautyloungesanmarcos.com",
+      "https://beautyloungesanmarcos.com/services"
+    ]
+  },
+  {
+    "slug": "wholehealth-chicago",
+    "name": "WholeHealth Chicago",
+    "website": "https://wholehealthchicago.com",
+    "city": "Chicago",
+    "stateCode": "IL",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://wholehealthchicago.com",
+      "https://wholehealthchicago.com/services"
+    ]
+  },
+  {
+    "slug": "revived-personalized-wellness",
+    "name": "Revived Personalized Wellness",
+    "website": "https://www.myrevived.com",
+    "city": "Houston",
+    "stateCode": "TX",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://www.myrevived.com"
+    ]
+  },
+  {
+    "slug": "performance-pain-sports-medicine",
+    "name": "Performance Pain and Sports Medicine",
+    "website": "https://www.performancepain.com",
+    "city": "Houston",
+    "stateCode": "TX",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://www.performancepain.com",
+      "https://www.performancepain.com/services"
+    ]
+  },
+  {
+    "slug": "vida-aesthetics-and-wellness",
+    "name": "Vida Aesthetics and Wellness",
+    "website": "https://allmyvida.com",
+    "city": "Houston",
+    "stateCode": "TX",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://allmyvida.com",
+      "https://allmyvida.com/services"
+    ]
+  },
+  {
+    "slug": "refine-by-tulsi",
+    "name": "Refine By Tulsi",
+    "website": "https://refinebytulsi.com",
+    "city": "Chicago",
+    "stateCode": "IL",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://refinebytulsi.com",
+      "https://refinebytulsi.com/services"
+    ]
+  },
+  {
+    "slug": "nashville-hormone-integrative-medicine",
+    "name": "Nashville Hormone & Integrative Medicine Center",
+    "website": "https://nashvillehormone.com",
+    "city": "Nashville",
+    "stateCode": "TN",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://nashvillehormone.com",
+      "https://nashvillehormone.com/services"
+    ]
+  },
+  {
+    "slug": "rise-regenerative-medicine",
+    "name": "Rise Regenerative Medicine",
+    "website": "https://riseregenmed.com",
+    "city": "Seattle",
+    "stateCode": "WA",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://riseregenmed.com"
+    ]
+  },
+  {
+    "slug": "compass-human-performance",
+    "name": "Compass Human Performance",
+    "website": "https://compasshp.com",
+    "city": "Nashville",
+    "stateCode": "TN",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://compasshp.com"
+    ]
+  },
+  {
+    "slug": "macwellness-dr-lindsey-nelson",
+    "name": "MACWellness - Dr. Lindsey Nelson, ND",
+    "website": "https://www.drlindseysnelson.com",
+    "city": "Portland",
+    "stateCode": "OR",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://www.drlindseysnelson.com",
+      "https://www.drlindseysnelson.com/services"
+    ]
+  },
+  {
+    "slug": "upgrade-pdx",
+    "name": "Upgrade PDX",
+    "website": "https://www.upgradepdx.com",
+    "city": "Portland",
+    "stateCode": "OR",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://www.upgradepdx.com"
+    ]
+  },
+  {
+    "slug": "nip-and-tuck-plastic-surgery",
+    "name": "Nip & Tuck Plastic Surgery",
+    "website": "https://www.drnipandtuck.com",
+    "city": "Atlanta",
+    "stateCode": "GA",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://www.drnipandtuck.com"
+    ]
+  },
+  {
+    "slug": "ifusion-wellness-iv-bars",
+    "name": "iFusion Wellness & iV Bars",
+    "website": "https://ifusiondallas.com",
+    "city": "Dallas",
+    "stateCode": "TX",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://ifusiondallas.com"
+    ]
+  },
+  {
+    "slug": "weight-loss-clinic-portland",
+    "name": "Weight Loss Clinic Portland",
+    "website": "https://weightlossclinicportland.com",
+    "city": "Portland",
+    "stateCode": "OR",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://weightlossclinicportland.com"
+    ]
+  },
+  {
+    "slug": "thrivemd-dallas",
+    "name": "ThriveMD",
+    "website": "https://www.thrivemddallas.com",
+    "city": "Dallas",
+    "stateCode": "TX",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://www.thrivemddallas.com"
+    ]
+  },
+  {
+    "slug": "omni-sculpt-md",
+    "name": "OMNI SCULPT MD",
+    "website": "https://omnisculptmd.com",
+    "city": "Dallas",
+    "stateCode": "TX",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://omnisculptmd.com",
+      "https://omnisculptmd.com/services"
+    ]
+  },
+  {
+    "slug": "seattle-plastic-surgery-center",
+    "name": "Seattle Plastic Surgery Center",
+    "website": "https://www.seattleplasticsurgery.com",
+    "city": "Seattle",
+    "stateCode": "WA",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://www.seattleplasticsurgery.com"
+    ]
+  },
+  {
+    "slug": "frontline-alternative-medicine-san-antonio",
+    "name": "Frontline Alternative Medicine",
+    "website": "https://www.frontlinealternativemedicine.com/peptide-therapy",
+    "city": "San Antonio",
+    "stateCode": "TX",
+    "telehealthFound": false,
+    "evidence": [
+      "Could not fetch website"
+    ],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": []
+  },
+  {
+    "slug": "vitalyc-medspa-dallas",
+    "name": "Vitalyc Medspa",
+    "website": "https://www.vitalyc.com",
+    "city": "Dallas",
+    "stateCode": "TX",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://www.vitalyc.com",
+      "https://www.vitalyc.com/services"
+    ]
+  },
+  {
+    "slug": "aesteem-aesthetics",
+    "name": "Aesteem Aesthetics",
+    "website": "https://aesteemaesthetics.com",
+    "city": "Dallas",
+    "stateCode": "TX",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://aesteemaesthetics.com",
+      "https://aesteemaesthetics.com/services"
+    ]
+  },
+  {
+    "slug": "thrive-aesthetic-and-wellness",
+    "name": "Thrive Aesthetic & Wellness",
+    "website": "https://www.thriveportland.com",
+    "city": "Portland",
+    "stateCode": "OR",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://www.thriveportland.com"
+    ]
+  },
+  {
+    "slug": "new-era-pharmacy",
+    "name": "New Era Pharmacy",
+    "website": "https://newerapharmacy.com",
+    "city": "Portland",
+    "stateCode": "OR",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://newerapharmacy.com"
+    ]
+  },
+  {
+    "slug": "true-you-aesthetic-san-jose",
+    "name": "True You Aesthetic",
+    "website": "https://www.trueyouaesthetic.com/medical-weight-loss-in-san-jose",
+    "city": "San Jose",
+    "stateCode": "CA",
+    "telehealthFound": false,
+    "evidence": [
+      "Could not fetch website"
+    ],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": []
+  },
+  {
+    "slug": "organix-haus-of-vitality-san-antonio",
+    "name": "Organix Haus of Vitality",
+    "website": "https://ohvitality.squarespace.com",
+    "city": "San Antonio",
+    "stateCode": "TX",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://ohvitality.squarespace.com"
+    ]
+  },
+  {
+    "slug": "evexias-medical-denver",
+    "name": "Evexias Medical Denver",
+    "website": "https://evexiasdenver.com",
+    "city": "Denver",
+    "stateCode": "CO",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://evexiasdenver.com",
+      "https://evexiasdenver.com/telehealth",
+      "https://evexiasdenver.com/services",
+      "https://evexiasdenver.com/telemedicine",
+      "https://evexiasdenver.com/online-visits"
+    ]
+  },
+  {
+    "slug": "newu-hydration-lounge-san-jose",
+    "name": "NewU Hydration Lounge",
+    "website": "https://newuhydrationlounge.com/san-jose-wellness-injections-pricing",
+    "city": "San Jose",
+    "stateCode": "CA",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://newuhydrationlounge.com/san-jose-wellness-injections-pricing"
+    ]
+  },
+  {
+    "slug": "mercy-medical-and-wellness-orlando",
+    "name": "Mercy Medical and Wellness",
+    "website": "https://www.mercymedicalandwellness.org/services",
+    "city": "Orlando",
+    "stateCode": "FL",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://www.mercymedicalandwellness.org/services"
+    ]
+  },
+  {
+    "slug": "evexias-health-solutions-orlando",
+    "name": "EVEXIAS Health Solutions Orlando",
+    "website": "https://www.evexias.com/orlando-fl/what-we-do/peptide-therapy",
+    "city": "Orlando",
+    "stateCode": "FL",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://www.evexias.com/orlando-fl/what-we-do/peptide-therapy"
+    ]
+  },
+  {
+    "slug": "choiceone-medspa-orlando",
+    "name": "ChoiceOne MedSpa Orlando",
+    "website": "https://choiceonemedspa.com/orlando-medical-spa-iv-therapy",
+    "city": "Orlando",
+    "stateCode": "FL",
+    "telehealthFound": false,
+    "evidence": [
+      "Could not fetch website"
+    ],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": []
+  },
+  {
+    "slug": "altitude-medspa-salt-lake-city",
+    "name": "Altitude Medspa",
+    "website": "https://altitudemedspa.co/services/body-health/medical-weight-loss",
+    "city": "Salt Lake City",
+    "stateCode": "UT",
+    "telehealthFound": false,
+    "evidence": [
+      "Could not fetch website"
+    ],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": []
+  },
+  {
+    "slug": "triangle-functional-medicine-raleigh",
+    "name": "Triangle Functional Medicine",
+    "website": "https://trianglefunctionalmedicine.com/peptide-therapy",
+    "city": "Raleigh",
+    "stateCode": "NC",
+    "telehealthFound": false,
+    "evidence": [
+      "Could not fetch website"
+    ],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": []
+  },
+  {
+    "slug": "cosmetic-and-wellness-institute-charlotte",
+    "name": "The Cosmetic & Wellness Institute",
+    "website": "https://cosmeticwellnessinstitute.com/our-approach",
+    "city": "Charlotte",
+    "stateCode": "NC",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://cosmeticwellnessinstitute.com/our-approach"
+    ]
+  },
+  {
+    "slug": "4ever-young-north-raleigh",
+    "name": "4Ever Young North Raleigh",
+    "website": "https://4everyoungantiaging.com/north-raleigh",
+    "city": "Raleigh",
+    "stateCode": "NC",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://4everyoungantiaging.com/north-raleigh"
+    ]
+  },
+  {
+    "slug": "walk-by-faith-wellness-jacksonville",
+    "name": "Walk By Faith Wellness",
+    "website": "https://www.walkbyfaithwellness.com",
+    "city": "Jacksonville",
+    "stateCode": "FL",
+    "telehealthFound": false,
+    "evidence": [
+      "Could not fetch website"
+    ],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": []
+  },
+  {
+    "slug": "medical-cosmetic-enhancements-washington",
+    "name": "Medical Cosmetic Enhancements",
+    "website": "https://www.medicalcosmetic.org/services/peptide-therapy",
+    "city": "Washington",
+    "stateCode": "DC",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://www.medicalcosmetic.org/services/peptide-therapy",
+      "https://www.medicalcosmetic.org/services/peptide-therapy/telehealth",
+      "https://www.medicalcosmetic.org/services/peptide-therapy/virtual-visits",
+      "https://www.medicalcosmetic.org/services/peptide-therapy/services",
+      "https://www.medicalcosmetic.org/services/peptide-therapy/telemedicine",
+      "https://www.medicalcosmetic.org/services/peptide-therapy/online-visits"
+    ]
+  },
+  {
+    "slug": "simply-wellness-salt-lake-city",
+    "name": "Simply Wellness",
+    "website": "https://simplywellness.com",
+    "city": "Salt Lake City",
+    "stateCode": "UT",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://simplywellness.com"
+    ]
+  },
+  {
+    "slug": "1st-innovative-health-wellness",
+    "name": "1st Innovative Health & Wellness Group",
+    "website": "https://www.innovativehealthdallas.com",
+    "city": "Dallas",
+    "stateCode": "TX",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://www.innovativehealthdallas.com"
+    ]
+  },
+  {
+    "slug": "intercoastal-health-jacksonville",
+    "name": "Intercoastal Health",
+    "website": "https://intercoastalhealth.com/peptide-therapy-treatment-jacksonville-florida",
+    "city": "Jacksonville",
+    "stateCode": "FL",
+    "telehealthFound": false,
+    "evidence": [
+      "Could not fetch website"
+    ],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": []
+  },
+  {
+    "slug": "tampa-weight-loss-institute",
+    "name": "Tampa Weight Loss Institute",
+    "website": "https://tampaweightlossinstitute.com/weight-loss-medications/semaglutide-for-weight-loss",
+    "city": "Tampa",
+    "stateCode": "FL",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://tampaweightlossinstitute.com/weight-loss-medications/semaglutide-for-weight-loss"
+    ]
+  },
+  {
+    "slug": "fusion-regenerative-therapies-orlando",
+    "name": "Fusion Regenerative Therapies",
+    "website": "https://fusionregenerativetherapies.com/peptide-therapy",
+    "city": "Orlando",
+    "stateCode": "FL",
+    "telehealthFound": false,
+    "evidence": [
+      "Could not fetch website"
+    ],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": []
+  },
+  {
+    "slug": "sinch-weight-loss-indianapolis",
+    "name": "Sinch Weight Loss Indianapolis",
+    "website": "https://www.sinchweightloss.com/indianapolis",
+    "city": "Indianapolis",
+    "stateCode": "IN",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://www.sinchweightloss.com/indianapolis"
+    ]
+  },
+  {
+    "slug": "boston-beautox",
+    "name": "Boston Beautox",
+    "website": "https://www.bostonbeautox.com/weight-management",
+    "city": "Boston",
+    "stateCode": "MA",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://www.bostonbeautox.com/weight-management"
+    ]
+  },
+  {
+    "slug": "sinch-weight-loss-new-orleans",
+    "name": "Sinch Weight Loss New Orleans",
+    "website": "https://www.sinchweightloss.com/new-orleans",
+    "city": "New Orleans",
+    "stateCode": "LA",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://www.sinchweightloss.com/new-orleans"
+    ]
+  },
+  {
+    "slug": "slim-med-inc-sacramento",
+    "name": "Slim Med Inc.",
+    "website": "https://www.slimmedinc.com/contact",
+    "city": "Sacramento",
+    "stateCode": "CA",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://www.slimmedinc.com/contact"
+    ]
+  },
+  {
+    "slug": "destination-aesthetics-sacramento",
+    "name": "Destination Aesthetics Medical Spa",
+    "website": "https://www.destinationaesthetics.com/gallery/body/medical-weight-loss-program/216",
+    "city": "Sacramento",
+    "stateCode": "CA",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://www.destinationaesthetics.com/gallery/body/medical-weight-loss-program/216"
+    ]
+  },
+  {
+    "slug": "liu-plastic-surgery-sacramento",
+    "name": "Liu Plastic Surgery Sacramento",
+    "website": "https://www.liuplasticsurgerysacramento.com/non-surgical/medical-weight-loss",
+    "city": "Sacramento",
+    "stateCode": "CA",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://www.liuplasticsurgerysacramento.com/non-surgical/medical-weight-loss"
+    ]
+  },
+  {
+    "slug": "new-life-wellness-services-pittsburgh",
+    "name": "New Life Wellness Services",
+    "website": "https://newlifewellnesspittsburgh.com/weight-loss-solutions",
+    "city": "Pittsburgh",
+    "stateCode": "PA",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://newlifewellnesspittsburgh.com/weight-loss-solutions"
+    ]
+  },
+  {
+    "slug": "iv-league-hydration-boston-l-street",
+    "name": "IV League Hydration Boston L Street",
+    "website": "https://ivleaguehydrate.com/service/semaglutide-injection-3-months",
+    "city": "Boston",
+    "stateCode": "MA",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://ivleaguehydrate.com/service/semaglutide-injection-3-months",
+      "https://ivleaguehydrate.com/service/semaglutide-injection-3-months/services"
+    ]
+  },
+  {
+    "slug": "st-julien-aesthetics-baton-rouge",
+    "name": "St. Julien Aesthetics",
+    "website": "https://www.stjulienaesthetics.com/semaglutide",
+    "city": "Baton Rouge",
+    "stateCode": "LA",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://www.stjulienaesthetics.com/semaglutide"
+    ]
+  },
+  {
+    "slug": "womens-wellness-and-hormone-center-kansas-city",
+    "name": "Michael J. Barnthouse, MD Womens Wellness & Hormone Center",
+    "website": "https://www.drbarnthousegyn.com/semaglutide",
+    "city": "Kansas City",
+    "stateCode": "MO",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://www.drbarnthousegyn.com/semaglutide",
+      "https://www.drbarnthousegyn.com/semaglutide/services"
+    ]
+  },
+  {
+    "slug": "the-health-experiences-cincinnati",
+    "name": "The Health Experiences",
+    "website": "https://the.healthcare",
+    "city": "Cincinnati",
+    "stateCode": "OH",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://the.healthcare",
+      "https://the.healthcare/services"
+    ]
+  },
+  {
+    "slug": "anivea-aesthetics-and-wellness-baton-rouge",
+    "name": "Anivea Aesthetics and Wellness",
+    "website": "https://aniveaaesthetics.com/semaglutideweightlosss",
+    "city": "Baton Rouge",
+    "stateCode": "LA",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://aniveaaesthetics.com/semaglutideweightlosss"
+    ]
+  },
+  {
+    "slug": "metfit-rx-baton-rouge",
+    "name": "MetFit-Rx",
+    "website": "https://www.metfitrx.com",
+    "city": "Baton Rouge",
+    "stateCode": "LA",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://www.metfitrx.com",
+      "https://www.metfitrx.com/services"
+    ]
+  },
+  {
+    "slug": "ethereal-beauty-buffalo",
+    "name": "Ethereal Beauty Buffalo",
+    "website": "https://www.etherealbeautybuffalo.com/weight-loss",
+    "city": "Buffalo",
+    "stateCode": "NY",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://www.etherealbeautybuffalo.com/weight-loss"
+    ]
+  },
+  {
+    "slug": "lexington-wellness-and-weight-loss",
+    "name": "Lexington Wellness and Weight Loss",
+    "website": "https://www.lexingtonwellnessandweightloss.com/injection-medications",
+    "city": "Lexington",
+    "stateCode": "KY",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://www.lexingtonwellnessandweightloss.com/injection-medications"
+    ]
+  },
+  {
+    "slug": "yes-aesthetics-kansas-city",
+    "name": "YES Aesthetics",
+    "website": "https://yesaesthetics.com/services/medical-weight-loss",
+    "city": "Kansas City",
+    "stateCode": "MO",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://yesaesthetics.com/services/medical-weight-loss",
+      "https://yesaesthetics.com/services/medical-weight-loss/services"
+    ]
+  },
+  {
+    "slug": "wellness-one-memphis",
+    "name": "Wellness One Memphis, PC",
+    "website": "https://www.wellnessonememphis.com/semaglutide",
+    "city": "Memphis",
+    "stateCode": "TN",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://www.wellnessonememphis.com/semaglutide"
+    ]
+  },
+  {
+    "slug": "aesthetic-repository-minneapolis",
+    "name": "Aesthetic Repository",
+    "website": "https://aestheticrepository.com",
+    "city": "Minneapolis",
+    "stateCode": "MN",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://aestheticrepository.com"
+    ]
+  },
+  {
+    "slug": "hydrate-me-med-spa-columbus-grandview",
+    "name": "Hydrate Me Med Spa Grandview",
+    "website": "https://hydratememedspa.com/semaglutide",
+    "city": "Columbus",
+    "stateCode": "OH",
+    "telehealthFound": false,
+    "evidence": [
+      "Could not fetch website"
+    ],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": []
+  },
+  {
+    "slug": "health-and-wellness-center-st-louis",
+    "name": "The Health & Wellness Center",
+    "website": "https://stlthwc.com/services",
+    "city": "St. Louis",
+    "stateCode": "MO",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://stlthwc.com/services",
+      "https://stlthwc.com/services/services"
+    ]
+  },
+  {
+    "slug": "ehc-buffalo",
+    "name": "EHC Buffalo: Kalpana Patel, MD",
+    "website": "https://ehcbuffalo.com/semaglutide-treatment-in-buffalo-ny",
+    "city": "Buffalo",
+    "stateCode": "NY",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://ehcbuffalo.com/semaglutide-treatment-in-buffalo-ny",
+      "https://ehcbuffalo.com/semaglutide-treatment-in-buffalo-ny/services"
+    ]
+  },
+  {
+    "slug": "live-healthy-hydrate-cincinnati",
+    "name": "Live Healthy Hydrate",
+    "website": "https://www.livehealthyhydrate.com/semaglutide-weight-loss",
+    "city": "Cincinnati",
+    "stateCode": "OH",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://www.livehealthyhydrate.com/semaglutide-weight-loss"
+    ]
+  },
+  {
+    "slug": "plaza-aesthetics-and-wellness-kansas-city",
+    "name": "Plaza Aesthetics & Wellness",
+    "website": "https://www.plazamedicalspa.com/semaglutide-injections-kansas-city",
+    "city": "Kansas City",
+    "stateCode": "MO",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://www.plazamedicalspa.com/semaglutide-injections-kansas-city"
+    ]
+  },
+  {
+    "slug": "ivme-now-milwaukee",
+    "name": "IVme Now Milwaukee",
+    "website": "https://ivmenow.com/author/ivme_user",
+    "city": "Milwaukee",
+    "stateCode": "WI",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://ivmenow.com/author/ivme_user"
+    ]
+  },
+  {
+    "slug": "guy-trengove-jones-md-norfolk",
+    "name": "Guy Trengove-Jones MD PC",
+    "website": "https://www.guytjonesplasticsurgery.com/semaglutide",
+    "city": "Norfolk",
+    "stateCode": "VA",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://www.guytjonesplasticsurgery.com/semaglutide"
+    ]
+  },
+  {
+    "slug": "okey-weight-management-clinic-oklahoma-city",
+    "name": "Okey Weight Management Clinic",
+    "website": "https://okeyweight.com",
+    "city": "Oklahoma City",
+    "stateCode": "OK",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://okeyweight.com",
+      "https://okeyweight.com/services"
+    ]
+  },
+  {
+    "slug": "easy-weight-loss-tulsa",
+    "name": "Easy Weight Loss Tulsa",
+    "website": "https://www.easyweightlosstulsa.com",
+    "city": "Tulsa",
+    "stateCode": "OK",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://www.easyweightlosstulsa.com",
+      "https://www.easyweightlosstulsa.com/services"
+    ]
+  },
+  {
+    "slug": "nugen-wellness-boise",
+    "name": "NuGen Wellness Center",
+    "website": "https://nugenweightloss.com",
+    "city": "Boise",
+    "stateCode": "ID",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://nugenweightloss.com"
+    ]
+  },
+  {
+    "slug": "lavida-medspa-mesa",
+    "name": "LaVida Medspa of Mesa",
+    "website": "https://www.lavidamedspa.com/semaglutide",
+    "city": "Mesa",
+    "stateCode": "AZ",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://www.lavidamedspa.com/semaglutide"
+    ]
+  },
+  {
+    "slug": "sinch-weight-loss-tucson",
+    "name": "Sinch Weight Loss Tucson",
+    "website": "https://www.sinchweightloss.com/tucson",
+    "city": "Tucson",
+    "stateCode": "AZ",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://www.sinchweightloss.com/tucson"
+    ]
+  },
+  {
+    "slug": "hawaii-natural-medicine-honolulu",
+    "name": "Hawaii Natural Medicine",
+    "website": "https://www.hawaiinaturalmedicine.com/service/weight-loss",
+    "city": "Honolulu",
+    "stateCode": "HI",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://www.hawaiinaturalmedicine.com/service/weight-loss"
+    ]
+  },
+  {
+    "slug": "coolblue-image-milwaukee",
+    "name": "CoolBlue Image",
+    "website": "https://www.coolblueimage.com/simaglutide",
+    "city": "Milwaukee",
+    "stateCode": "WI",
+    "telehealthFound": false,
+    "evidence": [
+      "Could not fetch website"
+    ],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": []
+  },
+  {
+    "slug": "libellula-health-tucson",
+    "name": "Libellula Health",
+    "website": "https://www.libellulahealth.com",
+    "city": "Tucson",
+    "stateCode": "AZ",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://www.libellulahealth.com"
+    ]
+  },
+  {
+    "slug": "carbon-world-health-madison",
+    "name": "Carbon World Health",
+    "website": "https://www.carbonworldhealth.com/semaglutide",
+    "city": "Madison",
+    "stateCode": "WI",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://www.carbonworldhealth.com/semaglutide"
+    ]
+  },
+  {
+    "slug": "downtown-medspa-jersey-city",
+    "name": "Downtown Medspa",
+    "website": "https://www.downtownmedspa.com/services/semaglutide-weight-loss-injection",
+    "city": "Jersey City",
+    "stateCode": "NJ",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://www.downtownmedspa.com/services/semaglutide-weight-loss-injection"
+    ]
+  },
+  {
+    "slug": "maximum-results-weight-loss-center-fayetteville",
+    "name": "Maximum Results Weight Loss Center",
+    "website": "https://www.maxweightlosscenter.com/semaglutide",
+    "city": "Fayetteville",
+    "stateCode": "NC",
+    "telehealthFound": false,
+    "evidence": [
+      "Could not fetch website"
+    ],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": []
+  },
+  {
+    "slug": "preventative-medical-clinic-omaha-dodge",
+    "name": "Preventative Medical Clinic",
+    "website": "https://omahapmc.com/wellness/weight-loss/semaglutide",
+    "city": "Omaha",
+    "stateCode": "NE",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://omahapmc.com/wellness/weight-loss/semaglutide"
+    ]
+  },
+  {
+    "slug": "boise-biologics",
+    "name": "Boise Biologics Regenerative Medicine",
+    "website": "https://boisebiologics.com/overview-of-weight-loss-semaglutide",
+    "city": "Boise",
+    "stateCode": "ID",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://boisebiologics.com/overview-of-weight-loss-semaglutide",
+      "https://boisebiologics.com/overview-of-weight-loss-semaglutide/services"
+    ]
+  },
+  {
+    "slug": "louisville-center-for-weight-loss",
+    "name": "Louisville Center for Weight Loss",
+    "website": "https://louisvillecenterforweightloss.com",
+    "city": "Louisville",
+    "stateCode": "KY",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://louisvillecenterforweightloss.com"
+    ]
+  },
+  {
+    "slug": "mesa-medical-weight-loss",
+    "name": "Mesa Medical Weight Loss",
+    "website": "https://mesamedicalweightloss.com/smaglutide",
+    "city": "Mesa",
+    "stateCode": "AZ",
+    "telehealthFound": false,
+    "evidence": [],
+    "visitTypes": [],
+    "statesServed": [],
+    "confidence": "none",
+    "pagesChecked": [
+      "https://mesamedicalweightloss.com/smaglutide"
+    ]
+  }
+]

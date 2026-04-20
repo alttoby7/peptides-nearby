@@ -1,0 +1,109 @@
+@import "tailwindcss";
+
+@theme {
+  /* Light healthcare palette */
+  --color-void: #ffffff;
+  --color-surface-0: #f8fafb;
+  --color-surface-1: #ffffff;
+  --color-surface-2: #f1f5f9;
+  --color-surface-3: #e8edf3;
+  --color-surface-4: #dde3ec;
+
+  --color-border-subtle: rgba(15,23,42,0.06);
+  --color-border-medium: rgba(15,23,42,0.10);
+  --color-border-strong: rgba(15,23,42,0.18);
+
+  --color-text-primary: #0f172a;
+  --color-text-secondary: #475569;
+  --color-text-tertiary: #94a3b8;
+  --color-text-inverse: #ffffff;
+
+  --color-accent: #0ea5e9;
+  --color-accent-hover: #0284c7;
+  --color-accent-dim: rgba(14,165,233,0.08);
+  --color-accent-glow: rgba(14,165,233,0.04);
+
+  --color-verified: #059669;
+  --color-verified-bg: rgba(5,150,105,0.08);
+
+  --color-clinic: #2563eb;
+  --color-clinic-bg: rgba(37,99,235,0.07);
+  --color-pharmacy: #7c3aed;
+  --color-pharmacy-bg: rgba(124,58,237,0.07);
+  --color-wellness: #059669;
+  --color-wellness-bg: rgba(5,150,105,0.07);
+
+  --color-warm-bg: #fef9f3;
+  --color-hero-gradient-start: #f0f9ff;
+  --color-hero-gradient-end: #fefce8;
+
+  --font-display: 'Instrument Serif', Georgia, serif;
+  --font-body: 'DM Sans', -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', 'SF Mono', monospace;
+}
+
+@layer base {
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
+
+  body {
+    font-family: var(--font-body);
+    background: var(--color-surface-0);
+    color: var(--color-text-primary);
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
+
+  a { color: inherit; text-decoration: none; }
+  button { font-family: inherit; cursor: pointer; border: none; background: none; }
+
+  :focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
+  }
+
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    white-space: nowrap;
+    border: 0;
+  }
+}
+
+/* Card hover lift */
+.card-lift {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.card-lift:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(15,23,42,0.08);
+}
+
+/* Animations */
+@keyframes fadeDown {
+  from { opacity: 0; transform: translateY(16px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes pulse-soft {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.7; }
+}
+
+/* Accessibility */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  html { scroll-behavior: auto; }
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "slug": "weight-loss",
+    "name": "Weight Loss",
+    "description": "Medical weight loss programs using GLP-1 receptor agonists and other peptides to support sustainable weight management.",
+    "peptides": [
+      "Semaglutide",
+      "Tirzepatide",
+      "Retatrutide",
+      "AOD-9604"
+    ],
+    "providerCount": 0,
+    "providerSlugs": []
+  },
+  {
+    "slug": "anti-aging",
+    "name": "Anti-Aging",
+    "description": "Peptide therapies targeting cellular regeneration, skin rejuvenation, and longevity to support healthy aging.",
+    "peptides": [
+      "GHK-Cu",
+      "Epithalon",
+      "NAD+",
+      "Sermorelin",
+      "CJC-1295",
+      "Ipamorelin",
+      "Pinealon"
+    ],
+    "providerCount": 0,
+    "providerSlugs": []
+  },
+  {
+    "slug": "hormone-optimization",
+    "name": "Hormone Optimization",
+    "description": "Peptide-based hormone replacement and optimization therapies for testosterone, growth hormone, and thyroid function.",
+    "peptides": [
+      "Sermorelin",
+      "CJC-1295",
+      "Ipamorelin",
+      "Tesamorelin",
+      "Gonadorelin",
+      "Kisspeptin"
+    ],
+    "providerCount": 0,
+    "providerSlugs": []
+  },
+  {
+    "slug": "injury-recovery",
+    "name": "Injury Recovery",
+    "description": "Peptides that accelerate tissue repair, reduce inflammation, and support musculoskeletal healing.",
+    "peptides": [
+      "BPC-157",
+      "TB-500",
+      "Thymosin Beta-4",
+      "KPV",
+      "Pentosan Polysulfate"
+    ],
+    "providerCount": 0,
+    "providerSlugs": []
+  },
+  {
+    "slug": "sexual-health",
+    "name": "Sexual Health",
+    "description": "Peptide therapies for libido enhancement, erectile function, and overall sexual wellness.",
+    "peptides": [
+      "PT-141",
+      "Bremelanotide",
+      "Kisspeptin"
+    ],
+    "providerCount": 0,
+    "providerSlugs": []
+  },
+  {
+    "slug": "cognitive-enhancement",
+    "name": "Cognitive Enhancement",
+    "description": "Peptides that support brain health, neuroprotection, memory, and mental clarity.",
+    "peptides": [
+      "Selank",
+      "Semax",
+      "Dihexa",
+      "Pinealon",
+      "NAD+"
+    ],
+    "providerCount": 0,
+    "providerSlugs": []
+  }
+]

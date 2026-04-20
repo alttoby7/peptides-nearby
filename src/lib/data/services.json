@@ -1,0 +1,106 @@
+[
+  {
+    "slug": "peptide-therapy",
+    "name": "Peptide Therapy",
+    "type": "therapy",
+    "providerCount": 3550,
+    "cityCount": 856,
+    "description": "Peptide therapy uses targeted peptides for wellness, anti-aging, weight loss, and recovery."
+  },
+  {
+    "slug": "bpc-157",
+    "name": "BPC-157",
+    "type": "peptide",
+    "providerCount": 0,
+    "cityCount": 0,
+    "description": "BPC-157 is a peptide used for tissue repair, joint healing, and gut health."
+  },
+  {
+    "slug": "cjc-1295-ipamorelin",
+    "name": "CJC-1295 / Ipamorelin",
+    "type": "peptide",
+    "providerCount": 0,
+    "cityCount": 0,
+    "description": "CJC-1295 and Ipamorelin are growth hormone-releasing peptides used for anti-aging and body composition."
+  },
+  {
+    "slug": "ghk-cu",
+    "name": "GHK-Cu",
+    "type": "peptide",
+    "providerCount": 0,
+    "cityCount": 0,
+    "description": "GHK-Cu is a copper peptide used for skin rejuvenation and wound healing."
+  },
+  {
+    "slug": "hormone-therapy",
+    "name": "Hormone Therapy",
+    "type": "therapy",
+    "providerCount": 0,
+    "cityCount": 0,
+    "description": "Hormone replacement therapy (HRT) for testosterone, estrogen, and thyroid optimization."
+  },
+  {
+    "slug": "iv-therapy",
+    "name": "IV Therapy",
+    "type": "therapy",
+    "providerCount": 0,
+    "cityCount": 0,
+    "description": "Intravenous vitamin and nutrient therapy for hydration, recovery, and wellness."
+  },
+  {
+    "slug": "nad-plus",
+    "name": "NAD+",
+    "type": "therapy",
+    "providerCount": 0,
+    "cityCount": 0,
+    "description": "NAD+ therapy supports cellular energy, metabolism, and anti-aging."
+  },
+  {
+    "slug": "pt-141",
+    "name": "PT-141",
+    "type": "peptide",
+    "providerCount": 0,
+    "cityCount": 0,
+    "description": "PT-141 (Bremelanotide) is a peptide used for sexual health and libido."
+  },
+  {
+    "slug": "semaglutide",
+    "name": "Semaglutide",
+    "type": "peptide",
+    "providerCount": 0,
+    "cityCount": 0,
+    "description": "Semaglutide is a GLP-1 receptor agonist used for weight management."
+  },
+  {
+    "slug": "sermorelin",
+    "name": "Sermorelin",
+    "type": "peptide",
+    "providerCount": 0,
+    "cityCount": 0,
+    "description": "Sermorelin is a growth hormone-releasing hormone analog used for anti-aging therapy."
+  },
+  {
+    "slug": "tb-500",
+    "name": "TB-500",
+    "type": "peptide",
+    "providerCount": 0,
+    "cityCount": 0,
+    "description": "TB-500 (Thymosin Beta-4) is a peptide used for tissue repair and recovery."
+  },
+  {
+    "slug": "tirzepatide",
+    "name": "Tirzepatide",
+    "type": "peptide",
+    "providerCount": 0,
+    "cityCount": 0,
+    "description": "Tirzepatide is a dual GIP/GLP-1 receptor agonist for weight loss and blood sugar control."
+  },
+  {
+    "slug": "weight-loss",
+    "name": "Weight Loss",
+    "type": "treatment",
+    "providerCount": 0,
+    "cityCount": 0,
+    "description": "Medical weight loss programs including GLP-1 peptides, semaglutide, and tirzepatide."
+  }
+]
