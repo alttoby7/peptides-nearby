@@ -3,6 +3,8 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { JsonLd, breadcrumbJsonLd } from "@/components/seo/JsonLd";
 import { getAllArticles, getArticleBySlug } from "@/lib/data/articles";
+import { canonical } from "@/lib/seo/canonical";
+import { blogPostUrl } from "@/lib/seo/paths";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -21,6 +23,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: article.title,
     description: article.description,
+    alternates: { canonical: canonical(blogPostUrl(slug)) },
   };
 }
 

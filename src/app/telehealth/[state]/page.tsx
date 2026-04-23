@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getProviderBySlug } from "@/lib/data/providers";
+import { canonical } from "@/lib/seo/canonical";
+import { telehealthStateUrl } from "@/lib/seo/paths";
 import { JsonLd, breadcrumbJsonLd } from "@/components/seo/JsonLd";
 import { FilteredProviderList } from "@/components/filters/ProviderFilters";
 import telehealthData from "@/lib/data/telehealth.json";
@@ -31,9 +33,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { state: stateSlug } = await params;
   const entry = telehealthStates.find((s) => s.stateSlug === stateSlug);
   if (!entry) return {};
+  const canonPath = telehealthStateUrl(entry.stateCode);
   return {
     title: `Telehealth Peptide Therapy in ${entry.stateName} — ${entry.providerCount} Providers`,
     description: `Find ${entry.providerCount} telehealth peptide therapy providers licensed in ${entry.stateName}. Virtual visits for BPC-157, semaglutide, and more.`,
+    alternates: canonPath ? { canonical: canonical(canonPath) } : undefined,
   };
 }
 

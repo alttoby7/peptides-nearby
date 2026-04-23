@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getProviderBySlug } from "@/lib/data/providers";
+import { canonical } from "@/lib/seo/canonical";
+import { goalUrl } from "@/lib/seo/paths";
 import { JsonLd, breadcrumbJsonLd } from "@/components/seo/JsonLd";
 import { FilteredProviderList } from "@/components/filters/ProviderFilters";
 import goalsData from "@/lib/data/goals.json";
@@ -40,6 +42,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: `${goal.name} Peptide Therapy${goal.providerCount > 0 ? ` — ${goal.providerCount} Providers` : ""}`,
     description: `${goal.description} Find ${goal.providerCount} providers offering peptide therapy for ${goal.name.toLowerCase()}.`,
     robots: thin ? { index: false, follow: true } : undefined,
+    alternates: { canonical: canonical(goalUrl(slug)) },
   };
 }
 

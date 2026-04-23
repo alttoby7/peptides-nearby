@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
+import { canonical } from "@/lib/seo/canonical";
 import { SubmitForm } from "./SubmitForm";
 
 export const metadata: Metadata = {
   title: "Add Your Practice",
   description: "Submit your peptide therapy clinic, compounding pharmacy, or wellness center to the Peptides Nearby directory.",
+  alternates: { canonical: canonical("/submit") },
 };
 
 export default function SubmitPage() {

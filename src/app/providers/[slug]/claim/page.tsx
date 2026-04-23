@@ -2,9 +2,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getProviderBySlug, getProviderSlugs } from "@/lib/data/providers";
+import { stateSlugFromAny } from "@/lib/geo/states";
 import { ClaimForm } from "./ClaimForm";
 
-function slugify(str: string): string {
+function slugifyCity(str: string): string {
   return str.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 }
 
@@ -14,13 +15,15 @@ export function generateStaticParams() {
   return getProviderSlugs().map((slug) => ({ slug }));
 }
 
+// Claim is a transactional flow — intentionally noindex. No canonical.
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const provider = getProviderBySlug(slug);
-  if (!provider) return { title: "Provider Not Found" };
+  if (!provider) return { title: "Provider Not Found", robots: { index: false, follow: false } };
   return {
     title: `Claim ${provider.name} — Peptides Nearby`,
     description: `Are you the owner or manager of ${provider.name}? Claim your listing to update information and unlock premium features.`,
+    robots: { index: false, follow: false },
   };
 }
 
@@ -29,8 +32,8 @@ export default async function ClaimPage({ params }: Props) {
   const provider = getProviderBySlug(slug);
   if (!provider) notFound();
 
-  const stateSlug = slugify(provider.address.state);
-  const citySlug = slugify(provider.address.city);
+  const stateSlug = stateSlugFromAny(provider.address.stateCode) ?? "";
+  const citySlug = slugifyCity(provider.address.city);
   const tier = provider.verificationTier ?? "listed";
 
   return (

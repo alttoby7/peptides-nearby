@@ -1,5 +1,11 @@
 import { readFileSync, writeFileSync, mkdirSync } from "fs";
 import { resolve } from "path";
+import {
+  STATE_CODES,
+  STATE_CODE_TO_NAME,
+  stateSlugFromAny,
+  isValidStateCode,
+} from "../src/lib/geo/states";
 
 // --- Helpers ---
 function slugify(str: string): string {
@@ -9,34 +15,67 @@ function slugify(str: string): string {
     .replace(/^-|-$/g, "");
 }
 
-function stateSlug(state: string): string {
-  return slugify(state);
-}
+// Do NOT add a local stateSlug() helper here. Use stateSlugFromAny() from
+// src/lib/geo/states so all derivations share one canonical map.
 
-// US state + DC + territory codes — anything outside this set gets dropped
-const VALID_STATE_CODES = new Set([
-  "AL","AK","AZ","AR","CA","CO","CT","DE","FL","GA",
-  "HI","ID","IL","IN","IA","KS","KY","LA","ME","MD",
-  "MA","MI","MN","MS","MO","MT","NE","NV","NH","NJ",
-  "NM","NY","NC","ND","OH","OK","OR","PA","RI","SC",
-  "SD","TN","TX","UT","VT","VA","WA","WV","WI","WY",
-  "DC","PR","VI","GU","AS","MP",
-]);
+const VALID_STATE_CODES = new Set<string>(STATE_CODES);
 
-// City-name validator: reject numeric-only, single/double letters, or obvious junk
-function isValidCityName(name: string): boolean {
-  if (!name) return false;
+// City-name validator. Hard rejects catch obvious junk (digits, single/double
+// letters, empty). Heuristic rejects (digits mid-name, unit indicators, excess
+// hyphens) surface address fragments that were misread as city names.
+//
+// Street-suffix matching (St/Rd/Ave/Dr/etc.) is intentionally omitted — "St"
+// collides with "Saint" in real city names (St. Louis, St. Petersburg,
+// St. Augustine). The contains-digits rule already catches numeric street
+// addresses without the collision risk.
+//
+// Unit indicators only match as whole words at a word boundary; "bldg" inside
+// "Oldbldg..." won't match, which is fine since real cities don't contain
+// those tokens as standalone words.
+const UNIT_INDICATOR = /\b(building|bldg|suite|ste|apt|apartment)\b/i;
+
+type CityValidationResult =
+  | { valid: true }
+  | { valid: false; reason: string; severity: "hard" | "heuristic" };
+
+function validateCityName(name: string): CityValidationResult {
+  if (!name) return { valid: false, reason: "empty", severity: "hard" };
   const trimmed = name.trim();
-  if (trimmed.length < 3) return false;
-  if (/^\d+$/.test(trimmed)) return false;
-  if (/^(st|rd|th|nd|ave|blvd|ln|dr)$/i.test(trimmed)) return false;
-  if (/\b(parking|spot|suite|unit|floor)\b/i.test(trimmed)) return false;
-  // Must contain at least one letter sequence of 3+
-  if (!/[A-Za-z]{3,}/.test(trimmed)) return false;
-  return true;
+  if (trimmed.length < 3) return { valid: false, reason: "too-short", severity: "hard" };
+  if (/^\d+$/.test(trimmed)) return { valid: false, reason: "numeric-only", severity: "hard" };
+  if (/^(st|rd|th|nd|ave|blvd|ln|dr)$/i.test(trimmed))
+    return { valid: false, reason: "street-suffix-only", severity: "hard" };
+  if (/\b(parking|spot)\b/i.test(trimmed))
+    return { valid: false, reason: "parking-fragment", severity: "hard" };
+  if (!/[A-Za-z]{3,}/.test(trimmed))
+    return { valid: false, reason: "no-letter-sequence", severity: "hard" };
+
+  // Heuristic rejects (warning-only in validate-build, but still excluded here
+  // to prevent generating broken pages). Surface the list for manual review.
+  if (/\d/.test(trimmed))
+    return { valid: false, reason: "contains-digits", severity: "heuristic" };
+  if (UNIT_INDICATOR.test(trimmed))
+    return { valid: false, reason: "contains-unit-indicator", severity: "heuristic" };
+  const hyphenCount = (trimmed.match(/-/g) ?? []).length;
+  if (hyphenCount > 4)
+    return { valid: false, reason: "excess-hyphens", severity: "heuristic" };
+
+  return { valid: true };
 }
 
-const rejectedLocalities: { reason: string; city?: string; stateCode?: string; state?: string }[] = [];
+function isValidCityName(name: string): boolean {
+  return validateCityName(name).valid;
+}
+
+interface RejectedLocality {
+  reason: string;
+  severity: "hard" | "heuristic";
+  city?: string;
+  stateCode?: string;
+  state?: string;
+}
+const rejectedLocalities: RejectedLocality[] = [];
+const unresolvableStates: { raw: string; source: string }[] = [];
 
 // --- Load source data ---
 const ROOT = resolve(__dirname, "..");
@@ -113,27 +152,33 @@ for (const p of activeProviders) {
   cityProviderMap.get(key)!.push(p);
 }
 
-// Merge with seed cities (ensures empty city pages exist)
+// Merge with seed cities (ensures empty city pages exist).
+// Any validation failure (hard or heuristic) excludes the record. Severity only
+// affects how validate-build.ts reports the failure: "hard" counts as a
+// pipeline defect; "heuristic" is surfaced for manual review and can be
+// whitelisted if a real city is false-rejected.
 const citySet = new Map<string, RawCity>();
 for (const c of rawCities) {
-  if (!VALID_STATE_CODES.has(c.stateCode)) {
-    rejectedLocalities.push({ reason: "invalid-state-code", city: c.name, stateCode: c.stateCode, state: c.state });
+  if (!isValidStateCode(c.stateCode)) {
+    rejectedLocalities.push({ reason: "invalid-state-code", severity: "hard", city: c.name, stateCode: c.stateCode, state: c.state });
     continue;
   }
-  if (!isValidCityName(c.name)) {
-    rejectedLocalities.push({ reason: "invalid-city-name", city: c.name, stateCode: c.stateCode, state: c.state });
+  const cv = validateCityName(c.name);
+  if (!cv.valid) {
+    rejectedLocalities.push({ reason: cv.reason, severity: cv.severity, city: c.name, stateCode: c.stateCode, state: c.state });
     continue;
   }
   citySet.set(`${slugify(c.name)}|${c.stateCode}`, c);
 }
 // Also add any cities from providers not in seed list
 for (const p of activeProviders) {
-  if (!VALID_STATE_CODES.has(p.address.stateCode)) {
-    rejectedLocalities.push({ reason: "invalid-state-code", city: p.address.city, stateCode: p.address.stateCode, state: p.address.state });
+  if (!isValidStateCode(p.address.stateCode)) {
+    rejectedLocalities.push({ reason: "invalid-state-code", severity: "hard", city: p.address.city, stateCode: p.address.stateCode, state: p.address.state });
     continue;
   }
-  if (!isValidCityName(p.address.city)) {
-    rejectedLocalities.push({ reason: "invalid-city-name", city: p.address.city, stateCode: p.address.stateCode, state: p.address.state });
+  const pv = validateCityName(p.address.city);
+  if (!pv.valid) {
+    rejectedLocalities.push({ reason: pv.reason, severity: pv.severity, city: p.address.city, stateCode: p.address.stateCode, state: p.address.state });
     continue;
   }
   const key = `${slugify(p.address.city)}|${p.address.stateCode}`;
@@ -171,12 +216,22 @@ for (const [key, rawCity] of citySet) {
     p.peptides.forEach((s) => peptidesSet.add(s));
   }
 
+  // Derive stateSlug from the canonical state map via stateCode (the only
+  // trustworthy key). The raw state name field is unreliable — mixing
+  // full names and abbreviations is the root cause of the /al vs /alabama
+  // split that collapsed traffic.
+  const canonicalStateSlug = stateSlugFromAny(rawCity.stateCode);
+  if (!canonicalStateSlug) {
+    unresolvableStates.push({ raw: rawCity.stateCode, source: `city:${rawCity.name}` });
+    continue;
+  }
+
   cities.push({
     slug: slugify(rawCity.name),
     name: rawCity.name,
     stateCode: rawCity.stateCode,
-    state: rawCity.state,
-    stateSlug: stateSlug(rawCity.state),
+    state: STATE_CODE_TO_NAME[rawCity.stateCode as keyof typeof STATE_CODE_TO_NAME] ?? rawCity.state,
+    stateSlug: canonicalStateSlug,
     providerCount: provs.length,
     clinicCount: provs.filter((p) => p.type === "clinic").length,
     pharmacyCount: provs.filter((p) => p.type === "pharmacy").length,
@@ -193,11 +248,28 @@ cities.sort((a, b) => b.providerCount - a.providerCount || a.name.localeCompare(
 writeFileSync(resolve(OUT, "cities.json"), JSON.stringify(cities, null, 2));
 console.log(`Wrote ${cities.length} cities to cities.json`);
 
-// Write locality rejection log for Supabase cleanup pass
+// Write locality rejection log (structured JSON for manual review).
+// Hard rejects are data-quality defects; heuristic rejects are candidates for
+// the known-false-positive allowlist after review.
 if (rejectedLocalities.length > 0) {
-  const logPath = resolve(ROOT, "data/malformed-locality-cleanup.log");
-  writeFileSync(logPath, JSON.stringify(rejectedLocalities, null, 2));
-  console.log(`Logged ${rejectedLocalities.length} rejected locality entries to malformed-locality-cleanup.log`);
+  const logPath = resolve(ROOT, "data/locality-exclusions.json");
+  const hard = rejectedLocalities.filter((r) => r.severity === "hard");
+  const heuristic = rejectedLocalities.filter((r) => r.severity === "heuristic");
+  writeFileSync(
+    logPath,
+    JSON.stringify({ generatedAt: new Date().toISOString(), hard, heuristic }, null, 2)
+  );
+  console.log(
+    `Logged ${rejectedLocalities.length} rejected localities (${hard.length} hard, ${heuristic.length} heuristic) to data/locality-exclusions.json`
+  );
+}
+
+if (unresolvableStates.length > 0) {
+  const logPath = resolve(ROOT, "data/unresolvable-states.json");
+  writeFileSync(logPath, JSON.stringify(unresolvableStates, null, 2));
+  console.warn(
+    `WARNING: ${unresolvableStates.length} records had unresolvable state codes — see data/unresolvable-states.json`
+  );
 }
 
 // --- Build states.json ---
@@ -227,14 +299,23 @@ interface StateOutput {
 }
 
 const states: StateOutput[] = [...stateMap.values()]
-  .map((s) => ({
-    slug: stateSlug(s.name),
-    name: s.name,
-    code: s.code,
-    providerCount: s.providerCount,
-    cityCount: s.cities.size,
-    cities: [...s.cities].sort(),
-  }))
+  .map((s) => {
+    // Derive slug from canonical map via code — never from raw name.
+    const slug = stateSlugFromAny(s.code);
+    if (!slug) {
+      unresolvableStates.push({ raw: s.code, source: `state:${s.name}` });
+    }
+    const canonicalName = STATE_CODE_TO_NAME[s.code as keyof typeof STATE_CODE_TO_NAME] ?? s.name;
+    return {
+      slug: slug ?? s.code.toLowerCase(),
+      name: canonicalName,
+      code: s.code,
+      providerCount: s.providerCount,
+      cityCount: s.cities.size,
+      cities: [...s.cities].sort(),
+    };
+  })
+  .filter((s) => stateSlugFromAny(s.code) !== null)
   .sort((a, b) => b.providerCount - a.providerCount || a.name.localeCompare(b.name));
 
 writeFileSync(resolve(OUT, "states.json"), JSON.stringify(states, null, 2));
@@ -364,20 +445,24 @@ for (const p of telehealthProviders) {
   }
 }
 
-// Map state codes to names (from states data we already built)
-const stateCodeToName = new Map<string, string>();
-for (const s of states) {
-  stateCodeToName.set(s.code, s.name);
-}
-
+// Derive telehealth state identity from the canonical map via code.
+// Do not derive stateSlug from name — that was the source of the /al vs
+// /alabama split.
 const telehealthStates: TelehealthStateEntry[] = [...telehealthByState.entries()]
-  .map(([code, slugs]) => ({
-    stateCode: code,
-    stateName: stateCodeToName.get(code) ?? code,
-    stateSlug: slugify(stateCodeToName.get(code) ?? code),
-    providerSlugs: slugs,
-    providerCount: slugs.length,
-  }))
+  .map(([code, slugs]) => {
+    const canonicalSlug = stateSlugFromAny(code);
+    if (!canonicalSlug) {
+      unresolvableStates.push({ raw: code, source: `telehealth:${slugs[0] ?? "?"}` });
+    }
+    return {
+      stateCode: code,
+      stateName: STATE_CODE_TO_NAME[code as keyof typeof STATE_CODE_TO_NAME] ?? code,
+      stateSlug: canonicalSlug ?? code.toLowerCase(),
+      providerSlugs: slugs,
+      providerCount: slugs.length,
+    };
+  })
+  .filter((t) => stateSlugFromAny(t.stateCode) !== null)
   .sort((a, b) => b.providerCount - a.providerCount || a.stateName.localeCompare(b.stateName));
 
 // Extend telehealth state entries with aggregated visitTypes
@@ -516,51 +601,41 @@ interface SearchIndexEntry {
   verificationTier: string;
   insurance: string;
   telehealthAvailable: boolean;
+  specialties: string[];
+  clinicalFocus: string[];
+  deliveryMethods: string[];
+  trustSignalCount: number;
+  businessModel?: string;
 }
 
-const searchIndex: SearchIndexEntry[] = activeProviders.map((p) => ({
-  slug: p.slug,
-  name: p.name,
-  city: p.address.city,
-  stateCode: p.address.stateCode,
-  type: p.type,
-  peptides: p.peptides,
-  services: p.services,
-  treatmentGoals: p.treatmentGoals ?? [],
-  verificationTier: p.verificationTier ?? "listed",
-  insurance: p.insurance,
-  telehealthAvailable: p.telehealth?.available ?? false,
-}));
+const searchIndex: SearchIndexEntry[] = activeProviders.map((p) => {
+  const ts = (p as any).trustSignals;
+  const trustSignalCount = ts
+    ? (ts.pcabAccredited ? 1 : 0) + (ts.coaAvailable ? 1 : 0) +
+      (ts.medicalSupervision ? 1 : 0) + ((ts.boardCertified?.length ?? 0) > 0 ? 1 : 0)
+    : 0;
+  return {
+    slug: p.slug,
+    name: p.name,
+    city: p.address.city,
+    stateCode: p.address.stateCode,
+    type: p.type,
+    peptides: p.peptides,
+    services: p.services,
+    treatmentGoals: p.treatmentGoals ?? [],
+    verificationTier: p.verificationTier ?? "listed",
+    insurance: p.insurance,
+    telehealthAvailable: p.telehealth?.available ?? false,
+    specialties: (p as any).specialties ?? [],
+    clinicalFocus: (p as any).clinicalFocus ?? [],
+    deliveryMethods: (p as any).deliveryMethods ?? [],
+    trustSignalCount,
+    businessModel: (p as any).businessModel,
+  };
+});
 
 writeFileSync(resolve(OUT, "search-index.json"), JSON.stringify(searchIndex, null, 2));
 console.log(`Wrote ${searchIndex.length} entries to search-index.json`);
-
-// --- Build map-index.json (lightweight for client-side map) ---
-interface MapIndexEntry {
-  slug: string;
-  name: string;
-  type: "clinic" | "pharmacy" | "wellness-center";
-  lat: number;
-  lng: number;
-  city: string;
-  stateCode: string;
-}
-
-const mapIndex: MapIndexEntry[] = activeProviders
-  .filter((p) => p.address.lat != null && p.address.lng != null && VALID_STATE_CODES.has(p.address.stateCode))
-  .map((p) => ({
-    slug: p.slug,
-    name: p.name,
-    type: p.type,
-    lat: p.address.lat!,
-    lng: p.address.lng!,
-    city: p.address.city,
-    stateCode: p.address.stateCode,
-  }));
-
-mkdirSync(resolve(PUBLIC, "data"), { recursive: true });
-writeFileSync(resolve(PUBLIC, "data/map-index.json"), JSON.stringify(mapIndex));
-console.log(`Wrote ${mapIndex.length} entries to public/data/map-index.json (${(JSON.stringify(mapIndex).length / 1024).toFixed(0)} KB)`);
 
 // --- Generate sitemap.xml ---
 const BASE_URL = "https://www.peptidesnearby.com";
@@ -583,7 +658,6 @@ const urls: string[] = [
   "/compare",
   "/telehealth",
   "/blog",
-  "/map",
   "/submit",
   "/about",
   "/privacy",

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { canonical } from "@/lib/seo/canonical";
 import Link from "next/link";
 import { getAllStates } from "@/lib/data/states";
 import { getCitiesByStateSlug } from "@/lib/data/cities";
@@ -9,6 +10,7 @@ export const metadata: Metadata = {
   title: "All States — Peptide Therapy Providers",
   description:
     "Browse peptide therapy providers by state. Find clinics, compounding pharmacies, and wellness centers across the United States.",
+  alternates: { canonical: canonical("/states") },
 };
 
 const REGIONS: Record<string, string[]> = {

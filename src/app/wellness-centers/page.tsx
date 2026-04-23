@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { canonical } from "@/lib/seo/canonical";
 import Link from "next/link";
 import { getProvidersByType } from "@/lib/data/providers";
 import { JsonLd, breadcrumbJsonLd } from "@/components/seo/JsonLd";
@@ -7,6 +8,7 @@ import { FilteredProviderList } from "@/components/filters/ProviderFilters";
 export const metadata: Metadata = {
   title: "Wellness Centers",
   description: "Find wellness centers near you offering peptide therapy, hormone optimization, and integrative medicine.",
+  alternates: { canonical: canonical("/wellness-centers") },
 };
 
 export default function WellnessCentersPage() {

@@ -8,6 +8,8 @@
         "start": "next start",
         "lint": "next lint",
         "prepare-data": "tsx scripts/prepare-data.ts",
+        "generate-redirects": "tsx scripts/generate-redirects.ts",
+        "validate-build": "tsx scripts/validate-build.ts",
         "export-from-supabase": "tsx scripts/export-from-supabase.ts",
         "sync-data": "npm run export-from-supabase && npm run prepare-data"
     },

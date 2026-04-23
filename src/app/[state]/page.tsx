@@ -3,6 +3,8 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getAllStates, getStateBySlug } from "@/lib/data/states";
 import { getCitiesByStateSlug } from "@/lib/data/cities";
+import { canonical } from "@/lib/seo/canonical";
+import { stateUrl } from "@/lib/seo/paths";
 import { JsonLd, breadcrumbJsonLd, itemListJsonLd } from "@/components/seo/JsonLd";
 import { StatePageClient } from "./StatePageClient";
 
@@ -17,10 +19,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const state = getStateBySlug(stateSlug);
   if (!state) return {};
   const thin = state.providerCount < 10;
+  const canonPath = stateUrl(state.code);
   return {
     title: `Peptide Therapy in ${state.name}${state.providerCount > 0 ? ` — ${state.providerCount} Providers` : ""}`,
     description: `Find peptide therapy clinics, compounding pharmacies, and wellness centers in ${state.name}. Browse ${state.cityCount} cities with ${state.providerCount} providers.`,
     robots: thin ? { index: false, follow: true } : undefined,
+    alternates: canonPath ? { canonical: canonical(canonPath) } : undefined,
   };
 }
 

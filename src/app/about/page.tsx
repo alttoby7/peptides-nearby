@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
+import { canonical } from "@/lib/seo/canonical";
 import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "About",
   description: "About Peptides Nearby — a free directory of peptide therapy clinics, compounding pharmacies, and wellness centers across the United States.",
+  alternates: { canonical: canonical("/about") },
 };
 
 export default function AboutPage() {

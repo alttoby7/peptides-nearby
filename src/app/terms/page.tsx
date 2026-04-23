@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
+import { canonical } from "@/lib/seo/canonical";
 
 export const metadata: Metadata = {
   title: "Terms of Service",
   description: "Terms of service for Peptides Nearby.",
+  alternates: { canonical: canonical("/terms") },
 };
 
 export default function TermsPage() {

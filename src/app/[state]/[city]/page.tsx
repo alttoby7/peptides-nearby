@@ -4,6 +4,8 @@ import { notFound } from "next/navigation";
 import { getAllCities, getCityBySlugAndStateSlug } from "@/lib/data/cities";
 import { getProvidersByCity } from "@/lib/data/providers";
 import { getStateBySlug } from "@/lib/data/states";
+import { canonical } from "@/lib/seo/canonical";
+import { cityUrl } from "@/lib/seo/paths";
 import { JsonLd, breadcrumbJsonLd, itemListJsonLd } from "@/components/seo/JsonLd";
 import { FilteredProviderList } from "@/components/filters/ProviderFilters";
 import CityMapWrapper from "@/components/map/CityMapWrapper";
@@ -22,12 +24,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const city = getCityBySlugAndStateSlug(citySlug, stateSlug);
   if (!city) return {};
   const thin = city.providerCount < 3;
+  const canonPath = cityUrl(city.stateCode, city.slug);
   return {
     title: `Peptide Therapy in ${city.name}, ${city.stateCode}${city.providerCount > 0 ? ` — ${city.providerCount} Providers` : ""}`,
     description: city.providerCount > 0
       ? `Find ${city.providerCount} peptide therapy clinics, compounding pharmacies, and wellness centers in ${city.name}, ${city.stateCode}. Compare providers, services, and book your visit.`
       : `Looking for peptide therapy in ${city.name}, ${city.stateCode}? Submit a local practice or explore online vendors.`,
     robots: thin ? { index: false, follow: true } : undefined,
+    alternates: canonPath ? { canonical: canonical(canonPath) } : undefined,
   };
 }
 

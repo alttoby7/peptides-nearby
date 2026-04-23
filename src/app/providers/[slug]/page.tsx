@@ -4,13 +4,19 @@ import { notFound } from "next/navigation";
 import { getProviderBySlug, getProviderSlugs, getProvidersByCity } from "@/lib/data/providers";
 import { getStateBySlug } from "@/lib/data/states";
 import { getReviewsByProvider } from "@/lib/data/reviews";
+import { stateSlugFromAny } from "@/lib/geo/states";
+import { canonical } from "@/lib/seo/canonical";
+import { providerUrl } from "@/lib/seo/paths";
 import { JsonLd, breadcrumbJsonLd, medicalBusinessJsonLd } from "@/components/seo/JsonLd";
 import { ReviewList } from "@/components/reviews/ReviewList";
 import { ReviewForm } from "@/components/reviews/ReviewForm";
 
 type Props = { params: Promise<{ slug: string }> };
 
-function slugify(str: string): string {
+// Generic slug helper for peptide and city names. Do NOT use for state slugs
+// — state slugs must go through stateSlugFromAny() to avoid the /al vs /alabama
+// split. The validate-build source gate enforces this.
+function slugifyPath(str: string): string {
   return str.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 }
 
@@ -25,6 +31,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${provider.name} — Peptide Therapy in ${provider.address.city}, ${provider.address.stateCode}`,
     description: provider.description,
+    alternates: {
+      canonical: canonical(providerUrl(slug)),
+    },
   };
 }
 
@@ -47,9 +56,12 @@ export default async function ProviderPage({ params }: Props) {
   const provider = getProviderBySlug(slug);
   if (!provider) notFound();
 
-  const stateSlug = slugify(provider.address.state);
-  const citySlug = slugify(provider.address.city);
-  const state = getStateBySlug(stateSlug);
+  // Resolve state via canonical map (stateCode is the trustworthy key — raw
+  // state names mix "AL" and "Alabama" in the source data). Fall back to null
+  // if unresolvable, which would be a data-quality bug caught by validate-build.
+  const stateSlug = stateSlugFromAny(provider.address.stateCode) ?? "";
+  const citySlug = slugifyPath(provider.address.city);
+  const state = stateSlug ? getStateBySlug(stateSlug) : undefined;
   const reviews = getReviewsByProvider(slug);
   const BASE = "https://www.peptidesnearby.com";
 
@@ -124,7 +136,7 @@ export default async function ProviderPage({ params }: Props) {
                     {provider.peptides.map((p) => (
                       <Link
                         key={p}
-                        href={`/peptides/${slugify(p)}`}
+                        href={`/peptides/${slugifyPath(p)}`}
                         className="text-sm px-3 py-1.5 bg-accent-dim text-accent rounded-lg hover:bg-accent/20 transition-colors"
                       >
                         {p}

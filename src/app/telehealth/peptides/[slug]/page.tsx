@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getProviderBySlug } from "@/lib/data/providers";
+import { canonical } from "@/lib/seo/canonical";
+import { telehealthPeptideUrl } from "@/lib/seo/paths";
 import { JsonLd, breadcrumbJsonLd } from "@/components/seo/JsonLd";
 import { FilteredProviderList } from "@/components/filters/ProviderFilters";
 import telehealthPeptidesData from "@/lib/data/telehealth-peptides.json";
@@ -33,6 +35,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Telehealth ${entry.name} Therapy — ${entry.providerCount} Virtual Providers`,
     description: `Find ${entry.providerCount} telehealth providers offering ${entry.name} therapy via virtual visits. Compare clinics, pharmacies, and book online.`,
+    alternates: { canonical: canonical(telehealthPeptideUrl(slug)) },
   };
 }
 
