@@ -1,0 +1,567 @@
+{
+  "generatedAt": "2026-04-23T17:52:17.665Z",
+  "hard": [
+    {
+      "reason": "invalid-state-code",
+      "severity": "hard",
+      "city": "Parking spot 9",
+      "stateCode": "10",
+      "state": "10"
+    },
+    {
+      "reason": "invalid-state-code",
+      "severity": "hard",
+      "city": "Vineyard Office Building",
+      "stateCode": "27",
+      "state": "275"
+    },
+    {
+      "reason": "invalid-state-code",
+      "severity": "hard",
+      "city": "Milwaukee",
+      "stateCode": "46",
+      "state": "4666"
+    },
+    {
+      "reason": "invalid-state-code",
+      "severity": "hard",
+      "city": "Tower 2",
+      "stateCode": "4T",
+      "state": "4th"
+    },
+    {
+      "reason": "invalid-state-code",
+      "severity": "hard",
+      "city": "Steubenville Pike Suite 310",
+      "stateCode": "66",
+      "state": "6600"
+    },
+    {
+      "reason": "invalid-state-code",
+      "severity": "hard",
+      "city": "lot 98-1247 Kaʻahumanu St STE 110",
+      "stateCode": "AI",
+      "state": "Aiea"
+    },
+    {
+      "reason": "invalid-state-code",
+      "severity": "hard",
+      "city": "3726 Roswell Rd NE",
+      "stateCode": "AT",
+      "state": "Atlanta"
+    },
+    {
+      "reason": "invalid-state-code",
+      "severity": "hard",
+      "city": "Suite 100",
+      "stateCode": "AT",
+      "state": "Atlanta"
+    },
+    {
+      "reason": "invalid-state-code",
+      "severity": "hard",
+      "city": "855 N Wolfe St Room 248",
+      "stateCode": "BA",
+      "state": "Baltimore"
+    },
+    {
+      "reason": "invalid-state-code",
+      "severity": "hard",
+      "city": "Suite 120",
+      "stateCode": "BE",
+      "state": "Bellevue"
+    },
+    {
+      "reason": "invalid-state-code",
+      "severity": "hard",
+      "city": "Suite100",
+      "stateCode": "BE",
+      "state": "Bend"
+    },
+    {
+      "reason": "invalid-state-code",
+      "severity": "hard",
+      "city": "Women and Infants Center",
+      "stateCode": "BI",
+      "state": "Birmingham"
+    },
+    {
+      "reason": "invalid-state-code",
+      "severity": "hard",
+      "city": "325 Sentry Pkwy Suite 222",
+      "stateCode": "BL",
+      "state": "Blue"
+    },
+    {
+      "reason": "invalid-state-code",
+      "severity": "hard",
+      "city": "260 Tremont St 8th floor",
+      "stateCode": "BO",
+      "state": "Boston"
+    },
+    {
+      "reason": "invalid-state-code",
+      "severity": "hard",
+      "city": "31 St James Ave #805",
+      "stateCode": "BO",
+      "state": "Boston"
+    },
+    {
+      "reason": "invalid-state-code",
+      "severity": "hard",
+      "city": "451 D St #200",
+      "stateCode": "BO",
+      "state": "Boston"
+    },
+    {
+      "reason": "invalid-state-code",
+      "severity": "hard",
+      "city": "4665 Nautilus Ct S",
+      "stateCode": "BO",
+      "state": "Boulder"
+    },
+    {
+      "reason": "invalid-state-code",
+      "severity": "hard",
+      "city": "5030 Champion Blvd Suites C2/C3",
+      "stateCode": "BO",
+      "state": "Boca"
+    },
+    {
+      "reason": "invalid-state-code",
+      "severity": "hard",
+      "city": "6420 Gunpark Dr STE B",
+      "stateCode": "BO",
+      "state": "Boulder"
+    },
+    {
+      "reason": "invalid-state-code",
+      "severity": "hard",
+      "city": "9050 W Overland Rd #270",
+      "stateCode": "BO",
+      "state": "Boise"
+    },
+    {
+      "reason": "invalid-state-code",
+      "severity": "hard",
+      "city": "Suite 110",
+      "stateCode": "BR",
+      "state": "Bryn"
+    },
+    {
+      "reason": "invalid-state-code",
+      "severity": "hard",
+      "city": "20 Chelsea St",
+      "stateCode": "CH",
+      "state": "Charlestown"
+    },
+    {
+      "reason": "invalid-state-code",
+      "severity": "hard",
+      "city": "7032 E Brainerd Rd B",
+      "stateCode": "CH",
+      "state": "Chattanooga"
+    },
+    {
+      "reason": "invalid-state-code",
+      "severity": "hard",
+      "city": "24 Compton Rd Suite 203",
+      "stateCode": "CI",
+      "state": "Cincinnati"
+    },
+    {
+      "reason": "invalid-state-code",
+      "severity": "hard",
+      "city": "Room 21",
+      "stateCode": "DA",
+      "state": "Dallas"
+    },
+    {
+      "reason": "invalid-state-code",
+      "severity": "hard",
+      "city": "177 W 12300 S #122",
+      "stateCode": "DR",
+      "state": "Draper"
+    },
+    {
+      "reason": "invalid-state-code",
+      "severity": "hard",
+      "city": "Office #3",
+      "stateCode": "ED",
+      "state": "Edina"
+    },
+    {
+      "reason": "invalid-state-code",
+      "severity": "hard",
+      "city": "7310 Esquire Ct",
+      "stateCode": "EL",
+      "state": "Elkridge"
+    },
+    {
+      "reason": "invalid-state-code",
+      "severity": "hard",
+      "city": "7465 Poplar Ave",
+      "stateCode": "GE",
+      "state": "Germantown"
+    },
+    {
+      "reason": "invalid-state-code",
+      "severity": "hard",
+      "city": "2920 N Green Valley Pkwy STE 814",
+      "stateCode": "HE",
+      "state": "Henderson"
+    },
+    {
+      "reason": "invalid-state-code",
+      "severity": "hard",
+      "city": "6250 Hollywood Blvd unit 700",
+      "stateCode": "HO",
+      "state": "Hollywood"
+    },
+    {
+      "reason": "invalid-state-code",
+      "severity": "hard",
+      "city": "suite 1401",
+      "stateCode": "HO",
+      "state": "Honolulu"
+    },
+    {
+      "reason": "invalid-state-code",
+      "severity": "hard",
+      "city": "Suite H",
+      "stateCode": "HO",
+      "state": "Houston"
+    },
+    {
+      "reason": "invalid-state-code",
+      "severity": "hard",
+      "city": "11350 McCormick Rd LL9",
+      "stateCode": "HU",
+      "state": "Hunt"
+    },
+    {
+      "reason": "invalid-state-code",
+      "severity": "hard",
+      "city": "FL A1AAlt #1500",
+      "stateCode": "JU",
+      "state": "Jupiter"
+    },
+    {
+      "reason": "invalid-state-code",
+      "severity": "hard",
+      "city": "FL A1AAlt #1500",
+      "stateCode": "JU",
+      "state": "Jupiter"
+    },
+    {
+      "reason": "invalid-state-code",
+      "severity": "hard",
+      "city": "600 S Airport Rd Building A Suite G",
+      "stateCode": "LO",
+      "state": "Longmont"
+    },
+    {
+      "reason": "invalid-state-code",
+      "severity": "hard",
+      "city": "12800 Metcalf Ave #2",
+      "stateCode": "OV",
+      "state": "Overland"
+    },
+    {
+      "reason": "invalid-state-code",
+      "severity": "hard",
+      "city": "107 Gamma Dr # 220",
+      "stateCode": "PI",
+      "state": "Pittsburgh"
+    },
+    {
+      "reason": "invalid-state-code",
+      "severity": "hard",
+      "city": "6214 SE Milwaukie Ave",
+      "stateCode": "PO",
+      "state": "Portland"
+    },
+    {
+      "reason": "invalid-state-code",
+      "severity": "hard",
+      "city": "Suite 120",
+      "stateCode": "RA",
+      "state": "Raleigh"
+    },
+    {
+      "reason": "invalid-state-code",
+      "severity": "hard",
+      "city": "540 Madison Oak Dr Suite 320",
+      "stateCode": "SA",
+      "state": "San"
+    },
+    {
+      "reason": "invalid-state-code",
+      "severity": "hard",
+      "city": "600 E 70th St",
+      "stateCode": "SA",
+      "state": "Savannah"
+    },
+    {
+      "reason": "invalid-state-code",
+      "severity": "hard",
+      "city": "925 Blossom Hill Rd 1509 suite 105",
+      "stateCode": "SA",
+      "state": "San"
+    },
+    {
+      "reason": "invalid-state-code",
+      "severity": "hard",
+      "city": "Embarcadero Ctr Lobby Level #5",
+      "stateCode": "SA",
+      "state": "San"
+    },
+    {
+      "reason": "invalid-state-code",
+      "severity": "hard",
+      "city": "Room 10",
+      "stateCode": "SA",
+      "state": "Salt"
+    },
+    {
+      "reason": "invalid-state-code",
+      "severity": "hard",
+      "city": "Ste. 1233",
+      "stateCode": "SA",
+      "state": "San"
+    },
+    {
+      "reason": "invalid-state-code",
+      "severity": "hard",
+      "city": "Suite 302",
+      "stateCode": "SA",
+      "state": "San"
+    },
+    {
+      "reason": "invalid-state-code",
+      "severity": "hard",
+      "city": "1407 NW 85th St",
+      "stateCode": "SE",
+      "state": "Seattle"
+    },
+    {
+      "reason": "invalid-state-code",
+      "severity": "hard",
+      "city": "2200 Georgetown Dr Suite 102",
+      "stateCode": "SE",
+      "state": "Sewickley"
+    },
+    {
+      "reason": "invalid-state-code",
+      "severity": "hard",
+      "city": "51705 Schoenherr Rd",
+      "stateCode": "SH",
+      "state": "Shelby"
+    },
+    {
+      "reason": "invalid-state-code",
+      "severity": "hard",
+      "city": "214 S Lafayette St",
+      "stateCode": "SO",
+      "state": "South"
+    },
+    {
+      "reason": "invalid-state-code",
+      "severity": "hard",
+      "city": "104 S Freya St Suite 218",
+      "stateCode": "SP",
+      "state": "Spokane"
+    },
+    {
+      "reason": "invalid-state-code",
+      "severity": "hard",
+      "city": "300 Brookside Ave Building 18",
+      "stateCode": "SU",
+      "state": "Suite"
+    },
+    {
+      "reason": "invalid-state-code",
+      "severity": "hard",
+      "city": "7th Floor",
+      "stateCode": "SU",
+      "state": "Suite"
+    },
+    {
+      "reason": "invalid-state-code",
+      "severity": "hard",
+      "city": "1585 Santa Barbara Blvd",
+      "stateCode": "TH",
+      "state": "The"
+    },
+    {
+      "reason": "invalid-state-code",
+      "severity": "hard",
+      "city": "PMB#2439",
+      "stateCode": "TH",
+      "state": "The"
+    },
+    {
+      "reason": "invalid-state-code",
+      "severity": "hard",
+      "city": "CA 94131",
+      "stateCode": "US",
+      "state": "USA"
+    },
+    {
+      "reason": "invalid-state-code",
+      "severity": "hard",
+      "city": "OR 97756",
+      "stateCode": "US",
+      "state": "USA"
+    },
+    {
+      "reason": "invalid-state-code",
+      "severity": "hard",
+      "city": "PA 15219",
+      "stateCode": "US",
+      "state": "USA"
+    },
+    {
+      "reason": "invalid-state-code",
+      "severity": "hard",
+      "city": "#1333",
+      "stateCode": "WE",
+      "state": "Westwood"
+    },
+    {
+      "reason": "invalid-state-code",
+      "severity": "hard",
+      "city": "5760 Okeechobee Blvd",
+      "stateCode": "WE",
+      "state": "West"
+    },
+    {
+      "reason": "invalid-state-code",
+      "severity": "hard",
+      "city": "322 Armbrust Rd Suite 102",
+      "stateCode": "YO",
+      "state": "Youngwood"
+    }
+  ],
+  "heuristic": [
+    {
+      "reason": "contains-digits",
+      "severity": "heuristic",
+      "city": "10200 Golf Course Rd NW ste e",
+      "stateCode": "AL",
+      "state": "Albuquerque"
+    },
+    {
+      "reason": "contains-digits",
+      "severity": "heuristic",
+      "city": "4360 Cutler Ave NE Ste B1",
+      "stateCode": "AL",
+      "state": "Albuquerque"
+    },
+    {
+      "reason": "contains-digits",
+      "severity": "heuristic",
+      "city": "1135 Kildaire Farm Rd #108",
+      "stateCode": "CA",
+      "state": "Cary"
+    },
+    {
+      "reason": "contains-digits",
+      "severity": "heuristic",
+      "city": "225 S Union Blvd",
+      "stateCode": "CO",
+      "state": "Colorado"
+    },
+    {
+      "reason": "contains-digits",
+      "severity": "heuristic",
+      "city": "6640 Old Monroe Rd G",
+      "stateCode": "IN",
+      "state": "Indian"
+    },
+    {
+      "reason": "contains-digits",
+      "severity": "heuristic",
+      "city": "9525 N Meridian St",
+      "stateCode": "IN",
+      "state": "Indianapolis"
+    },
+    {
+      "reason": "contains-digits",
+      "severity": "heuristic",
+      "city": "Ste 540",
+      "stateCode": "MA",
+      "state": "Marietta"
+    },
+    {
+      "reason": "contains-digits",
+      "severity": "heuristic",
+      "city": "Suite 400",
+      "stateCode": "ME",
+      "state": "Memphis"
+    },
+    {
+      "reason": "contains-digits",
+      "severity": "heuristic",
+      "city": "1574 W Broadway #105",
+      "stateCode": "MO",
+      "state": "Monona"
+    },
+    {
+      "reason": "contains-digits",
+      "severity": "heuristic",
+      "city": "3520 Davis Dr",
+      "stateCode": "MO",
+      "state": "Morrisville"
+    },
+    {
+      "reason": "contains-digits",
+      "severity": "heuristic",
+      "city": "54 W 21st St Suite 510",
+      "stateCode": "NE",
+      "state": "New"
+    },
+    {
+      "reason": "contains-digits",
+      "severity": "heuristic",
+      "city": "900 Camp St #1225",
+      "stateCode": "NE",
+      "state": "New"
+    },
+    {
+      "reason": "contains-digits",
+      "severity": "heuristic",
+      "city": "Suite B1",
+      "stateCode": "NE",
+      "state": "New"
+    },
+    {
+      "reason": "contains-unit-indicator",
+      "severity": "heuristic",
+      "city": "Building B",
+      "stateCode": "SC",
+      "state": "Scottsdale"
+    },
+    {
+      "reason": "contains-digits",
+      "severity": "heuristic",
+      "city": "2500 Wisconsin Ave NW #112",
+      "stateCode": "WA",
+      "state": "Washington"
+    },
+    {
+      "reason": "contains-digits",
+      "severity": "heuristic",
+      "city": "4801 Wisconsin Ave NW",
+      "stateCode": "WA",
+      "state": "Washington"
+    },
+    {
+      "reason": "contains-digits",
+      "severity": "heuristic",
+      "city": "Suite 222",
+      "stateCode": "WA",
+      "state": "Wayne"
+    }
+  ]
+}

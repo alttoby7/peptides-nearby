@@ -1,10 +1,16 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { getTopCities } from "@/lib/data/cities";
 import { getAllServices } from "@/lib/data/services";
 import { getAllProviders } from "@/lib/data/providers";
 import { getAllStates } from "@/lib/data/states";
+import { canonical } from "@/lib/seo/canonical";
 import { JsonLd, websiteJsonLd } from "@/components/seo/JsonLd";
 import { HeroSearch } from "@/components/search/HeroSearch";
+
+export const metadata: Metadata = {
+  alternates: { canonical: canonical("/") },
+};
 
 const PROVIDER_TYPES = [
   {

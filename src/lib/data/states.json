@@ -71,13 +71,12 @@
     ]
   },
   {
-    "slug": "ca",
-    "name": "CA",
+    "slug": "california",
+    "name": "California",
     "code": "CA",
-    "providerCount": 356,
-    "cityCount": 88,
+    "providerCount": 355,
+    "cityCount": 87,
     "cities": [
-      "1135-kildaire-farm-rd-108",
       "anaheim",
       "arcadia",
       "bakersfield",
@@ -217,8 +216,8 @@
     ]
   },
   {
-    "slug": "nc",
-    "name": "NC",
+    "slug": "north-carolina",
+    "name": "North Carolina",
     "code": "NC",
     "providerCount": 194,
     "cityCount": 33,
@@ -339,11 +338,9 @@
     "slug": "washington",
     "name": "Washington",
     "code": "WA",
-    "providerCount": 120,
-    "cityCount": 31,
+    "providerCount": 118,
+    "cityCount": 29,
     "cities": [
-      "2500-wisconsin-ave-nw-112",
-      "4801-wisconsin-ave-nw",
       "bellevue",
       "bothell",
       "chehalis",
@@ -376,13 +373,34 @@
     ]
   },
   {
+    "slug": "arizona",
+    "name": "Arizona",
+    "code": "AZ",
+    "providerCount": 110,
+    "cityCount": 13,
+    "cities": [
+      "cave-creek",
+      "chandler",
+      "fountain-hills",
+      "gilbert",
+      "glendale",
+      "mesa",
+      "oro-valley",
+      "paradise-valley",
+      "phoenix",
+      "pima",
+      "scottsdale",
+      "tempe",
+      "tucson"
+    ]
+  },
+  {
     "slug": "colorado",
     "name": "Colorado",
     "code": "CO",
-    "providerCount": 111,
-    "cityCount": 29,
+    "providerCount": 110,
+    "cityCount": 28,
     "cities": [
-      "225-s-union-blvd",
       "arvada",
       "aurora",
       "boulder",
@@ -411,28 +429,6 @@
       "parker",
       "thornton",
       "woodland-park"
-    ]
-  },
-  {
-    "slug": "arizona",
-    "name": "Arizona",
-    "code": "AZ",
-    "providerCount": 110,
-    "cityCount": 13,
-    "cities": [
-      "cave-creek",
-      "chandler",
-      "fountain-hills",
-      "gilbert",
-      "glendale",
-      "mesa",
-      "oro-valley",
-      "paradise-valley",
-      "phoenix",
-      "pima",
-      "scottsdale",
-      "tempe",
-      "tucson"
     ]
   },
   {
@@ -636,11 +632,9 @@
     "slug": "indiana",
     "name": "Indiana",
     "code": "IN",
-    "providerCount": 73,
-    "cityCount": 17,
+    "providerCount": 71,
+    "cityCount": 15,
     "cities": [
-      "6640-old-monroe-rd-g",
-      "9525-n-meridian-st",
       "avon",
       "brownsburg",
       "carmel",
@@ -662,11 +656,9 @@
     "slug": "missouri",
     "name": "Missouri",
     "code": "MO",
-    "providerCount": 72,
-    "cityCount": 21,
+    "providerCount": 70,
+    "cityCount": 19,
     "cities": [
-      "1574-w-broadway-105",
-      "3520-davis-dr",
       "blue-springs",
       "brentwood",
       "chesterfield",
@@ -720,8 +712,8 @@
     ]
   },
   {
-    "slug": "mi",
-    "name": "MI",
+    "slug": "michigan",
+    "name": "Michigan",
     "code": "MI",
     "providerCount": 69,
     "cityCount": 31,
@@ -809,13 +801,12 @@
     ]
   },
   {
-    "slug": "sc",
-    "name": "SC",
+    "slug": "south-carolina",
+    "name": "South Carolina",
     "code": "SC",
-    "providerCount": 64,
-    "cityCount": 13,
+    "providerCount": 63,
+    "cityCount": 12,
     "cities": [
-      "building-b",
       "charleston",
       "daniel-island",
       "fort-mill",
@@ -912,30 +903,6 @@
     ]
   },
   {
-    "slug": "alabama",
-    "name": "Alabama",
-    "code": "AL",
-    "providerCount": 60,
-    "cityCount": 15,
-    "cities": [
-      "10200-golf-course-rd-nw-ste-e",
-      "4360-cutler-ave-ne-ste-b1",
-      "alabaster",
-      "birmingham",
-      "dothan",
-      "homewood",
-      "hoover",
-      "huntsville",
-      "madison",
-      "mountain-brook",
-      "oneonta",
-      "pelham",
-      "pinson",
-      "trussville",
-      "vestavia-hills"
-    ]
-  },
-  {
     "slug": "louisiana",
     "name": "Louisiana",
     "code": "LA",
@@ -970,6 +937,28 @@
     ]
   },
   {
+    "slug": "alabama",
+    "name": "Alabama",
+    "code": "AL",
+    "providerCount": 58,
+    "cityCount": 13,
+    "cities": [
+      "alabaster",
+      "birmingham",
+      "dothan",
+      "homewood",
+      "hoover",
+      "huntsville",
+      "madison",
+      "mountain-brook",
+      "oneonta",
+      "pelham",
+      "pinson",
+      "trussville",
+      "vestavia-hills"
+    ]
+  },
+  {
     "slug": "kentucky",
     "name": "Kentucky",
     "code": "KY",
@@ -993,8 +982,8 @@
     "slug": "massachusetts",
     "name": "Massachusetts",
     "code": "MA",
-    "providerCount": 55,
-    "cityCount": 30,
+    "providerCount": 54,
+    "cityCount": 29,
     "cities": [
       "acton",
       "arlington",
@@ -1018,7 +1007,6 @@
       "quincy",
       "raynham",
       "roslindale",
-      "ste-540",
       "stoneham",
       "waltham",
       "watertown",
@@ -1078,8 +1066,8 @@
     ]
   },
   {
-    "slug": "ks",
-    "name": "KS",
+    "slug": "kansas",
+    "name": "Kansas",
     "code": "KS",
     "providerCount": 38,
     "cityCount": 12,
@@ -1102,10 +1090,9 @@
     "slug": "nebraska",
     "name": "Nebraska",
     "code": "NE",
-    "providerCount": 35,
-    "cityCount": 6,
+    "providerCount": 34,
+    "cityCount": 5,
     "cities": [
-      "900-camp-st-1225",
       "elkhorn",
       "la-vista",
       "lincoln",
@@ -1124,8 +1111,8 @@
     ]
   },
   {
-    "slug": "nj",
-    "name": "NJ",
+    "slug": "new-jersey",
+    "name": "New Jersey",
     "code": "NJ",
     "providerCount": 13,
     "cityCount": 11,
@@ -1144,8 +1131,8 @@
     ]
   },
   {
-    "slug": "ms",
-    "name": "MS",
+    "slug": "mississippi",
+    "name": "Mississippi",
     "code": "MS",
     "providerCount": 4,
     "cityCount": 3,
@@ -1156,8 +1143,8 @@
     ]
   },
   {
-    "slug": "ar",
-    "name": "AR",
+    "slug": "arkansas",
+    "name": "Arkansas",
     "code": "AR",
     "providerCount": 1,
     "cityCount": 1,
@@ -1166,8 +1153,8 @@
     ]
   },
   {
-    "slug": "me",
-    "name": "ME",
+    "slug": "maine",
+    "name": "Maine",
     "code": "ME",
     "providerCount": 1,
     "cityCount": 1,
@@ -1176,8 +1163,8 @@
     ]
   },
   {
-    "slug": "nh",
-    "name": "NH",
+    "slug": "new-hampshire",
+    "name": "New Hampshire",
     "code": "NH",
     "providerCount": 1,
     "cityCount": 1,
@@ -1186,8 +1173,8 @@
     ]
   },
   {
-    "slug": "ri",
-    "name": "RI",
+    "slug": "rhode-island",
+    "name": "Rhode Island",
     "code": "RI",
     "providerCount": 1,
     "cityCount": 1,
@@ -1196,8 +1183,8 @@
     ]
   },
   {
-    "slug": "wv",
-    "name": "WV",
+    "slug": "west-virginia",
+    "name": "West Virginia",
     "code": "WV",
     "providerCount": 1,
     "cityCount": 1,

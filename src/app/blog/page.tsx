@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { canonical } from "@/lib/seo/canonical";
 import Link from "next/link";
 import { JsonLd, breadcrumbJsonLd } from "@/components/seo/JsonLd";
 import { getAllArticles } from "@/lib/data/articles";
@@ -6,6 +7,7 @@ import { getAllArticles } from "@/lib/data/articles";
 export const metadata: Metadata = {
   title: "Peptide Therapy Blog — Guides, Costs, and What to Expect",
   description: "Learn about peptide therapy: how it works, costs, side effects, injection guides, and how to find a provider near you.",
+  alternates: { canonical: canonical("/blog") },
 };
 
 export default function BlogHubPage() {

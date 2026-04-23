@@ -3,6 +3,8 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getAllServices, getServiceBySlug } from "@/lib/data/services";
 import { getProvidersByService } from "@/lib/data/providers";
+import { canonical } from "@/lib/seo/canonical";
+import { peptideUrl } from "@/lib/seo/paths";
 import { JsonLd, breadcrumbJsonLd } from "@/components/seo/JsonLd";
 import { FilteredProviderList } from "@/components/filters/ProviderFilters";
 
@@ -24,6 +26,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       ? `${service.description} Browse ${service.providerCount} providers offering ${service.name} in ${service.cityCount} cities.`
       : service.description,
     robots: thin ? { index: false, follow: true } : undefined,
+    alternates: { canonical: canonical(peptideUrl(slug)) },
   };
 }
 

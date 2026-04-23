@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { canonical } from "@/lib/seo/canonical";
 import { Suspense } from "react";
 import { ComparePageClient } from "./ComparePageClient";
 import { JsonLd, breadcrumbJsonLd } from "@/components/seo/JsonLd";
@@ -6,6 +7,7 @@ import { JsonLd, breadcrumbJsonLd } from "@/components/seo/JsonLd";
 export const metadata: Metadata = {
   title: "Compare Providers — Peptides Nearby",
   description: "Compare peptide therapy providers side by side. Compare services, peptides, insurance, telehealth, and more.",
+  alternates: { canonical: canonical("/compare") },
 };
 
 export default function ComparePage() {

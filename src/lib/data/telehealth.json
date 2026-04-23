@@ -108,8 +108,8 @@
   },
   {
     "stateCode": "CA",
-    "stateName": "CA",
-    "stateSlug": "ca",
+    "stateName": "California",
+    "stateSlug": "california",
     "providerSlugs": [
       "daniel-benhuri-md-concierge-medicine-weight-loss-hormone-replacement-iv-treatments-peptides-anti-aging-beverly-hills-ca",
       "md-total-wellness-expert-care-for-wellness-brea-ca",
@@ -274,50 +274,6 @@
     ]
   },
   {
-    "stateCode": "NC",
-    "stateName": "NC",
-    "stateSlug": "nc",
-    "providerSlugs": [
-      "tucson-valley-functional-medicine-tucson-az",
-      "core-medical-group-boca-raton-fl",
-      "biocure-health-fort-lauderdale-fl",
-      "trident-anti-aging-fort-lauderdale-fl",
-      "hormone-health-and-weight-loss-jacksonville-jacksonville-fl",
-      "hrt-doctors-group-jacksonville-fl",
-      "thrive-pharmacy-jacksonville-fl",
-      "titan-medical-center-tampa-fl",
-      "balanced-aesthetics-wellness-atlanta-ga",
-      "hormone-treatment-centers-overland-park-ks-overland-park-ks",
-      "lifexmd-bioidentical-hormone-optimization-bloomfield-township-mi",
-      "medivera-compounding-pharmacy-formerly-known-as-university-compounding-pharmacy-troy-mi",
-      "summit-rejuvenation-sappington-mo",
-      "asheville-testosterone-clinic-local-trt-concierge-telemedicine-asheville-nc",
-      "parker-mason-wellness-cary-nc",
-      "avant-wellness-pllc-charlotte-nc",
-      "carolina-pharmacy-arboretum-charlotte-nc",
-      "truwellness-charlotte-charlotte-nc",
-      "walkers-drug-store-charlotte-nc",
-      "renew-specialty-group-cornelius-nc",
-      "trt-kingdom-durham-nc",
-      "revival-hormone-health-garner-nc",
-      "premier-hormone-health-and-wellness-matthews-nc",
-      "simone-medical-matthews-nc",
-      "alpha-male-wellness-raleigh-nc",
-      "peri-and-pause-the-menopause-center-pllc-raleigh-nc",
-      "carolina-regenerative-health-wake-forest-nc",
-      "nubalance-health-dublin-oh",
-      "regenerative-and-sports-medicine-the-woodlands-tx",
-      "prestons-pharmacy-arlington-va-1",
-      "prestons-compounding-pharmacy-falls-church-va",
-      "klinic-seattle-wa"
-    ],
-    "providerCount": 32,
-    "visitTypes": [
-      "phone",
-      "video"
-    ]
-  },
-  {
     "stateCode": "NY",
     "stateName": "New York",
     "stateSlug": "new-york",
@@ -349,6 +305,50 @@
       "madison-health-ny-ny-health-and-wellness-clinic-specializing-in-testosterone-replacement-therapy-new-york-ny",
       "ny-stem-cell-therapy-and-regenerative-medicine-new-york-ny",
       "nyc-hormone-replacement-therapy-doctor-new-york-ny",
+      "nubalance-health-dublin-oh",
+      "regenerative-and-sports-medicine-the-woodlands-tx",
+      "prestons-pharmacy-arlington-va-1",
+      "prestons-compounding-pharmacy-falls-church-va",
+      "klinic-seattle-wa"
+    ],
+    "providerCount": 32,
+    "visitTypes": [
+      "phone",
+      "video"
+    ]
+  },
+  {
+    "stateCode": "NC",
+    "stateName": "North Carolina",
+    "stateSlug": "north-carolina",
+    "providerSlugs": [
+      "tucson-valley-functional-medicine-tucson-az",
+      "core-medical-group-boca-raton-fl",
+      "biocure-health-fort-lauderdale-fl",
+      "trident-anti-aging-fort-lauderdale-fl",
+      "hormone-health-and-weight-loss-jacksonville-jacksonville-fl",
+      "hrt-doctors-group-jacksonville-fl",
+      "thrive-pharmacy-jacksonville-fl",
+      "titan-medical-center-tampa-fl",
+      "balanced-aesthetics-wellness-atlanta-ga",
+      "hormone-treatment-centers-overland-park-ks-overland-park-ks",
+      "lifexmd-bioidentical-hormone-optimization-bloomfield-township-mi",
+      "medivera-compounding-pharmacy-formerly-known-as-university-compounding-pharmacy-troy-mi",
+      "summit-rejuvenation-sappington-mo",
+      "asheville-testosterone-clinic-local-trt-concierge-telemedicine-asheville-nc",
+      "parker-mason-wellness-cary-nc",
+      "avant-wellness-pllc-charlotte-nc",
+      "carolina-pharmacy-arboretum-charlotte-nc",
+      "truwellness-charlotte-charlotte-nc",
+      "walkers-drug-store-charlotte-nc",
+      "renew-specialty-group-cornelius-nc",
+      "trt-kingdom-durham-nc",
+      "revival-hormone-health-garner-nc",
+      "premier-hormone-health-and-wellness-matthews-nc",
+      "simone-medical-matthews-nc",
+      "alpha-male-wellness-raleigh-nc",
+      "peri-and-pause-the-menopause-center-pllc-raleigh-nc",
+      "carolina-regenerative-health-wake-forest-nc",
       "nubalance-health-dublin-oh",
       "regenerative-and-sports-medicine-the-woodlands-tx",
       "prestons-pharmacy-arlington-va-1",
@@ -848,8 +848,8 @@
   },
   {
     "stateCode": "MI",
-    "stateName": "MI",
-    "stateSlug": "mi",
+    "stateName": "Michigan",
+    "stateSlug": "michigan",
     "providerSlugs": [
       "core-medical-group-boca-raton-fl",
       "biocure-health-fort-lauderdale-fl",
@@ -980,8 +980,8 @@
   },
   {
     "stateCode": "KS",
-    "stateName": "KS",
-    "stateSlug": "ks",
+    "stateName": "Kansas",
+    "stateSlug": "kansas",
     "providerSlugs": [
       "core-medical-group-boca-raton-fl",
       "biocure-health-fort-lauderdale-fl",
@@ -1098,8 +1098,8 @@
   },
   {
     "stateCode": "NJ",
-    "stateName": "NJ",
-    "stateSlug": "nj",
+    "stateName": "New Jersey",
+    "stateSlug": "new-jersey",
     "providerSlugs": [
       "core-medical-group-boca-raton-fl",
       "biocure-health-fort-lauderdale-fl",
@@ -1156,8 +1156,8 @@
   },
   {
     "stateCode": "CT",
-    "stateName": "CT",
-    "stateSlug": "ct",
+    "stateName": "Connecticut",
+    "stateSlug": "connecticut",
     "providerSlugs": [
       "core-medical-group-boca-raton-fl",
       "biocure-health-fort-lauderdale-fl",
@@ -1212,8 +1212,8 @@
   },
   {
     "stateCode": "ND",
-    "stateName": "ND",
-    "stateSlug": "nd",
+    "stateName": "North Dakota",
+    "stateSlug": "north-dakota",
     "providerSlugs": [
       "core-medical-group-boca-raton-fl",
       "biocure-health-fort-lauderdale-fl",
@@ -1268,8 +1268,8 @@
   },
   {
     "stateCode": "DE",
-    "stateName": "DE",
-    "stateSlug": "de",
+    "stateName": "Delaware",
+    "stateSlug": "delaware",
     "providerSlugs": [
       "core-medical-group-boca-raton-fl",
       "biocure-health-fort-lauderdale-fl",
@@ -1295,8 +1295,8 @@
   },
   {
     "stateCode": "ME",
-    "stateName": "ME",
-    "stateSlug": "me",
+    "stateName": "Maine",
+    "stateSlug": "maine",
     "providerSlugs": [
       "core-medical-group-boca-raton-fl",
       "biocure-health-fort-lauderdale-fl",
@@ -1349,8 +1349,8 @@
   },
   {
     "stateCode": "NH",
-    "stateName": "NH",
-    "stateSlug": "nh",
+    "stateName": "New Hampshire",
+    "stateSlug": "new-hampshire",
     "providerSlugs": [
       "core-medical-group-boca-raton-fl",
       "biocure-health-fort-lauderdale-fl",
@@ -1376,8 +1376,8 @@
   },
   {
     "stateCode": "SC",
-    "stateName": "SC",
-    "stateSlug": "sc",
+    "stateName": "South Carolina",
+    "stateSlug": "south-carolina",
     "providerSlugs": [
       "core-medical-group-boca-raton-fl",
       "biocure-health-fort-lauderdale-fl",
@@ -1403,8 +1403,8 @@
   },
   {
     "stateCode": "VT",
-    "stateName": "VT",
-    "stateSlug": "vt",
+    "stateName": "Vermont",
+    "stateSlug": "vermont",
     "providerSlugs": [
       "core-medical-group-boca-raton-fl",
       "biocure-health-fort-lauderdale-fl",
@@ -1509,8 +1509,8 @@
   },
   {
     "stateCode": "AR",
-    "stateName": "AR",
-    "stateSlug": "ar",
+    "stateName": "Arkansas",
+    "stateSlug": "arkansas",
     "providerSlugs": [
       "core-medical-group-boca-raton-fl",
       "biocure-health-fort-lauderdale-fl",
@@ -1587,8 +1587,8 @@
   },
   {
     "stateCode": "MS",
-    "stateName": "MS",
-    "stateSlug": "ms",
+    "stateName": "Mississippi",
+    "stateSlug": "mississippi",
     "providerSlugs": [
       "core-medical-group-boca-raton-fl",
       "biocure-health-fort-lauderdale-fl",
@@ -1613,8 +1613,8 @@
   },
   {
     "stateCode": "MT",
-    "stateName": "MT",
-    "stateSlug": "mt",
+    "stateName": "Montana",
+    "stateSlug": "montana",
     "providerSlugs": [
       "core-medical-group-boca-raton-fl",
       "biocure-health-fort-lauderdale-fl",
@@ -1639,8 +1639,8 @@
   },
   {
     "stateCode": "RI",
-    "stateName": "RI",
-    "stateSlug": "ri",
+    "stateName": "Rhode Island",
+    "stateSlug": "rhode-island",
     "providerSlugs": [
       "core-medical-group-boca-raton-fl",
       "biocure-health-fort-lauderdale-fl",
@@ -1665,8 +1665,8 @@
   },
   {
     "stateCode": "SD",
-    "stateName": "SD",
-    "stateSlug": "sd",
+    "stateName": "South Dakota",
+    "stateSlug": "south-dakota",
     "providerSlugs": [
       "core-medical-group-boca-raton-fl",
       "biocure-health-fort-lauderdale-fl",
@@ -1691,8 +1691,8 @@
   },
   {
     "stateCode": "WV",
-    "stateName": "WV",
-    "stateSlug": "wv",
+    "stateName": "West Virginia",
+    "stateSlug": "west-virginia",
     "providerSlugs": [
       "core-medical-group-boca-raton-fl",
       "biocure-health-fort-lauderdale-fl",
@@ -1717,8 +1717,8 @@
   },
   {
     "stateCode": "WY",
-    "stateName": "WY",
-    "stateSlug": "wy",
+    "stateName": "Wyoming",
+    "stateSlug": "wyoming",
     "providerSlugs": [
       "core-medical-group-boca-raton-fl",
       "biocure-health-fort-lauderdale-fl",
@@ -1738,127 +1738,6 @@
     "providerCount": 14,
     "visitTypes": [
       "phone",
-      "video"
-    ]
-  },
-  {
-    "stateCode": "BO",
-    "stateName": "BO",
-    "stateSlug": "bo",
-    "providerSlugs": [
-      "tufts-medical-center-total-joint-replacement-260-tremont-st-8th-floor-bo",
-      "vega-vitality-medspa-and-wellness-seaport-boston-451-d-st-200-bo"
-    ],
-    "providerCount": 2,
-    "visitTypes": [
-      "video"
-    ]
-  },
-  {
-    "stateCode": "DA",
-    "stateName": "DA",
-    "stateSlug": "da",
-    "providerSlugs": [
-      "optimize-by-jaenix-room-21-da"
-    ],
-    "providerCount": 1,
-    "visitTypes": [
-      "video"
-    ]
-  },
-  {
-    "stateCode": "HO",
-    "stateName": "HO",
-    "stateSlug": "ho",
-    "providerSlugs": [
-      "synergenx-vintage-park-hormone-health-and-trt-clinic-suite-h-ho"
-    ],
-    "providerCount": 1,
-    "visitTypes": [
-      "video"
-    ]
-  },
-  {
-    "stateCode": "HU",
-    "stateName": "HU",
-    "stateSlug": "hu",
-    "providerSlugs": [
-      "wellness-plus-care-11350-mccormick-rd-ll9-hu"
-    ],
-    "providerCount": 1,
-    "visitTypes": [
-      "video"
-    ]
-  },
-  {
-    "stateCode": "PI",
-    "stateName": "PI",
-    "stateSlug": "pi",
-    "providerSlugs": [
-      "dr-jesse-a-sally-107-gamma-dr-220-pi"
-    ],
-    "providerCount": 1,
-    "visitTypes": [
-      "phone"
-    ]
-  },
-  {
-    "stateCode": "PO",
-    "stateName": "PO",
-    "stateSlug": "po",
-    "providerSlugs": [
-      "health-in-her-hands-menopause-hrt-and-weight-loss-6214-se-milwaukie-ave-po"
-    ],
-    "providerCount": 1,
-    "visitTypes": [
-      "video"
-    ]
-  },
-  {
-    "stateCode": "SA",
-    "stateName": "SA",
-    "stateSlug": "sa",
-    "providerSlugs": [
-      "prime-vitality-total-wellness-and-medical-spa-suite-302-sa"
-    ],
-    "providerCount": 1,
-    "visitTypes": [
-      "video"
-    ]
-  },
-  {
-    "stateCode": "SH",
-    "stateName": "SH",
-    "stateSlug": "sh",
-    "providerSlugs": [
-      "a-balanced-you-51705-schoenherr-rd-sh"
-    ],
-    "providerCount": 1,
-    "visitTypes": [
-      "video"
-    ]
-  },
-  {
-    "stateCode": "SP",
-    "stateName": "SP",
-    "stateSlug": "sp",
-    "providerSlugs": [
-      "spokane-vitality-center-dba-vitality-centers-nw-104-s-freya-st-suite-218-sp"
-    ],
-    "providerCount": 1,
-    "visitTypes": [
-      "video"
-    ]
-  },
-  {
-    "stateCode": "TH",
-    "stateName": "TH",
-    "stateSlug": "th",
-    "providerSlugs": [
-      "premier-health-and-wellness-the-woodlands-pmb-2439-th"
-    ],
-    "providerCount": 1,
-    "visitTypes": [
       "video"
     ]
   }

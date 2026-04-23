@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { canonical } from "@/lib/seo/canonical";
 import Link from "next/link";
 import { JsonLd, breadcrumbJsonLd } from "@/components/seo/JsonLd";
 import telehealthData from "@/lib/data/telehealth.json";
@@ -27,6 +28,7 @@ const telehealthPeptides: TelehealthPeptideEntry[] = telehealthPeptidesData as T
 export const metadata: Metadata = {
   title: "Telehealth Peptide Therapy — Find Virtual Providers by State",
   description: "Find telehealth peptide therapy providers licensed in your state. Browse virtual clinics offering BPC-157, semaglutide, sermorelin, and more via video visits.",
+  alternates: { canonical: canonical("/telehealth") },
 };
 
 export default function TelehealthHubPage() {

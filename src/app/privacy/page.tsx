@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
+import { canonical } from "@/lib/seo/canonical";
 
 export const metadata: Metadata = {
   title: "Privacy Policy",
   description: "Privacy policy for Peptides Nearby.",
+  alternates: { canonical: canonical("/privacy") },
 };
 
 export default function PrivacyPage() {

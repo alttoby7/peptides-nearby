@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { canonical } from "@/lib/seo/canonical";
 import { Suspense } from "react";
 import { SearchPageClient } from "./SearchPageClient";
 import { JsonLd, breadcrumbJsonLd } from "@/components/seo/JsonLd";
@@ -6,6 +7,7 @@ import { JsonLd, breadcrumbJsonLd } from "@/components/seo/JsonLd";
 export const metadata: Metadata = {
   title: "Search Providers — Peptides Nearby",
   description: "Search for peptide therapy clinics, compounding pharmacies, and wellness centers by city, peptide, or provider name.",
+  alternates: { canonical: canonical("/search") },
 };
 
 export default function SearchPage() {
