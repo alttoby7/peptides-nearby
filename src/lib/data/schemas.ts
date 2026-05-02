@@ -127,6 +127,7 @@ export const ProviderSchema = z.object({
   deliveryMethods: z.array(DeliveryMethodSchema).default([]),
   businessModel: BusinessModelSchema.optional(),
   trustSignals: TrustSignalsSchema.default({}),
+  indexed: z.boolean().default(false),
 });
 export type Provider = z.infer<typeof ProviderSchema>;
 
@@ -194,6 +195,7 @@ export const CitySchema = z.object({
   providers: z.array(z.string()),
   services: z.array(z.string()),
   peptides: z.array(z.string()),
+  indexed: z.boolean().default(false),
 });
 export type City = z.infer<typeof CitySchema>;
 
@@ -205,6 +207,7 @@ export const StateSchema = z.object({
   providerCount: z.number(),
   cityCount: z.number(),
   cities: z.array(z.string()),
+  indexed: z.boolean().default(false),
 });
 export type State = z.infer<typeof StateSchema>;
 
@@ -216,5 +219,6 @@ export const ServiceSchema = z.object({
   providerCount: z.number(),
   cityCount: z.number(),
   description: z.string(),
+  indexed: z.boolean().default(false),
 });
 export type Service = z.infer<typeof ServiceSchema>;

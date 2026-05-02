@@ -15,6 +15,7 @@ interface TelehealthStateEntry {
   providerSlugs: string[];
   providerCount: number;
   visitTypes: string[];
+  indexed: boolean;
 }
 
 const telehealthStates: TelehealthStateEntry[] = telehealthData as TelehealthStateEntry[];
@@ -34,9 +35,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const entry = telehealthStates.find((s) => s.stateSlug === stateSlug);
   if (!entry) return {};
   const canonPath = telehealthStateUrl(entry.stateCode);
+  const thin = !entry.indexed;
   return {
     title: `Telehealth Peptide Therapy in ${entry.stateName} — ${entry.providerCount} Providers`,
     description: `Find ${entry.providerCount} telehealth peptide therapy providers licensed in ${entry.stateName}. Virtual visits for BPC-157, semaglutide, and more.`,
+    robots: thin ? { index: false, follow: true } : undefined,
     alternates: canonPath ? { canonical: canonical(canonPath) } : undefined,
   };
 }

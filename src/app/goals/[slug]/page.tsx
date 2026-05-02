@@ -19,6 +19,7 @@ interface GoalEntry {
   peptides: string[];
   providerCount: number;
   providerSlugs: string[];
+  indexed: boolean;
 }
 
 const goals: GoalEntry[] = goalsData as GoalEntry[];
@@ -37,7 +38,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const goal = goals.find((g) => g.slug === slug);
   if (!goal) return {};
-  const thin = goal.providerCount < 5;
+  const thin = !goal.indexed;
   return {
     title: `${goal.name} Peptide Therapy${goal.providerCount > 0 ? ` — ${goal.providerCount} Providers` : ""}`,
     description: `${goal.description} Find ${goal.providerCount} providers offering peptide therapy for ${goal.name.toLowerCase()}.`,

@@ -23,7 +23,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { state: stateSlug, city: citySlug } = await params;
   const city = getCityBySlugAndStateSlug(citySlug, stateSlug);
   if (!city) return {};
-  const thin = city.providerCount < 3;
+  const thin = !city.indexed;
   const canonPath = cityUrl(city.stateCode, city.slug);
   return {
     title: `Peptide Therapy in ${city.name}, ${city.stateCode}${city.providerCount > 0 ? ` — ${city.providerCount} Providers` : ""}`,
@@ -110,14 +110,6 @@ export default async function CityPage({ params }: Props) {
                 >
                   Submit a Practice
                 </Link>
-                <a
-                  href="https://peptidegrades.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="px-5 py-2.5 border border-border-medium text-text-secondary rounded-lg hover:border-accent hover:text-accent transition-colors"
-                >
-                  Try Online Vendors
-                </a>
               </div>
             </div>
           )}

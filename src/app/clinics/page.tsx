@@ -6,6 +6,7 @@ import { JsonLd, breadcrumbJsonLd } from "@/components/seo/JsonLd";
 import { FilteredProviderList } from "@/components/filters/ProviderFilters";
 
 export const metadata: Metadata = {
+  robots: { index: false, follow: true },
   title: "Peptide Therapy Clinics",
   description: "Find peptide therapy clinics near you. Browse verified clinics offering BPC-157, semaglutide, tirzepatide, and more.",
   alternates: { canonical: canonical("/clinics") },

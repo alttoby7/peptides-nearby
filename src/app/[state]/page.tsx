@@ -18,7 +18,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { state: stateSlug } = await params;
   const state = getStateBySlug(stateSlug);
   if (!state) return {};
-  const thin = state.providerCount < 10;
+  const thin = !state.indexed;
   const canonPath = stateUrl(state.code);
   return {
     title: `Peptide Therapy in ${state.name}${state.providerCount > 0 ? ` — ${state.providerCount} Providers` : ""}`,

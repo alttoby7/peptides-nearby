@@ -6,6 +6,7 @@ import { JsonLd, breadcrumbJsonLd } from "@/components/seo/JsonLd";
 import { FilteredProviderList } from "@/components/filters/ProviderFilters";
 
 export const metadata: Metadata = {
+  robots: { index: false, follow: true },
   title: "Compounding Pharmacies",
   description: "Find compounding pharmacies near you that offer peptide therapy, custom formulations, and specialty medications.",
   alternates: { canonical: canonical("/pharmacies") },

@@ -5,6 +5,7 @@ import { SearchPageClient } from "./SearchPageClient";
 import { JsonLd, breadcrumbJsonLd } from "@/components/seo/JsonLd";
 
 export const metadata: Metadata = {
+  robots: { index: false, follow: true },
   title: "Search Providers — Peptides Nearby",
   description: "Search for peptide therapy clinics, compounding pharmacies, and wellness centers by city, peptide, or provider name.",
   alternates: { canonical: canonical("/search") },

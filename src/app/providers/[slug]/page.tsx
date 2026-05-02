@@ -28,9 +28,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const provider = getProviderBySlug(slug);
   if (!provider) return { title: "Provider Not Found" };
+  const thin = !provider.indexed;
   return {
     title: `${provider.name} — Peptide Therapy in ${provider.address.city}, ${provider.address.stateCode}`,
     description: provider.description,
+    robots: thin ? { index: false, follow: true } : undefined,
     alternates: {
       canonical: canonical(providerUrl(slug)),
     },
@@ -395,18 +397,6 @@ export default async function ProviderPage({ params }: Props) {
                 );
               })()}
 
-              {/* Cross-link */}
-              <div className="mt-4 p-4 bg-white border border-border-subtle rounded-xl shadow-sm text-center">
-                <p className="text-xs text-text-tertiary mb-2">Prefer to order online?</p>
-                <a
-                  href="https://peptidegrades.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-sm text-accent hover:underline"
-                >
-                  See online vendor rankings &rarr;
-                </a>
-              </div>
             </div>
           </div>
 

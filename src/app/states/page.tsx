@@ -7,6 +7,7 @@ import { JsonLd, breadcrumbJsonLd } from "@/components/seo/JsonLd";
 import { StatesPageClient } from "./StatesPageClient";
 
 export const metadata: Metadata = {
+  robots: { index: false, follow: true },
   title: "All States — Peptide Therapy Providers",
   description:
     "Browse peptide therapy providers by state. Find clinics, compounding pharmacies, and wellness centers across the United States.",

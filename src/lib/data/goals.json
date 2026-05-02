@@ -493,7 +493,8 @@
       "seattle-wellness-programs-seattle-wa",
       "trimmedix-tukwila-wa",
       "capital-city-wellness-and-aesthetics-monona-wi"
-    ]
+    ],
+    "indexed": true
   },
   {
     "slug": "anti-aging",
@@ -718,7 +719,8 @@
       "anti-aging-northwest-seattle-wa",
       "seattle-wellness-programs-seattle-wa",
       "waters-edge-natural-medicine-seattle-wa"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "hormone-optimization",
@@ -934,7 +936,8 @@
       "anti-aging-northwest-seattle-wa",
       "seattle-wellness-programs-seattle-wa",
       "waters-edge-natural-medicine-seattle-wa"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "injury-recovery",
@@ -1022,7 +1025,8 @@
       "dr-stephanie-king-aprn-fnp-c-salt-lake-city-ut",
       "the-re-clinic-sandy-ut",
       "dr-erin-thorne-feminine-functional-medicine-seattle-wa"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "sexual-health",
@@ -1172,7 +1176,8 @@
       "renew-vitality-testosterone-clinic-of-alexandria-alexandria-va",
       "fountain-of-you-md-virginia-beach-virginia-beach-va",
       "vitality-medical-pnw-lynnwood-wa"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "cognitive-enhancement",
@@ -1209,6 +1214,7 @@
       "sage-wellness-and-health-nashville-tn",
       "peptide-hub-balance-point-kingwood-tx",
       "elive-health-new-braunfels-tx"
-    ]
+    ],
+    "indexed": false
   }
 ]

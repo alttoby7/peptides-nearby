@@ -68,7 +68,8 @@
       "winter-haven",
       "winter-park",
       "winter-springs"
-    ]
+    ],
+    "indexed": true
   },
   {
     "slug": "california",
@@ -164,7 +165,8 @@
       "west-covina",
       "west-hollywood",
       "westminster"
-    ]
+    ],
+    "indexed": true
   },
   {
     "slug": "texas",
@@ -213,7 +215,8 @@
       "tomball",
       "universal-city",
       "wylie"
-    ]
+    ],
+    "indexed": true
   },
   {
     "slug": "north-carolina",
@@ -255,7 +258,8 @@
       "wilmington",
       "winston-salem",
       "woodfin"
-    ]
+    ],
+    "indexed": true
   },
   {
     "slug": "virginia",
@@ -290,7 +294,8 @@
       "virginia-beach",
       "warrenton",
       "williamsburg"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "ohio",
@@ -332,7 +337,8 @@
       "west-chester-township",
       "westerville",
       "worthington"
-    ]
+    ],
+    "indexed": true
   },
   {
     "slug": "washington",
@@ -370,7 +376,8 @@
       "tacoma",
       "tukwila",
       "vancouver"
-    ]
+    ],
+    "indexed": true
   },
   {
     "slug": "arizona",
@@ -392,7 +399,8 @@
       "scottsdale",
       "tempe",
       "tucson"
-    ]
+    ],
+    "indexed": true
   },
   {
     "slug": "colorado",
@@ -429,7 +437,8 @@
       "parker",
       "thornton",
       "woodland-park"
-    ]
+    ],
+    "indexed": true
   },
   {
     "slug": "tennessee",
@@ -456,7 +465,8 @@
       "nashville",
       "nolensville",
       "smyrna"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "wisconsin",
@@ -490,7 +500,8 @@
       "west-allis",
       "west-milwaukee",
       "whitefish-bay"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "georgia",
@@ -526,7 +537,8 @@
       "suwanee",
       "tucker",
       "woodstock"
-    ]
+    ],
+    "indexed": true
   },
   {
     "slug": "oregon",
@@ -546,7 +558,8 @@
       "town-center",
       "tualatin",
       "wilsonville"
-    ]
+    ],
+    "indexed": true
   },
   {
     "slug": "pennsylvania",
@@ -588,7 +601,8 @@
       "wynnewood",
       "yardley",
       "zelienople"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "maryland",
@@ -626,7 +640,8 @@
       "silver-spring",
       "timonium",
       "towson"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "indiana",
@@ -650,7 +665,8 @@
       "noblesville",
       "salem",
       "westfield"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "missouri",
@@ -678,7 +694,8 @@
       "st-louis",
       "st-peters",
       "weldon-spring"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "illinois",
@@ -709,7 +726,8 @@
       "warrenville",
       "willowbrook",
       "woodridge"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "michigan",
@@ -749,7 +767,8 @@
       "westland",
       "wixom",
       "wyandotte"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "idaho",
@@ -768,7 +787,8 @@
       "meridian",
       "nampa",
       "post-falls"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "utah",
@@ -798,7 +818,8 @@
       "taylorsville",
       "west-valley-city",
       "woods-cross"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "south-carolina",
@@ -819,7 +840,8 @@
       "myrtle-beach",
       "north-charleston",
       "summerville"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "minnesota",
@@ -851,7 +873,8 @@
       "st-paul",
       "stillwater",
       "wayzata"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "new-york",
@@ -881,7 +904,8 @@
       "staten-island",
       "williamsville",
       "woodbury"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "oklahoma",
@@ -900,7 +924,8 @@
       "oklahoma-city",
       "tulsa",
       "yukon"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "louisiana",
@@ -922,7 +947,8 @@
       "new-orleans",
       "shreveport",
       "slidell"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "nevada",
@@ -934,7 +960,8 @@
       "henderson",
       "las-vegas",
       "reno"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "alabama",
@@ -956,7 +983,8 @@
       "pinson",
       "trussville",
       "vestavia-hills"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "kentucky",
@@ -976,7 +1004,8 @@
       "shepherdsville",
       "somerset",
       "st-matthews"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "massachusetts",
@@ -1014,7 +1043,8 @@
       "west-bridgewater",
       "weymouth",
       "worcester"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "new-mexico",
@@ -1028,7 +1058,8 @@
       "corrales",
       "los-ranchos-de-albuquerque",
       "rio-rancho"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "hawaii",
@@ -1044,7 +1075,8 @@
       "kailua-kona",
       "kihei",
       "kilauea"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "iowa",
@@ -1063,7 +1095,8 @@
       "waterloo",
       "waukee",
       "west-des-moines"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "kansas",
@@ -1084,7 +1117,8 @@
       "roeland-park",
       "shawnee",
       "wichita"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "nebraska",
@@ -1098,7 +1132,8 @@
       "lincoln",
       "omaha",
       "papillion"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "district-of-columbia",
@@ -1108,7 +1143,8 @@
     "cityCount": 1,
     "cities": [
       "washington"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "new-jersey",
@@ -1128,7 +1164,8 @@
       "paramus",
       "voorhees-township",
       "westfield"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "mississippi",
@@ -1140,7 +1177,8 @@
       "biloxi",
       "madison",
       "southaven"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "arkansas",
@@ -1150,7 +1188,8 @@
     "cityCount": 1,
     "cities": [
       "west-memphis"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "maine",
@@ -1160,7 +1199,8 @@
     "cityCount": 1,
     "cities": [
       "portland"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "new-hampshire",
@@ -1170,7 +1210,8 @@
     "cityCount": 1,
     "cities": [
       "manchester"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "rhode-island",
@@ -1180,7 +1221,8 @@
     "cityCount": 1,
     "cities": [
       "warwick"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "west-virginia",
@@ -1190,7 +1232,8 @@
     "cityCount": 1,
     "cities": [
       "charleston"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "alaska",
@@ -1200,6 +1243,7 @@
     "cityCount": 1,
     "cities": [
       "anchorage"
-    ]
+    ],
+    "indexed": false
   }
 ]

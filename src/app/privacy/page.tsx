@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { canonical } from "@/lib/seo/canonical";
 
 export const metadata: Metadata = {
+  robots: { index: false, follow: true },
   title: "Privacy Policy",
   description: "Privacy policy for Peptides Nearby.",
   alternates: { canonical: canonical("/privacy") },

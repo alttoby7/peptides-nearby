@@ -80,7 +80,8 @@
       "sermorelin",
       "tb-500",
       "tirzepatide"
-    ]
+    ],
+    "indexed": true
   },
   {
     "slug": "houston",
@@ -163,7 +164,8 @@
       "tb-500",
       "tesamorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": true
   },
   {
     "slug": "scottsdale",
@@ -250,7 +252,8 @@
       "tb-500",
       "thymosin-alpha-1",
       "tirzepatide"
-    ]
+    ],
+    "indexed": true
   },
   {
     "slug": "las-vegas",
@@ -330,7 +333,8 @@
       "semaglutide",
       "sermorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": true
   },
   {
     "slug": "newport-beach",
@@ -406,7 +410,8 @@
       "semaglutide",
       "tesamorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": true
   },
   {
     "slug": "jacksonville",
@@ -483,7 +488,8 @@
       "semaglutide",
       "sermorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": true
   },
   {
     "slug": "chicago",
@@ -562,7 +568,8 @@
       "tb-500",
       "tesamorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": true
   },
   {
     "slug": "albuquerque",
@@ -634,7 +641,8 @@
       "semaglutide",
       "sermorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": true
   },
   {
     "slug": "louisville",
@@ -693,7 +701,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "tucson",
@@ -762,7 +771,8 @@
       "semaglutide",
       "sermorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": true
   },
   {
     "slug": "wilmington",
@@ -820,7 +830,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "colorado-springs",
@@ -877,7 +888,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "irvine",
@@ -952,7 +964,8 @@
       "tesamorelin",
       "thymosin-alpha-1",
       "tirzepatide"
-    ]
+    ],
+    "indexed": true
   },
   {
     "slug": "portland",
@@ -1021,7 +1034,8 @@
       "semaglutide",
       "sermorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": true
   },
   {
     "slug": "boca-raton",
@@ -1098,7 +1112,8 @@
       "tb-500",
       "tesamorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": true
   },
   {
     "slug": "orlando",
@@ -1171,7 +1186,8 @@
       "tb-500",
       "tesamorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": true
   },
   {
     "slug": "virginia-beach",
@@ -1231,7 +1247,8 @@
       "nad-plus",
       "pt-141",
       "sermorelin"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "charlotte",
@@ -1293,7 +1310,8 @@
       "semaglutide",
       "sermorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": true
   },
   {
     "slug": "bend",
@@ -1347,7 +1365,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "dallas",
@@ -1408,7 +1427,8 @@
       "semaglutide",
       "sermorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": true
   },
   {
     "slug": "san-francisco",
@@ -1473,7 +1493,8 @@
       "semaglutide",
       "sermorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": true
   },
   {
     "slug": "tampa",
@@ -1540,7 +1561,8 @@
       "semaglutide",
       "sermorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": true
   },
   {
     "slug": "new-york",
@@ -1604,7 +1626,8 @@
       "semaglutide",
       "sermorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": true
   },
   {
     "slug": "cincinnati",
@@ -1669,7 +1692,8 @@
       "semaglutide",
       "sermorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "fort-lauderdale",
@@ -1734,7 +1758,8 @@
       "tb-500",
       "tesamorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": true
   },
   {
     "slug": "oklahoma-city",
@@ -1794,7 +1819,8 @@
       "semaglutide",
       "sermorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "asheville",
@@ -1851,7 +1877,8 @@
       "semaglutide",
       "sermorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "boise",
@@ -1900,7 +1927,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "honolulu",
@@ -1959,7 +1987,8 @@
       "semaglutide",
       "sermorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": true
   },
   {
     "slug": "atlanta",
@@ -2024,7 +2053,8 @@
       "sermorelin",
       "tb-500",
       "tirzepatide"
-    ]
+    ],
+    "indexed": true
   },
   {
     "slug": "columbus",
@@ -2083,7 +2113,8 @@
       "semaglutide",
       "sermorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": true
   },
   {
     "slug": "new-orleans",
@@ -2131,7 +2162,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "raleigh",
@@ -2190,7 +2222,8 @@
       "semaglutide",
       "sermorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": true
   },
   {
     "slug": "birmingham",
@@ -2237,7 +2270,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "nashville",
@@ -2310,7 +2344,8 @@
       "tesamorelin",
       "thymosin-alpha-1",
       "tirzepatide"
-    ]
+    ],
+    "indexed": true
   },
   {
     "slug": "san-jose",
@@ -2367,7 +2402,8 @@
       "semaglutide",
       "sermorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": true
   },
   {
     "slug": "boulder",
@@ -2412,7 +2448,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "omaha",
@@ -2460,7 +2497,8 @@
     "peptides": [
       "glutathione",
       "semaglutide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "savannah",
@@ -2505,7 +2543,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "spokane",
@@ -2552,7 +2591,8 @@
     ],
     "peptides": [
       "glutathione"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "washington",
@@ -2608,7 +2648,8 @@
       "semaglutide",
       "sermorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "sacramento",
@@ -2664,7 +2705,8 @@
       "semaglutide",
       "sermorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": true
   },
   {
     "slug": "seattle",
@@ -2718,7 +2760,8 @@
       "semaglutide",
       "sermorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": true
   },
   {
     "slug": "st-louis",
@@ -2767,7 +2810,8 @@
       "semaglutide",
       "sermorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "los-angeles",
@@ -2828,7 +2872,8 @@
       "tesamorelin",
       "thymosin-alpha-1",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "madison",
@@ -2870,7 +2915,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "memphis",
@@ -2911,7 +2957,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "indianapolis",
@@ -2956,7 +3003,8 @@
       "semaglutide",
       "sermorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "philadelphia",
@@ -3020,7 +3068,8 @@
       "tesamorelin",
       "thymosin-alpha-1",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "pittsburgh",
@@ -3080,7 +3129,8 @@
       "tesamorelin",
       "thymosin-alpha-1",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "richmond",
@@ -3120,7 +3170,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "west-palm-beach",
@@ -3168,7 +3219,8 @@
       "semaglutide",
       "sermorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": true
   },
   {
     "slug": "mt-pleasant",
@@ -3207,7 +3259,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "charleston",
@@ -3244,7 +3297,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "baltimore",
@@ -3283,7 +3337,8 @@
     "peptides": [
       "semaglutide",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "boston",
@@ -3329,7 +3384,8 @@
       "semaglutide",
       "sermorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "carmel",
@@ -3372,7 +3428,8 @@
       "semaglutide",
       "sermorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "minneapolis",
@@ -3417,7 +3474,8 @@
       "semaglutide",
       "sermorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "salt-lake-city",
@@ -3464,7 +3522,8 @@
       "tb-500",
       "tesamorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "metairie",
@@ -3496,7 +3555,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "milwaukee",
@@ -3528,7 +3588,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "overland-park",
@@ -3575,7 +3636,8 @@
       "tesamorelin",
       "thymosin-alpha-1",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "palm-beach-gardens",
@@ -3619,7 +3681,8 @@
       "semaglutide",
       "sermorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "des-moines",
@@ -3659,7 +3722,8 @@
       "semaglutide",
       "sermorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "kansas-city",
@@ -3691,7 +3755,8 @@
     ],
     "peptides": [
       "nad-plus"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "detroit",
@@ -3722,7 +3787,8 @@
     ],
     "peptides": [
       "hcg"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "beverly-hills",
@@ -3767,7 +3833,8 @@
       "sermorelin",
       "tb-500",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "franklin",
@@ -3798,7 +3865,8 @@
     "peptides": [
       "bpc-157",
       "semaglutide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "west-des-moines",
@@ -3828,7 +3896,8 @@
     ],
     "peptides": [
       "nad-plus"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "bellevue",
@@ -3861,7 +3930,8 @@
       "nad-plus",
       "semaglutide",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "delray-beach",
@@ -3891,7 +3961,8 @@
     "peptides": [
       "nad-plus",
       "semaglutide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "edmond",
@@ -3922,7 +3993,8 @@
       "hcg",
       "semaglutide",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "chesapeake",
@@ -3948,7 +4020,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "eagle",
@@ -3974,7 +4047,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "fishers",
@@ -4002,7 +4076,8 @@
     ],
     "peptides": [
       "nad-plus"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "henderson",
@@ -4036,7 +4111,8 @@
       "semaglutide",
       "sermorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "leawood",
@@ -4068,7 +4144,8 @@
       "pt-141",
       "semaglutide",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "phoenix",
@@ -4101,7 +4178,8 @@
       "semaglutide",
       "sermorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "edina",
@@ -4134,7 +4212,8 @@
       "semaglutide",
       "tb-500",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "germantown",
@@ -4159,7 +4238,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "henrico",
@@ -4184,7 +4264,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "brentwood",
@@ -4211,7 +4292,8 @@
     "peptides": [
       "glutathione",
       "nad-plus"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "cary",
@@ -4242,7 +4324,8 @@
       "semaglutide",
       "sermorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "lake-oswego",
@@ -4270,7 +4353,8 @@
       "hcg",
       "semaglutide",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "los-gatos",
@@ -4304,7 +4388,8 @@
       "semaglutide",
       "sermorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "meridian",
@@ -4328,7 +4413,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "midlothian",
@@ -4354,7 +4440,8 @@
     ],
     "peptides": [
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "plano",
@@ -4386,7 +4473,8 @@
       "semaglutide",
       "sermorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "sandy",
@@ -4422,7 +4510,8 @@
       "tb-500",
       "tesamorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "santa-ana",
@@ -4448,7 +4537,8 @@
     ],
     "peptides": [
       "oxytocin"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "spokane-valley",
@@ -4472,7 +4562,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "vancouver",
@@ -4498,7 +4589,8 @@
     ],
     "peptides": [
       "nad-plus"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "vestavia-hills",
@@ -4522,7 +4614,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "wauwatosa",
@@ -4546,7 +4639,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "winter-park",
@@ -4574,7 +4668,8 @@
       "nad-plus",
       "semaglutide",
       "sermorelin"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "birmingham",
@@ -4603,7 +4698,8 @@
       "retatrutide",
       "semaglutide",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "brookfield",
@@ -4626,7 +4722,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "brooklyn",
@@ -4649,7 +4746,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "chesterfield",
@@ -4675,7 +4773,8 @@
     "peptides": [
       "nad-plus",
       "semaglutide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "costa-mesa",
@@ -4709,7 +4808,8 @@
       "sermorelin",
       "tb-500",
       "tesamorelin"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "draper",
@@ -4734,7 +4834,8 @@
     ],
     "peptides": [
       "semaglutide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "garden-city",
@@ -4757,7 +4858,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "greenwood",
@@ -4801,7 +4903,8 @@
       "tesamorelin",
       "thymosin-alpha-1",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "holladay",
@@ -4827,7 +4930,8 @@
     "peptides": [
       "nad-plus",
       "semaglutide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "jupiter",
@@ -4853,7 +4957,8 @@
     "peptides": [
       "semaglutide",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "pasadena",
@@ -4881,7 +4986,8 @@
       "hcg",
       "nad-plus",
       "pt-141"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "powell",
@@ -4911,7 +5017,8 @@
       "oxytocin",
       "pt-141",
       "sermorelin"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "renton",
@@ -4939,7 +5046,8 @@
       "oxytocin",
       "semaglutide",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "wexford",
@@ -4969,7 +5077,8 @@
       "semaglutide",
       "sermorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "aiea",
@@ -4993,7 +5102,8 @@
     ],
     "peptides": [
       "nad-plus"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "arlington",
@@ -5018,7 +5128,8 @@
     "peptides": [
       "liraglutide",
       "nad-plus"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "bartlett",
@@ -5040,7 +5151,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "beaverton",
@@ -5075,7 +5187,8 @@
       "sermorelin",
       "tb-500",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "bryn-mawr",
@@ -5097,7 +5210,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "collierville",
@@ -5119,7 +5233,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "corona-del-mar",
@@ -5151,7 +5266,8 @@
       "semaglutide",
       "sermorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "dearborn",
@@ -5173,7 +5289,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "greenfield",
@@ -5195,7 +5312,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "kailua",
@@ -5224,7 +5342,8 @@
       "semaglutide",
       "sermorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "lee-s-summit",
@@ -5253,7 +5372,8 @@
       "semaglutide",
       "sermorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "liberty-lake",
@@ -5275,7 +5395,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "mason",
@@ -5301,7 +5422,8 @@
       "hcg",
       "nad-plus",
       "semaglutide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "monona",
@@ -5326,7 +5448,8 @@
     "peptides": [
       "semaglutide",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "north-charleston",
@@ -5348,7 +5471,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "north-miami",
@@ -5370,7 +5494,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "orange",
@@ -5392,7 +5517,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "pooler",
@@ -5414,7 +5540,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "shorewood",
@@ -5436,7 +5563,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "towson",
@@ -5458,7 +5586,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "troy",
@@ -5491,7 +5620,8 @@
       "semaglutide",
       "sermorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "urbandale",
@@ -5513,7 +5643,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "wilton-manors",
@@ -5538,7 +5669,8 @@
     "peptides": [
       "semaglutide",
       "tesamorelin"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "worthington",
@@ -5560,7 +5692,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "baton-rouge",
@@ -5581,7 +5714,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "bloomington",
@@ -5602,7 +5736,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "bronx",
@@ -5623,7 +5758,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "clive",
@@ -5644,7 +5780,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "denver",
@@ -5665,7 +5802,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "dublin",
@@ -5690,7 +5828,8 @@
       "glutathione",
       "nad-plus",
       "sermorelin"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "elk-grove",
@@ -5713,7 +5852,8 @@
     ],
     "peptides": [
       "semaglutide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "falls-church",
@@ -5738,7 +5878,8 @@
       "liraglutide",
       "nad-plus",
       "semaglutide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "folsom",
@@ -5763,7 +5904,8 @@
       "hcg",
       "semaglutide",
       "sermorelin"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "gaithersburg",
@@ -5784,7 +5926,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "greenville",
@@ -5805,7 +5948,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "jacksonville-beach",
@@ -5826,7 +5970,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "lutz",
@@ -5850,7 +5995,8 @@
     "peptides": [
       "semaglutide",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "mechanicsville",
@@ -5871,7 +6017,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "mequon",
@@ -5892,7 +6039,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "middleton",
@@ -5913,7 +6061,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "millcreek",
@@ -5937,7 +6086,8 @@
     "peptides": [
       "semaglutide",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "moore",
@@ -5960,7 +6110,8 @@
     ],
     "peptides": [
       "nad-plus"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "norman",
@@ -5983,7 +6134,8 @@
     ],
     "peptides": [
       "sermorelin"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "pikesville",
@@ -6006,7 +6158,8 @@
     ],
     "peptides": [
       "glutathione"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "plantation",
@@ -6031,7 +6184,8 @@
       "bpc-157",
       "semaglutide",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "post-falls",
@@ -6052,7 +6206,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "prairie-village",
@@ -6077,7 +6232,8 @@
       "hcg",
       "semaglutide",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "roseville",
@@ -6102,7 +6258,8 @@
       "hcg",
       "semaglutide",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "sandy-springs",
@@ -6125,7 +6282,8 @@
     ],
     "peptides": [
       "semaglutide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "silver-spring",
@@ -6151,7 +6309,8 @@
       "semaglutide",
       "sermorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "spring",
@@ -6175,7 +6334,8 @@
     "peptides": [
       "hcg",
       "pt-141"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "st-paul",
@@ -6196,7 +6356,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "tustin",
@@ -6224,7 +6385,8 @@
       "semaglutide",
       "sermorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "wellington",
@@ -6247,7 +6409,8 @@
     ],
     "peptides": [
       "nad-plus"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "alexandria",
@@ -6277,7 +6440,8 @@
       "semaglutide",
       "sermorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "alpharetta",
@@ -6301,7 +6465,8 @@
       "hcg",
       "semaglutide",
       "sermorelin"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "altamonte-springs",
@@ -6324,7 +6489,8 @@
     "peptides": [
       "semaglutide",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "arden",
@@ -6344,7 +6510,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "bethesda",
@@ -6375,7 +6542,8 @@
       "semaglutide",
       "sermorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "bloomfield-hills",
@@ -6402,7 +6570,8 @@
       "semaglutide",
       "sermorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "bloomfield-township",
@@ -6422,7 +6591,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "bountiful",
@@ -6452,7 +6622,8 @@
       "semaglutide",
       "sermorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "brookline",
@@ -6472,7 +6643,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "broomfield",
@@ -6492,7 +6664,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "brownsburg",
@@ -6512,7 +6685,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "canonsburg",
@@ -6532,7 +6706,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "catonsville",
@@ -6556,7 +6731,8 @@
       "glutathione",
       "semaglutide",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "centennial",
@@ -6576,7 +6752,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "coral-springs",
@@ -6596,7 +6773,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "cottonwood-heights",
@@ -6618,7 +6796,8 @@
     ],
     "peptides": [
       "retatrutide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "cumming",
@@ -6638,7 +6817,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "davie",
@@ -6658,7 +6838,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "decatur",
@@ -6678,7 +6859,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "deerfield-beach",
@@ -6698,7 +6880,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "durham",
@@ -6730,7 +6913,8 @@
       "ss-31",
       "tb-500",
       "tesamorelin"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "ellicott-city",
@@ -6750,7 +6934,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "encino",
@@ -6770,7 +6955,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "frisco",
@@ -6790,7 +6976,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "gig-harbor",
@@ -6812,7 +6999,8 @@
     ],
     "peptides": [
       "semaglutide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "glen-allen",
@@ -6832,7 +7020,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "glen-burnie",
@@ -6855,7 +7044,8 @@
     "peptides": [
       "semaglutide",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "homewood",
@@ -6875,7 +7065,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "hoover",
@@ -6895,7 +7086,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "huntersville",
@@ -6920,7 +7112,8 @@
       "nad-plus",
       "semaglutide",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "huntington-beach",
@@ -6940,7 +7133,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "irving",
@@ -6962,7 +7156,8 @@
     ],
     "peptides": [
       "nad-plus"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "katy",
@@ -6982,7 +7177,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "kirkland",
@@ -7002,7 +7198,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "laguna-hills",
@@ -7029,7 +7226,8 @@
       "semaglutide",
       "sermorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "lake-st-louis",
@@ -7052,7 +7250,8 @@
     "peptides": [
       "bpc-157",
       "thymosin-alpha-1"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "lakeland",
@@ -7072,7 +7271,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "longmont",
@@ -7092,7 +7292,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "louisville",
@@ -7112,7 +7313,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "matthews",
@@ -7139,7 +7341,8 @@
       "semaglutide",
       "sermorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "minnetonka",
@@ -7161,7 +7364,8 @@
     ],
     "peptides": [
       "nad-plus"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "monument",
@@ -7181,7 +7385,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "mountain-brook",
@@ -7201,7 +7406,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "murray",
@@ -7221,7 +7427,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "naperville",
@@ -7241,7 +7448,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "new-berlin",
@@ -7261,7 +7469,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "north-palm-beach",
@@ -7283,7 +7492,8 @@
     ],
     "peptides": [
       "nad-plus"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "oakland",
@@ -7305,7 +7515,8 @@
     ],
     "peptides": [
       "nad-plus"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "oakland-park",
@@ -7331,7 +7542,8 @@
       "nad-plus",
       "pt-141",
       "sermorelin"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "paducah",
@@ -7351,7 +7563,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "papillion",
@@ -7373,7 +7586,8 @@
     ],
     "peptides": [
       "semaglutide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "parkville",
@@ -7395,7 +7609,8 @@
     ],
     "peptides": [
       "nad-plus"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "ponte-vedra-beach",
@@ -7415,7 +7630,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "rio-rancho",
@@ -7438,7 +7654,8 @@
     "peptides": [
       "semaglutide",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "royal-oak",
@@ -7461,7 +7678,8 @@
     "peptides": [
       "glutathione",
       "nad-plus"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "santa-monica",
@@ -7483,7 +7701,8 @@
     ],
     "peptides": [
       "nad-plus"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "shoreview",
@@ -7503,7 +7722,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "south-san-francisco",
@@ -7523,7 +7743,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "southfield",
@@ -7550,7 +7771,8 @@
       "semaglutide",
       "sermorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "southlake",
@@ -7570,7 +7792,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "summerville",
@@ -7590,7 +7813,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "sun-prairie",
@@ -7610,7 +7834,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "the-woodlands",
@@ -7633,7 +7858,8 @@
     "peptides": [
       "semaglutide",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "timonium",
@@ -7655,7 +7881,8 @@
     ],
     "peptides": [
       "glutathione"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "tualatin",
@@ -7682,7 +7909,8 @@
       "semaglutide",
       "sermorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "verona",
@@ -7702,7 +7930,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "voorhees-township",
@@ -7724,7 +7953,8 @@
     ],
     "peptides": [
       "hcg"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "wake-forest",
@@ -7744,7 +7974,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "wayzata",
@@ -7773,7 +8004,8 @@
       "semax",
       "tb-500",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "west-chester-township",
@@ -7796,7 +8028,8 @@
     "peptides": [
       "liraglutide",
       "semaglutide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "winter-springs",
@@ -7823,7 +8056,8 @@
       "oxytocin",
       "pt-141",
       "sermorelin"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "acworth",
@@ -7842,7 +8076,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "alabaster",
@@ -7861,7 +8096,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "apex",
@@ -7882,7 +8118,8 @@
     ],
     "peptides": [
       "semaglutide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "arlington",
@@ -7904,7 +8141,8 @@
     "peptides": [
       "semaglutide",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "arlington",
@@ -7923,7 +8161,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "bellaire",
@@ -7942,7 +8181,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "berkeley",
@@ -7965,7 +8205,8 @@
       "retatrutide",
       "semaglutide",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "bethel-park",
@@ -7984,7 +8225,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "cambridge",
@@ -8003,7 +8245,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "campbell",
@@ -8025,7 +8268,8 @@
     "peptides": [
       "glutathione",
       "nad-plus"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "candler",
@@ -8044,7 +8288,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "canton",
@@ -8063,7 +8308,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "castle-rock",
@@ -8082,7 +8328,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "cherry-hill-township",
@@ -8103,7 +8350,8 @@
     ],
     "peptides": [
       "hcg"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "chevy-chase",
@@ -8122,7 +8370,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "cibolo",
@@ -8143,7 +8392,8 @@
     ],
     "peptides": [
       "nad-plus"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "clearwater",
@@ -8166,7 +8416,8 @@
       "bpc-157",
       "semaglutide",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "coeur-d-alene",
@@ -8185,7 +8436,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "columbia",
@@ -8204,7 +8456,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "cornelius",
@@ -8225,7 +8478,8 @@
     ],
     "peptides": [
       "nad-plus"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "crestview-hills",
@@ -8251,7 +8505,8 @@
       "semaglutide",
       "sermorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "daniel-island",
@@ -8270,7 +8525,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "eagan",
@@ -8289,7 +8545,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "elkhorn",
@@ -8308,7 +8565,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "elmhurst",
@@ -8335,7 +8593,8 @@
       "pt-141",
       "semaglutide",
       "sermorelin"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "fair-oaks",
@@ -8354,7 +8613,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "fairfield",
@@ -8373,7 +8633,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "farmington-hills",
@@ -8392,7 +8653,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "fort-myers",
@@ -8411,7 +8673,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "fremont",
@@ -8430,7 +8693,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "gahanna",
@@ -8449,7 +8713,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "glendale",
@@ -8482,7 +8747,8 @@
       "ss-31",
       "tb-500",
       "thymosin-alpha-1"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "glenview",
@@ -8504,7 +8770,8 @@
     "peptides": [
       "semaglutide",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "grand-junction",
@@ -8523,7 +8790,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "greenacres",
@@ -8546,7 +8814,8 @@
       "hcg",
       "semaglutide",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "gresham",
@@ -8565,7 +8834,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "grosse-pointe",
@@ -8588,7 +8858,8 @@
       "nad-plus",
       "semaglutide",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "hallandale-beach",
@@ -8607,7 +8878,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "hendersonville",
@@ -8626,7 +8898,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "hilliard",
@@ -8652,7 +8925,8 @@
       "semaglutide",
       "sermorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "hoboken",
@@ -8673,7 +8947,8 @@
     ],
     "peptides": [
       "nad-plus"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "holly-springs",
@@ -8695,7 +8970,8 @@
     "peptides": [
       "semaglutide",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "hollywood",
@@ -8714,7 +8990,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "huntsville",
@@ -8733,7 +9010,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "hurstbourne",
@@ -8752,7 +9030,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "idaho-falls",
@@ -8771,7 +9050,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "jasper",
@@ -8790,7 +9070,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "jenkintown",
@@ -8811,7 +9092,8 @@
     ],
     "peptides": [
       "glutathione"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "kansas-city",
@@ -8830,7 +9112,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "kent",
@@ -8849,7 +9132,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "lake-forest",
@@ -8875,7 +9159,8 @@
       "semaglutide",
       "sermorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "leland",
@@ -8894,7 +9179,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "lenexa",
@@ -8915,7 +9201,8 @@
     ],
     "peptides": [
       "glutathione"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "lewisville",
@@ -8934,7 +9221,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "liberty",
@@ -8953,7 +9241,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "liberty-township",
@@ -8972,7 +9261,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "lima",
@@ -8991,7 +9281,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "littleton",
@@ -9010,7 +9301,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "madison",
@@ -9031,7 +9323,8 @@
     ],
     "peptides": [
       "semaglutide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "madison",
@@ -9050,7 +9343,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "maitland",
@@ -9072,7 +9366,8 @@
     "peptides": [
       "semaglutide",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "maple-grove",
@@ -9094,7 +9389,8 @@
     "peptides": [
       "retatrutide",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "marietta",
@@ -9116,7 +9412,8 @@
     "peptides": [
       "semaglutide",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "mcfarland",
@@ -9135,7 +9432,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "menomonee-falls",
@@ -9154,7 +9452,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "mesa",
@@ -9173,7 +9472,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "mesquite",
@@ -9192,7 +9492,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "miami-beach",
@@ -9211,7 +9512,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "milford",
@@ -9230,7 +9532,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "milpitas",
@@ -9256,7 +9559,8 @@
       "semaglutide",
       "sermorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "moon-township",
@@ -9277,7 +9581,8 @@
     ],
     "peptides": [
       "semaglutide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "myrtle-beach",
@@ -9296,7 +9601,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "nampa",
@@ -9315,7 +9621,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "new-braunfels",
@@ -9355,7 +9662,8 @@
       "tesamorelin",
       "thymosin-alpha-1",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "new-port-richey",
@@ -9378,7 +9686,8 @@
       "nad-plus",
       "semaglutide",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "nichols-hills",
@@ -9397,7 +9706,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "noblesville",
@@ -9416,7 +9726,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "norfolk",
@@ -9435,7 +9746,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "north-chesterfield",
@@ -9454,7 +9766,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "north-royalton",
@@ -9473,7 +9786,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "north-salt-lake",
@@ -9492,7 +9806,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "nottingham",
@@ -9513,7 +9828,8 @@
     ],
     "peptides": [
       "nad-plus"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "o-fallon",
@@ -9532,7 +9848,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "oceanside",
@@ -9551,7 +9868,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "oro-valley",
@@ -9570,7 +9888,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "owings-mills",
@@ -9596,7 +9915,8 @@
       "semaglutide",
       "sermorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "palm-beach",
@@ -9619,7 +9939,8 @@
       "nad-plus",
       "semaglutide",
       "sermorelin"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "park-city",
@@ -9638,7 +9959,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "parker",
@@ -9657,7 +9979,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "plymouth",
@@ -9678,7 +10001,8 @@
     ],
     "peptides": [
       "semaglutide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "redmond",
@@ -9702,7 +10026,8 @@
       "nad-plus",
       "semaglutide",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "richfield",
@@ -9723,7 +10048,8 @@
     ],
     "peptides": [
       "semaglutide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "richmond-hill",
@@ -9742,7 +10068,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "riverside",
@@ -9761,7 +10088,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "riverview",
@@ -9780,7 +10108,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "riviera-beach",
@@ -9799,7 +10128,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "rochester-hills",
@@ -9818,7 +10148,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "rocklin",
@@ -9847,7 +10178,8 @@
       "semaglutide",
       "sermorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "roeland-park",
@@ -9873,7 +10205,8 @@
       "sermorelin",
       "tesamorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "sarasota",
@@ -9892,7 +10225,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "schertz",
@@ -9913,7 +10247,8 @@
     ],
     "peptides": [
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "severna-park",
@@ -9934,7 +10269,8 @@
     ],
     "peptides": [
       "semaglutide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "smyrna",
@@ -9961,7 +10297,8 @@
       "semaglutide",
       "sermorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "smyrna",
@@ -9980,7 +10317,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "southern-pines",
@@ -9999,7 +10337,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "st-petersburg",
@@ -10020,7 +10359,8 @@
     ],
     "peptides": [
       "glutathione"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "sterling-heights",
@@ -10039,7 +10379,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "stoneham",
@@ -10067,7 +10408,8 @@
       "sermorelin",
       "tesamorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "studio-city",
@@ -10089,7 +10431,8 @@
     "peptides": [
       "glutathione",
       "nad-plus"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "sunrise",
@@ -10108,7 +10451,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "tempe",
@@ -10127,7 +10471,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "torrance",
@@ -10148,7 +10493,8 @@
     ],
     "peptides": [
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "trussville",
@@ -10167,7 +10513,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "tukwila",
@@ -10188,7 +10535,8 @@
     ],
     "peptides": [
       "semaglutide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "walnut-creek",
@@ -10207,7 +10555,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "waltham",
@@ -10226,7 +10575,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "waterford-township",
@@ -10245,7 +10595,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "watertown",
@@ -10271,7 +10622,8 @@
       "semaglutide",
       "sermorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "waukee",
@@ -10290,7 +10642,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "waukesha",
@@ -10309,7 +10662,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "wellesley",
@@ -10328,7 +10682,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "wesley-chapel",
@@ -10352,7 +10707,8 @@
       "retatrutide",
       "semaglutide",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "west-allis",
@@ -10371,7 +10727,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "west-hollywood",
@@ -10393,7 +10750,8 @@
     "peptides": [
       "glutathione",
       "nad-plus"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "winston-salem",
@@ -10412,7 +10770,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "wyandotte",
@@ -10433,7 +10792,8 @@
     ],
     "peptides": [
       "semaglutide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "wylie",
@@ -10452,7 +10812,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "wynnewood",
@@ -10471,7 +10832,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "yukon",
@@ -10492,7 +10854,8 @@
     ],
     "peptides": [
       "semaglutide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "acton",
@@ -10512,7 +10875,8 @@
     ],
     "peptides": [
       "semaglutide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "addison",
@@ -10533,7 +10897,8 @@
     "peptides": [
       "semaglutide",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "aldie",
@@ -10551,7 +10916,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "alexandria",
@@ -10569,7 +10935,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "altoona",
@@ -10587,7 +10954,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "anaheim",
@@ -10605,7 +10973,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "angier",
@@ -10625,7 +10994,8 @@
     ],
     "peptides": [
       "nad-plus"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "ann-arbor",
@@ -10645,7 +11015,8 @@
     ],
     "peptides": [
       "glutathione"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "anna",
@@ -10663,7 +11034,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "annapolis",
@@ -10681,7 +11053,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "arcadia",
@@ -10699,7 +11072,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "ardmore",
@@ -10717,7 +11091,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "arlington",
@@ -10735,7 +11110,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "arlington-heights",
@@ -10753,7 +11129,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "arvada",
@@ -10771,7 +11148,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "athens",
@@ -10789,7 +11167,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "attleboro",
@@ -10807,7 +11186,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "auburndale",
@@ -10825,7 +11205,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "avon",
@@ -10843,7 +11224,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "bala-cynwyd",
@@ -10871,7 +11253,8 @@
       "semaglutide",
       "sermorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "basehor",
@@ -10889,7 +11272,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "bayside",
@@ -10917,7 +11301,8 @@
       "semaglutide",
       "sermorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "belle-vernon",
@@ -10935,7 +11320,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "belleair-bluffs",
@@ -10953,7 +11339,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "bernalillo",
@@ -10971,7 +11358,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "biloxi",
@@ -10989,7 +11377,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "bingham-farms",
@@ -11007,7 +11396,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "blanchard",
@@ -11025,7 +11415,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "blue-ash",
@@ -11043,7 +11434,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "blue-bell",
@@ -11061,7 +11453,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "blue-springs",
@@ -11079,7 +11472,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "boardman",
@@ -11097,7 +11491,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "bothell",
@@ -11118,7 +11513,8 @@
     "peptides": [
       "semaglutide",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "brea",
@@ -11147,7 +11543,8 @@
       "tb-500",
       "tesamorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "brentwood",
@@ -11165,7 +11562,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "buford",
@@ -11183,7 +11581,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "burbank",
@@ -11201,7 +11600,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "burlingame",
@@ -11219,7 +11619,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "burlington",
@@ -11241,7 +11642,8 @@
       "nad-plus",
       "semaglutide",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "burnsville",
@@ -11262,7 +11664,8 @@
     "peptides": [
       "semaglutide",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "caldwell",
@@ -11280,7 +11683,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "carmichael",
@@ -11298,7 +11702,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "carnegie",
@@ -11318,7 +11723,8 @@
     ],
     "peptides": [
       "semaglutide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "carrollton",
@@ -11336,7 +11742,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "cave-creek",
@@ -11354,7 +11761,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "cedarburg",
@@ -11372,7 +11780,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "centerville",
@@ -11390,7 +11799,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "chalmette",
@@ -11408,7 +11818,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "chanhassen",
@@ -11426,7 +11837,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "chapel-hill",
@@ -11444,7 +11856,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "charleston",
@@ -11462,7 +11875,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "chatsworth",
@@ -11480,7 +11894,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "chehalis",
@@ -11500,7 +11915,8 @@
     ],
     "peptides": [
       "nad-plus"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "chester",
@@ -11518,7 +11934,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "chestnut-hill",
@@ -11536,7 +11953,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "chicago-ridge",
@@ -11554,7 +11972,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "citrus-heights",
@@ -11572,7 +11991,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "clairton",
@@ -11590,7 +12010,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "clarksville",
@@ -11608,7 +12029,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "clifton",
@@ -11626,7 +12048,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "college-park",
@@ -11647,7 +12070,8 @@
     "peptides": [
       "semaglutide",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "columbia",
@@ -11665,7 +12089,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "columbus",
@@ -11683,7 +12108,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "concord",
@@ -11703,7 +12129,8 @@
     ],
     "peptides": [
       "nad-plus"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "conshohocken",
@@ -11735,7 +12162,8 @@
       "tb-500",
       "thymosin-alpha-1",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "cordova",
@@ -11753,7 +12181,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "corrales",
@@ -11771,7 +12200,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "cottleville",
@@ -11791,7 +12221,8 @@
     ],
     "peptides": [
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "covington",
@@ -11809,7 +12240,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "creve-coeur",
@@ -11829,7 +12261,8 @@
     ],
     "peptides": [
       "hcg"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "crofton",
@@ -11847,7 +12280,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "cross-plains",
@@ -11865,7 +12299,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "cupertino",
@@ -11883,7 +12318,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "cypress",
@@ -11901,7 +12337,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "dania-beach",
@@ -11921,7 +12358,8 @@
     ],
     "peptides": [
       "semaglutide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "danville",
@@ -11939,7 +12377,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "davis",
@@ -11957,7 +12396,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "dayton",
@@ -11975,7 +12415,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "debary",
@@ -11996,7 +12437,8 @@
     "peptides": [
       "nad-plus",
       "oxytocin"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "dedham",
@@ -12014,7 +12456,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "delmont",
@@ -12032,7 +12475,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "des-moines",
@@ -12050,7 +12494,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "des-peres",
@@ -12068,7 +12513,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "des-plaines",
@@ -12086,7 +12532,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "dothan",
@@ -12104,7 +12551,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "dunwoody",
@@ -12122,7 +12570,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "east-meadow",
@@ -12146,7 +12595,8 @@
       "semaglutide",
       "sermorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "eastchester",
@@ -12166,7 +12616,8 @@
     ],
     "peptides": [
       "oxytocin"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "eden-prairie",
@@ -12184,7 +12635,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "edmonds",
@@ -12204,7 +12656,8 @@
     ],
     "peptides": [
       "semaglutide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "el-dorado-hills",
@@ -12222,7 +12675,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "eldersburg",
@@ -12242,7 +12696,8 @@
     ],
     "peptides": [
       "cjc-1295-ipamorelin"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "elmsford",
@@ -12260,7 +12715,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "englewood-cliffs",
@@ -12278,7 +12734,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "erie",
@@ -12296,7 +12753,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "evanston",
@@ -12316,7 +12774,8 @@
     ],
     "peptides": [
       "semaglutide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "fairfax",
@@ -12334,7 +12793,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "fairfax",
@@ -12352,7 +12812,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "fairview-heights",
@@ -12370,7 +12831,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "farmington",
@@ -12391,7 +12853,8 @@
     "peptides": [
       "semaglutide",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "federal-way",
@@ -12409,7 +12872,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "fitchburg",
@@ -12427,7 +12891,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "floyds-knobs",
@@ -12445,7 +12910,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "fort-mill",
@@ -12467,7 +12933,8 @@
       "nad-plus",
       "semaglutide",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "fort-washington",
@@ -12485,7 +12952,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "fort-worth",
@@ -12503,7 +12971,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "fountain-hills",
@@ -12521,7 +12990,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "fountain-valley",
@@ -12539,7 +13009,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "framingham",
@@ -12559,7 +13030,8 @@
     ],
     "peptides": [
       "nad-plus"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "fredericksburg",
@@ -12577,7 +13049,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "frisco",
@@ -12595,7 +13068,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "garland",
@@ -12613,7 +13087,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "garner",
@@ -12631,7 +13106,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "gate-city",
@@ -12649,7 +13125,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "germantown",
@@ -12667,7 +13144,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "gibsonton",
@@ -12685,7 +13163,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "glen-ellyn",
@@ -12703,7 +13182,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "glendale-heights",
@@ -12721,7 +13201,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "glenelg",
@@ -12739,7 +13220,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "golden",
@@ -12757,7 +13239,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "goodlettsville",
@@ -12775,7 +13258,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "grand-prairie",
@@ -12793,7 +13277,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "granite-bay",
@@ -12811,7 +13296,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "greeley",
@@ -12829,7 +13315,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "greenbrier",
@@ -12847,7 +13334,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "greenwood-village",
@@ -12865,7 +13353,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "gretna",
@@ -12883,7 +13372,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "grimes",
@@ -12901,7 +13391,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "grove-city",
@@ -12921,7 +13412,8 @@
     ],
     "peptides": [
       "nad-plus"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "gwynn-oak",
@@ -12939,7 +13431,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "hamilton",
@@ -12957,7 +13450,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "hampstead",
@@ -12975,7 +13469,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "harahan",
@@ -12993,7 +13488,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "harrison",
@@ -13011,7 +13507,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "harvey",
@@ -13029,7 +13526,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "hatboro",
@@ -13047,7 +13545,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "highland-park",
@@ -13065,7 +13564,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "highland-village",
@@ -13083,7 +13583,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "highlands-ranch",
@@ -13101,7 +13602,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "hillsdale",
@@ -13121,7 +13623,8 @@
     ],
     "peptides": [
       "nad-plus"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "hilo",
@@ -13141,7 +13644,8 @@
     ],
     "peptides": [
       "nad-plus"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "hilton-head-island",
@@ -13159,7 +13663,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "horsham",
@@ -13177,7 +13682,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "huntington-woods",
@@ -13195,7 +13701,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "independence",
@@ -13213,7 +13720,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "indian-land",
@@ -13231,7 +13739,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "indian-trail",
@@ -13252,7 +13761,8 @@
     "peptides": [
       "hcg",
       "semaglutide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "ingomar",
@@ -13270,7 +13780,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "iowa-city",
@@ -13288,7 +13799,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "irwin",
@@ -13306,7 +13818,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "itasca",
@@ -13324,7 +13837,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "jamaica",
@@ -13342,7 +13856,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "jefferson",
@@ -13360,7 +13875,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "jefferson-city",
@@ -13378,7 +13894,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "jeffersonville",
@@ -13396,7 +13913,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "johns-creek",
@@ -13414,7 +13932,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "johns-island",
@@ -13432,7 +13951,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "johnston",
@@ -13450,7 +13970,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "jones",
@@ -13468,7 +13989,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "kailua-kona",
@@ -13486,7 +14008,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "kaysville",
@@ -13504,7 +14027,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "kennesaw",
@@ -13522,7 +14046,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "kenneth-city",
@@ -13540,7 +14065,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "kensington",
@@ -13558,7 +14084,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "kihei",
@@ -13576,7 +14103,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "kilauea",
@@ -13594,7 +14122,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "king-of-prussia",
@@ -13617,7 +14146,8 @@
       "sermorelin",
       "tesamorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "kingston",
@@ -13635,7 +14165,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "kingwood",
@@ -13669,7 +14200,8 @@
       "tb-500",
       "tesamorelin",
       "thymosin-alpha-1"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "kissimmee",
@@ -13687,7 +14219,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "knoxville",
@@ -13705,7 +14238,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "kuna",
@@ -13723,7 +14257,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "la-grange",
@@ -13741,7 +14276,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "la-vista",
@@ -13759,7 +14295,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "lafayette",
@@ -13777,7 +14314,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "lafayette",
@@ -13795,7 +14333,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "laguna-niguel",
@@ -13815,7 +14354,8 @@
     ],
     "peptides": [
       "nad-plus"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "lake-forest",
@@ -13837,7 +14377,8 @@
       "nad-plus",
       "semaglutide",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "lake-mary",
@@ -13855,7 +14396,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "lake-orion",
@@ -13873,7 +14415,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "lake-wylie",
@@ -13891,7 +14434,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "lakeville",
@@ -13909,7 +14453,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "lakewood",
@@ -13927,7 +14472,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "land-o-lakes",
@@ -13950,7 +14496,8 @@
       "semaglutide",
       "sermorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "lanham",
@@ -13968,7 +14515,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "largo",
@@ -13986,7 +14534,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "lawrenceville",
@@ -14006,7 +14555,8 @@
     ],
     "peptides": [
       "semaglutide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "layton",
@@ -14024,7 +14574,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "lebanon",
@@ -14042,7 +14593,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "lebanon",
@@ -14071,7 +14623,8 @@
       "sermorelin",
       "tb-500",
       "tesamorelin"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "lehi",
@@ -14092,7 +14645,8 @@
     "peptides": [
       "hcg",
       "sermorelin"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "lewis-center",
@@ -14112,7 +14666,8 @@
     ],
     "peptides": [
       "nad-plus"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "lexington",
@@ -14130,7 +14685,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "lexington",
@@ -14148,7 +14704,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "libertyville",
@@ -14168,7 +14725,8 @@
     ],
     "peptides": [
       "semaglutide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "little-neck",
@@ -14186,7 +14744,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "livonia",
@@ -14209,7 +14768,8 @@
       "semaglutide",
       "sermorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "lombard",
@@ -14227,7 +14787,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "lone-tree",
@@ -14245,7 +14806,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "long-beach",
@@ -14265,7 +14827,8 @@
     ],
     "peptides": [
       "nad-plus"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "long-beach",
@@ -14283,7 +14846,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "long-island-city",
@@ -14301,7 +14865,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "los-ranchos-de-albuquerque",
@@ -14319,7 +14884,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "loveland",
@@ -14337,7 +14903,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "lynnfield",
@@ -14355,7 +14922,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "lynnwood",
@@ -14383,7 +14951,8 @@
       "ss-31",
       "tesamorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "lyons",
@@ -14401,7 +14970,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "mahtomedi",
@@ -14419,7 +14989,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "manassas",
@@ -14437,7 +15008,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "manchester",
@@ -14455,7 +15027,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "manhasset",
@@ -14473,7 +15046,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "manhattan",
@@ -14491,7 +15065,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "manhattan",
@@ -14509,7 +15084,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "marblehead",
@@ -14527,7 +15103,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "marshall",
@@ -14545,7 +15122,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "marysville",
@@ -14563,7 +15141,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "mckinney",
@@ -14581,7 +15160,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "mclean",
@@ -14599,7 +15179,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "medford",
@@ -14620,7 +15201,8 @@
     "peptides": [
       "nad-plus",
       "sermorelin"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "medford",
@@ -14638,7 +15220,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "medical-lake",
@@ -14656,7 +15239,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "mendota-heights",
@@ -14676,7 +15260,8 @@
     ],
     "peptides": [
       "nad-plus"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "menlo-park",
@@ -14694,7 +15279,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "miami",
@@ -14712,7 +15298,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "midvale",
@@ -14730,7 +15317,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "mill-creek",
@@ -14748,7 +15336,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "mill-valley",
@@ -14769,7 +15358,8 @@
     "peptides": [
       "semaglutide",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "mint-hill",
@@ -14787,7 +15377,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "mission",
@@ -14805,7 +15396,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "mission-viejo",
@@ -14825,7 +15417,8 @@
     ],
     "peptides": [
       "hcg"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "montclair",
@@ -14843,7 +15436,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "mooresville",
@@ -14861,7 +15455,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "mountlake-terrace",
@@ -14879,7 +15474,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "murfreesboro",
@@ -14899,7 +15495,8 @@
     ],
     "peptides": [
       "nad-plus"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "murrysville",
@@ -14917,7 +15514,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "narberth",
@@ -14935,7 +15533,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "needham",
@@ -14953,7 +15552,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "new-albany",
@@ -14971,7 +15571,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "new-carrollton",
@@ -14989,7 +15590,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "newark",
@@ -15007,7 +15609,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "newcastle",
@@ -15025,7 +15628,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "newport-news",
@@ -15043,7 +15647,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "newton",
@@ -15061,7 +15666,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "nine-mile-falls",
@@ -15079,7 +15685,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "niwot",
@@ -15097,7 +15704,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "nolensville",
@@ -15115,7 +15723,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "north-hollywood",
@@ -15140,7 +15749,8 @@
       "semaglutide",
       "sermorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "north-kansas-city",
@@ -15168,7 +15778,8 @@
       "semaglutide",
       "sermorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "northbrook",
@@ -15186,7 +15797,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "northville",
@@ -15206,7 +15818,8 @@
     ],
     "peptides": [
       "semaglutide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "norwood",
@@ -15226,7 +15839,8 @@
     ],
     "peptides": [
       "nad-plus"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "novato",
@@ -15244,7 +15858,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "oak-brook",
@@ -15274,7 +15889,8 @@
       "sermorelin",
       "tesamorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "oakdale",
@@ -15297,7 +15913,8 @@
       "liraglutide",
       "nad-plus",
       "semaglutide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "oakmont",
@@ -15315,7 +15932,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "ocala",
@@ -15333,7 +15951,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "odessa",
@@ -15351,7 +15970,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "ogden",
@@ -15371,7 +15991,8 @@
     ],
     "peptides": [
       "semaglutide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "olathe",
@@ -15389,7 +16010,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "oneonta",
@@ -15407,7 +16029,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "orange-park",
@@ -15428,7 +16051,8 @@
     "peptides": [
       "semaglutide",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "pacifica",
@@ -15446,7 +16070,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "palm-harbor",
@@ -15464,7 +16089,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "palmetto-bay",
@@ -15485,7 +16111,8 @@
     "peptides": [
       "semaglutide",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "palo-alto",
@@ -15503,7 +16130,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "paradise-valley",
@@ -15521,7 +16149,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "paramus",
@@ -15539,7 +16168,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "park-ridge",
@@ -15557,7 +16187,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "parkway",
@@ -15575,7 +16206,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "peachtree-corners",
@@ -15593,7 +16225,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "pelham",
@@ -15611,7 +16244,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "pewaukee",
@@ -15629,7 +16263,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "phoenix",
@@ -15647,7 +16282,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "phoenixville",
@@ -15665,7 +16301,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "pickerington",
@@ -15683,7 +16320,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "pima",
@@ -15701,7 +16339,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "pineville",
@@ -15719,7 +16358,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "pinson",
@@ -15737,7 +16377,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "plain-city",
@@ -15755,7 +16396,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "pleasant-hill",
@@ -15773,7 +16415,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "plymouth",
@@ -15791,7 +16434,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "pompano-beach",
@@ -15811,7 +16455,8 @@
     ],
     "peptides": [
       "nad-plus"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "porter-ranch",
@@ -15833,7 +16478,8 @@
       "hcg",
       "semaglutide",
       "sermorelin"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "portland",
@@ -15851,7 +16497,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "portsmouth",
@@ -15869,7 +16516,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "poulsbo",
@@ -15887,7 +16535,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "prospect",
@@ -15905,7 +16554,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "provo",
@@ -15923,7 +16573,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "quincy",
@@ -15941,7 +16592,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "rancho-cordova",
@@ -15962,7 +16614,8 @@
     "peptides": [
       "glutathione",
       "nad-plus"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "rancho-santa-margarita",
@@ -15984,7 +16637,8 @@
       "nad-plus",
       "semaglutide",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "randallstown",
@@ -16004,7 +16658,8 @@
     ],
     "peptides": [
       "semaglutide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "raynham",
@@ -16022,7 +16677,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "reading",
@@ -16040,7 +16696,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "rego-park",
@@ -16058,7 +16715,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "reno",
@@ -16076,7 +16734,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "reynoldsburg",
@@ -16094,7 +16753,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "richardson",
@@ -16112,7 +16772,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "richland",
@@ -16130,7 +16791,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "richmond-heights",
@@ -16151,7 +16813,8 @@
     "peptides": [
       "glutathione",
       "nad-plus"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "riverdale",
@@ -16169,7 +16832,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "riverton",
@@ -16189,7 +16853,8 @@
     ],
     "peptides": [
       "hcg"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "rochester",
@@ -16214,7 +16879,8 @@
       "semaglutide",
       "sermorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "rockville",
@@ -16235,7 +16901,8 @@
     "peptides": [
       "bpc-157",
       "tb-500"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "rocky-mount",
@@ -16253,7 +16920,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "rolesville",
@@ -16274,7 +16942,8 @@
     "peptides": [
       "semaglutide",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "roseburg",
@@ -16292,7 +16961,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "rosedale",
@@ -16310,7 +16980,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "roseville",
@@ -16328,7 +16999,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "roslindale",
@@ -16346,7 +17018,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "roswell",
@@ -16379,7 +17052,8 @@
       "tb-500",
       "tesamorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "sachse",
@@ -16397,7 +17071,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "salem",
@@ -16415,7 +17090,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "san-bruno",
@@ -16440,7 +17116,8 @@
       "semaglutide",
       "sermorelin",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "san-ramon",
@@ -16458,7 +17135,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "santa-clara",
@@ -16479,7 +17157,8 @@
     "peptides": [
       "glutathione",
       "nad-plus"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "sappington",
@@ -16497,7 +17176,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "saratoga",
@@ -16518,7 +17198,8 @@
     "peptides": [
       "nad-plus",
       "semaglutide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "sartell",
@@ -16536,7 +17217,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "savage",
@@ -16556,7 +17238,8 @@
     ],
     "peptides": [
       "nad-plus"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "scarsdale",
@@ -16574,7 +17257,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "scotts-valley",
@@ -16592,7 +17276,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "sharpsburg",
@@ -16610,7 +17295,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "shavano-park",
@@ -16631,7 +17317,8 @@
     "peptides": [
       "semaglutide",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "shawnee",
@@ -16649,7 +17336,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "shelby-township",
@@ -16667,7 +17355,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "shenandoah",
@@ -16685,7 +17374,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "shepherdsville",
@@ -16703,7 +17393,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "sherman-oaks",
@@ -16725,7 +17416,8 @@
       "nad-plus",
       "semaglutide",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "shoreline",
@@ -16743,7 +17435,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "shreveport",
@@ -16761,7 +17454,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "slidell",
@@ -16779,7 +17473,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "snohomish",
@@ -16797,7 +17492,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "somerset",
@@ -16815,7 +17511,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "south-bend",
@@ -16833,7 +17530,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "south-lyon",
@@ -16858,7 +17556,8 @@
       "sermorelin",
       "tb-500",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "south-miami",
@@ -16876,7 +17575,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "southaven",
@@ -16894,7 +17594,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "spring-branch",
@@ -16912,7 +17613,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "spring-hill",
@@ -16932,7 +17634,8 @@
     ],
     "peptides": [
       "semaglutide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "springdale",
@@ -16950,7 +17653,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "st-clair-shores",
@@ -16968,7 +17672,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "st-louis-park",
@@ -16986,7 +17691,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "st-matthews",
@@ -17004,7 +17710,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "st-peters",
@@ -17022,7 +17729,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "st-simons-island",
@@ -17040,7 +17748,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "st-augustine",
@@ -17058,7 +17767,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "stafford",
@@ -17076,7 +17786,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "staten-island",
@@ -17097,7 +17808,8 @@
     "peptides": [
       "nad-plus",
       "semaglutide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "statesboro",
@@ -17115,7 +17827,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "sterling",
@@ -17135,7 +17848,8 @@
     ],
     "peptides": [
       "sermorelin"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "stillwater",
@@ -17153,7 +17867,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "stockton",
@@ -17171,7 +17886,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "stone-mountain",
@@ -17189,7 +17905,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "sugar-hill",
@@ -17210,7 +17927,8 @@
     "peptides": [
       "glutathione",
       "nad-plus"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "sunnyvale",
@@ -17228,7 +17946,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "suwanee",
@@ -17250,7 +17969,8 @@
       "nad-plus",
       "semaglutide",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "sylmar",
@@ -17268,7 +17988,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "tacoma",
@@ -17286,7 +18007,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "tarzana",
@@ -17306,7 +18028,8 @@
     ],
     "peptides": [
       "nad-plus"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "taylorsville",
@@ -17327,7 +18050,8 @@
     "peptides": [
       "glutathione",
       "nad-plus"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "thiensville",
@@ -17345,7 +18069,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "thornton",
@@ -17363,7 +18088,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "tigard",
@@ -17384,7 +18110,8 @@
     "peptides": [
       "semaglutide",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "tomball",
@@ -17402,7 +18129,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "town-center",
@@ -17420,7 +18148,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "trabuco-canyon",
@@ -17438,7 +18167,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "tucker",
@@ -17456,7 +18186,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "tulsa",
@@ -17474,7 +18205,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "universal-city",
@@ -17495,7 +18227,8 @@
     "peptides": [
       "pt-141",
       "sermorelin"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "upper-arlington",
@@ -17513,7 +18246,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "van-nuys",
@@ -17531,7 +18265,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "vienna",
@@ -17552,7 +18287,8 @@
     "peptides": [
       "semaglutide",
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "warren",
@@ -17572,7 +18308,8 @@
     ],
     "peptides": [
       "glutathione"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "warrenton",
@@ -17590,7 +18327,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "warrenville",
@@ -17610,7 +18348,8 @@
     ],
     "peptides": [
       "nad-plus"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "warwick",
@@ -17628,7 +18367,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "waterloo",
@@ -17646,7 +18386,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "waunakee",
@@ -17664,7 +18405,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "waxhaw",
@@ -17684,7 +18426,8 @@
     ],
     "peptides": [
       "tirzepatide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "weldon-spring",
@@ -17702,7 +18445,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "west-bloomfield-township",
@@ -17720,7 +18464,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "west-bridgewater",
@@ -17738,7 +18483,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "west-covina",
@@ -17756,7 +18502,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "west-memphis",
@@ -17774,7 +18521,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "west-mifflin",
@@ -17792,7 +18540,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "west-milwaukee",
@@ -17810,7 +18559,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "west-valley-city",
@@ -17828,7 +18578,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "west-view",
@@ -17846,7 +18597,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "westerville",
@@ -17864,7 +18616,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "westfield",
@@ -17882,7 +18635,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "westfield",
@@ -17902,7 +18656,8 @@
     ],
     "peptides": [
       "nad-plus"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "westland",
@@ -17920,7 +18675,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "westminster",
@@ -17938,7 +18694,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "weston",
@@ -17956,7 +18713,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "weymouth",
@@ -17974,7 +18732,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "whitefish-bay",
@@ -17992,7 +18751,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "williamsburg",
@@ -18010,7 +18770,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "williamsville",
@@ -18030,7 +18791,8 @@
     ],
     "peptides": [
       "semaglutide"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "willowbrook",
@@ -18048,7 +18810,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "wilsonville",
@@ -18066,7 +18829,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "windermere",
@@ -18086,7 +18850,8 @@
     ],
     "peptides": [
       "nad-plus"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "winter-garden",
@@ -18104,7 +18869,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "winter-haven",
@@ -18122,7 +18888,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "wixom",
@@ -18140,7 +18907,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "woodbury",
@@ -18158,7 +18926,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "woodfin",
@@ -18176,7 +18945,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "woodland-park",
@@ -18194,7 +18964,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "woodridge",
@@ -18212,7 +18983,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "woods-cross",
@@ -18234,7 +19006,8 @@
       "glutathione",
       "nad-plus",
       "sermorelin"
-    ]
+    ],
+    "indexed": false
   },
   {
     "slug": "woodstock",
@@ -18252,7 +19025,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "worcester",
@@ -18270,7 +19044,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "yardley",
@@ -18288,7 +19063,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "zelienople",
@@ -18306,7 +19082,8 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "anchorage",
@@ -18320,7 +19097,8 @@
     "wellnessCenterCount": 0,
     "providers": [],
     "services": [],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "aurora",
@@ -18334,7 +19112,8 @@
     "wellnessCenterCount": 0,
     "providers": [],
     "services": [],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "austin",
@@ -18348,7 +19127,8 @@
     "wellnessCenterCount": 0,
     "providers": [],
     "services": [],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "bakersfield",
@@ -18362,7 +19142,8 @@
     "wellnessCenterCount": 0,
     "providers": [],
     "services": [],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "buffalo",
@@ -18376,7 +19157,8 @@
     "wellnessCenterCount": 0,
     "providers": [],
     "services": [],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "chandler",
@@ -18390,7 +19172,8 @@
     "wellnessCenterCount": 0,
     "providers": [],
     "services": [],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "chula-vista",
@@ -18404,7 +19187,8 @@
     "wellnessCenterCount": 0,
     "providers": [],
     "services": [],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "cleveland",
@@ -18418,7 +19202,8 @@
     "wellnessCenterCount": 0,
     "providers": [],
     "services": [],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "corpus-christi",
@@ -18432,7 +19217,8 @@
     "wellnessCenterCount": 0,
     "providers": [],
     "services": [],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "el-paso",
@@ -18446,7 +19232,8 @@
     "wellnessCenterCount": 0,
     "providers": [],
     "services": [],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "fayetteville",
@@ -18460,7 +19247,8 @@
     "wellnessCenterCount": 0,
     "providers": [],
     "services": [],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "fontana",
@@ -18474,7 +19262,8 @@
     "wellnessCenterCount": 0,
     "providers": [],
     "services": [],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "fresno",
@@ -18488,7 +19277,8 @@
     "wellnessCenterCount": 0,
     "providers": [],
     "services": [],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "gilbert",
@@ -18502,7 +19292,8 @@
     "wellnessCenterCount": 0,
     "providers": [],
     "services": [],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "glendale",
@@ -18516,7 +19307,8 @@
     "wellnessCenterCount": 0,
     "providers": [],
     "services": [],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "greensboro",
@@ -18530,7 +19322,8 @@
     "wellnessCenterCount": 0,
     "providers": [],
     "services": [],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "jersey-city",
@@ -18544,7 +19337,8 @@
     "wellnessCenterCount": 0,
     "providers": [],
     "services": [],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "lincoln",
@@ -18558,7 +19352,8 @@
     "wellnessCenterCount": 0,
     "providers": [],
     "services": [],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "long-beach",
@@ -18572,7 +19367,8 @@
     "wellnessCenterCount": 0,
     "providers": [],
     "services": [],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "lubbock",
@@ -18586,7 +19382,8 @@
     "wellnessCenterCount": 0,
     "providers": [],
     "services": [],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "modesto",
@@ -18600,7 +19397,8 @@
     "wellnessCenterCount": 0,
     "providers": [],
     "services": [],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "moreno-valley",
@@ -18614,7 +19412,8 @@
     "wellnessCenterCount": 0,
     "providers": [],
     "services": [],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "newark",
@@ -18628,7 +19427,8 @@
     "wellnessCenterCount": 0,
     "providers": [],
     "services": [],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "oxnard",
@@ -18642,7 +19442,8 @@
     "wellnessCenterCount": 0,
     "providers": [],
     "services": [],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "riverside",
@@ -18656,7 +19457,8 @@
     "wellnessCenterCount": 0,
     "providers": [],
     "services": [],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "rochester",
@@ -18670,7 +19472,8 @@
     "wellnessCenterCount": 0,
     "providers": [],
     "services": [],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "saint-paul",
@@ -18684,7 +19487,8 @@
     "wellnessCenterCount": 0,
     "providers": [],
     "services": [],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "san-diego",
@@ -18698,7 +19502,8 @@
     "wellnessCenterCount": 0,
     "providers": [],
     "services": [],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "toledo",
@@ -18712,7 +19517,8 @@
     "wellnessCenterCount": 0,
     "providers": [],
     "services": [],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   },
   {
     "slug": "wichita",
@@ -18726,6 +19532,7 @@
     "wellnessCenterCount": 0,
     "providers": [],
     "services": [],
-    "peptides": []
+    "peptides": [],
+    "indexed": false
   }
 ]

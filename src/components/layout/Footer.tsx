@@ -50,28 +50,11 @@ export function Footer() {
               <li><Link href="/about" className="text-[13.5px] text-text-secondary hover:text-accent transition-colors">About</Link></li>
               <li><Link href="/privacy" className="text-[13.5px] text-text-secondary hover:text-accent transition-colors">Privacy Policy</Link></li>
               <li><Link href="/terms" className="text-[13.5px] text-text-secondary hover:text-accent transition-colors">Terms of Service</Link></li>
-              <li>
-                <a
-                  href="https://peptidegrades.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-[13.5px] text-text-secondary hover:text-accent transition-colors"
-                >
-                  Online Vendor Rankings &rarr;
-                </a>
-              </li>
             </ul>
           </div>
         </div>
         <div className="flex flex-col md:flex-row items-start md:items-center justify-between pt-8 border-t border-border-subtle gap-4">
           <span className="text-[12.5px] text-text-tertiary">&copy; 2026 Peptides Nearby. All rights reserved.</span>
-          <p className="text-[11.5px] text-text-tertiary max-w-[560px] leading-relaxed opacity-70">
-            Looking for online peptide vendors? Visit{" "}
-            <a href="https://peptidegrades.com" className="text-accent hover:underline" target="_blank" rel="noopener noreferrer">
-              Peptide Grades
-            </a>{" "}
-            for independent vendor rankings and transparency scores.
-          </p>
         </div>
       </div>
     </footer>

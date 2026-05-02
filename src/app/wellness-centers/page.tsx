@@ -6,6 +6,7 @@ import { JsonLd, breadcrumbJsonLd } from "@/components/seo/JsonLd";
 import { FilteredProviderList } from "@/components/filters/ProviderFilters";
 
 export const metadata: Metadata = {
+  robots: { index: false, follow: true },
   title: "Wellness Centers",
   description: "Find wellness centers near you offering peptide therapy, hormone optimization, and integrative medicine.",
   alternates: { canonical: canonical("/wellness-centers") },

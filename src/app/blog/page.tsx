@@ -5,6 +5,7 @@ import { JsonLd, breadcrumbJsonLd } from "@/components/seo/JsonLd";
 import { getAllArticles } from "@/lib/data/articles";
 
 export const metadata: Metadata = {
+  robots: { index: false, follow: true },
   title: "Peptide Therapy Blog — Guides, Costs, and What to Expect",
   description: "Learn about peptide therapy: how it works, costs, side effects, injection guides, and how to find a provider near you.",
   alternates: { canonical: canonical("/blog") },

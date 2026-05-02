@@ -1,4 +1,4 @@
-import { readFileSync, writeFileSync, mkdirSync } from "fs";
+import { readFileSync, writeFileSync, mkdirSync, existsSync, readdirSync, statSync } from "fs";
 import { resolve } from "path";
 import {
   STATE_CODES,
@@ -19,6 +19,17 @@ function slugify(str: string): string {
 // src/lib/geo/states so all derivations share one canonical map.
 
 const VALID_STATE_CODES = new Set<string>(STATE_CODES);
+
+// --- Recovery whitelist (May 2026) ---
+// Only whitelisted pages appear in the sitemap. Everything else still
+// renders but gets noindex,follow via route-level metadata.
+const KEEP_STATES = new Set(["FL","CA","TX","NC","OH","WA","AZ","CO","GA","OR"]);
+const KEEP_TELEHEALTH_STATES = new Set(["FL","CA","TX","MD","NY","NC","GA","WA","NV","AZ","PA","MA","IL","IN","OH"]);
+const KEEP_PEPTIDES = new Set(["semaglutide","tirzepatide","liraglutide"]);
+const KEEP_GOALS = new Set(["weight-loss"]);
+const MIN_PROVIDERS_CITY_INDEXED = 15;
+const MIN_GLP1_CITY_INDEXED = 5;
+const GLP1_SLUGS = new Set(["semaglutide","tirzepatide","liraglutide"]);
 
 // City-name validator. Hard rejects catch obvious junk (digits, single/double
 // letters, empty). Heuristic rejects (digits mid-name, unit indicators, excess
@@ -136,12 +147,28 @@ const rawCities: RawCity[] = JSON.parse(
 // Filter to active providers
 const activeProviders = providers.filter((p) => p.status === "active");
 
+function isProviderIndexable(p: RawProvider): boolean {
+  if (p.type !== "clinic") return false;
+  if (!p.website || !p.phone) return false;
+  const hasGlp1 = p.peptides.some((pep) => GLP1_SLUGS.has(pep.toLowerCase()));
+  const hasTelehealth = p.telehealth?.available ?? false;
+  if (!hasGlp1 && !hasTelehealth) return false;
+  const wordCount = (p.description ?? "").split(/\s+/).filter(Boolean).length;
+  if (wordCount < 50) return false;
+  return true;
+}
+
 console.log(`Loaded ${providers.length} providers (${activeProviders.length} active)`);
 console.log(`Loaded ${rawCities.length} cities from seed list`);
 
-// --- Build providers.json (pass-through validated) ---
-writeFileSync(resolve(OUT, "providers.json"), JSON.stringify(activeProviders, null, 2));
-console.log(`Wrote ${activeProviders.length} providers to providers.json`);
+// --- Build providers.json (with indexed flag) ---
+const providersWithIndex = activeProviders.map((p) => ({
+  ...p,
+  indexed: isProviderIndexable(p),
+}));
+writeFileSync(resolve(OUT, "providers.json"), JSON.stringify(providersWithIndex, null, 2));
+const indexedProviderCount = providersWithIndex.filter((p) => p.indexed).length;
+console.log(`Wrote ${activeProviders.length} providers to providers.json (${indexedProviderCount} indexed)`);
 
 // --- Build cities.json ---
 // Group providers by city+stateCode
@@ -204,6 +231,7 @@ interface CityOutput {
   providers: string[];
   services: string[];
   peptides: string[];
+  indexed: boolean;
 }
 
 const cities: CityOutput[] = [];
@@ -226,6 +254,9 @@ for (const [key, rawCity] of citySet) {
     continue;
   }
 
+  const glp1Count = provs.filter((p) =>
+    p.peptides.some((pep) => GLP1_SLUGS.has(pep.toLowerCase()))
+  ).length;
   cities.push({
     slug: slugify(rawCity.name),
     name: rawCity.name,
@@ -239,6 +270,7 @@ for (const [key, rawCity] of citySet) {
     providers: provs.map((p) => p.slug),
     services: [...servicesSet].sort(),
     peptides: [...peptidesSet].sort(),
+    indexed: provs.length >= MIN_PROVIDERS_CITY_INDEXED && glp1Count >= MIN_GLP1_CITY_INDEXED,
   });
 }
 
@@ -296,6 +328,7 @@ interface StateOutput {
   providerCount: number;
   cityCount: number;
   cities: string[];
+  indexed: boolean;
 }
 
 const states: StateOutput[] = [...stateMap.values()]
@@ -313,6 +346,7 @@ const states: StateOutput[] = [...stateMap.values()]
       providerCount: s.providerCount,
       cityCount: s.cities.size,
       cities: [...s.cities].sort(),
+      indexed: KEEP_STATES.has(s.code),
     };
   })
   .filter((s) => stateSlugFromAny(s.code) !== null)
@@ -367,6 +401,7 @@ interface ServiceOutput {
   providerCount: number;
   cityCount: number;
   description: string;
+  indexed: boolean;
 }
 
 const serviceCountMap = new Map<string, { providers: Set<string>; cities: Set<string> }>();
@@ -394,6 +429,7 @@ for (const [slug, counts] of serviceCountMap) {
     providerCount: counts.providers.size,
     cityCount: counts.cities.size,
     description: desc?.description || `Find providers offering ${slug.replace(/-/g, " ")} near you.`,
+    indexed: KEEP_PEPTIDES.has(slug),
   });
 }
 
@@ -407,6 +443,7 @@ for (const [slug, desc] of Object.entries(serviceDescriptions)) {
       providerCount: 0,
       cityCount: 0,
       description: desc.description,
+      indexed: KEEP_PEPTIDES.has(slug),
     });
   }
 }
@@ -423,6 +460,7 @@ interface TelehealthStateEntry {
   stateSlug: string;
   providerSlugs: string[];
   providerCount: number;
+  indexed: boolean;
 }
 
 const telehealthProviders = activeProviders.filter((p) => p.telehealth?.available);
@@ -460,6 +498,7 @@ const telehealthStates: TelehealthStateEntry[] = [...telehealthByState.entries()
       stateSlug: canonicalSlug ?? code.toLowerCase(),
       providerSlugs: slugs,
       providerCount: slugs.length,
+      indexed: KEEP_TELEHEALTH_STATES.has(code),
     };
   })
   .filter((t) => stateSlugFromAny(t.stateCode) !== null)
@@ -534,6 +573,7 @@ interface GoalEntry {
   peptides: string[];
   providerCount: number;
   providerSlugs: string[];
+  indexed: boolean;
 }
 
 const GOAL_DEFINITIONS: Record<string, { name: string; description: string; peptides: string[] }> = {
@@ -582,6 +622,7 @@ const goals: GoalEntry[] = Object.entries(GOAL_DEFINITIONS).map(([slug, def]) =>
     peptides: def.peptides,
     providerCount: matching.length,
     providerSlugs: matching.map((p) => p.slug),
+    indexed: KEEP_GOALS.has(slug),
   };
 });
 
@@ -637,93 +678,81 @@ const searchIndex: SearchIndexEntry[] = activeProviders.map((p) => {
 writeFileSync(resolve(OUT, "search-index.json"), JSON.stringify(searchIndex, null, 2));
 console.log(`Wrote ${searchIndex.length} entries to search-index.json`);
 
-// --- Generate sitemap.xml ---
+// --- Generate sitemap.xml (whitelist-only) ---
 const BASE_URL = "https://www.peptidesnearby.com";
-
-// Sitemap quality thresholds — pages below these get excluded from the sitemap
-// (they still render, but aren't advertised to Google until they earn their spot)
-const MIN_PROVIDERS_PEPTIDE = 3;
-const MIN_PROVIDERS_STATE = 10;
-const MIN_PROVIDERS_CITY = 3;
-const MIN_PROVIDERS_GOAL = 5;
-const MIN_PROVIDERS_TELEHEALTH_STATE = 3;
 
 const urls: string[] = [
   "/",
-  "/states",
-  "/clinics",
-  "/pharmacies",
-  "/wellness-centers",
-  "/search",
-  "/compare",
-  "/telehealth",
-  "/blog",
-  "/submit",
   "/about",
-  "/privacy",
-  "/terms",
+  "/telehealth",
+  "/compare",
 ];
 
 const sitemapStats = {
   stateIncluded: 0, stateExcluded: 0,
   cityIncluded: 0, cityExcluded: 0,
-  providerIncluded: 0,
+  providerIncluded: 0, providerExcluded: 0,
   peptideIncluded: 0, peptideExcluded: 0,
   telehealthStateIncluded: 0, telehealthStateExcluded: 0,
   goalIncluded: 0, goalExcluded: 0,
-  telehealthPeptideIncluded: 0,
 };
 
-// State pages — gate on provider count + valid state code
 for (const s of states) {
-  if (!VALID_STATE_CODES.has(s.code)) { sitemapStats.stateExcluded++; continue; }
-  if (s.providerCount < MIN_PROVIDERS_STATE) { sitemapStats.stateExcluded++; continue; }
+  if (!VALID_STATE_CODES.has(s.code) || !KEEP_STATES.has(s.code)) {
+    sitemapStats.stateExcluded++; continue;
+  }
   urls.push(`/${s.slug}`);
   sitemapStats.stateIncluded++;
 }
 
-// City pages — gate on provider count
 for (const c of cities) {
-  if (c.providerCount < MIN_PROVIDERS_CITY) { sitemapStats.cityExcluded++; continue; }
+  const glp1Count = (cityProviderMap.get(`${c.slug}|${c.stateCode}`) ?? [])
+    .filter((p) => p.peptides.some((pep) => GLP1_SLUGS.has(pep.toLowerCase()))).length;
+  if (c.providerCount < MIN_PROVIDERS_CITY_INDEXED || glp1Count < MIN_GLP1_CITY_INDEXED) {
+    sitemapStats.cityExcluded++; continue;
+  }
   urls.push(`/${c.stateSlug}/${c.slug}`);
   sitemapStats.cityIncluded++;
 }
 
-// Provider pages — keep all active providers (they're the core inventory)
 for (const p of activeProviders) {
-  urls.push(`/providers/${p.slug}`);
-  sitemapStats.providerIncluded++;
+  if (isProviderIndexable(p)) {
+    urls.push(`/providers/${p.slug}`);
+    sitemapStats.providerIncluded++;
+  } else {
+    sitemapStats.providerExcluded++;
+  }
 }
 
-// Peptide pages — gate on provider count (this is the big thin-content fix)
 for (const s of services) {
-  if (s.providerCount < MIN_PROVIDERS_PEPTIDE) { sitemapStats.peptideExcluded++; continue; }
+  if (!KEEP_PEPTIDES.has(s.slug)) { sitemapStats.peptideExcluded++; continue; }
   urls.push(`/peptides/${s.slug}`);
   sitemapStats.peptideIncluded++;
 }
 
-// Telehealth state pages
 for (const t of telehealthStates) {
-  if (t.providerCount < MIN_PROVIDERS_TELEHEALTH_STATE) { sitemapStats.telehealthStateExcluded++; continue; }
+  if (!KEEP_TELEHEALTH_STATES.has(t.stateCode)) { sitemapStats.telehealthStateExcluded++; continue; }
   urls.push(`/telehealth/${t.stateSlug}`);
   sitemapStats.telehealthStateIncluded++;
 }
 
-// Goal pages — gate on provider count
 for (const g of goals) {
-  const providerCount = (g as { providerCount?: number }).providerCount ?? 0;
-  if (providerCount < MIN_PROVIDERS_GOAL) { sitemapStats.goalExcluded++; continue; }
+  if (!KEEP_GOALS.has(g.slug)) { sitemapStats.goalExcluded++; continue; }
   urls.push(`/goals/${g.slug}`);
   sitemapStats.goalIncluded++;
 }
 
-// Telehealth peptide pages — already filtered upstream (≥3 providers)
-for (const tp of telehealthPeptides) {
-  urls.push(`/telehealth/peptides/${tp.slug}`);
-  sitemapStats.telehealthPeptideIncluded++;
+// Blog articles — extract slugs from the articles registry
+const articlesFile = resolve(ROOT, "src/lib/data/articles.ts");
+if (existsSync(articlesFile)) {
+  const articleSrc = readFileSync(articlesFile, "utf-8");
+  const slugMatches = articleSrc.matchAll(/slug:\s*"([^"]+)"/g);
+  for (const m of slugMatches) {
+    if (m[1] !== "string") urls.push(`/blog/${m[1]}`);
+  }
 }
 
-console.log(`Sitemap quality gate: ${JSON.stringify(sitemapStats)}`);
+console.log(`Sitemap whitelist: ${JSON.stringify(sitemapStats)}`);
 
 const today = new Date().toISOString().split("T")[0];
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
@@ -739,10 +768,9 @@ ${urls
 </urlset>`;
 
 writeFileSync(resolve(PUBLIC, "sitemap.xml"), sitemap);
-console.log(`Wrote sitemap.xml with ${urls.length} URLs`);
+console.log(`Wrote sitemap.xml with ${urls.length} URLs (recovery whitelist)`);
 
 // --- Reviews (copy from raw if exists) ---
-import { existsSync } from "fs";
 const rawReviewsPath = resolve(RAW, "reviews.json");
 const outReviewsPath = resolve(OUT, "reviews.json");
 let reviewCount = 0;

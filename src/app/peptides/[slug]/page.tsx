@@ -18,7 +18,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const service = getServiceBySlug(slug);
   if (!service) return {};
-  const thin = service.providerCount < 3;
+  const thin = !service.indexed;
   const titleCount = service.providerCount > 0 ? ` — ${service.providerCount} Providers` : "";
   return {
     title: `Find ${service.name}${service.name.toLowerCase().includes("therapy") ? "" : " Therapy"} Near You${titleCount}`,
@@ -74,14 +74,6 @@ export default async function ServicePage({ params }: Props) {
                 <Link href="/submit" className="px-5 py-2.5 bg-accent text-white font-semibold rounded-lg">
                   Submit a Practice
                 </Link>
-                <a
-                  href={`https://peptidegrades.com/peptides/${slug}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="px-5 py-2.5 border border-border-medium text-text-secondary rounded-lg hover:border-accent hover:text-accent transition-colors"
-                >
-                  Compare Online Vendors
-                </a>
               </div>
             </div>
           )}

@@ -35,6 +35,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Telehealth ${entry.name} Therapy — ${entry.providerCount} Virtual Providers`,
     description: `Find ${entry.providerCount} telehealth providers offering ${entry.name} therapy via virtual visits. Compare clinics, pharmacies, and book online.`,
+    robots: { index: false, follow: true },
     alternates: { canonical: canonical(telehealthPeptideUrl(slug)) },
   };
 }
