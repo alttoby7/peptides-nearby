@@ -133,6 +133,136 @@ export default function TelehealthHubPage() {
         </div>
       </section>
 
+      {/* What telehealth providers can and can't do */}
+      <section className="py-12">
+        <div className="max-w-[1240px] mx-auto px-6">
+          <div className="max-w-[700px]">
+            <h2 className="font-display text-2xl text-text-primary mb-4">
+              What Telehealth Providers Can (and Can&apos;t) Do
+            </h2>
+            <p className="text-sm text-text-secondary mb-3">
+              Telehealth works well for GLP-1 therapy because the prescribing process is straightforward and monitoring relies heavily on patient-reported data. But it has real limits.
+            </p>
+
+            <h3 className="font-semibold text-text-primary mt-6 mb-2">What telehealth providers can do:</h3>
+            <ul className="space-y-2 text-sm text-text-secondary mb-4">
+              <li>Prescribe GLP-1 medications including semaglutide, tirzepatide, and liraglutide</li>
+              <li>Adjust dosing based on your self-reported symptoms, side effects, and progress</li>
+              <li>Order lab work through partner labs like Quest Diagnostics, Labcorp, or local options</li>
+              <li>Prescribe anti-nausea and other supportive medications</li>
+              <li>Provide nutritional guidance and scheduled follow-up check-ins</li>
+            </ul>
+
+            <h3 className="font-semibold text-text-primary mt-6 mb-2">What telehealth providers cannot do:</h3>
+            <ul className="space-y-2 text-sm text-text-secondary mb-4">
+              <li>Perform physical examinations</li>
+              <li>Conduct body composition analysis such as DEXA scans or bioimpedance testing</li>
+              <li>Administer in-office injections (you self-inject at home)</li>
+              <li>Manage complex cases requiring hands-on monitoring, such as severe diabetes or cardiovascular conditions</li>
+              <li>Accept most insurance plans (the majority are cash-pay)</li>
+            </ul>
+
+            <p className="text-sm text-text-secondary mb-3">
+              This matters when choosing between telehealth and in-person care. If you are otherwise healthy and looking for straightforward GLP-1 prescribing with regular check-ins, telehealth handles it well. If you have multiple chronic conditions, unstable blood sugar, or a history of cardiovascular events, an in-person provider who can examine you and run on-site diagnostics is the safer path.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* What telehealth peptide therapy costs */}
+      <section className="py-12 bg-surface-0 border-y border-border-subtle">
+        <div className="max-w-[1240px] mx-auto px-6">
+          <div className="max-w-[700px]">
+            <h2 className="font-display text-2xl text-text-primary mb-4">
+              What Telehealth Peptide Therapy Costs
+            </h2>
+            <p className="text-sm text-text-secondary mb-3">
+              Pricing for telehealth GLP-1 therapy falls into two buckets: compounded medication plans and brand-name medication plans.
+            </p>
+
+            <div className="overflow-x-auto mb-6">
+              <table className="w-full text-sm border-collapse">
+                <thead>
+                  <tr>
+                    <th className="text-left py-2 px-3 text-text-tertiary font-medium">Cost Category</th>
+                    <th className="text-left py-2 px-3 text-text-tertiary font-medium">Typical Range</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td className="py-2 px-3 text-text-secondary border-b border-border-subtle/50">Monthly all-inclusive plan (compounded medication + consultation + shipping)</td>
+                    <td className="py-2 px-3 text-text-secondary border-b border-border-subtle/50">$199-$399/mo</td>
+                  </tr>
+                  <tr>
+                    <td className="py-2 px-3 text-text-secondary border-b border-border-subtle/50">Brand-name medication (Wegovy, Zepbound) via telehealth</td>
+                    <td className="py-2 px-3 text-text-secondary border-b border-border-subtle/50">$1,200-$1,600/mo on top of consultation fees</td>
+                  </tr>
+                  <tr>
+                    <td className="py-2 px-3 text-text-secondary border-b border-border-subtle/50">Lab work (if arranged separately)</td>
+                    <td className="py-2 px-3 text-text-secondary border-b border-border-subtle/50">$100-$300</td>
+                  </tr>
+                  <tr>
+                    <td className="py-2 px-3 text-text-secondary border-b border-border-subtle/50">Follow-up visits</td>
+                    <td className="py-2 px-3 text-text-secondary border-b border-border-subtle/50">Usually included in monthly subscription</td>
+                  </tr>
+                  <tr>
+                    <td className="py-2 px-3 text-text-secondary border-b border-border-subtle/50">In-person clinic comparison</td>
+                    <td className="py-2 px-3 text-text-secondary border-b border-border-subtle/50">$400-$800/mo with brand-name medication</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <p className="text-sm text-text-secondary mb-3">
+              Most telehealth platforms operate on a cash-pay basis. Insurance coverage for GLP-1 medications through telehealth is rare, though many providers accept HSA and FSA payments.
+            </p>
+            <p className="text-sm text-text-secondary mb-3">
+              The compounded medication route is where telehealth pricing gets competitive. An all-inclusive monthly plan at $199-$399 covers everything: the consultation, compounded semaglutide or tirzepatide, and shipping. That same treatment through an in-person clinic with brand-name medication can run $400-$800 per month or more.
+            </p>
+            <p className="text-sm text-text-secondary mb-3">
+              One development worth tracking: the Medicare GLP-1 Bridge program launches in July 2026 with a $50 copay for Wegovy and Zepbound, which may shift the economics for patients who currently pay out of pocket.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* How to choose a telehealth provider */}
+      <section className="py-12">
+        <div className="max-w-[1240px] mx-auto px-6">
+          <div className="max-w-[700px]">
+            <h2 className="font-display text-2xl text-text-primary mb-4">
+              How to Choose a Telehealth Provider
+            </h2>
+            <p className="text-sm text-text-secondary mb-3">
+              Not all telehealth peptide providers operate at the same standard. The barrier to entry for launching a telehealth weight loss clinic is low, and patient outcomes vary widely depending on the provider behind the platform. These seven questions will separate serious medical practices from glorified prescription mills.
+            </p>
+
+            <h3 className="font-semibold text-text-primary mt-6 mb-2">Questions to ask before signing up:</h3>
+            <ol className="space-y-3 text-sm text-text-secondary mb-4">
+              <li><strong>1. Is your prescriber licensed in my state?</strong> This is non-negotiable. If they cannot answer immediately, move on.</li>
+              <li><strong>2. Which compounding pharmacy do you use? Is it 503A or 503B registered?</strong> A legitimate provider knows their pharmacy&apos;s registration status without checking.</li>
+              <li><strong>3. What labs do you require, and where do I complete them?</strong> Providers who skip labs entirely are cutting corners on your safety.</li>
+              <li><strong>4. What is your protocol for managing side effects?</strong> You want same-day messaging with a licensed clinician, not a chatbot or a 48-hour email queue.</li>
+              <li><strong>5. What happens if I need to switch medications or adjust my dose?</strong> Good providers build dose titration into the program. Bad ones make you schedule a new paid consultation.</li>
+              <li><strong>6. Do you offer both semaglutide and tirzepatide?</strong> Having options matters if one medication causes side effects you cannot tolerate.</li>
+              <li><strong>7. What does the monthly fee include?</strong> Get a clear answer covering medication, consultations, lab orders, and shipping. Hidden fees are common.</li>
+            </ol>
+
+            <div className="bg-red-500/5 border border-red-500/20 rounded-xl p-5 mt-4">
+              <h3 className="font-semibold text-text-primary mb-2">Red flags to watch for:</h3>
+              <ul className="space-y-2 text-sm text-text-secondary">
+                <li>No lab work offered or required at any point in treatment</li>
+                <li>Cannot name their compounding pharmacy or its registration status</li>
+                <li>No licensed prescriber on staff, only &quot;wellness coaches&quot; or &quot;health advisors&quot;</li>
+                <li>Guaranteed weight loss claims (no ethical provider guarantees outcomes)</li>
+                <li>Pressure to commit to 6-month or 12-month contracts before your first dose</li>
+                <li>No clear cancellation policy or refund terms</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Telehealth peptides */}
       {telehealthPeptides.length > 0 && (
         <section className="py-12">
@@ -263,18 +393,27 @@ export default function TelehealthHubPage() {
       {/* Licensing explainer */}
       <section className="py-12 bg-surface-0 border-y border-border-subtle">
         <div className="max-w-[1240px] mx-auto px-6">
-          <h2 className="font-display text-2xl text-text-primary mb-4">
-            State Licensing & Telehealth
-          </h2>
-          <div className="max-w-[700px] space-y-3 text-sm text-text-secondary">
-            <p>
-              Telehealth providers must hold a valid medical license in the state where the <em>patient</em> is located during the visit — not where the provider is based. This means a clinic in California can treat patients in Texas, as long as the provider is also licensed in Texas.
+          <div className="max-w-[700px]">
+            <h2 className="font-display text-2xl text-text-primary mb-4">
+              Licensing, Labs, and What Your State Requires
+            </h2>
+            <p className="text-sm text-text-secondary mb-3">
+              <strong>Licensing is non-negotiable.</strong> A provider must hold an active license in your state to prescribe medication to you via telehealth. The provider&apos;s physical location is irrelevant. What matters is where you are sitting during the consultation and where the medication ships.
             </p>
-            <p>
-              Some providers are licensed in many states and can treat patients nationwide. Others only serve patients in their home state. We list each provider under every state they can serve.
+            <p className="text-sm text-text-secondary mb-3">
+              State rules around telehealth prescribing vary significantly. Some states require an initial in-person visit before a provider can prescribe remotely. Others adopted permanent telehealth-only flexibilities after COVID-era regulations proved that remote prescribing worked safely at scale. The patchwork is real, and it changes as state legislatures update their telehealth statutes. What was true six months ago may not apply today.
             </p>
-            <p>
-              Always confirm state licensure directly with the provider before booking. Licensing requirements change frequently and vary by state.
+            <p className="text-sm text-text-secondary mb-3">
+              <strong>Lab work</strong> is not technically required for GLP-1 prescribing. But best-practice clinics order baseline labs before starting treatment: a comprehensive metabolic panel (CMP), A1C, thyroid panel, and lipid panel. Telehealth providers typically send a lab order to Quest or Labcorp for you to complete at a location near you. If labs are not included in your plan, expect to pay $100-$300 out of pocket.
+            </p>
+            <p className="text-sm text-text-secondary mb-3">
+              <strong>Compounding pharmacy rules</strong> add another layer. Some states restrict out-of-state compounding pharmacies from shipping medications in. Before you sign up with any telehealth provider, ask which pharmacy they use and confirm it can ship to your address.
+            </p>
+            <p className="text-sm text-text-secondary mb-3">
+              <strong>Controlled substance classification</strong> simplifies things for GLP-1 patients. Semaglutide and tirzepatide are not controlled substances, so telehealth prescribing faces fewer restrictions. This is different from testosterone or HGH, which carry stricter telehealth prescribing rules in many states.
+            </p>
+            <p className="text-sm text-text-secondary mb-3">
+              Our <Link href="/telehealth">state-level telehealth pages</Link> list providers licensed to treat patients in each state so you can filter by where you actually live.
             </p>
           </div>
         </div>
@@ -289,24 +428,16 @@ export default function TelehealthHubPage() {
           <div className="max-w-[700px] space-y-6">
             {[
               {
-                q: "Can I get peptide therapy prescribed via telehealth?",
-                a: "Yes. Many peptide therapy providers offer virtual consultations where a licensed prescriber evaluates your health history, orders necessary lab work, and prescribes peptides shipped directly to you from a compounding pharmacy.",
+                q: "Can a telehealth provider prescribe peptide therapy if they’re in a different state?",
+                a: "Yes, as long as the provider holds an active license in your state. The provider’s physical location does not matter. What matters is where you, the patient, are located during the consultation and where the medication ships. A prescriber sitting in California can treat a patient in Ohio if they carry an Ohio medical license.",
               },
               {
-                q: "Do I need lab work before starting peptide therapy?",
-                a: "Most providers require baseline labs before prescribing peptides. Lab orders can typically be completed at a local draw center like Quest or LabCorp. Some providers include the cost of labs in their consultation fee.",
+                q: "Do I need to see a doctor in person before starting telehealth GLP-1 therapy?",
+                a: "In most states, no. Post-COVID telehealth flexibilities allow many providers to prescribe after a video consultation alone. A few states still require an initial in-person visit before remote prescribing. Check your state’s current telehealth prescribing rules, or browse our state pages to see which providers serve your area.",
               },
               {
-                q: "How much does a telehealth peptide consultation cost?",
-                a: "Initial consultations typically range from $100 to $350 depending on the provider and complexity. Some providers offer subscription models that include follow-up visits. The cost of peptides themselves varies by type and dosage.",
-              },
-              {
-                q: "Is telehealth peptide therapy covered by insurance?",
-                a: "Most peptide therapy is not covered by insurance, though the telehealth consultation itself may be covered under your plan. Some providers accept HSA/FSA accounts. Check with individual providers for payment options.",
-              },
-              {
-                q: "Can a provider in another state prescribe peptides to me?",
-                a: "Yes, as long as the provider is licensed in your state. Many telehealth providers hold licenses in multiple states. The provider must comply with the medical practice laws of the state where you are located during the visit.",
+                q: "How is medication delivered with telehealth programs?",
+                a: "Most telehealth providers ship medication directly to your home from their partnered compounding pharmacy. Delivery typically takes 3-5 business days after your prescription is approved. Medications that require cold storage arrive in temperature-controlled packaging.",
               },
             ].map((faq, i) => (
               <div key={i}>
