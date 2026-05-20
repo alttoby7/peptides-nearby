@@ -47,7 +47,7 @@ export default function MapPageClient() {
   const { location, requestLocation } = useGeolocation();
 
   useEffect(() => {
-    fetch("/data/map-index.json")
+    fetch("/api/map-index")
       .then((res) => res.json())
       .then((data: MapIndexEntry[]) => {
         setEntries(data);

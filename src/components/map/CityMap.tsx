@@ -15,7 +15,7 @@ export default function CityMap({ city, stateCode }: CityMapProps) {
   const mapRef = useRef<L.Map | null>(null);
 
   useEffect(() => {
-    fetch("/data/map-index.json")
+    fetch("/api/map-index")
       .then((res) => res.json())
       .then((data: MapIndexEntry[]) => {
         const cityLower = city.toLowerCase();
