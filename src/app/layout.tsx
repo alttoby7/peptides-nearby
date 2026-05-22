@@ -54,7 +54,7 @@ export default function RootLayout({
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-          gtag('config', 'G-JXV379RS99');
+          if(typeof window!=='undefined'&&(window.location.hostname==='peptidesnearby.com'||window.location.hostname==='www.peptidesnearby.com')){gtag('config','G-JXV379RS99');}
         `}</Script>
       </body>
     </html>
