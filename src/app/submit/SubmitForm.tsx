@@ -2,7 +2,8 @@
 
 import { useState } from "react";
 
-const submitUrl = process.env.NEXT_PUBLIC_SUBMIT_PROVIDER_URL;
+// Same-origin Cloudflare Pages Function (functions/api/submit.ts).
+const submitUrl = "/api/submit";
 
 export function SubmitForm() {
   const [status, setStatus] = useState<"idle" | "submitting" | "success" | "error">("idle");
@@ -15,12 +16,6 @@ export function SubmitForm() {
 
     const form = e.currentTarget;
     const data = Object.fromEntries(new FormData(form));
-
-    if (!submitUrl) {
-      setStatus("error");
-      setErrorMessage("Submission endpoint is not configured.");
-      return;
-    }
 
     try {
       const res = await fetch(submitUrl, {
@@ -154,6 +149,29 @@ export function SubmitForm() {
           />
         </div>
       </div>
+
+      <div>
+        <label htmlFor="email" className="block text-sm font-medium text-text-secondary mb-1.5">
+          Contact Email
+        </label>
+        <input
+          id="email"
+          name="email"
+          type="email"
+          className="w-full px-4 py-2.5 bg-surface-1 border border-border-medium rounded-lg text-text-primary placeholder:text-text-tertiary focus:border-accent focus:outline-none"
+          placeholder="So we can reach you about your listing"
+        />
+      </div>
+
+      {/* Honeypot — hidden from people, filled by bots. Server drops submissions that set it. */}
+      <input
+        type="text"
+        name="company"
+        tabIndex={-1}
+        autoComplete="off"
+        aria-hidden="true"
+        className="hidden"
+      />
 
       <div>
         <label htmlFor="services" className="block text-sm font-medium text-text-secondary mb-1.5">
