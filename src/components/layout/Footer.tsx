@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Logo } from "@/components/brand/Logo";
 
 export function Footer() {
   return (
@@ -6,18 +7,15 @@ export function Footer() {
       <div className="max-w-[1240px] mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[2fr_1fr_1fr_1fr] gap-12 mb-12">
           <div>
-            <div className="flex items-center gap-2 font-bold text-[17px] tracking-tight text-text-primary mb-1">
-              <div className="w-7 h-7 bg-gradient-to-br from-accent to-wellness rounded-[7px] flex items-center justify-center text-[14px] font-extrabold text-text-inverse">
-                PN
-              </div>
-              Peptides Nearby
-            </div>
+            <Link href="/" aria-label="Peptides Nearby" className="inline-flex min-h-11 items-center mb-1">
+              <Logo />
+            </Link>
             <p className="text-[13.5px] text-text-tertiary max-w-[280px] mt-2 leading-relaxed">
               Find peptide therapy clinics, compounding pharmacies, and wellness centers in your city.
             </p>
           </div>
           <div>
-            <h3 className="text-[11.5px] font-semibold uppercase tracking-widest text-text-tertiary mb-4">Browse</h3>
+            <h3 className="text-xs md:text-[11.5px] font-semibold uppercase tracking-widest text-text-tertiary mb-4">Browse</h3>
             <ul className="flex flex-col gap-2">
               <li><Link href="/states" className="text-[13.5px] text-text-secondary hover:text-accent transition-colors">All States</Link></li>
               <li><Link href="/clinics" className="text-[13.5px] text-text-secondary hover:text-accent transition-colors">Clinics</Link></li>
@@ -28,7 +26,7 @@ export function Footer() {
             </ul>
           </div>
           <div>
-            <h3 className="text-[11.5px] font-semibold uppercase tracking-widest text-text-tertiary mb-4">Treatments</h3>
+            <h3 className="text-xs md:text-[11.5px] font-semibold uppercase tracking-widest text-text-tertiary mb-4">Treatments</h3>
             <ul className="flex flex-col gap-2">
               {["BPC-157", "Semaglutide", "Tirzepatide", "GHK-Cu", "Sermorelin", "CJC-1295 / Ipamorelin"].map((name) => (
                 <li key={name}>
@@ -43,7 +41,7 @@ export function Footer() {
             </ul>
           </div>
           <div>
-            <h3 className="text-[11.5px] font-semibold uppercase tracking-widest text-text-tertiary mb-4">Resources</h3>
+            <h3 className="text-xs md:text-[11.5px] font-semibold uppercase tracking-widest text-text-tertiary mb-4">Resources</h3>
             <ul className="flex flex-col gap-2">
               <li><Link href="/search" className="text-[13.5px] text-text-secondary hover:text-accent transition-colors">Search</Link></li>
               <li><Link href="/submit" className="text-[13.5px] text-text-secondary hover:text-accent transition-colors">Add Your Practice</Link></li>

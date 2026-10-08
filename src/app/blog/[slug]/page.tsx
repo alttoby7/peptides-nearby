@@ -79,7 +79,7 @@ export default async function BlogArticlePage({ params }: Props) {
           </nav>
 
           <div className="flex items-center gap-3 mb-4">
-            <span className="text-[10px] font-bold uppercase tracking-wider text-accent bg-accent/10 px-2 py-0.5 rounded-full">
+            <span className="text-xs md:text-[10px] font-bold uppercase tracking-wider text-accent bg-accent/10 px-2 py-0.5 rounded-full">
               {article.funnel}
             </span>
             <span className="text-xs text-text-tertiary">

@@ -51,7 +51,6 @@
     background: var(--color-surface-0);
     color: var(--color-text-primary);
     line-height: 1.6;
-    overflow-x: hidden;
   }
 
   a { color: inherit; text-decoration: none; }
@@ -175,4 +174,57 @@
     transition-duration: 0.01ms !important;
   }
   html { scroll-behavior: auto; }
+}
+
+/* Contain Leaflet's translated tile/renderer panes, not the entire page. */
+.map-frame {
+  position: relative;
+  min-width: 0;
+  max-width: 100%;
+  overflow: hidden;
+  isolation: isolate;
+  contain: inline-size paint;
+}
+.leaflet-tile-pane { filter: grayscale(0.6) brightness(1.04); }
+.map-page { height: calc(100dvh - 64px); }
+.map-page .map-frame { min-height: 0 !important; }
+[id^="section-"] { scroll-margin-top: 80px; }
+main { overflow-wrap: break-word; }
+
+@media (max-width: 767px) {
+  button, select, summary { min-height: 44px; }
+  input:not([type="checkbox"]):not([type="radio"]), select, textarea {
+    font-size: 16px;
+    min-width: 0;
+  }
+  footer li a, main nav a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+  }
+  main a[class*="py-"], .compare-bar a {
+    min-height: 44px;
+    align-content: center;
+  }
+  main a[href^="tel:"], main a[href^="mailto:"] {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+  }
+  label:has(input[type="checkbox"]), label[for="wouldRecommend"] { min-height: 44px; align-content: center; }
+  .leaflet-control-attribution { font-size: 12px; }
+}
+@media (pointer: coarse), (max-width: 767px) {
+  .leaflet-control-zoom a {
+    width: 44px !important;
+    height: 44px !important;
+    line-height: 44px !important;
+  }
+}
+
+body { padding-bottom: var(--compare-bar-height, 0px); }
+html { scroll-padding-bottom: var(--compare-bar-height, 0px); }
+.compare-bar { padding-bottom: env(safe-area-inset-bottom); }
+@media (max-width: 767px) {
+  .prose table { display: block; max-width: 100%; overflow-x: auto; }
 }

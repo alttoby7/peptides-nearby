@@ -71,7 +71,9 @@ export function ReviewForm({ providerSlug }: { providerSlug: string }) {
               key={star}
               type="button"
               onClick={() => setRating(star)}
-              className={`text-2xl transition-colors ${
+              aria-label={`${star} ${star === 1 ? "star" : "stars"}`}
+              aria-pressed={rating === star}
+              className={`min-h-11 min-w-11 md:min-h-0 md:min-w-0 text-2xl transition-colors ${
                 star <= rating ? "text-amber-400" : "text-border-medium hover:text-amber-300"
               }`}
             >

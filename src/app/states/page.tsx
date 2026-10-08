@@ -87,7 +87,7 @@ export default function StatesPage() {
               </svg>
               Most Popular
             </h2>
-            <div className="flex gap-3 overflow-x-auto pb-3 snap-x snap-mandatory lg:grid lg:grid-cols-3 lg:overflow-visible lg:pb-0">
+            <div className="flex min-w-0 max-w-full gap-3 overflow-x-auto pb-3 snap-x snap-mandatory lg:grid lg:grid-cols-3 lg:overflow-visible lg:pb-0">
               {featured.map((state) => (
                 <Link
                   key={state.slug}
@@ -109,7 +109,7 @@ export default function StatesPage() {
                     </div>
                     <div className="flex flex-wrap gap-1">
                       {state.topCities.map((city) => (
-                        <span key={city} className="text-[11px] text-text-secondary bg-surface-2 px-2 py-0.5 rounded">
+                        <span key={city} className="text-xs md:text-[11px] text-text-secondary bg-surface-2 px-2 py-0.5 rounded">
                           {city}
                         </span>
                       ))}
@@ -149,7 +149,7 @@ export default function StatesPage() {
                   {region.providerCount.toLocaleString()} providers
                 </span>
               </div>
-              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
+              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
                 {region.states.map((state) => {
                   const tier = state.providerCount >= 100 ? "hot" : state.providerCount >= 10 ? "mid" : "low";
                   return (
@@ -169,12 +169,12 @@ export default function StatesPage() {
                         {state.code}
                       </div>
                       <div className="relative">
-                        <div className="flex items-center gap-2 mb-0.5">
+                        <div className="flex flex-wrap items-center gap-2 mb-0.5">
                           <span className={`font-semibold ${tier === "low" ? "text-text-secondary" : "text-text-primary"}`}>
                             {state.name}
                           </span>
                           {tier === "hot" && (
-                            <span className="text-[10px] font-semibold text-accent bg-accent-dim px-1.5 py-px rounded">
+                            <span className="text-xs md:text-[10px] font-semibold text-accent bg-accent-dim px-1.5 py-px rounded">
                               Popular
                             </span>
                           )}

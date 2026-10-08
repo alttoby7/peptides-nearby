@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState, useCallback } from "react";
+import { type CSSProperties, useMemo, useState, useCallback } from "react";
 import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 import providersData from "@/lib/data/providers.json";
@@ -195,7 +195,7 @@ export function ComparePageClient() {
           <h1 className="font-display text-2xl sm:text-3xl text-text-primary">
             Compare {providers.length} Provider{providers.length !== 1 ? "s" : ""}
           </h1>
-          <div className="flex items-center gap-3">
+          <div className="flex flex-wrap items-center gap-3">
             {/* Differences toggle */}
             <label className="flex items-center gap-2 text-sm text-text-secondary cursor-pointer select-none">
               <span className={`relative inline-block w-9 h-5 rounded-full transition-colors ${diffsOnly ? "bg-accent" : "bg-surface-3"}`}>
@@ -223,8 +223,8 @@ export function ComparePageClient() {
         </div>
 
         {/* ── Provider Header Cards (sticky on desktop) ── */}
-        <div className="sticky top-0 z-30 bg-surface-0 pb-3 -mx-4 px-4 sm:-mx-6 sm:px-6">
-          <div className={`grid gap-3`} style={{ gridTemplateColumns: `repeat(${colCount}, minmax(0, 1fr))` }}>
+        <div className="md:sticky md:top-16 z-30 bg-surface-0 pb-3 -mx-4 px-4 sm:-mx-6 sm:px-6">
+          <div className="grid grid-cols-1 gap-3 md:grid-cols-[var(--compare-columns)]" style={{ "--compare-columns": `repeat(${colCount}, minmax(0, 1fr))` } as CSSProperties}>
             {providers.map((p) => {
               const tier = p.verificationTier ?? "listed";
               const tierBadge = TIER_LABELS[tier];
@@ -239,11 +239,11 @@ export function ComparePageClient() {
                         {p.name}
                       </Link>
                       <div className="flex items-center gap-1.5 mt-1 flex-wrap">
-                        <span className={`text-[10px] px-1.5 py-0.5 rounded-full font-medium ${TYPE_COLORS[p.type]}`}>
+                        <span className={`text-xs md:text-[10px] px-1.5 py-0.5 rounded-full font-medium ${TYPE_COLORS[p.type]}`}>
                           {TYPE_LABELS[p.type]}
                         </span>
                         {tierBadge && (
-                          <span className={`text-[10px] px-1.5 py-0.5 rounded-full font-medium ${tierBadge.className}`}>
+                          <span className={`text-xs md:text-[10px] px-1.5 py-0.5 rounded-full font-medium ${tierBadge.className}`}>
                             {tierBadge.label}
                           </span>
                         )}
@@ -340,7 +340,7 @@ export function ComparePageClient() {
                     render={(p) => (
                       <div className="flex flex-wrap gap-1">
                         {p.treatmentGoals.map((g) => (
-                          <span key={g} className="text-[10px] px-2 py-0.5 bg-accent-dim text-accent rounded-full">
+                          <span key={g} className="text-xs md:text-[10px] px-2 py-0.5 bg-accent-dim text-accent rounded-full">
                             {g.replace(/-/g, " ")}
                           </span>
                         ))}
@@ -354,7 +354,7 @@ export function ComparePageClient() {
                     <MobileField label="Goals">
                       <div className="flex flex-wrap gap-1">
                         {p.treatmentGoals.map((g) => (
-                          <span key={g} className="text-[10px] px-2 py-0.5 bg-accent-dim text-accent rounded-full">{g.replace(/-/g, " ")}</span>
+                          <span key={g} className="text-xs md:text-[10px] px-2 py-0.5 bg-accent-dim text-accent rounded-full">{g.replace(/-/g, " ")}</span>
                         ))}
                         {p.treatmentGoals.length === 0 && <span className="text-text-tertiary">—</span>}
                       </div>
@@ -399,9 +399,9 @@ export function ComparePageClient() {
                     <MobileField label={`Peptides (${p.peptides.length})`}>
                       <div className="flex flex-wrap gap-1">
                         {p.peptides.slice(0, 6).map((pep) => (
-                          <span key={pep} className="text-[10px] px-2 py-0.5 bg-surface-3 text-text-secondary rounded">{pep}</span>
+                          <span key={pep} className="text-xs md:text-[10px] px-2 py-0.5 bg-surface-3 text-text-secondary rounded">{pep}</span>
                         ))}
-                        {p.peptides.length > 6 && <span className="text-[10px] px-2 py-0.5 bg-surface-3 text-text-tertiary rounded">+{p.peptides.length - 6}</span>}
+                        {p.peptides.length > 6 && <span className="text-xs md:text-[10px] px-2 py-0.5 bg-surface-3 text-text-tertiary rounded">+{p.peptides.length - 6}</span>}
                       </div>
                     </MobileField>
                   )}
@@ -444,9 +444,9 @@ export function ComparePageClient() {
                     <MobileField label={`Services (${p.services.length})`}>
                       <div className="flex flex-wrap gap-1">
                         {p.services.slice(0, 4).map((s) => (
-                          <span key={s} className="text-[10px] px-2 py-0.5 bg-surface-3 text-text-secondary rounded">{s}</span>
+                          <span key={s} className="text-xs md:text-[10px] px-2 py-0.5 bg-surface-3 text-text-secondary rounded">{s}</span>
                         ))}
-                        {p.services.length > 4 && <span className="text-[10px] px-2 py-0.5 bg-surface-3 text-text-tertiary rounded">+{p.services.length - 4}</span>}
+                        {p.services.length > 4 && <span className="text-xs md:text-[10px] px-2 py-0.5 bg-surface-3 text-text-tertiary rounded">+{p.services.length - 4}</span>}
                       </div>
                     </MobileField>
                   )}
@@ -550,7 +550,7 @@ export function ComparePageClient() {
                       <span className="font-mono text-sm">{h.open} – {h.close}</span>
                       <button
                         onClick={() => setExpandedHours((prev) => ({ ...prev, [p.slug]: !prev[p.slug] }))}
-                        className="text-[10px] text-accent ml-2 hover:underline"
+                        className="text-xs md:text-[10px] text-accent ml-2 hover:underline"
                       >
                         {expandedHours[p.slug] ? "hide" : "all hours"}
                       </button>
@@ -751,7 +751,7 @@ function MobileField({ label, children }: { label: string; children: React.React
   return (
     <div className="flex items-start justify-between gap-2">
       <span className="text-xs text-text-tertiary shrink-0">{label}</span>
-      <span className="text-right">{children}</span>
+      <span className="min-w-0 break-words text-right">{children}</span>
     </div>
   );
 }

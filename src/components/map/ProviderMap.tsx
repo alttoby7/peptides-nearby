@@ -62,8 +62,8 @@ export default function ProviderMap({
       scrollWheelZoom: true,
     });
 
-    L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> &copy; <a href="https://carto.com/">CARTO</a>',
+    L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
       maxZoom: 19,
     }).addTo(map);
 
@@ -93,7 +93,7 @@ export default function ProviderMap({
           <div style="font-size: 12px; color: #64748b; margin-bottom: 6px;">
             ${entry.city}, ${entry.stateCode}
           </div>
-          <div style="display: inline-block; font-size: 11px; padding: 2px 8px; border-radius: 9999px; background: ${color}15; color: ${color}; font-weight: 500;">
+          <div style="display: inline-block; font-size: 12px; padding: 2px 8px; border-radius: 9999px; background: ${color}15; color: ${color}; font-weight: 500;">
             ${entry.type === "wellness-center" ? "Wellness Center" : entry.type.charAt(0).toUpperCase() + entry.type.slice(1)}
           </div>
           <div style="margin-top: 8px;">
@@ -115,7 +115,11 @@ export default function ProviderMap({
     map.on("moveend", emitVisibleSlugs);
     setTimeout(emitVisibleSlugs, 100);
 
+    const resizeObserver = new ResizeObserver(() => map.invalidateSize());
+    resizeObserver.observe(mapRef.current);
+
     return () => {
+      resizeObserver.disconnect();
       map.remove();
       mapInstanceRef.current = null;
       clusterRef.current = null;
@@ -162,7 +166,7 @@ export default function ProviderMap({
   return (
     <div
       ref={mapRef}
-      className={`w-full h-full ${className}`}
+      className={`map-frame w-full h-full ${className}`}
       style={{ minHeight: 300 }}
     />
   );

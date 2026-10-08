@@ -90,8 +90,8 @@ export function SearchPageClient() {
                     className="card-lift group p-5 bg-white border border-border-subtle rounded-xl shadow-sm hover:border-accent/30"
                   >
                     <div className="flex items-start justify-between gap-4">
-                      <div>
-                        <div className="flex items-center gap-2 mb-1">
+                      <div className="min-w-0">
+                        <div className="flex flex-wrap items-center gap-2 mb-1">
                           <h2 className="font-semibold text-text-primary group-hover:text-accent transition-colors">
                             {entry.name}
                           </h2>

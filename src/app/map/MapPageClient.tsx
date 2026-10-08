@@ -106,9 +106,9 @@ export default function MapPageClient() {
 
   if (loading) {
     return (
-      <div className="flex flex-col" style={{ height: "calc(100vh - 64px)" }}>
+      <div className="map-page flex min-w-0 flex-col">
         {/* Skeleton toolbar */}
-        <div className="flex items-center gap-3 px-5 py-3 border-b border-border-subtle bg-white shrink-0">
+        <div className="flex flex-wrap items-center gap-3 px-5 py-3 border-b border-border-subtle bg-white shrink-0">
           {[80, 64, 88, 104].map((w, i) => (
             <div
               key={i}
@@ -147,7 +147,7 @@ export default function MapPageClient() {
       <Script
         src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
         strategy="afterInteractive"
-        onLoad={() => {
+        onReady={() => {
           const script = document.createElement("script");
           script.src = "https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js";
           script.onload = () => setLeafletReady(true);
@@ -155,10 +155,10 @@ export default function MapPageClient() {
         }}
       />
 
-      <div className="flex flex-col" style={{ height: "calc(100vh - 64px)" }}>
+      <div className="map-page flex min-w-0 flex-col">
         {/* Toolbar */}
         <div className="shrink-0 bg-white border-b border-border-subtle">
-          <div className="flex items-center gap-2 px-4 lg:px-5 py-2.5 overflow-x-auto">
+          <div className="flex flex-wrap items-center gap-2 px-4 lg:px-5 py-2.5">
             {/* Near Me */}
             <button
               onClick={handleNearMe}
@@ -194,6 +194,7 @@ export default function MapPageClient() {
               <>
                 <div className="w-px h-5 bg-border-medium shrink-0" />
                 <select
+                  aria-label="Distance from your location"
                   value={radiusFilter ?? ""}
                   onChange={(e) => setRadiusFilter(e.target.value ? Number(e.target.value) : null)}
                   className="px-3 py-1.5 rounded-lg text-xs font-medium bg-white text-text-secondary border border-border-medium cursor-pointer hover:border-accent transition-colors"
@@ -206,7 +207,7 @@ export default function MapPageClient() {
               </>
             )}
 
-            <div className="ml-auto shrink-0 flex items-center gap-3">
+            <div className="ml-auto flex w-full flex-wrap items-center justify-between gap-3 lg:w-auto lg:shrink-0">
               <span className="text-xs text-text-tertiary tabular-nums">
                 <span className="font-semibold text-text-secondary">{listEntries.length.toLocaleString()}</span> providers
               </span>
@@ -217,6 +218,7 @@ export default function MapPageClient() {
                   <button
                     key={mode}
                     onClick={() => setViewMode(mode)}
+                    aria-pressed={viewMode === mode}
                     className={`px-2.5 py-1 rounded-md text-xs font-medium transition-all ${
                       viewMode === mode
                         ? "bg-accent text-white shadow-sm"
@@ -232,10 +234,10 @@ export default function MapPageClient() {
         </div>
 
         {/* Main content */}
-        <div className="flex-1 flex overflow-hidden">
+        <div className="min-h-0 min-w-0 flex-1 flex flex-col lg:flex-row overflow-hidden">
           {/* Map panel */}
           {viewMode !== "list" && (
-            <div className={`${viewMode === "split" ? "w-1/2 hidden lg:block" : "w-full"} relative`}>
+            <div className={`${viewMode === "split" ? "h-1/2 w-full lg:h-full lg:w-1/2" : "h-full w-full"} min-h-0 min-w-0 overflow-hidden relative`}>
               {leafletReady ? (
                 <MapContainer
                   entries={filteredEntries}
@@ -256,7 +258,7 @@ export default function MapPageClient() {
 
           {/* List panel */}
           {viewMode !== "map" && (
-            <div className={`${viewMode === "split" ? "w-full lg:w-1/2" : "w-full max-w-4xl mx-auto"} overflow-y-auto bg-surface-0 ${viewMode === "split" ? "border-l border-border-subtle" : ""}`}>
+            <div className={`${viewMode === "split" ? "h-1/2 w-full lg:h-full lg:w-1/2" : "w-full max-w-4xl mx-auto"} min-h-0 min-w-0 overflow-y-auto bg-surface-0 ${viewMode === "split" ? "border-l border-border-subtle" : ""}`}>
               {listEntries.length === 0 ? (
                 <div className="flex flex-col items-center justify-center h-64 text-center px-6">
                   <div className="w-16 h-16 rounded-2xl bg-surface-2 flex items-center justify-center mb-4">
@@ -292,7 +294,7 @@ export default function MapPageClient() {
                             <span className="text-xs text-text-tertiary">
                               {entry.city}, {entry.stateCode}
                             </span>
-                            <span className={`text-[10px] font-medium px-1.5 py-0.5 rounded ${TYPE_BADGE_COLORS[entry.type]}`}>
+                            <span className={`text-xs md:text-[10px] font-medium px-1.5 py-0.5 rounded ${TYPE_BADGE_COLORS[entry.type]}`}>
                               {entry.type === "wellness-center" ? "Wellness" : entry.type.charAt(0).toUpperCase() + entry.type.slice(1)}
                             </span>
                           </div>
@@ -319,36 +321,7 @@ export default function MapPageClient() {
           )}
         </div>
 
-        {/* Mobile floating toggle */}
-        <div className="lg:hidden fixed bottom-6 left-1/2 -translate-x-1/2 z-50">
-          <button
-            onClick={() => setViewMode(viewMode === "map" ? "list" : "map")}
-            className="flex items-center gap-2 px-5 py-2.5 rounded-full text-sm font-semibold text-white shadow-lg transition-transform active:scale-95"
-            style={{
-              background: "rgba(14,165,233,0.95)",
-              backdropFilter: "blur(12px)",
-              WebkitBackdropFilter: "blur(12px)",
-              boxShadow: "0 4px 20px rgba(14,165,233,0.35), 0 0 0 1px rgba(255,255,255,0.15) inset",
-            }}
-          >
-            {viewMode === "map" ? (
-              <>
-                <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 6.75h12M8.25 12h12m-12 5.25h12M3.75 6.75h.007v.008H3.75V6.75zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zM3.75 12h.007v.008H3.75V12zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm-.375 5.25h.007v.008H3.75v-.008zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
-                </svg>
-                Show List
-              </>
-            ) : (
-              <>
-                <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
-                </svg>
-                Show Map
-              </>
-            )}
-          </button>
-        </div>
+
       </div>
     </>
   );

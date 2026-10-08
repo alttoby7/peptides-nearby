@@ -300,7 +300,7 @@ export default function HomePage() {
                   {city.pharmacyCount > 0 && <div className="bg-[#7c3aed]" style={{ width: `${(city.pharmacyCount / city.providerCount) * 100}%` }} />}
                   {city.wellnessCenterCount > 0 && <div className="bg-[#059669]" style={{ width: `${(city.wellnessCenterCount / city.providerCount) * 100}%` }} />}
                 </div>
-                <div className="flex gap-3 mt-2 text-[11px] text-text-tertiary">
+                <div className="flex gap-3 mt-2 text-xs md:text-[11px] text-text-tertiary">
                   <span className="flex items-center gap-1"><span className="w-1.5 h-1.5 rounded-full bg-[#2563eb]" />{city.clinicCount}</span>
                   <span className="flex items-center gap-1"><span className="w-1.5 h-1.5 rounded-full bg-[#7c3aed]" />{city.pharmacyCount}</span>
                   <span className="flex items-center gap-1"><span className="w-1.5 h-1.5 rounded-full bg-[#059669]" />{city.wellnessCenterCount}</span>

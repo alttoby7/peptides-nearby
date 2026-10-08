@@ -137,7 +137,7 @@ export default async function StatePage({ params }: Props) {
                 </svg>
                 Top Cities
               </h2>
-              <div className="flex gap-3 overflow-x-auto pb-3 snap-x snap-mandatory md:grid md:grid-cols-2 lg:grid-cols-4 md:overflow-visible md:pb-0">
+              <div className="flex min-w-0 max-w-full gap-3 overflow-x-auto pb-3 snap-x snap-mandatory md:grid md:grid-cols-2 lg:grid-cols-4 md:overflow-visible md:pb-0">
                 {featured.map((city) => {
                   const total = city.clinicCount + city.pharmacyCount + city.wellnessCenterCount;
                   const clinicPct = total > 0 ? (city.clinicCount / total) * 100 : 0;
@@ -160,7 +160,7 @@ export default async function StatePage({ params }: Props) {
                         {pharmPct > 0 && <div className="bg-[#7c3aed]" style={{ width: `${pharmPct}%` }} />}
                         {wellPct > 0 && <div className="bg-[#059669]" style={{ width: `${wellPct}%` }} />}
                       </div>
-                      <div className="flex gap-3 text-[11px] text-text-tertiary">
+                      <div className="flex gap-3 text-xs md:text-[11px] text-text-tertiary">
                         <span className="flex items-center gap-1">
                           <span className="w-1.5 h-1.5 rounded-full bg-[#2563eb]" />{city.clinicCount}
                         </span>
@@ -182,7 +182,7 @@ export default async function StatePage({ params }: Props) {
           <StatePageClient cities={clientCities} stateSlug={state.slug} />
 
           {/* All Cities */}
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
             {cities
               .sort((a, b) => b.providerCount - a.providerCount)
               .map((city) => {
@@ -199,12 +199,12 @@ export default async function StatePage({ params }: Props) {
                     }`}
                   >
                     <div className="relative">
-                      <div className="flex items-center gap-2 mb-0.5">
+                      <div className="flex flex-wrap items-center gap-2 mb-0.5">
                         <span className={`font-semibold ${tier === "empty" ? "text-text-tertiary" : "text-text-primary"}`}>
                           {city.name}
                         </span>
                         {tier === "hot" && (
-                          <span className="text-[10px] font-semibold text-accent bg-accent-dim px-1.5 py-px rounded">
+                          <span className="text-xs md:text-[10px] font-semibold text-accent bg-accent-dim px-1.5 py-px rounded">
                             Popular
                           </span>
                         )}

@@ -47,8 +47,8 @@ export default function CityMap({ city, stateCode }: CityMapProps) {
     });
     mapRef.current = map;
 
-    L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> &copy; <a href="https://carto.com/">CARTO</a>',
+    L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
       maxZoom: 19,
     }).addTo(map);
 
@@ -82,7 +82,11 @@ export default function CityMap({ city, stateCode }: CityMapProps) {
       map.fitBounds(bounds, { padding: [30, 30] });
     }
 
+    const resizeObserver = new ResizeObserver(() => map.invalidateSize());
+    resizeObserver.observe(container);
+
     return () => {
+      resizeObserver.disconnect();
       map.remove();
       mapRef.current = null;
     };
@@ -96,10 +100,10 @@ export default function CityMap({ city, stateCode }: CityMapProps) {
       <Script
         src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
         strategy="afterInteractive"
-        onLoad={() => setLeafletReady(true)}
+        onReady={() => setLeafletReady(true)}
       />
       <div className="mb-8">
-        <div id="city-map" className="w-full rounded-xl overflow-hidden border border-border-subtle" style={{ height: 300 }} />
+        <div id="city-map" className="map-frame w-full rounded-xl overflow-hidden border border-border-subtle" style={{ height: 300 }} />
       </div>
     </>
   );

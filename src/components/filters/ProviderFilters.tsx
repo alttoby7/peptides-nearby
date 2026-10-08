@@ -161,9 +161,9 @@ export function FilteredProviderList({
         )}
 
         {showPeptideFilter && availablePeptides.length > 0 && (
-          <div className="relative group">
-            <button
-              className={`text-xs px-3 py-1.5 rounded-lg border transition-colors ${
+          <details className="relative">
+            <summary
+              className={`flex min-h-11 md:min-h-0 items-center cursor-pointer list-none text-xs px-3 py-1.5 rounded-lg border transition-colors ${
                 selectedPeptides.size > 0
                   ? "bg-accent text-white border-accent"
                   : "bg-white text-text-secondary border-border-medium hover:border-accent"
@@ -173,8 +173,8 @@ export function FilteredProviderList({
               <svg className="w-3 h-3 inline ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
               </svg>
-            </button>
-            <div className="absolute z-40 top-full mt-1 left-0 w-56 max-h-64 overflow-y-auto bg-white border border-border-subtle rounded-xl shadow-lg hidden group-hover:block">
+            </summary>
+            <div className="z-40 mt-1 w-full md:absolute md:top-full md:left-0 md:w-56 max-h-64 overflow-y-auto bg-white border border-border-subtle rounded-xl shadow-lg">
               {availablePeptides.map((pep) => (
                 <button
                   key={pep}
@@ -194,7 +194,7 @@ export function FilteredProviderList({
                 </button>
               ))}
             </div>
-          </div>
+          </details>
         )}
 
         {hasActiveFilters && (
@@ -218,7 +218,7 @@ export function FilteredProviderList({
       <div className="flex flex-col gap-4">
         {filtered.map((p) => (
           <div key={p.slug} className="relative">
-            <ProviderCard provider={p} />
+            <ProviderCard provider={p} reserveActionSpace />
             <div className="absolute bottom-3 right-3">
               <CompareButton slug={p.slug} />
             </div>

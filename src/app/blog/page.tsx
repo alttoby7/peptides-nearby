@@ -47,10 +47,10 @@ export default function BlogHubPage() {
                 >
                   <div className="p-5">
                     <div className="flex items-center gap-2 mb-3">
-                      <span className="text-[10px] font-bold uppercase tracking-wider text-accent bg-accent/10 px-2 py-0.5 rounded-full">
+                      <span className="text-xs md:text-[10px] font-bold uppercase tracking-wider text-accent bg-accent/10 px-2 py-0.5 rounded-full">
                         {article.funnel}
                       </span>
-                      <span className="text-[10px] text-text-tertiary">
+                      <span className="text-xs md:text-[10px] text-text-tertiary">
                         {article.readingTime} min read
                       </span>
                     </div>

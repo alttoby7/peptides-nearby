@@ -61,6 +61,7 @@ export default function DirectorySearch({ items, mode, onFilter }: DirectorySear
         </svg>
         <input
           type="text"
+          aria-label={mode === "states" ? "Search states" : "Search cities"}
           value={query}
           onChange={(e) => handleChange(e.target.value)}
           placeholder={mode === "states" ? "Search states..." : "Search cities..."}
@@ -68,14 +69,16 @@ export default function DirectorySearch({ items, mode, onFilter }: DirectorySear
         />
       </div>
 
-      <div className="flex gap-0.5 overflow-x-auto pb-1 scrollbar-none">
+      <div className="flex flex-wrap gap-0.5 pb-1">
         {ALPHABET.map((letter) => {
           const active = activeLetters.has(letter);
           return (
             <button
               key={letter}
+              disabled={!active}
+              aria-label={`Jump to ${letter}`}
               onClick={() => handleLetterClick(letter)}
-              className={`w-7 h-7 shrink-0 rounded-md text-xs font-semibold transition-colors ${
+              className={`w-11 h-11 md:w-7 md:h-7 shrink-0 rounded-md text-xs font-semibold transition-colors ${
                 active
                   ? "text-text-secondary hover:bg-accent hover:text-white"
                   : "text-text-tertiary/40 cursor-default"

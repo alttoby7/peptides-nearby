@@ -31,7 +31,7 @@ const INSURANCE_LABELS: Record<string, { label: string; className: string }> = {
   unknown: { label: "", className: "" },
 };
 
-export function ProviderCard({ provider }: { provider: Provider }) {
+export function ProviderCard({ provider, reserveActionSpace = false }: { provider: Provider; reserveActionSpace?: boolean }) {
   const tier = provider.verificationTier ?? (provider.verified ? "verified" : "listed");
   const tierBadge = TIER_BADGES[tier];
   const insuranceLabel = INSURANCE_LABELS[provider.insurance];
@@ -40,7 +40,7 @@ export function ProviderCard({ provider }: { provider: Provider }) {
   return (
     <Link
       href={`/providers/${provider.slug}`}
-      className="block card-lift group p-5 bg-white border border-border-subtle rounded-xl shadow-sm hover:border-accent/30"
+      className={`block card-lift group p-5 ${reserveActionSpace ? "pb-16 sm:pb-5" : ""} bg-white border border-border-subtle rounded-xl shadow-sm hover:border-accent/30`}
     >
       <div className="flex items-start justify-between gap-4">
         <div className="min-w-0 flex-1">
