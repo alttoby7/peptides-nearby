@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!provider) return { title: "Provider Not Found", robots: { index: false, follow: false } };
   return {
     title: `Claim ${provider.name} — Peptides Nearby`,
-    description: `Are you the owner or manager of ${provider.name}? Claim your listing to update information and unlock premium features.`,
+    description: `Are you the owner or manager of ${provider.name}? Claim the listing, request factual corrections, or ask about the founding provider pilot.`,
     robots: { index: false, follow: false },
   };
 }
@@ -63,24 +63,24 @@ export default async function ClaimPage({ params }: Props) {
         ) : (
           <>
             <p className="text-text-secondary mb-4">
-              Verify your ownership of this listing to unlock:
+              Verify your connection to this practice to request factual corrections or join the founding provider pilot.
             </p>
             <ul className="text-sm text-text-secondary mb-8 flex flex-col gap-2">
               <li className="flex items-start gap-2">
                 <span className="text-accent mt-0.5">&#10003;</span>
-                <span><strong>Claimed badge</strong> — shows patients this listing is managed by the provider</span>
+                <span><strong>Free factual corrections</strong> — update inaccurate contact or service information</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-accent mt-0.5">&#10003;</span>
-                <span><strong>Edit your listing</strong> — update hours, services, peptides, and contact info</span>
+                <span><strong>Provider-confirmed status</strong> — added only after we verify your connection to the practice</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-accent mt-0.5">&#10003;</span>
-                <span><strong>Respond to reviews</strong> — engage with patient feedback</span>
+                <span><strong>Founding Featured pilot</strong> — an optional $99 first-year enhanced profile and clearly labeled local placement</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-accent mt-0.5">&#10003;</span>
-                <span><strong>Priority placement</strong> — claimed listings rank higher in search</span>
+                <span><strong>Editorial independence</strong> — payment never changes factual, medical, or safety information</span>
               </li>
             </ul>
 

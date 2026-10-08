@@ -18,6 +18,15 @@ interface Env {
 }
 
 interface SubmissionPayload {
+  action?: string;
+  providerSlug?: string;
+  providerName?: string;
+  claimantName?: string;
+  claimantRole?: string;
+  claimantEmail?: string;
+  claimantPhone?: string;
+  notes?: string;
+  planInterest?: string;
   name?: string;
   type?: string;
   city?: string;
@@ -43,6 +52,8 @@ const FIELDS: (keyof SubmissionPayload)[] = [
 ];
 
 const VALID_TYPES = new Set(["clinic", "pharmacy", "wellness-center"]);
+const VALID_ACTIONS = new Set(["listing", "claim"]);
+const VALID_PLAN_INTEREST = new Set(["free-claim", "founding-featured"]);
 
 function json(body: unknown, status: number): Response {
   return new Response(JSON.stringify(body), {
@@ -94,6 +105,53 @@ export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
 
   // Honeypot: bots fill every field. Pretend success so they don't retry.
   if (trim(payload.company)) {
+    return json({ ok: true }, 200);
+  }
+
+  const action = trim(payload.action || "listing", 20);
+  if (!VALID_ACTIONS.has(action)) {
+    return json({ error: "invalid_action" }, 400);
+  }
+
+  if (action === "claim") {
+    const claim = {
+      providerSlug: trim(payload.providerSlug),
+      providerName: trim(payload.providerName),
+      claimantName: trim(payload.claimantName),
+      claimantRole: trim(payload.claimantRole),
+      claimantEmail: trim(payload.claimantEmail),
+      claimantPhone: trim(payload.claimantPhone),
+      notes: trim(payload.notes, 2000),
+      planInterest: trim(payload.planInterest, 40),
+    };
+    if (!claim.providerSlug || !claim.providerName || !claim.claimantName || !claim.claimantRole || !claim.claimantEmail) {
+      return json({ error: "missing_required_fields" }, 400);
+    }
+    if (!VALID_PLAN_INTEREST.has(claim.planInterest)) {
+      return json({ error: "invalid_plan_interest" }, 400);
+    }
+
+    const lines = Object.entries(claim)
+      .map(([key, value]) => `<tr><td style="padding:4px 12px 4px 0;color:#666">${key}</td><td style="padding:4px 0">${escapeHtml(value) || "—"}</td></tr>`)
+      .join("");
+    const html = `<p>Provider claim request from peptidesnearby.com</p><table>${lines}</table><p style="color:#999;font-size:12px">IP: ${escapeHtml(request.headers.get("CF-Connecting-IP") || "?")} · ${new Date().toISOString()}</p>`;
+    const text = Object.entries(claim).map(([key, value]) => `${key}: ${value || "-"}`).join("\n");
+    const res = await fetch("https://api.resend.com/emails", {
+      method: "POST",
+      headers: { Authorization: `Bearer ${apiKey}`, "Content-Type": "application/json" },
+      body: JSON.stringify({
+        from,
+        to: [to],
+        reply_to: claim.claimantEmail,
+        subject: `[Peptides Nearby] Claim request: ${claim.providerName}${claim.planInterest === "founding-featured" ? " — founding plan interest" : ""}`,
+        html,
+        text,
+      }),
+    });
+    if (!res.ok) {
+      console.error("resend_failed", res.status, await res.text());
+      return json({ error: "send_failed" }, 502);
+    }
     return json({ ok: true }, 200);
   }
 

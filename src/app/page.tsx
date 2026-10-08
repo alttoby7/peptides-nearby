@@ -451,9 +451,9 @@ export default function HomePage() {
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {[
-              { title: `${providerCount.toLocaleString()}+ Verified Providers`, desc: "Every listing checked for active practice and proper licensing." },
-              { title: "Free Forever", desc: "No paywalls, no premium tiers. Open directory for patients." },
-              { title: "Updated Weekly", desc: "New providers added and existing data refreshed continuously." },
+              { title: `${providerCount.toLocaleString()}+ Directory Listings`, desc: "Listings are discovery leads, not endorsements. Confirm credentials and services directly." },
+              { title: "Free for Patients", desc: "Patients can browse the directory without a paywall." },
+              { title: "Provider Corrections Welcome", desc: "Practices can claim a listing and request factual updates." },
               { title: "Interactive Map", desc: "Browse visually with geolocation to find the closest providers." },
             ].map((item) => (
               <div key={item.title} className="p-5 bg-surface-0 rounded-xl border border-border-subtle">

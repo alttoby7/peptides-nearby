@@ -2,7 +2,15 @@
 
 import { useState } from "react";
 
-const claimUrl = process.env.NEXT_PUBLIC_CLAIM_PROVIDER_URL;
+const claimUrl = "/api/submit";
+
+function track(eventName: string, planInterest: string) {
+  const win = window as typeof window & { gtag?: (...args: unknown[]) => void };
+  win.gtag?.("event", eventName, {
+    surface: "provider_claim",
+    plan_interest: planInterest,
+  });
+}
 
 export function ClaimForm({ providerSlug, providerName }: { providerSlug: string; providerName: string }) {
   const [status, setStatus] = useState<"idle" | "submitting" | "success" | "error">("idle");
@@ -16,20 +24,15 @@ export function ClaimForm({ providerSlug, providerName }: { providerSlug: string
     const form = e.currentTarget;
     const data = Object.fromEntries(new FormData(form));
 
-    if (!claimUrl) {
-      setStatus("error");
-      setErrorMessage("Claim endpoint is not configured.");
-      return;
-    }
-
     try {
       const res = await fetch(claimUrl, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ ...data, providerSlug }),
+        body: JSON.stringify({ ...data, action: "claim", providerSlug, providerName }),
       });
 
       if (res.ok) {
+        track("provider_claim_submitted", String(data.planInterest || "free-claim"));
         setStatus("success");
         form.reset();
       } else {
@@ -105,6 +108,33 @@ export function ClaimForm({ providerSlug, providerName }: { providerSlug: string
         </p>
       </div>
 
+      <input
+        type="text"
+        name="company"
+        tabIndex={-1}
+        autoComplete="off"
+        aria-hidden="true"
+        className="hidden"
+      />
+
+      <fieldset className="p-5 bg-surface-1 border border-border-subtle rounded-xl">
+        <legend className="font-semibold text-text-primary px-1">Listing option</legend>
+        <label className="flex gap-3 items-start py-2">
+          <input type="radio" name="planInterest" value="free-claim" defaultChecked className="mt-1" />
+          <span>
+            <strong className="text-text-primary">Free claim and correction</strong>
+            <span className="block text-sm text-text-secondary">Confirm ownership and request factual updates to your listing.</span>
+          </span>
+        </label>
+        <label className="flex gap-3 items-start py-2">
+          <input type="radio" name="planInterest" value="founding-featured" className="mt-1" />
+          <span>
+            <strong className="text-text-primary">Founding Featured pilot — $99 for the first year</strong>
+            <span className="block text-sm text-text-secondary">Request a reviewed enhanced profile and clearly labeled featured placement on one relevant local page. No payment is taken with this form, and placement never changes factual or medical information.</span>
+          </span>
+        </label>
+      </fieldset>
+
       <div>
         <label htmlFor="claimantPhone" className="block text-sm font-medium text-text-secondary mb-1.5">
           Phone (optional)
@@ -134,6 +164,10 @@ export function ClaimForm({ providerSlug, providerName }: { providerSlug: string
       <button
         type="submit"
         disabled={status === "submitting"}
+        onClick={() => {
+          const selected = document.querySelector<HTMLInputElement>('input[name="planInterest"]:checked')?.value || "free-claim";
+          track("provider_claim_started", selected);
+        }}
         className="px-6 py-3 bg-accent text-white font-semibold rounded-lg hover:opacity-90 transition-opacity disabled:opacity-50"
       >
         {status === "submitting" ? "Submitting..." : "Submit Claim"}
