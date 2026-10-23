@@ -5,6 +5,10 @@ const IMPRESSION_KEY_PREFIX = "pn_analytics_impression:";
 type AnalyticsWindow = Window & {
   dataLayer?: unknown[];
   gtag?: (...args: unknown[]) => void;
+  __pnAnalyticsMeasurement?: {
+    initialized: boolean;
+    pending: Array<{ eventName: string; params: Record<string, unknown> }>;
+  };
 };
 
 export type DirectorySurface = "provider_profile" | "local_page";
@@ -49,9 +53,30 @@ export function isAnalyticsEligible(win: AnalyticsWindow = window as AnalyticsWi
 
 export function ensureGoogleTag(win: AnalyticsWindow = window as AnalyticsWindow): void {
   win.dataLayer = win.dataLayer || [];
-  win.gtag = win.gtag || function gtag(...args: unknown[]) {
-    win.dataLayer!.push(args);
+  win.gtag = win.gtag || function gtag(..._args: unknown[]) {
+    win.dataLayer!.push(arguments);
   };
+}
+
+function measurementState(win: AnalyticsWindow) {
+  win.__pnAnalyticsMeasurement = win.__pnAnalyticsMeasurement || {
+    initialized: false,
+    pending: [],
+  };
+  return win.__pnAnalyticsMeasurement;
+}
+
+function emitOrQueue(
+  eventName: string,
+  params: Record<string, unknown>,
+  win: AnalyticsWindow
+): void {
+  const state = measurementState(win);
+  if (state.initialized && win.gtag) {
+    win.gtag("event", eventName, params);
+    return;
+  }
+  state.pending.push({ eventName, params });
 }
 
 export function analyticsConfig(win: AnalyticsWindow = window as AnalyticsWindow): Record<string, unknown> {
@@ -59,9 +84,19 @@ export function analyticsConfig(win: AnalyticsWindow = window as AnalyticsWindow
     send_page_view: false,
     allow_google_signals: false,
     allow_ad_personalization_signals: false,
+    ignore_referrer: true,
     page_location: sanitizedPageLocation(win.location),
     page_path: win.location.pathname,
+    page_referrer: "",
     ...safeCampaignFields(win.location.search),
+  };
+}
+
+function safePageFields(win: AnalyticsWindow): Record<string, string> {
+  return {
+    page_location: sanitizedPageLocation(win.location),
+    page_path: win.location.pathname,
+    page_referrer: "",
   };
 }
 
@@ -73,8 +108,15 @@ export function initializeGoogleAnalytics(
   if (!isAnalyticsEligible(win)) return false;
 
   ensureGoogleTag(win);
-  win.gtag?.("js", new Date());
-  win.gtag?.("config", measurementId, analyticsConfig(win));
+  const state = measurementState(win);
+  if (!state.initialized) {
+    win.gtag?.("js", new Date());
+    win.gtag?.("config", measurementId, analyticsConfig(win));
+    state.initialized = true;
+    for (const pending of state.pending.splice(0)) {
+      win.gtag?.("event", pending.eventName, pending.params);
+    }
+  }
 
   if (!doc.querySelector("script[data-peptides-nearby-analytics]")) {
     const script = doc.createElement("script");
@@ -88,12 +130,11 @@ export function initializeGoogleAnalytics(
 }
 
 export function trackPageView(win: AnalyticsWindow = window as AnalyticsWindow): boolean {
-  if (!isAnalyticsEligible(win) || !win.gtag) return false;
-  win.gtag("event", "page_view", {
-    page_location: sanitizedPageLocation(win.location),
-    page_path: win.location.pathname,
+  if (!isAnalyticsEligible(win)) return false;
+  emitOrQueue("page_view", {
+    ...safePageFields(win),
     ...safeCampaignFields(win.location.search),
-  });
+  }, win);
   return true;
 }
 
@@ -102,7 +143,7 @@ export function trackDirectoryImpression(
   surfaceKey: string,
   win: AnalyticsWindow = window as AnalyticsWindow
 ): boolean {
-  if (!isAnalyticsEligible(win) || !win.gtag) return false;
+  if (!isAnalyticsEligible(win)) return false;
 
   const eventName = surface === "provider_profile"
     ? "eligible_provider_profile_impression"
@@ -116,11 +157,10 @@ export function trackDirectoryImpression(
     return false;
   }
 
-  win.gtag("event", eventName, {
+  emitOrQueue(eventName, {
     denominator_scope: "browser_tab_session_per_page",
-    page_location: sanitizedPageLocation(win.location),
-    page_path: win.location.pathname,
-  });
+    ...safePageFields(win),
+  }, win);
   return true;
 }
 
@@ -128,21 +168,19 @@ export function trackProviderSiteClick(
   destination: ProviderDestination,
   win: AnalyticsWindow = window as AnalyticsWindow
 ): boolean {
-  if (!isAnalyticsEligible(win) || !win.gtag) return false;
-  win.gtag("event", "provider_site_click", {
+  if (!isAnalyticsEligible(win)) return false;
+  emitOrQueue("provider_site_click", {
     destination_type: destination,
-    page_location: sanitizedPageLocation(win.location),
-    page_path: win.location.pathname,
-  });
+    ...safePageFields(win),
+  }, win);
   return true;
 }
 
 export function trackProviderCallClick(win: AnalyticsWindow = window as AnalyticsWindow): boolean {
-  if (!isAnalyticsEligible(win) || !win.gtag) return false;
-  win.gtag("event", "provider_call_click", {
-    page_location: sanitizedPageLocation(win.location),
-    page_path: win.location.pathname,
-  });
+  if (!isAnalyticsEligible(win)) return false;
+  emitOrQueue("provider_call_click", {
+    ...safePageFields(win),
+  }, win);
   return true;
 }
 

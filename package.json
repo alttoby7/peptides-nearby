@@ -12,6 +12,8 @@
         "validate-build": "tsx scripts/validate-build.ts",
         "test:provider-claim": "tsx scripts/test-provider-claim.ts",
         "test:measurement": "tsx scripts/test-measurement.ts",
+        "test:measurement-browser": "tsx scripts/test-measurement-browser.ts",
+        "test:measurement-real-tag": "tsx scripts/test-measurement-browser.ts --real-tag",
         "export-from-supabase": "tsx scripts/export-from-supabase.ts",
         "sync-data": "npm run export-from-supabase && npm run prepare-data"
     },
