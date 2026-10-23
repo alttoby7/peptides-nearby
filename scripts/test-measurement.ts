@@ -30,7 +30,7 @@ function fakeWindow(url: string, webdriver = false) {
 function interceptingDocument() {
   const requests: string[] = [];
   const doc = {
-    querySelector: () => null,
+    querySelector: () => requests.length > 0 ? {} : null,
     createElement: () => ({ async: false, src: "", dataset: {} }),
     head: { appendChild: (node: { src: string }) => { requests.push(node.src); } },
   } as unknown as Document;
@@ -58,6 +58,17 @@ ensureGoogleTag(qa);
 check(!trackProviderCallClick(qa), "explicit QA sessions must be excluded");
 qa.location = new URL("https://www.peptidesnearby.com/providers/example");
 check(!trackProviderCallClick(qa), "QA exclusion must persist for the browser session");
+
+const childFirst = fakeWindow("https://www.peptidesnearby.com/providers/fresh-load");
+const childFirstNetwork = interceptingDocument();
+check(trackDirectoryImpression("provider_profile", "fresh-load", childFirst), "child-first impression must enter the pending queue");
+check(childFirst.dataLayer.length === 0, "pending impression must wait for GA configuration");
+check(initializeGoogleAnalytics("G-JXV379RS99", childFirst, childFirstNetwork.doc), "later initializer must succeed");
+check((childFirst.dataLayer as unknown[][]).filter((entry) => entry[1] === "eligible_provider_profile_impression").length === 1, "initializer must drain the pending impression exactly once");
+check(initializeGoogleAnalytics("G-JXV379RS99", childFirst, childFirstNetwork.doc), "repeated initialization must remain safe");
+check((childFirst.dataLayer as unknown[][]).filter((entry) => entry[0] === "config").length === 1, "GA configuration must not duplicate");
+check((childFirst.dataLayer as unknown[][]).filter((entry) => entry[1] === "eligible_provider_profile_impression").length === 1, "drained impression must not duplicate");
+check(childFirstNetwork.requests.length === 1, "GA loader must be requested exactly once");
 
 const production = fakeWindow("https://www.peptidesnearby.com/providers/example?utm_source=founding_outreach&utm_medium=email&utm_campaign=scottsdale_founding_2026q4&utm_content=example&email=private@example.com");
 const productionNetwork = interceptingDocument();
