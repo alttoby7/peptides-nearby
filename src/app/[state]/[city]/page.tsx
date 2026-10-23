@@ -9,6 +9,7 @@ import { cityUrl } from "@/lib/seo/paths";
 import { JsonLd, breadcrumbJsonLd, itemListJsonLd } from "@/components/seo/JsonLd";
 import { FilteredProviderList } from "@/components/filters/ProviderFilters";
 import CityMapWrapper from "@/components/map/CityMapWrapper";
+import { DirectoryImpression } from "@/components/analytics/DirectoryMeasurement";
 
 type Props = { params: Promise<{ state: string; city: string }> };
 
@@ -48,6 +49,7 @@ export default async function CityPage({ params }: Props) {
 
   return (
     <>
+      <DirectoryImpression surface="local_page" surfaceKey={`${state.slug}/${city.slug}`} />
       <JsonLd
         data={breadcrumbJsonLd([
           { name: "Home", url: BASE },

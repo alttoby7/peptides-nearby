@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import Script from "next/script";
 import { Nav } from "@/components/layout/Nav";
 import { Footer } from "@/components/layout/Footer";
 import { CompareProvider } from "@/components/compare/CompareContext";
 import { CompareBar } from "@/components/compare/CompareBar";
+import { GoogleAnalytics } from "@/components/analytics/GoogleAnalytics";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -49,13 +49,7 @@ export default function RootLayout({
           <Footer />
           <CompareBar />
         </CompareProvider>
-        <Script src="https://www.googletagmanager.com/gtag/js?id=G-JXV379RS99" strategy="afterInteractive" />
-        <Script id="ga4-init" strategy="afterInteractive">{`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          if(typeof window!=='undefined'&&(window.location.hostname==='peptidesnearby.com'||window.location.hostname==='www.peptidesnearby.com')){gtag('config','G-JXV379RS99');}
-        `}</Script>
+        <GoogleAnalytics />
       </body>
     </html>
   );
