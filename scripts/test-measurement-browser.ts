@@ -306,6 +306,7 @@ async function main() {
   assert.ok(dataLayerText.includes("pn_intercepted_privacy_probe"), "the loaded real tag must accept the intercepted probe");
   assert.ok(!dataLayerText.includes(sensitiveEmail), "real-tag commands must not contain email query/referrer/form text");
   assert.ok(!dataLayerText.includes(sensitiveHealthTerm), "real-tag commands must not contain health query/referrer/form text");
+  assert.ok(intercepted.length > 0, "the real tag must attempt collection before every collection endpoint is blocked");
   const payload = externalRequests.map(requestText).join("\n");
   assert.ok(!payload.includes(sensitiveEmail), "collection attempts must not contain email query/referrer/form text");
   assert.ok(!payload.includes(sensitiveHealthTerm), "collection attempts must not contain health query/referrer/form text");

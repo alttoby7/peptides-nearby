@@ -53,8 +53,8 @@ export function isAnalyticsEligible(win: AnalyticsWindow = window as AnalyticsWi
 
 export function ensureGoogleTag(win: AnalyticsWindow = window as AnalyticsWindow): void {
   win.dataLayer = win.dataLayer || [];
-  win.gtag = win.gtag || function gtag(...args: unknown[]) {
-    win.dataLayer!.push(args);
+  win.gtag = win.gtag || function gtag(..._args: unknown[]) {
+    win.dataLayer!.push(arguments);
   };
 }
 
