@@ -10,6 +10,7 @@ import { providerUrl } from "@/lib/seo/paths";
 import { JsonLd, breadcrumbJsonLd, medicalBusinessJsonLd } from "@/components/seo/JsonLd";
 import { ReviewList } from "@/components/reviews/ReviewList";
 import { ReviewForm } from "@/components/reviews/ReviewForm";
+import { DirectoryImpression, TrackedProviderLink } from "@/components/analytics/DirectoryMeasurement";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -69,6 +70,7 @@ export default async function ProviderPage({ params }: Props) {
 
   return (
     <>
+      <DirectoryImpression surface="provider_profile" surfaceKey={slug} />
       <JsonLd
         data={breadcrumbJsonLd([
           { name: "Home", url: BASE },
@@ -333,9 +335,9 @@ export default async function ProviderPage({ params }: Props) {
                   {provider.phone && (
                     <div>
                       <div className="text-xs text-text-tertiary uppercase tracking-wider mb-1">Phone</div>
-                      <a href={`tel:${provider.phone}`} className="text-sm text-accent hover:underline">
+                      <TrackedProviderLink measurement="call" href={`tel:${provider.phone}`} className="text-sm text-accent hover:underline">
                         {provider.phone}
-                      </a>
+                      </TrackedProviderLink>
                     </div>
                   )}
 
@@ -358,24 +360,26 @@ export default async function ProviderPage({ params }: Props) {
 
                 <div className="flex flex-col gap-2">
                   {provider.bookingUrl && (
-                    <a
+                    <TrackedProviderLink
+                      measurement="booking"
                       href={provider.bookingUrl}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="block text-center px-4 py-2.5 bg-accent text-white font-semibold rounded-lg hover:opacity-90 transition-opacity"
                     >
                       Book Now
-                    </a>
+                    </TrackedProviderLink>
                   )}
                   {provider.website && (
-                    <a
+                    <TrackedProviderLink
+                      measurement="website"
                       href={provider.website}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="block text-center px-4 py-2.5 border border-border-medium text-text-secondary rounded-lg hover:border-accent hover:text-accent transition-colors"
                     >
                       Visit Website
-                    </a>
+                    </TrackedProviderLink>
                   )}
                 </div>
               </div>

@@ -11,6 +11,7 @@
         "generate-redirects": "tsx scripts/generate-redirects.ts",
         "validate-build": "tsx scripts/validate-build.ts",
         "test:provider-claim": "tsx scripts/test-provider-claim.ts",
+        "test:measurement": "tsx scripts/test-measurement.ts",
         "export-from-supabase": "tsx scripts/export-from-supabase.ts",
         "sync-data": "npm run export-from-supabase && npm run prepare-data"
     },
