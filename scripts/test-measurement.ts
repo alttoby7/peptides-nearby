@@ -89,8 +89,10 @@ check(!JSON.stringify(queued).includes("private@example.com"), "query PII must n
 const config = analyticsConfig(production);
 check(config.page_location === "https://www.peptidesnearby.com/providers/example", "page location must omit query text");
 check(config.allow_google_signals === false && config.allow_ad_personalization_signals === false, "advertising signals must remain disabled");
+check(config.ignore_referrer === true && config.page_referrer === "", "configuration must suppress the browser referrer");
 check(JSON.stringify(config).includes("founding_outreach"), "safe campaign attribution must be preserved");
 check(!JSON.stringify(config).includes("private@example.com"), "raw query values must be excluded from config");
+check(queued.filter((entry) => entry[0] === "event").every((entry) => (entry[2] as Record<string, unknown>).page_referrer === ""), "manual events must suppress the browser referrer");
 check(sanitizedPageLocation(production.location) === "https://www.peptidesnearby.com/providers/example", "sanitized location expected");
 check(Object.keys(safeCampaignFields("?utm_source=a%20b&utm_medium=email")).length === 1, "unsafe campaign values must be dropped");
 

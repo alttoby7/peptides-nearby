@@ -1,5 +1,5 @@
 import assert from "node:assert/strict";
-import { spawn, type ChildProcess } from "node:child_process";
+import { execFileSync, spawn, type ChildProcess } from "node:child_process";
 import { createServer, type Server } from "node:http";
 import { promises as fs } from "node:fs";
 import path from "node:path";
@@ -11,6 +11,38 @@ const edgePath = "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.
 const profileDir = path.join(root, "node_modules", ".cache", `measurement-browser-${process.pid}`);
 const host = "www.peptidesnearby.com";
 const expectedFreshProfile = Number(process.env.PN_EXPECT_FRESH_PROFILE ?? "1");
+const realTagMode = process.argv.includes("--real-tag");
+const sensitiveEmail = "private.person@example.com";
+const sensitiveHealthTerm = "cancer-treatment";
+
+type InterceptedRequest = {
+  url: string;
+  postData?: string;
+};
+
+function isCollectionEndpoint(url: string): boolean {
+  const parsed = new URL(url);
+  return /(^|\.)google-analytics\.com$/.test(parsed.hostname)
+    || parsed.hostname === "analytics.google.com"
+    || (parsed.hostname === "www.googletagmanager.com" && !parsed.pathname.startsWith("/gtag/"));
+}
+
+function requestText(request: InterceptedRequest): string {
+  return `${request.url}\n${request.postData || ""}`;
+}
+
+function resolveGoogleTagManager(): string | undefined {
+  if (!realTagMode) return undefined;
+  const output = execFileSync("nslookup", ["www.googletagmanager.com", "1.1.1.1"], {
+    encoding: "utf8",
+    windowsHide: true,
+    stdio: ["ignore", "pipe", "pipe"],
+  });
+  const addresses = output.match(/\b(?:\d{1,3}\.){3}\d{1,3}\b/g) || [];
+  const address = addresses.reverse().find((candidate) => candidate !== "1.1.1.1");
+  if (!address) throw new Error("Could not resolve the real gtag.js host through the public DNS test resolver");
+  return address;
+}
 
 const contentTypes: Record<string, string> = {
   ".css": "text/css",
@@ -147,6 +179,7 @@ async function main() {
 
   const staticServer = await startStaticServer();
   server = staticServer.server;
+  const googleTagManagerAddress = resolveGoogleTagManager();
   const debugPort = await availablePort();
   edge = spawn(edgePath, [
     "--headless=new",
@@ -155,30 +188,56 @@ async function main() {
     "--no-default-browser-check",
     `--user-data-dir=${profileDir}`,
     `--remote-debugging-port=${debugPort}`,
-    `--host-resolver-rules=MAP ${host} 127.0.0.1`,
-    "--disable-features=HttpsUpgrades,HttpsFirstModeV2",
+    `--host-resolver-rules=MAP ${host} 127.0.0.1${googleTagManagerAddress ? `, MAP www.googletagmanager.com ${googleTagManagerAddress}` : ""}`,
+    `--unsafely-treat-insecure-origin-as-secure=http://${host}:${staticServer.port}`,
+    "--disable-features=HttpsUpgrades,HttpsFirstModeV2,msTrackingPrevention",
     "about:blank",
   ], { stdio: "ignore", windowsHide: true });
 
   cdp = await connectCdp(debugPort);
-  const intercepted: string[] = [];
+  const intercepted: InterceptedRequest[] = [];
+  const externalRequests: InterceptedRequest[] = [];
+  const blockedExternal: string[] = [];
+  const origin = `http://${host}:${staticServer.port}`;
   cdp.on("Fetch.requestPaused", (params) => {
-    const request = params.request as { url: string };
-    intercepted.push(request.url);
+    const request = params.request as InterceptedRequest;
+    if (!realTagMode) {
+      intercepted.push(request);
+      void cdp!.send("Fetch.failRequest", { requestId: params.requestId, errorReason: "BlockedByClient" });
+      return;
+    }
+
+    if (request.url.startsWith(origin)) {
+      void cdp!.send("Fetch.continueRequest", { requestId: params.requestId });
+      return;
+    }
+    externalRequests.push(request);
+    if (request.url.startsWith("https://www.googletagmanager.com/gtag/")) {
+      void cdp!.send("Fetch.continueRequest", { requestId: params.requestId });
+      return;
+    }
+    if (isCollectionEndpoint(request.url)) intercepted.push(request);
+    else blockedExternal.push(request.url);
     void cdp!.send("Fetch.failRequest", { requestId: params.requestId, errorReason: "BlockedByClient" });
   });
   await cdp.send("Runtime.enable");
   await cdp.send("Page.enable");
   await cdp.send("Fetch.enable", {
-    patterns: [
+    patterns: realTagMode ? [
+      { urlPattern: "*", requestStage: "Request" },
+    ] : [
       { urlPattern: "*googletagmanager.com*", requestStage: "Request" },
       { urlPattern: "*google-analytics.com*", requestStage: "Request" },
       { urlPattern: "*analytics.google.com*", requestStage: "Request" },
     ],
   });
 
-  const origin = `http://${host}:${staticServer.port}`;
-  await cdp.send("Page.navigate", { url: `${origin}/providers/re-wellness-scottsdale-az/` });
+  const sensitiveQuery = `email=${encodeURIComponent(sensitiveEmail)}&condition=${sensitiveHealthTerm}`;
+  const profileUrl = `${origin}/providers/re-wellness-scottsdale-az/${realTagMode ? `?${sensitiveQuery}` : ""}`;
+  await cdp.send("Page.navigate", {
+    url: profileUrl,
+    ...(realTagMode ? { referrer: `${origin}/about/?${sensitiveQuery}` } : {}),
+  });
   await waitFor(cdp, "document.readyState==='complete' && !!window.next", "Next hydration");
   await delay(300);
 
@@ -202,10 +261,59 @@ async function main() {
   await delay(300);
   const finalProfile = await evaluate<number>(cdp, eventCountScript("eligible_provider_profile_impression"));
   assert.equal(finalProfile, Math.max(1, expectedFreshProfile), "profile impression must be present and session-deduplicated after client navigation");
-  assert.ok(intercepted.some((url) => url.includes("googletagmanager.com/gtag/js")), "the GA loader request must be intercepted");
-  assert.ok(intercepted.every((url) => /google(tagmanager|-analytics)|analytics\.google/.test(url)), "only analytics requests may enter the interception list");
+  if (!realTagMode) {
+    assert.ok(intercepted.some((request) => request.url.includes("googletagmanager.com/gtag/js")), "the GA loader request must be intercepted");
+    assert.ok(intercepted.every((request) => /google(tagmanager|-analytics)|analytics\.google/.test(request.url)), "only analytics requests may enter the interception list");
+    console.log(`Browser measurement checks passed. fresh_profile=${freshProfile}; client_local=1; final_profile=${finalProfile}; analytics_requests_intercepted=${intercepted.length}.`);
+    return;
+  }
 
-  console.log(`Browser measurement checks passed. fresh_profile=${freshProfile}; client_local=1; final_profile=${finalProfile}; analytics_requests_intercepted=${intercepted.length}.`);
+  await waitFor(cdp, "typeof window.google_tag_manager==='object'", "real gtag.js initialization");
+  await evaluate(cdp, `window.gtag('event','pn_intercepted_privacy_probe',{
+    send_to:'G-JXV379RS99',
+    page_location:location.origin+location.pathname,
+    page_referrer:''
+  })`);
+  await delay(2_000);
+  const initialRequestCount = intercepted.length;
+
+  await evaluate(cdp, `(()=>{
+    const blockNavigation=(event)=>event.preventDefault();
+    document.addEventListener('click',blockNavigation,true);
+    document.addEventListener('submit',blockNavigation,true);
+    const anchor=document.createElement('a');
+    anchor.id='pn-privacy-outbound';
+    anchor.href='https://provider.invalid/book?email=${sensitiveEmail}&condition=${sensitiveHealthTerm}';
+    anchor.textContent='Attempt outbound';
+    anchor.style.cssText='position:fixed;left:10px;top:10px;z-index:99999;background:white';
+    document.body.appendChild(anchor);
+    const form=document.createElement('form');
+    form.id='private-${sensitiveHealthTerm}';
+    form.name='private-${sensitiveEmail}';
+    form.action='https://provider.invalid/intake?email=${sensitiveEmail}&condition=${sensitiveHealthTerm}';
+    form.style.cssText='position:fixed;left:10px;top:50px;z-index:99999;background:white';
+    form.innerHTML='<input name="condition" value="${sensitiveHealthTerm}"><button type="submit">Submit ${sensitiveEmail}</button>';
+    document.body.appendChild(form);
+  })()`);
+  for (const selector of ["#pn-privacy-outbound", "#private-cancer-treatment input", "#private-cancer-treatment button"]) {
+    const point = await evaluate<{ x: number; y: number }>(cdp, `(()=>{const rect=document.querySelector(${JSON.stringify(selector)}).getBoundingClientRect();return {x:rect.left+rect.width/2,y:rect.top+rect.height/2}})()`);
+    await cdp.send("Input.dispatchMouseEvent", { type: "mousePressed", x: point.x, y: point.y, button: "left", clickCount: 1 });
+    await cdp.send("Input.dispatchMouseEvent", { type: "mouseReleased", x: point.x, y: point.y, button: "left", clickCount: 1 });
+  }
+  await delay(1_000);
+
+  const dataLayerText = await evaluate<string>(cdp, "JSON.stringify((window.dataLayer||[]).map((entry)=>Array.from(entry)))");
+  assert.ok(dataLayerText.includes("pn_intercepted_privacy_probe"), "the loaded real tag must accept the intercepted probe");
+  assert.ok(!dataLayerText.includes(sensitiveEmail), "real-tag commands must not contain email query/referrer/form text");
+  assert.ok(!dataLayerText.includes(sensitiveHealthTerm), "real-tag commands must not contain health query/referrer/form text");
+  const payload = externalRequests.map(requestText).join("\n");
+  assert.ok(!payload.includes(sensitiveEmail), "collection attempts must not contain email query/referrer/form text");
+  assert.ok(!payload.includes(sensitiveHealthTerm), "collection attempts must not contain health query/referrer/form text");
+  assert.ok(!payload.includes(encodeURIComponent(sensitiveEmail)), "collection attempts must not contain encoded email data");
+  assert.ok(!payload.includes(encodeURIComponent(sensitiveHealthTerm)), "collection attempts must not contain encoded health data");
+  assert.ok(!blockedExternal.some((url) => url.includes("provider.invalid")), "outbound and form attempts must be prevented before provider network access");
+
+  console.log(`Real-tag privacy checks passed. analytics_or_tag_requests_intercepted=${intercepted.length}; pre_interaction_collection_requests=${initialRequestCount}; external_requests_inspected=${externalRequests.length}; provider_generated_collection_receipt_observed=${intercepted.length > 0}.`);
   } finally {
     cdp?.close();
     if (edge && !edge.killed) {

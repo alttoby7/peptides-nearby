@@ -84,9 +84,19 @@ export function analyticsConfig(win: AnalyticsWindow = window as AnalyticsWindow
     send_page_view: false,
     allow_google_signals: false,
     allow_ad_personalization_signals: false,
+    ignore_referrer: true,
     page_location: sanitizedPageLocation(win.location),
     page_path: win.location.pathname,
+    page_referrer: "",
     ...safeCampaignFields(win.location.search),
+  };
+}
+
+function safePageFields(win: AnalyticsWindow): Record<string, string> {
+  return {
+    page_location: sanitizedPageLocation(win.location),
+    page_path: win.location.pathname,
+    page_referrer: "",
   };
 }
 
@@ -122,8 +132,7 @@ export function initializeGoogleAnalytics(
 export function trackPageView(win: AnalyticsWindow = window as AnalyticsWindow): boolean {
   if (!isAnalyticsEligible(win)) return false;
   emitOrQueue("page_view", {
-    page_location: sanitizedPageLocation(win.location),
-    page_path: win.location.pathname,
+    ...safePageFields(win),
     ...safeCampaignFields(win.location.search),
   }, win);
   return true;
@@ -150,8 +159,7 @@ export function trackDirectoryImpression(
 
   emitOrQueue(eventName, {
     denominator_scope: "browser_tab_session_per_page",
-    page_location: sanitizedPageLocation(win.location),
-    page_path: win.location.pathname,
+    ...safePageFields(win),
   }, win);
   return true;
 }
@@ -163,8 +171,7 @@ export function trackProviderSiteClick(
   if (!isAnalyticsEligible(win)) return false;
   emitOrQueue("provider_site_click", {
     destination_type: destination,
-    page_location: sanitizedPageLocation(win.location),
-    page_path: win.location.pathname,
+    ...safePageFields(win),
   }, win);
   return true;
 }
@@ -172,8 +179,7 @@ export function trackProviderSiteClick(
 export function trackProviderCallClick(win: AnalyticsWindow = window as AnalyticsWindow): boolean {
   if (!isAnalyticsEligible(win)) return false;
   emitOrQueue("provider_call_click", {
-    page_location: sanitizedPageLocation(win.location),
-    page_path: win.location.pathname,
+    ...safePageFields(win),
   }, win);
   return true;
 }
