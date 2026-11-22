@@ -5,7 +5,7 @@
     "type": "therapy",
     "providerCount": 3553,
     "cityCount": 856,
-    "description": "Peptide therapy uses targeted peptides for wellness, anti-aging, weight loss, and recovery.",
+    "description": "Peptide therapy is a general term for prescribing peptides under medical supervision. Some peptide drugs are FDA-approved for specific uses; many are not.",
     "indexed": false
   },
   {
@@ -14,7 +14,7 @@
     "type": "peptide",
     "providerCount": 598,
     "cityCount": 245,
-    "description": "Semaglutide is a GLP-1 receptor agonist used for weight management.",
+    "description": "Semaglutide is a GLP-1 receptor agonist, FDA-approved as Wegovy for chronic weight management and as Ozempic and Rybelsus for type 2 diabetes. Prescription required; compounded versions are not FDA-approved.",
     "indexed": true
   },
   {
@@ -23,7 +23,7 @@
     "type": "therapy",
     "providerCount": 501,
     "cityCount": 200,
-    "description": "NAD+ therapy supports cellular energy, metabolism, and anti-aging.",
+    "description": "NAD+ is a coenzyme found in the body's cells. Some clinics offer it by injection or IV infusion; ask a licensed provider about its regulatory status and the evidence for your use.",
     "indexed": false
   },
   {
@@ -32,7 +32,7 @@
     "type": "peptide",
     "providerCount": 453,
     "cityCount": 201,
-    "description": "Tirzepatide is a dual GIP/GLP-1 receptor agonist for weight loss and blood sugar control.",
+    "description": "Tirzepatide is a dual GIP/GLP-1 receptor agonist, FDA-approved as Zepbound for chronic weight management and as Mounjaro for type 2 diabetes. Prescription required; compounded versions are not FDA-approved.",
     "indexed": true
   },
   {
@@ -41,7 +41,7 @@
     "type": "peptide",
     "providerCount": 269,
     "cityCount": 146,
-    "description": "Sermorelin is a growth hormone-releasing hormone analog used for anti-aging therapy.",
+    "description": "Sermorelin is a synthetic analog of growth hormone-releasing hormone. Prescription required; compounded sermorelin is not FDA-approved.",
     "indexed": false
   },
   {
@@ -50,7 +50,7 @@
     "type": "peptide",
     "providerCount": 238,
     "cityCount": 121,
-    "description": "Glutathione is a tripeptide antioxidant used for detoxification, immune support, and skin health.",
+    "description": "Glutathione is a tripeptide made by the body. Some clinics offer it by injection or IV; ask a licensed provider about its regulatory status and the evidence for your use.",
     "indexed": false
   },
   {
@@ -59,7 +59,7 @@
     "type": "peptide",
     "providerCount": 184,
     "cityCount": 110,
-    "description": "PT-141 (Bremelanotide) is a peptide used for sexual health and libido.",
+    "description": "PT-141 (bremelanotide) is a melanocortin receptor agonist. An approved bremelanotide product exists for one specific indication; other uses are off-label, and compounded versions are not FDA-approved.",
     "indexed": false
   },
   {
@@ -68,7 +68,7 @@
     "type": "peptide",
     "providerCount": 181,
     "cityCount": 114,
-    "description": "HCG (human chorionic gonadotropin) is used for hormone optimization, fertility, and TRT support.",
+    "description": "HCG (human chorionic gonadotropin) is a hormone. HCG products are FDA-approved for specific fertility and hormone indications; other uses are off-label. Prescription required.",
     "indexed": false
   },
   {
@@ -77,7 +77,7 @@
     "type": "peptide",
     "providerCount": 146,
     "cityCount": 83,
-    "description": "BPC-157 is a peptide used for tissue repair, joint healing, and gut health.",
+    "description": "BPC-157 is a synthetic peptide being studied, mostly in animals, for tissue repair. It is not FDA-approved.",
     "indexed": false
   },
   {
@@ -86,7 +86,7 @@
     "type": "peptide",
     "providerCount": 96,
     "cityCount": 67,
-    "description": "GHK-Cu is a copper peptide used for skin rejuvenation and wound healing.",
+    "description": "GHK-Cu is a copper peptide being studied for skin and wound healing. It is not FDA-approved as a drug.",
     "indexed": false
   },
   {
@@ -95,7 +95,7 @@
     "type": "peptide",
     "providerCount": 95,
     "cityCount": 61,
-    "description": "TB-500 (Thymosin Beta-4) is a peptide used for tissue repair and recovery.",
+    "description": "TB-500 is a synthetic peptide related to thymosin beta-4, being studied for tissue repair. It is not FDA-approved.",
     "indexed": false
   },
   {
@@ -104,7 +104,7 @@
     "type": "peptide",
     "providerCount": 79,
     "cityCount": 61,
-    "description": "Tesamorelin is a growth hormone-releasing hormone analog used for visceral fat reduction.",
+    "description": "Tesamorelin is a growth hormone-releasing hormone analog. An approved tesamorelin product exists for one specific indication; other uses are off-label, and compounded versions are not FDA-approved.",
     "indexed": false
   },
   {
@@ -113,7 +113,7 @@
     "type": "peptide",
     "providerCount": 66,
     "cityCount": 45,
-    "description": "CJC-1295 and Ipamorelin are growth hormone-releasing peptides used for anti-aging and body composition.",
+    "description": "CJC-1295 and Ipamorelin are synthetic peptides studied for their effects on growth hormone release. They are not FDA-approved.",
     "indexed": false
   },
   {
@@ -122,7 +122,7 @@
     "type": "peptide",
     "providerCount": 64,
     "cityCount": 45,
-    "description": "MOTS-c is a mitochondrial-derived peptide studied for metabolic health and exercise capacity.",
+    "description": "MOTS-c is a mitochondrial-derived peptide being studied in metabolic research. It is not FDA-approved.",
     "indexed": false
   },
   {
@@ -131,7 +131,7 @@
     "type": "peptide",
     "providerCount": 56,
     "cityCount": 41,
-    "description": "AOD-9604 is a modified fragment of human growth hormone studied for fat loss.",
+    "description": "AOD-9604 is a modified fragment of human growth hormone being studied in metabolic research. It is not FDA-approved.",
     "indexed": false
   },
   {
@@ -140,7 +140,7 @@
     "type": "peptide",
     "providerCount": 54,
     "cityCount": 45,
-    "description": "Liraglutide is a GLP-1 receptor agonist used for weight loss and blood sugar control (Saxenda, Victoza).",
+    "description": "Liraglutide is a GLP-1 receptor agonist, FDA-approved as Saxenda for chronic weight management and as Victoza for type 2 diabetes, with generic versions available. Prescription required.",
     "indexed": true
   },
   {
@@ -149,7 +149,7 @@
     "type": "peptide",
     "providerCount": 53,
     "cityCount": 40,
-    "description": "Epithalon (Epitalon) is a synthetic tetrapeptide studied for anti-aging and telomere support.",
+    "description": "Epithalon (Epitalon) is a synthetic tetrapeptide being studied in aging research. It is not FDA-approved.",
     "indexed": false
   },
   {
@@ -158,7 +158,7 @@
     "type": "peptide",
     "providerCount": 49,
     "cityCount": 40,
-    "description": "Oxytocin is a peptide hormone used for bonding, mood, and intimacy support.",
+    "description": "Oxytocin is a peptide hormone. Oxytocin products are FDA-approved for specific obstetric uses; other uses are off-label, and compounded versions are not FDA-approved.",
     "indexed": false
   },
   {
@@ -167,7 +167,7 @@
     "type": "peptide",
     "providerCount": 49,
     "cityCount": 36,
-    "description": "Semax is a synthetic peptide used for cognitive enhancement and neuroprotection.",
+    "description": "Semax is a synthetic peptide being studied for effects on cognition and the nervous system. It is not FDA-approved.",
     "indexed": false
   },
   {
@@ -176,7 +176,7 @@
     "type": "peptide",
     "providerCount": 48,
     "cityCount": 39,
-    "description": "Thymosin Alpha-1 is a peptide used for immune modulation and chronic infection support.",
+    "description": "Thymosin Alpha-1 is a peptide being studied for its effects on the immune system. It is not FDA-approved.",
     "indexed": false
   },
   {
@@ -185,7 +185,7 @@
     "type": "peptide",
     "providerCount": 47,
     "cityCount": 42,
-    "description": "5-Amino-1MQ is a small molecule studied for fat loss and metabolic health by inhibiting NNMT.",
+    "description": "5-Amino-1MQ is a small molecule (not a peptide) being studied in metabolic research. It is not FDA-approved.",
     "indexed": false
   },
   {
@@ -194,7 +194,7 @@
     "type": "peptide",
     "providerCount": 45,
     "cityCount": 34,
-    "description": "Selank is a synthetic peptide used for anxiety, mood, and cognitive function.",
+    "description": "Selank is a synthetic peptide being studied for effects on anxiety and cognition. It is not FDA-approved.",
     "indexed": false
   },
   {
@@ -203,7 +203,7 @@
     "type": "peptide",
     "providerCount": 41,
     "cityCount": 38,
-    "description": "Hexarelin is a potent growth hormone-releasing peptide used for GH stimulation.",
+    "description": "Hexarelin is a synthetic peptide studied for its effects on growth hormone release. It is not FDA-approved.",
     "indexed": false
   },
   {
@@ -212,7 +212,7 @@
     "type": "peptide",
     "providerCount": 41,
     "cityCount": 33,
-    "description": "Retatrutide is a triple GIP/GLP-1/glucagon receptor agonist studied for weight loss.",
+    "description": "Retatrutide is an investigational GIP/GLP-1/glucagon receptor agonist. It is not FDA-approved, and FDA says it cannot be used in compounding under federal law.",
     "indexed": false
   },
   {
@@ -221,7 +221,7 @@
     "type": "peptide",
     "providerCount": 19,
     "cityCount": 17,
-    "description": "SS-31 (Elamipretide) is a mitochondrial-targeted peptide studied for cellular energy and aging.",
+    "description": "SS-31 (elamipretide) is a mitochondria-targeted peptide studied in mitochondrial disease research. Compounded versions are not FDA-approved.",
     "indexed": false
   },
   {
@@ -230,7 +230,7 @@
     "type": "peptide",
     "providerCount": 16,
     "cityCount": 15,
-    "description": "Melanotan-2 is a synthetic peptide used for tanning and libido support.",
+    "description": "Melanotan-2 is a synthetic peptide sold for tanning. It is not FDA-approved, and serious adverse effects have been reported.",
     "indexed": false
   },
   {
@@ -239,7 +239,7 @@
     "type": "peptide",
     "providerCount": 15,
     "cityCount": 12,
-    "description": "Kisspeptin is a peptide involved in reproductive hormone regulation and fertility.",
+    "description": "Kisspeptin is a peptide involved in reproductive hormone signaling, being studied for fertility and hormone conditions. It is not FDA-approved.",
     "indexed": false
   },
   {
@@ -248,7 +248,7 @@
     "type": "peptide",
     "providerCount": 14,
     "cityCount": 12,
-    "description": "DSIP (Delta Sleep-Inducing Peptide) is used for sleep quality and stress reduction.",
+    "description": "DSIP (delta sleep-inducing peptide) is a peptide being studied for effects on sleep. It is not FDA-approved.",
     "indexed": false
   },
   {
@@ -257,7 +257,7 @@
     "type": "peptide",
     "providerCount": 9,
     "cityCount": 9,
-    "description": "IGF-1 LR3 is a modified form of insulin-like growth factor-1 used for muscle growth and recovery.",
+    "description": "IGF-1 LR3 is a modified form of insulin-like growth factor-1. It is not FDA-approved.",
     "indexed": false
   },
   {
@@ -266,7 +266,7 @@
     "type": "peptide",
     "providerCount": 6,
     "cityCount": 5,
-    "description": "GHRP-2 is a growth hormone-releasing peptide used for GH stimulation and body composition.",
+    "description": "GHRP-2 is a synthetic peptide studied for its effects on growth hormone release. It is not FDA-approved.",
     "indexed": false
   },
   {
@@ -275,7 +275,7 @@
     "type": "peptide",
     "providerCount": 6,
     "cityCount": 5,
-    "description": "GHRP-6 is a growth hormone-releasing peptide used for GH stimulation and recovery.",
+    "description": "GHRP-6 is a synthetic peptide studied for its effects on growth hormone release. It is not FDA-approved.",
     "indexed": false
   },
   {
@@ -284,7 +284,7 @@
     "type": "therapy",
     "providerCount": 0,
     "cityCount": 0,
-    "description": "Hormone replacement therapy (HRT) for testosterone, estrogen, and thyroid optimization.",
+    "description": "Hormone therapy, including hormone replacement therapy (HRT), is prescribed by licensed providers for testosterone, estrogen, thyroid, and other hormone conditions.",
     "indexed": false
   },
   {
@@ -293,7 +293,7 @@
     "type": "therapy",
     "providerCount": 0,
     "cityCount": 0,
-    "description": "Intravenous vitamin and nutrient therapy for hydration, recovery, and wellness.",
+    "description": "IV therapy delivers fluids, vitamins, or other nutrients intravenously. Ask a licensed provider whether it is appropriate for you.",
     "indexed": false
   },
   {
@@ -302,7 +302,7 @@
     "type": "treatment",
     "providerCount": 0,
     "cityCount": 0,
-    "description": "Medical weight loss programs including GLP-1 peptides, semaglutide, and tirzepatide.",
+    "description": "Medical weight management programs, which may include FDA-approved GLP-1 medications such as semaglutide and tirzepatide. Prescription required.",
     "indexed": false
   }
 ]

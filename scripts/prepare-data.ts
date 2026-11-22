@@ -6,6 +6,7 @@ import {
   stateSlugFromAny,
   isValidStateCode,
 } from "../src/lib/geo/states";
+import { articles } from "../src/lib/data/articles";
 
 // --- Helpers ---
 function slugify(str: string): string {
@@ -548,40 +549,42 @@ console.log(`Wrote ${states.length} states to states.json`);
 // --- Build services.json ---
 // Services derived from peptides offered across providers
 const serviceDescriptions: Record<string, { name: string; type: "peptide" | "therapy" | "treatment"; description: string }> = {
-  "bpc-157": { name: "BPC-157", type: "peptide", description: "BPC-157 is a peptide used for tissue repair, joint healing, and gut health." },
-  "semaglutide": { name: "Semaglutide", type: "peptide", description: "Semaglutide is a GLP-1 receptor agonist used for weight management." },
-  "tirzepatide": { name: "Tirzepatide", type: "peptide", description: "Tirzepatide is a dual GIP/GLP-1 receptor agonist for weight loss and blood sugar control." },
-  "ghk-cu": { name: "GHK-Cu", type: "peptide", description: "GHK-Cu is a copper peptide used for skin rejuvenation and wound healing." },
-  "cjc-1295-ipamorelin": { name: "CJC-1295 / Ipamorelin", type: "peptide", description: "CJC-1295 and Ipamorelin are growth hormone-releasing peptides used for anti-aging and body composition." },
-  "pt-141": { name: "PT-141", type: "peptide", description: "PT-141 (Bremelanotide) is a peptide used for sexual health and libido." },
-  "sermorelin": { name: "Sermorelin", type: "peptide", description: "Sermorelin is a growth hormone-releasing hormone analog used for anti-aging therapy." },
-  "tb-500": { name: "TB-500", type: "peptide", description: "TB-500 (Thymosin Beta-4) is a peptide used for tissue repair and recovery." },
-  "nad-plus": { name: "NAD+", type: "therapy", description: "NAD+ therapy supports cellular energy, metabolism, and anti-aging." },
-  "peptide-therapy": { name: "Peptide Therapy", type: "therapy", description: "Peptide therapy uses targeted peptides for wellness, anti-aging, weight loss, and recovery." },
-  "hormone-therapy": { name: "Hormone Therapy", type: "therapy", description: "Hormone replacement therapy (HRT) for testosterone, estrogen, and thyroid optimization." },
-  "iv-therapy": { name: "IV Therapy", type: "therapy", description: "Intravenous vitamin and nutrient therapy for hydration, recovery, and wellness." },
-  "weight-loss": { name: "Weight Loss", type: "treatment", description: "Medical weight loss programs including GLP-1 peptides, semaglutide, and tirzepatide." },
-  "epithalon": { name: "Epithalon", type: "peptide", description: "Epithalon (Epitalon) is a synthetic tetrapeptide studied for anti-aging and telomere support." },
-  "selank": { name: "Selank", type: "peptide", description: "Selank is a synthetic peptide used for anxiety, mood, and cognitive function." },
-  "semax": { name: "Semax", type: "peptide", description: "Semax is a synthetic peptide used for cognitive enhancement and neuroprotection." },
-  "kisspeptin": { name: "Kisspeptin", type: "peptide", description: "Kisspeptin is a peptide involved in reproductive hormone regulation and fertility." },
-  "tesamorelin": { name: "Tesamorelin", type: "peptide", description: "Tesamorelin is a growth hormone-releasing hormone analog used for visceral fat reduction." },
-  "ghrp-6": { name: "GHRP-6", type: "peptide", description: "GHRP-6 is a growth hormone-releasing peptide used for GH stimulation and recovery." },
-  "ghrp-2": { name: "GHRP-2", type: "peptide", description: "GHRP-2 is a growth hormone-releasing peptide used for GH stimulation and body composition." },
-  "hexarelin": { name: "Hexarelin", type: "peptide", description: "Hexarelin is a potent growth hormone-releasing peptide used for GH stimulation." },
-  "mots-c": { name: "MOTS-c", type: "peptide", description: "MOTS-c is a mitochondrial-derived peptide studied for metabolic health and exercise capacity." },
-  "glutathione": { name: "Glutathione", type: "peptide", description: "Glutathione is a tripeptide antioxidant used for detoxification, immune support, and skin health." },
-  "hcg": { name: "HCG", type: "peptide", description: "HCG (human chorionic gonadotropin) is used for hormone optimization, fertility, and TRT support." },
-  "liraglutide": { name: "Liraglutide", type: "peptide", description: "Liraglutide is a GLP-1 receptor agonist used for weight loss and blood sugar control (Saxenda, Victoza)." },
-  "5-amino-1mq": { name: "5-Amino-1MQ", type: "peptide", description: "5-Amino-1MQ is a small molecule studied for fat loss and metabolic health by inhibiting NNMT." },
-  "retatrutide": { name: "Retatrutide", type: "peptide", description: "Retatrutide is a triple GIP/GLP-1/glucagon receptor agonist studied for weight loss." },
-  "oxytocin": { name: "Oxytocin", type: "peptide", description: "Oxytocin is a peptide hormone used for bonding, mood, and intimacy support." },
-  "aod-9604": { name: "AOD-9604", type: "peptide", description: "AOD-9604 is a modified fragment of human growth hormone studied for fat loss." },
-  "thymosin-alpha-1": { name: "Thymosin Alpha-1", type: "peptide", description: "Thymosin Alpha-1 is a peptide used for immune modulation and chronic infection support." },
-  "igf-1-lr3": { name: "IGF-1 LR3", type: "peptide", description: "IGF-1 LR3 is a modified form of insulin-like growth factor-1 used for muscle growth and recovery." },
-  "dsip": { name: "DSIP", type: "peptide", description: "DSIP (Delta Sleep-Inducing Peptide) is used for sleep quality and stress reduction." },
-  "ss-31": { name: "SS-31", type: "peptide", description: "SS-31 (Elamipretide) is a mitochondrial-targeted peptide studied for cellular energy and aging." },
-  "melanotan-2": { name: "Melanotan-2", type: "peptide", description: "Melanotan-2 is a synthetic peptide used for tanning and libido support." },
+  // Descriptions are factual only: what it is, approval status, prescription.
+  // No benefit or efficacy claims (Nov 2026 claims audit).
+  "bpc-157": { name: "BPC-157", type: "peptide", description: "BPC-157 is a synthetic peptide being studied, mostly in animals, for tissue repair. It is not FDA-approved." },
+  "semaglutide": { name: "Semaglutide", type: "peptide", description: "Semaglutide is a GLP-1 receptor agonist, FDA-approved as Wegovy for chronic weight management and as Ozempic and Rybelsus for type 2 diabetes. Prescription required; compounded versions are not FDA-approved." },
+  "tirzepatide": { name: "Tirzepatide", type: "peptide", description: "Tirzepatide is a dual GIP/GLP-1 receptor agonist, FDA-approved as Zepbound for chronic weight management and as Mounjaro for type 2 diabetes. Prescription required; compounded versions are not FDA-approved." },
+  "ghk-cu": { name: "GHK-Cu", type: "peptide", description: "GHK-Cu is a copper peptide being studied for skin and wound healing. It is not FDA-approved as a drug." },
+  "cjc-1295-ipamorelin": { name: "CJC-1295 / Ipamorelin", type: "peptide", description: "CJC-1295 and Ipamorelin are synthetic peptides studied for their effects on growth hormone release. They are not FDA-approved." },
+  "pt-141": { name: "PT-141", type: "peptide", description: "PT-141 (bremelanotide) is a melanocortin receptor agonist. An approved bremelanotide product exists for one specific indication; other uses are off-label, and compounded versions are not FDA-approved." },
+  "sermorelin": { name: "Sermorelin", type: "peptide", description: "Sermorelin is a synthetic analog of growth hormone-releasing hormone. Prescription required; compounded sermorelin is not FDA-approved." },
+  "tb-500": { name: "TB-500", type: "peptide", description: "TB-500 is a synthetic peptide related to thymosin beta-4, being studied for tissue repair. It is not FDA-approved." },
+  "nad-plus": { name: "NAD+", type: "therapy", description: "NAD+ is a coenzyme found in the body's cells. Some clinics offer it by injection or IV infusion; ask a licensed provider about its regulatory status and the evidence for your use." },
+  "peptide-therapy": { name: "Peptide Therapy", type: "therapy", description: "Peptide therapy is a general term for prescribing peptides under medical supervision. Some peptide drugs are FDA-approved for specific uses; many are not." },
+  "hormone-therapy": { name: "Hormone Therapy", type: "therapy", description: "Hormone therapy, including hormone replacement therapy (HRT), is prescribed by licensed providers for testosterone, estrogen, thyroid, and other hormone conditions." },
+  "iv-therapy": { name: "IV Therapy", type: "therapy", description: "IV therapy delivers fluids, vitamins, or other nutrients intravenously. Ask a licensed provider whether it is appropriate for you." },
+  "weight-loss": { name: "Weight Loss", type: "treatment", description: "Medical weight management programs, which may include FDA-approved GLP-1 medications such as semaglutide and tirzepatide. Prescription required." },
+  "epithalon": { name: "Epithalon", type: "peptide", description: "Epithalon (Epitalon) is a synthetic tetrapeptide being studied in aging research. It is not FDA-approved." },
+  "selank": { name: "Selank", type: "peptide", description: "Selank is a synthetic peptide being studied for effects on anxiety and cognition. It is not FDA-approved." },
+  "semax": { name: "Semax", type: "peptide", description: "Semax is a synthetic peptide being studied for effects on cognition and the nervous system. It is not FDA-approved." },
+  "kisspeptin": { name: "Kisspeptin", type: "peptide", description: "Kisspeptin is a peptide involved in reproductive hormone signaling, being studied for fertility and hormone conditions. It is not FDA-approved." },
+  "tesamorelin": { name: "Tesamorelin", type: "peptide", description: "Tesamorelin is a growth hormone-releasing hormone analog. An approved tesamorelin product exists for one specific indication; other uses are off-label, and compounded versions are not FDA-approved." },
+  "ghrp-6": { name: "GHRP-6", type: "peptide", description: "GHRP-6 is a synthetic peptide studied for its effects on growth hormone release. It is not FDA-approved." },
+  "ghrp-2": { name: "GHRP-2", type: "peptide", description: "GHRP-2 is a synthetic peptide studied for its effects on growth hormone release. It is not FDA-approved." },
+  "hexarelin": { name: "Hexarelin", type: "peptide", description: "Hexarelin is a synthetic peptide studied for its effects on growth hormone release. It is not FDA-approved." },
+  "mots-c": { name: "MOTS-c", type: "peptide", description: "MOTS-c is a mitochondrial-derived peptide being studied in metabolic research. It is not FDA-approved." },
+  "glutathione": { name: "Glutathione", type: "peptide", description: "Glutathione is a tripeptide made by the body. Some clinics offer it by injection or IV; ask a licensed provider about its regulatory status and the evidence for your use." },
+  "hcg": { name: "HCG", type: "peptide", description: "HCG (human chorionic gonadotropin) is a hormone. HCG products are FDA-approved for specific fertility and hormone indications; other uses are off-label. Prescription required." },
+  "liraglutide": { name: "Liraglutide", type: "peptide", description: "Liraglutide is a GLP-1 receptor agonist, FDA-approved as Saxenda for chronic weight management and as Victoza for type 2 diabetes, with generic versions available. Prescription required." },
+  "5-amino-1mq": { name: "5-Amino-1MQ", type: "peptide", description: "5-Amino-1MQ is a small molecule (not a peptide) being studied in metabolic research. It is not FDA-approved." },
+  "retatrutide": { name: "Retatrutide", type: "peptide", description: "Retatrutide is an investigational GIP/GLP-1/glucagon receptor agonist. It is not FDA-approved, and FDA says it cannot be used in compounding under federal law." },
+  "oxytocin": { name: "Oxytocin", type: "peptide", description: "Oxytocin is a peptide hormone. Oxytocin products are FDA-approved for specific obstetric uses; other uses are off-label, and compounded versions are not FDA-approved." },
+  "aod-9604": { name: "AOD-9604", type: "peptide", description: "AOD-9604 is a modified fragment of human growth hormone being studied in metabolic research. It is not FDA-approved." },
+  "thymosin-alpha-1": { name: "Thymosin Alpha-1", type: "peptide", description: "Thymosin Alpha-1 is a peptide being studied for its effects on the immune system. It is not FDA-approved." },
+  "igf-1-lr3": { name: "IGF-1 LR3", type: "peptide", description: "IGF-1 LR3 is a modified form of insulin-like growth factor-1. It is not FDA-approved." },
+  "dsip": { name: "DSIP", type: "peptide", description: "DSIP (delta sleep-inducing peptide) is a peptide being studied for effects on sleep. It is not FDA-approved." },
+  "ss-31": { name: "SS-31", type: "peptide", description: "SS-31 (elamipretide) is a mitochondria-targeted peptide studied in mitochondrial disease research. Compounded versions are not FDA-approved." },
+  "melanotan-2": { name: "Melanotan-2", type: "peptide", description: "Melanotan-2 is a synthetic peptide sold for tanning. It is not FDA-approved, and serious adverse effects have been reported." },
 };
 
 interface ServiceOutput {
@@ -932,14 +935,10 @@ for (const g of goals) {
   sitemapStats.goalIncluded++;
 }
 
-// Blog articles — extract slugs from the articles registry
-const articlesFile = resolve(ROOT, "src/lib/data/articles.ts");
-if (existsSync(articlesFile)) {
-  const articleSrc = readFileSync(articlesFile, "utf-8");
-  const slugMatches = articleSrc.matchAll(/slug:\s*"([^"]+)"/g);
-  for (const m of slugMatches) {
-    if (m[1] !== "string") urls.push(`/blog/${m[1]}`);
-  }
+// Blog articles — from the articles registry; noindexed articles stay out
+for (const a of articles) {
+  if (a.noindex) continue;
+  urls.push(`/blog/${a.slug}`);
 }
 
 console.log(`Sitemap whitelist: ${JSON.stringify(sitemapStats)}`);

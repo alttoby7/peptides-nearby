@@ -19,7 +19,7 @@ export default function AboutPage() {
           <strong>Peptides Nearby</strong> is a directory of peptide therapy providers across the United States. We help you find clinics, compounding pharmacies, and wellness centers that offer peptide therapy in your area.
         </p>
         <p className="text-text-secondary mb-4 leading-relaxed">
-          The directory currently lists over 3,550 providers across 44 states and more than 800 cities. Each listing includes the provider&apos;s name, location, contact information, services offered, specific peptides available, telehealth availability, insurance details, and Google reviews.
+          The directory lists about 3,550 providers in more than 40 states and over 700 cities. Each listing includes the provider&apos;s name, location, contact information, the peptides named on their website, telehealth availability, insurance details where we could find them, and the date we last checked their website.
         </p>
         <p className="text-text-secondary mb-4 leading-relaxed">
           We built this because finding a local peptide therapy provider shouldn&apos;t require hours of searching. Type in your city or state, filter by the peptide you&apos;re looking for, and get a list of providers to evaluate on your own terms.
@@ -62,7 +62,7 @@ export default function AboutPage() {
           <li className="flex items-start gap-2"><span className="text-accent mt-0.5">•</span><span>We do not endorse any provider. A listing is not a recommendation.</span></li>
         </ul>
         <p className="text-text-secondary mb-4 leading-relaxed">
-          Google reviews displayed on provider pages are pulled directly from the Google Places API. We show them for your reference, but we do not verify, moderate, or editorially curate them. They reflect what Google users have posted publicly.
+          We don&apos;t republish reviews from Google or other sites. Read reviews where they were written, and from more than one source.
         </p>
         <p className="text-text-secondary mb-4 leading-relaxed">
           Our directory uses a tiered listing system to help you understand the level of information behind each provider:
@@ -83,7 +83,7 @@ export default function AboutPage() {
         <div className="bg-surface-0 border border-border-subtle rounded-lg p-4 mb-6">
           <strong className="text-text-primary">Claimed</strong>
           <p className="text-text-secondary text-sm mt-1 leading-relaxed">
-            Means the provider has taken ownership of their listing and updated their own information directly. This tier is also coming soon.
+            Means someone at the practice proved they manage it, either through a confirm link sent to an email on the practice&apos;s own website domain or by a phone check, and supplied their own details. Claiming is free and does not change ranking.
           </p>
         </div>
 

@@ -23,6 +23,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: article.title,
     description: article.description,
+    robots: article.noindex ? { index: false, follow: true } : undefined,
     alternates: { canonical: canonical(blogPostUrl(slug)) },
   };
 }

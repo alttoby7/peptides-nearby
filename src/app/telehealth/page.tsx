@@ -100,7 +100,7 @@ export default function TelehealthHubPage() {
               {
                 step: "2",
                 title: "Lab Work & Prescription",
-                desc: "Your provider may order labs (often at a local draw center). Once results are in, they prescribe the right peptide protocol for you.",
+                desc: "Your provider may order labs (often at a local draw center). Once results are in, they decide whether a prescription is appropriate for you.",
                 icon: (
                   <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M9.75 3.104v5.714a2.25 2.25 0 0 1-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 0 1 4.5 0m0 0v5.714c0 .597.237 1.17.659 1.591L19.8 15.3M14.25 3.104c.251.023.501.05.75.082M19.8 15.3l-1.57.393A9.065 9.065 0 0 1 12 15a9.065 9.065 0 0 0-6.23.693L5 14.5m14.8.8 1.402 1.402c1.232 1.232.65 3.318-1.067 3.611A48.309 48.309 0 0 1 12 21c-2.773 0-5.491-.235-8.135-.687-1.718-.293-2.3-2.379-1.067-3.61L5 14.5" />
@@ -110,7 +110,7 @@ export default function TelehealthHubPage() {
               {
                 step: "3",
                 title: "Delivered to Your Door",
-                desc: "Your peptides are shipped from a licensed compounding pharmacy directly to you. Follow-up visits happen virtually too.",
+                desc: "Prescriptions are filled by a licensed pharmacy, often mail-order or compounding, and shipped to you. Follow-up visits happen virtually too.",
                 icon: (
                   <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 18.75a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 0 1-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m3 0H21M3.375 14.25h17.25M3.375 14.25V6.375c0-.621.504-1.125 1.125-1.125h9.75c.621 0 1.125.504 1.125 1.125v7.875m-13.5 0h13.5m0 0 2.25-3.375h3.375c.621 0 1.125.504 1.125 1.125v2.25" />
@@ -177,7 +177,7 @@ export default function TelehealthHubPage() {
               What Telehealth Peptide Therapy Costs
             </h2>
             <p className="text-sm text-text-secondary mb-3">
-              Pricing for telehealth GLP-1 therapy falls into two buckets: compounded medication plans and brand-name medication plans.
+              Pricing for telehealth GLP-1 therapy has fallen into two buckets: compounded medication plans and brand-name medication plans. Compounded drugs are not FDA-approved, and FDA has restricted compounding of semaglutide and tirzepatide since their shortages were resolved (see below).
             </p>
 
             <div className="overflow-x-auto mb-6">
@@ -190,7 +190,7 @@ export default function TelehealthHubPage() {
                 </thead>
                 <tbody>
                   <tr>
-                    <td className="py-2 px-3 text-text-secondary border-b border-border-subtle/50">Monthly all-inclusive plan (compounded medication + consultation + shipping)</td>
+                    <td className="py-2 px-3 text-text-secondary border-b border-border-subtle/50">Monthly all-inclusive plan (compounded medication + consultation + shipping; now subject to FDA limits, see below)</td>
                     <td className="py-2 px-3 text-text-secondary border-b border-border-subtle/50">$199-$399/mo</td>
                   </tr>
                   <tr>
@@ -217,10 +217,10 @@ export default function TelehealthHubPage() {
               Most telehealth platforms operate on a cash-pay basis. Insurance coverage for GLP-1 medications through telehealth is rare, though many providers accept HSA and FSA payments.
             </p>
             <p className="text-sm text-text-secondary mb-3">
-              The compounded medication route is where telehealth pricing gets competitive. An all-inclusive monthly plan at $199-$399 covers everything: the consultation, compounded semaglutide or tirzepatide, and shipping. That same treatment through an in-person clinic with brand-name medication can run $400-$800 per month or more.
+              Compounded plans are where telehealth pricing has been lowest, but they now face federal limits. FDA declared the tirzepatide and semaglutide shortages resolved, its temporary enforcement discretion for compounding them has ended, and on April 30, 2026 it <a href="https://www.fda.gov/news-events/press-announcements/fda-proposes-exclude-semaglutide-tirzepatide-and-liraglutide-503b-bulks-list" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline">proposed excluding semaglutide, tirzepatide, and liraglutide from the 503B bulks list</a>. See FDA&apos;s <a href="https://www.fda.gov/drugs/drug-alerts-and-statements/fda-clarifies-policies-compounders-national-glp-1-supply-begins-stabilize" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline">statement on compounding policies</a>. If a telehealth plan offers compounded semaglutide or tirzepatide, ask how its pharmacy complies with current FDA policy.
             </p>
             <p className="text-sm text-text-secondary mb-3">
-              One development worth tracking: the Medicare GLP-1 Bridge program launches in July 2026 with a $50 copay for Wegovy and Zepbound, which may shift the economics for patients who currently pay out of pocket.
+              If you have Medicare or other insurance, check your plan&apos;s current GLP-1 coverage before paying cash.
             </p>
           </div>
         </div>
@@ -401,7 +401,7 @@ export default function TelehealthHubPage() {
               <strong>Licensing is non-negotiable.</strong> A provider must hold an active license in your state to prescribe medication to you via telehealth. The provider&apos;s physical location is irrelevant. What matters is where you are sitting during the consultation and where the medication ships.
             </p>
             <p className="text-sm text-text-secondary mb-3">
-              State rules around telehealth prescribing vary significantly. Some states require an initial in-person visit before a provider can prescribe remotely. Others adopted permanent telehealth-only flexibilities after COVID-era regulations proved that remote prescribing worked safely at scale. The patchwork is real, and it changes as state legislatures update their telehealth statutes. What was true six months ago may not apply today.
+              State rules around telehealth prescribing vary significantly. Some states require an initial in-person visit before a provider can prescribe remotely. Others kept telehealth flexibilities adopted during COVID. The patchwork is real, and it changes as state legislatures update their telehealth statutes. What was true six months ago may not apply today.
             </p>
             <p className="text-sm text-text-secondary mb-3">
               <strong>Lab work</strong> is not technically required for GLP-1 prescribing. But best-practice clinics order baseline labs before starting treatment: a comprehensive metabolic panel (CMP), A1C, thyroid panel, and lipid panel. Telehealth providers typically send a lab order to Quest or Labcorp for you to complete at a location near you. If labs are not included in your plan, expect to pay $100-$300 out of pocket.
@@ -410,7 +410,7 @@ export default function TelehealthHubPage() {
               <strong>Compounding pharmacy rules</strong> add another layer. Some states restrict out-of-state compounding pharmacies from shipping medications in. Before you sign up with any telehealth provider, ask which pharmacy they use and confirm it can ship to your address.
             </p>
             <p className="text-sm text-text-secondary mb-3">
-              <strong>Controlled substance classification</strong> simplifies things for GLP-1 patients. Semaglutide and tirzepatide are not controlled substances, so telehealth prescribing faces fewer restrictions. This is different from testosterone or HGH, which carry stricter telehealth prescribing rules in many states.
+              <strong>Controlled substance classification</strong> matters for some medications. Federal and state telehealth rules for controlled substances are stricter, so ask your provider whether anything you are prescribed is a controlled substance and what that means for remote prescribing.
             </p>
             <p className="text-sm text-text-secondary mb-3">
               Our <Link href="/telehealth">state-level telehealth pages</Link> list providers licensed to treat patients in each state so you can filter by where you actually live.
@@ -433,11 +433,11 @@ export default function TelehealthHubPage() {
               },
               {
                 q: "Do I need to see a doctor in person before starting telehealth GLP-1 therapy?",
-                a: "In most states, no. Post-COVID telehealth flexibilities allow many providers to prescribe after a video consultation alone. A few states still require an initial in-person visit before remote prescribing. Check your state’s current telehealth prescribing rules, or browse our state pages to see which providers serve your area.",
+                a: "It depends on your state. Many providers prescribe after a video consultation alone, but some states require an initial in-person visit before remote prescribing. Check your state’s current telehealth prescribing rules, or browse our state pages to see which providers serve your area.",
               },
               {
                 q: "How is medication delivered with telehealth programs?",
-                a: "Most telehealth providers ship medication directly to your home from their partnered compounding pharmacy. Delivery typically takes 3-5 business days after your prescription is approved. Medications that require cold storage arrive in temperature-controlled packaging.",
+                a: "Most telehealth providers ship medication directly to your home from a partner pharmacy, which may be a mail-order or compounding pharmacy. Delivery typically takes 3-5 business days after your prescription is approved. Medications that require cold storage arrive in temperature-controlled packaging.",
               },
             ].map((faq, i) => (
               <div key={i}>
