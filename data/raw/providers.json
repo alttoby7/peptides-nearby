@@ -127304,5 +127304,115 @@
     "clinicalFocus": [
       "metabolic-weight-loss"
     ]
+  },
+  {
+    "slug": "tom-weight-loss-houston-tx",
+    "name": "TOM Weight Loss",
+    "type": "clinic",
+    "status": "active",
+    "address": {
+      "street": "5373 W. Alabama St. #204",
+      "city": "Houston",
+      "state": "TX",
+      "stateCode": "TX",
+      "zip": "77056"
+    },
+    "phone": "(713) 568-9102",
+    "website": "https://www.tomweightloss.com/",
+    "email": "",
+    "description": "TOM Weight Loss is a telehealth-oriented medical weight-loss clinic based in Houston, TX. Its website describes online care and semaglutide and tirzepatide options.",
+    "bookingUrl": "",
+    "googleMapsUrl": "",
+    "services": [
+      "peptide therapy"
+    ],
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
+    "insurance": "unknown",
+    "hours": null,
+    "featured": false,
+    "verified": false,
+    "verificationTier": "listed",
+    "treatmentGoals": [],
+    "telehealth": {
+      "available": true,
+      "statesServed": [
+        "TX"
+      ],
+      "visitTypes": [
+        "video"
+      ]
+    }
+  },
+  {
+    "slug": "arcara-access-wellesley-ma",
+    "name": "Arcara Access",
+    "type": "clinic",
+    "status": "active",
+    "address": {
+      "street": "",
+      "city": "Wellesley",
+      "state": "MA",
+      "stateCode": "MA",
+      "zip": ""
+    },
+    "phone": "(617) 431-6140",
+    "website": "https://arcaraaccess.com/",
+    "email": "",
+    "description": "Arcara Access is a telehealth clinic in Wellesley, MA. Its website describes peptide-therapy and hormone-care programs.",
+    "bookingUrl": "",
+    "googleMapsUrl": "",
+    "services": [
+      "peptide therapy"
+    ],
+    "peptides": [],
+    "insurance": "unknown",
+    "hours": null,
+    "featured": false,
+    "verified": false,
+    "verificationTier": "listed",
+    "treatmentGoals": [],
+    "telehealth": {
+      "available": true,
+      "statesServed": [
+        "MA"
+      ],
+      "visitTypes": [
+        "video"
+      ]
+    }
+  },
+  {
+    "slug": "ivolve-med-spa-jacksonville-fl",
+    "name": "IVolve Med Spa",
+    "type": "wellness-center",
+    "status": "active",
+    "address": {
+      "street": "6100 Greenland Rd Ste 601",
+      "city": "Jacksonville",
+      "state": "FL",
+      "stateCode": "FL",
+      "zip": "32258"
+    },
+    "phone": "(904) 560-2020",
+    "website": "https://www.ivolvemedspa.com/en",
+    "email": "",
+    "description": "IVolve Med Spa is a med spa in Jacksonville, FL. Its website describes medical weight-loss, peptide-injection, and longevity/NAD+ services.",
+    "bookingUrl": "https://www.ivolvemedspa.com/en/booking",
+    "googleMapsUrl": "",
+    "services": [
+      "peptide therapy"
+    ],
+    "peptides": [
+      "nad-plus"
+    ],
+    "insurance": "unknown",
+    "hours": null,
+    "featured": false,
+    "verified": false,
+    "verificationTier": "listed",
+    "treatmentGoals": []
   }
 ]

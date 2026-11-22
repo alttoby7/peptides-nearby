@@ -3,7 +3,7 @@
     "slug": "peptide-therapy",
     "name": "Peptide Therapy",
     "type": "therapy",
-    "providerCount": 3550,
+    "providerCount": 3553,
     "cityCount": 856,
     "description": "Peptide therapy uses targeted peptides for wellness, anti-aging, weight loss, and recovery.",
     "indexed": false
@@ -12,7 +12,7 @@
     "slug": "semaglutide",
     "name": "Semaglutide",
     "type": "peptide",
-    "providerCount": 597,
+    "providerCount": 598,
     "cityCount": 245,
     "description": "Semaglutide is a GLP-1 receptor agonist used for weight management.",
     "indexed": true
@@ -21,7 +21,7 @@
     "slug": "nad-plus",
     "name": "NAD+",
     "type": "therapy",
-    "providerCount": 500,
+    "providerCount": 501,
     "cityCount": 200,
     "description": "NAD+ therapy supports cellular energy, metabolism, and anti-aging.",
     "indexed": false
@@ -30,7 +30,7 @@
     "slug": "tirzepatide",
     "name": "Tirzepatide",
     "type": "peptide",
-    "providerCount": 452,
+    "providerCount": 453,
     "cityCount": 201,
     "description": "Tirzepatide is a dual GIP/GLP-1 receptor agonist for weight loss and blood sugar control.",
     "indexed": true

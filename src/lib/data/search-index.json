@@ -82257,5 +82257,67 @@
     ],
     "deliveryMethods": [],
     "trustSignalCount": 0
+  },
+  {
+    "slug": "tom-weight-loss-houston-tx",
+    "name": "TOM Weight Loss",
+    "city": "Houston",
+    "stateCode": "TX",
+    "type": "clinic",
+    "peptides": [
+      "semaglutide",
+      "tirzepatide"
+    ],
+    "services": [
+      "peptide therapy"
+    ],
+    "treatmentGoals": [],
+    "verificationTier": "listed",
+    "insurance": "unknown",
+    "telehealthAvailable": true,
+    "specialties": [],
+    "clinicalFocus": [],
+    "deliveryMethods": [],
+    "trustSignalCount": 0
+  },
+  {
+    "slug": "arcara-access-wellesley-ma",
+    "name": "Arcara Access",
+    "city": "Wellesley",
+    "stateCode": "MA",
+    "type": "clinic",
+    "peptides": [],
+    "services": [
+      "peptide therapy"
+    ],
+    "treatmentGoals": [],
+    "verificationTier": "listed",
+    "insurance": "unknown",
+    "telehealthAvailable": true,
+    "specialties": [],
+    "clinicalFocus": [],
+    "deliveryMethods": [],
+    "trustSignalCount": 0
+  },
+  {
+    "slug": "ivolve-med-spa-jacksonville-fl",
+    "name": "IVolve Med Spa",
+    "city": "Jacksonville",
+    "stateCode": "FL",
+    "type": "wellness-center",
+    "peptides": [
+      "nad-plus"
+    ],
+    "services": [
+      "peptide therapy"
+    ],
+    "treatmentGoals": [],
+    "verificationTier": "listed",
+    "insurance": "unknown",
+    "telehealthAvailable": false,
+    "specialties": [],
+    "clinicalFocus": [],
+    "deliveryMethods": [],
+    "trustSignalCount": 0
   }
 ]
