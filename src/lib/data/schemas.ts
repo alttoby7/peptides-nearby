@@ -128,6 +128,16 @@ export const ProviderSchema = z.object({
   businessModel: BusinessModelSchema.optional(),
   trustSignals: TrustSignalsSchema.default({}),
   indexed: z.boolean().default(false),
+  // Fresh website scan (scripts/site-scan.py → data/site-scan.json)
+  siteCheckedAt: z.string().optional(),
+  siteAlive: z.boolean().optional(),
+  peptideSourceUrl: z.string().optional(),
+  telehealthSourceUrl: z.string().optional(),
+  hoursText: z.array(z.string()).optional(),
+  // Verified ownership claim (data/raw/claims.json via scripts/apply-claim.ts)
+  claimedAt: z.string().optional(),
+  claimMethod: z.string().optional(),
+  practiceDescription: z.string().optional(),
 });
 export type Provider = z.infer<typeof ProviderSchema>;
 

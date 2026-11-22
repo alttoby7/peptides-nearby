@@ -26,7 +26,9 @@ const VALID_STATE_CODES = new Set<string>(STATE_CODES);
 const KEEP_STATES = new Set(["FL","CA","TX","NC","OH","WA","AZ","CO","GA","OR"]);
 const KEEP_TELEHEALTH_STATES = new Set(["FL","CA","TX","MD","NY","NC","GA","WA","NV","AZ","PA","MA","IL","IN","OH"]);
 const KEEP_PEPTIDES = new Set(["semaglutide","tirzepatide","liraglutide"]);
-const KEEP_GOALS = new Set(["weight-loss"]);
+// Nov 2026: /goals/weight-loss was a 77% near-duplicate of /peptides/semaglutide
+// (same provider set), so it is no longer indexed.
+const KEEP_GOALS = new Set<string>([]);
 const MIN_PROVIDERS_CITY_INDEXED = 15;
 const MIN_GLP1_CITY_INDEXED = 5;
 const GLP1_SLUGS = new Set(["semaglutide","tirzepatide","liraglutide"]);
@@ -144,18 +146,157 @@ const rawCities: RawCity[] = JSON.parse(
   readFileSync(resolve(RAW, "cities.json"), "utf-8")
 );
 
-// Filter to active providers
-const activeProviders = providers.filter((p) => p.status === "active");
+// --- Fresh website scan + verified claims (Nov 2026) ---
+// site-scan.json: scripts/site-scan.py (public subset, no emails).
+// claims.json: ownership-verified claims merged by scripts/apply-claim.ts.
+interface SiteScan {
+  checkedAt: string | null;
+  alive: boolean;
+  httpStatus?: number;
+  peptides?: string[];
+  peptideSources?: Record<string, string>;
+  telehealth?: boolean;
+  telehealthUrl?: string | null;
+  hours?: string[] | null;
+}
+interface Claim {
+  slug: string;
+  verifiedAt: string;
+  method: string;
+  description?: string;
+  services?: string[];
+  peptides?: string[];
+  telehealth?: { available: boolean; visitTypes?: string[]; statesServed?: string[] };
+  hours?: Record<string, { open: string; close: string }>;
+  hoursText?: string;
+  bookingUrl?: string;
+  phone?: string;
+  website?: string;
+  insurance?: RawProvider["insurance"];
+}
+const siteScanPath = resolve(ROOT, "data/site-scan.json");
+const siteScan: Record<string, SiteScan> = existsSync(siteScanPath)
+  ? JSON.parse(readFileSync(siteScanPath, "utf-8"))
+  : {};
+const claimsPath = resolve(RAW, "claims.json");
+const claims: Claim[] = existsSync(claimsPath) ? JSON.parse(readFileSync(claimsPath, "utf-8")) : [];
+const claimBySlug = new Map(claims.map((c) => [c.slug, c]));
 
-function isProviderIndexable(p: RawProvider): boolean {
-  if (p.type !== "clinic") return false;
-  if (!p.website || !p.phone) return false;
-  const hasGlp1 = p.peptides.some((pep) => GLP1_SLUGS.has(pep.toLowerCase()));
-  const hasTelehealth = p.telehealth?.available ?? false;
-  if (!hasGlp1 && !hasTelehealth) return false;
-  const wordCount = (p.description ?? "").split(/\s+/).filter(Boolean).length;
-  if (wordCount < 50) return false;
-  return true;
+const DAY_NAMES: Record<string, string> = {
+  mo: "Monday", tu: "Tuesday", we: "Wednesday", th: "Thursday", fr: "Friday", sa: "Saturday", su: "Sunday",
+};
+const DAY_KEYS = Object.keys(DAY_NAMES);
+
+// Parse schema.org openingHours strings ("Mo-Fr 09:00-17:00", "Mo,Tu 08:00-12:00").
+function parseHours(lines: string[]): Record<string, { open: string; close: string }> | null {
+  const out: Record<string, { open: string; close: string }> = {};
+  const groups: RegExpMatchArray[] = [];
+  for (const line of lines) {
+    for (const m of line.matchAll(/([A-Za-z,\- ]+?)\s+(\d{1,2}:\d{2})\s*-\s*(\d{1,2}:\d{2})/g)) groups.push(m);
+  }
+  for (const m of groups) {
+    m[1] = m[1].replace(/^[\s,]+/, "");
+    const days = new Set<string>();
+    for (const part of m[1].split(",")) {
+      const [a, b] = part.trim().toLowerCase().split("-").map((x) => x.trim().slice(0, 2));
+      if (!DAY_KEYS.includes(a)) continue;
+      if (b && DAY_KEYS.includes(b)) {
+        let i = DAY_KEYS.indexOf(a);
+        const j = DAY_KEYS.indexOf(b);
+        for (let n = 0; n < 7; n++) { days.add(DAY_KEYS[i]); if (i === j) break; i = (i + 1) % 7; }
+      } else days.add(a);
+    }
+    for (const d of days) out[DAY_NAMES[d]] = { open: m[2], close: m[3] };
+  }
+  return Object.keys(out).length > 0 ? out : null;
+}
+
+type EnrichedProvider = RawProvider & {
+  siteCheckedAt?: string;
+  siteAlive?: boolean;
+  peptideSourceUrl?: string;
+  telehealthSourceUrl?: string;
+  hoursText?: string[];
+  claimedAt?: string;
+  claimMethod?: string;
+  practiceDescription?: string;
+};
+
+function enrich(p: RawProvider): EnrichedProvider {
+  const e: EnrichedProvider = { ...p, peptides: [...p.peptides] };
+  const scan = siteScan[p.slug];
+  if (scan && scan.checkedAt) {
+    e.siteCheckedAt = scan.checkedAt;
+    e.siteAlive = scan.alive;
+    if (scan.alive) {
+      e.lastVerified = scan.checkedAt;
+      for (const pep of scan.peptides ?? []) if (!e.peptides.includes(pep)) e.peptides.push(pep);
+      const firstSource = Object.values(scan.peptideSources ?? {})[0];
+      if (firstSource) e.peptideSourceUrl = firstSource;
+      if (scan.telehealth) {
+        e.telehealth = {
+          available: true,
+          statesServed: p.telehealth?.statesServed ?? [],
+          visitTypes: p.telehealth?.visitTypes ?? [],
+        };
+        if (scan.telehealthUrl) e.telehealthSourceUrl = scan.telehealthUrl;
+      }
+      if (scan.hours && scan.hours.length > 0 && !p.hours) {
+        const parsed = parseHours(scan.hours);
+        if (parsed) e.hours = parsed;
+        else if (scan.hours.some((h) => /\d/.test(h))) e.hoursText = scan.hours.filter((h) => /\d/.test(h));
+      }
+    }
+  }
+  const claim = claimBySlug.get(p.slug);
+  if (claim) {
+    e.verificationTier = "claimed";
+    e.verified = true;
+    e.claimedAt = claim.verifiedAt;
+    e.claimMethod = claim.method;
+    e.lastVerified = claim.verifiedAt;
+    if (claim.description) e.practiceDescription = claim.description;
+    if (claim.services?.length) e.services = claim.services;
+    if (claim.peptides?.length) e.peptides = claim.peptides;
+    if (claim.telehealth) e.telehealth = { available: claim.telehealth.available, visitTypes: claim.telehealth.visitTypes ?? [], statesServed: claim.telehealth.statesServed ?? [] };
+    if (claim.hours) e.hours = claim.hours;
+    if (claim.hoursText) { e.hoursText = [claim.hoursText]; delete e.hours; }
+    if (claim.bookingUrl) e.bookingUrl = claim.bookingUrl;
+    if (claim.phone) e.phone = claim.phone;
+    if (claim.website) e.website = claim.website;
+    if (claim.insurance) e.insurance = claim.insurance;
+  }
+  e.peptides.sort();
+  return e;
+}
+
+// Filter to active providers (enriched with scan + claim data)
+const activeProviders: EnrichedProvider[] = providers.filter((p) => p.status === "active").map(enrich);
+console.log(`Site scan entries: ${Object.keys(siteScan).length}; verified claims: ${claims.length}`);
+
+// Provider pages are indexed only once the practice has verified ownership and
+// written its own description. Scraped one-liners never qualify (May 2026
+// deindexing lesson: thin YMYL pages).
+function isProviderIndexable(p: EnrichedProvider): boolean {
+  if (p.verificationTier !== "claimed" && p.verificationTier !== "trusted") return false;
+  if (!p.phone && !p.website) return false;
+  const wordCount = (p.practiceDescription ?? "").split(/\s+/).filter(Boolean).length;
+  return wordCount >= 60;
+}
+
+// Claim function lookup: slug → registrable site host, for email-domain ownership checks.
+{
+  const domains: Record<string, { n: string; d: string }> = {};
+  for (const p of activeProviders) {
+    if (!p.website) { domains[p.slug] = { n: p.name, d: "" }; continue; }
+    try {
+      const host = new URL(p.website.startsWith("http") ? p.website : `http://${p.website}`).hostname.toLowerCase().replace(/^www\./, "");
+      domains[p.slug] = { n: p.name, d: host };
+    } catch { /* unparsable website: no domain match possible */ }
+  }
+  mkdirSync(resolve(ROOT, "functions-lib"), { recursive: true });
+  writeFileSync(resolve(ROOT, "functions-lib/provider-domains.json"), JSON.stringify(domains));
+  console.log(`Wrote ${Object.keys(domains).length} provider domains for claim verification`);
 }
 
 console.log(`Loaded ${providers.length} providers (${activeProviders.length} active)`);
@@ -235,8 +376,12 @@ interface CityOutput {
 }
 
 const cities: CityOutput[] = [];
+let prunedEmptyCities = 0;
 for (const [key, rawCity] of citySet) {
   const provs = cityProviderMap.get(key) || [];
+  // Prune empty seed cities: no page, no links (strategy doc: empty programmatic
+  // pages are a penalty risk). Thin 1-14 provider pages still render, noindexed.
+  if (provs.length === 0) { prunedEmptyCities++; continue; }
   const servicesSet = new Set<string>();
   const peptidesSet = new Set<string>();
   for (const p of provs) {
@@ -278,7 +423,7 @@ for (const [key, rawCity] of citySet) {
 cities.sort((a, b) => b.providerCount - a.providerCount || a.name.localeCompare(b.name));
 
 writeFileSync(resolve(OUT, "cities.json"), JSON.stringify(cities, null, 2));
-console.log(`Wrote ${cities.length} cities to cities.json`);
+console.log(`Wrote ${cities.length} cities to cities.json (pruned ${prunedEmptyCities} empty seed cities)`);
 
 // Write locality rejection log (structured JSON for manual review).
 // Hard rejects are data-quality defects; heuristic rejects are candidates for
@@ -770,19 +915,14 @@ ${urls
 writeFileSync(resolve(PUBLIC, "sitemap.xml"), sitemap);
 console.log(`Wrote sitemap.xml with ${urls.length} URLs (recovery whitelist)`);
 
-// --- Reviews (copy from raw if exists) ---
-const rawReviewsPath = resolve(RAW, "reviews.json");
+// --- Reviews ---
+// data/raw/reviews.json holds reviews scraped from Google. Third-party reviews
+// are never republished on our pages (copied content + not ours to publish),
+// so the build ships an empty set. First-party reviews need a new pipeline.
 const outReviewsPath = resolve(OUT, "reviews.json");
-let reviewCount = 0;
-if (existsSync(rawReviewsPath)) {
-  const reviewsRaw = readFileSync(rawReviewsPath, "utf-8");
-  const reviewsData = JSON.parse(reviewsRaw);
-  reviewCount = reviewsData.length;
-  writeFileSync(outReviewsPath, JSON.stringify(reviewsData, null, 2));
-} else {
-  writeFileSync(outReviewsPath, "[]");
-}
-console.log(`Wrote ${reviewCount} reviews to reviews.json`);
+const reviewCount = 0;
+writeFileSync(outReviewsPath, "[]");
+console.log(`Wrote ${reviewCount} reviews to reviews.json (third-party reviews not published)`);
 
 // --- Summary ---
 console.log("\n--- Build Summary ---");

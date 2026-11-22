@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!provider) return { title: "Provider Not Found", robots: { index: false, follow: false } };
   return {
     title: `Claim ${provider.name} — Peptides Nearby`,
-    description: `Are you the owner or manager of ${provider.name}? Request a factual correction or review this listing.`,
+    description: `Are you the owner or manager of ${provider.name}? Claim the free listing, verify ownership with your work email, and publish accurate details.`,
     robots: { index: false, follow: false },
   };
 }
@@ -35,6 +35,10 @@ export default async function ClaimPage({ params }: Props) {
   const stateSlug = stateSlugFromAny(provider.address.stateCode) ?? "";
   const citySlug = slugifyCity(provider.address.city);
   const tier = provider.verificationTier ?? "listed";
+  let siteHost = "";
+  try {
+    if (provider.website) siteHost = new URL(provider.website.startsWith("http") ? provider.website : `http://${provider.website}`).hostname.toLowerCase().replace(/^www\./, "");
+  } catch { siteHost = ""; }
 
   return (
     <section className="pt-12 pb-20">
@@ -63,24 +67,28 @@ export default async function ClaimPage({ params }: Props) {
         ) : (
           <>
             <p className="text-text-secondary mb-4">
-              Tell us how you represent this practice to request a factual correction or listing review.
+              Claiming is free. Verify that you manage this practice, then tell patients how you actually work.
             </p>
             <ul className="text-sm text-text-secondary mb-8 flex flex-col gap-2">
               <li className="flex items-start gap-2">
                 <span className="text-accent mt-0.5">&#10003;</span>
-                <span><strong>Free factual corrections</strong> — update inaccurate contact or service information</span>
+                <span><strong>Instant verification</strong>: use a work email on your practice&apos;s website domain{siteHost ? ` (@${siteHost})` : ""}. Otherwise we confirm by phone.</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-accent mt-0.5">&#10003;</span>
-                <span><strong>Provider-confirmed status</strong> — added only after we review your connection to the practice</span>
+                <span><strong>Your words, not a scraped blurb</strong>: description, services, hours, telehealth and booking link</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-accent mt-0.5">&#10003;</span>
-                <span><strong>Editorial independence</strong> — a request does not change factual, medical, or safety information</span>
+                <span><strong>Claimed badge</strong> with the date you confirmed the details</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-accent mt-0.5">&#10003;</span>
+                <span><strong>No cost, no contract</strong>. We never change medical or safety information for pay.</span>
               </li>
             </ul>
 
-            <ClaimForm providerSlug={slug} providerName={provider.name} />
+            <ClaimForm providerSlug={slug} providerName={provider.name} siteHost={siteHost} />
           </>
         )}
       </div>

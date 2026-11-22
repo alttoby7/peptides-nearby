@@ -10,6 +10,7 @@ import { JsonLd, breadcrumbJsonLd, itemListJsonLd } from "@/components/seo/JsonL
 import { FilteredProviderList } from "@/components/filters/ProviderFilters";
 import CityMapWrapper from "@/components/map/CityMapWrapper";
 import { DirectoryImpression } from "@/components/analytics/DirectoryMeasurement";
+import { LocalFacts, computeLocalFacts } from "@/components/local/LocalFacts";
 
 type Props = { params: Promise<{ state: string; city: string }> };
 
@@ -28,9 +29,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const canonPath = cityUrl(city.stateCode, city.slug);
   return {
     title: `Peptide Therapy in ${city.name}, ${city.stateCode}${city.providerCount > 0 ? ` — ${city.providerCount} Providers` : ""}`,
-    description: city.providerCount > 0
-      ? `Find ${city.providerCount} peptide therapy clinics, compounding pharmacies, and wellness centers in ${city.name}, ${city.stateCode}. Compare providers, services, and book your visit.`
-      : `Looking for peptide therapy in ${city.name}, ${city.stateCode}? Submit a local practice or explore online vendors.`,
+    description: (() => {
+      const f = computeLocalFacts(getProvidersByCity(city.slug, city.stateCode));
+      return `${city.providerCount} peptide therapy providers in ${city.name}, ${city.stateCode}: ${f.clinics.length} clinics, ${f.pharmacies.length} compounding pharmacies, ${f.wellness.length} wellness centers. ${f.telehealth.length} mention telehealth. Check a license before you book.`;
+    })(),
     robots: thin ? { index: false, follow: true } : undefined,
     alternates: canonPath ? { canonical: canonical(canonPath) } : undefined,
   };
@@ -108,7 +110,10 @@ export default async function CityPage({ params }: Props) {
           )}
 
           {providers.length > 0 ? (
-            <FilteredProviderList providers={providers} />
+            <>
+              <FilteredProviderList providers={providers} />
+              <LocalFacts providers={providers} placeName={city.name} stateCode={city.stateCode} stateName={state.name} />
+            </>
           ) : (
             <div className="p-8 bg-white border border-border-subtle rounded-xl shadow-sm text-center">
               <h2 className="font-display text-xl text-text-primary mb-2">

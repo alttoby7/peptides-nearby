@@ -12,3 +12,4 @@ next-env.d.ts
 
 # Large caches — regenerable, kept local only
 data/website-text-cache.json
+data/site-scan-cache/

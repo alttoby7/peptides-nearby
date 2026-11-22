@@ -7,6 +7,8 @@ import { canonical } from "@/lib/seo/canonical";
 import { stateUrl } from "@/lib/seo/paths";
 import { JsonLd, breadcrumbJsonLd, itemListJsonLd } from "@/components/seo/JsonLd";
 import { StatePageClient } from "./StatePageClient";
+import { getProvidersByState } from "@/lib/data/providers";
+import { LocalFacts } from "@/components/local/LocalFacts";
 
 type Props = { params: Promise<{ state: string }> };
 
@@ -224,6 +226,8 @@ export default async function StatePage({ params }: Props) {
                 );
               })}
           </div>
+
+          <LocalFacts providers={getProvidersByState(state.code)} placeName={state.name} stateCode={state.code} stateName={state.name} />
 
           {state.providerCount === 0 && (
             <div className="mt-8 p-6 bg-white border border-border-subtle rounded-xl shadow-sm text-center">

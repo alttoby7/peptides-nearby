@@ -1,6 +1,10 @@
 import Link from "next/link";
 import type { Provider } from "@/lib/data/schemas";
 
+// Scraped one-liner shared by most unclaimed listings; repeating it on every card
+// is boilerplate, so cards show structured facts instead.
+const TEMPLATE_DESC = /^.+ is an? (clinic|pharmacy|wellness center) in .+ offering peptide therapy and related services\.$/;
+
 function slugify(str: string): string {
   return str.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 }
@@ -88,9 +92,14 @@ export function ProviderCard({ provider, reserveActionSpace = false }: { provide
             )}
           </div>
 
-          <p className="text-sm text-text-secondary line-clamp-2">
-            {provider.description}
-          </p>
+          {(provider.practiceDescription || !TEMPLATE_DESC.test(provider.description)) && (
+            <p className="text-sm text-text-secondary line-clamp-2">
+              {provider.practiceDescription || provider.description}
+            </p>
+          )}
+          {provider.address.street && (
+            <p className="text-xs text-text-tertiary sm:hidden">{provider.address.street}</p>
+          )}
 
           {provider.peptides.length > 0 && (
             <div className="flex flex-wrap gap-1.5 mt-3">

@@ -7,6 +7,7 @@ import { telehealthStateUrl } from "@/lib/seo/paths";
 import { JsonLd, breadcrumbJsonLd } from "@/components/seo/JsonLd";
 import { FilteredProviderList } from "@/components/filters/ProviderFilters";
 import telehealthData from "@/lib/data/telehealth.json";
+import { LicenseAndFda } from "@/components/local/LocalFacts";
 
 interface TelehealthStateEntry {
   stateCode: string;
@@ -38,7 +39,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const thin = !entry.indexed;
   return {
     title: `Telehealth Peptide Therapy in ${entry.stateName} — ${entry.providerCount} Providers`,
-    description: `Find ${entry.providerCount} telehealth peptide therapy providers licensed in ${entry.stateName}. Virtual visits for BPC-157, semaglutide, and more.`,
+    description: `${entry.providerCount} peptide therapy and GLP-1 providers whose websites mention telehealth for patients in ${entry.stateName}. Check the prescriber's ${entry.stateName} license before you book.`,
     robots: thin ? { index: false, follow: true } : undefined,
     alternates: canonPath ? { canonical: canonical(canonPath) } : undefined,
   };
@@ -84,8 +85,8 @@ export default async function TelehealthStatePage({ params }: Props) {
           </h1>
 
           <p className="text-text-secondary mb-4 max-w-[700px]">
-            {providers.length} {providers.length === 1 ? "provider offers" : "providers offer"} virtual peptide therapy visits to patients in {entry.stateName}.
-            These providers are licensed to treat patients located in {entry.stateName} via telehealth — they may be based in-state or out-of-state.
+            {providers.length} {providers.length === 1 ? "provider's website mentions" : "providers' websites mention"} telehealth or virtual visits for patients in {entry.stateName}.
+            Some are based in {entry.stateName} and some elsewhere. We don&apos;t verify licenses, so confirm the prescriber is licensed in {entry.stateName} before you book.
           </p>
 
           {/* Visit types available in this state */}
@@ -142,6 +143,10 @@ export default async function TelehealthStatePage({ params }: Props) {
               </Link>
             </div>
           )}
+
+          <div className="mt-10">
+            <LicenseAndFda stateCode={entry.stateCode} stateName={entry.stateName} />
+          </div>
 
           {/* Cross-link to local providers */}
           <div className="mt-8 p-4 bg-surface-0 border border-border-subtle rounded-xl flex items-center justify-between">

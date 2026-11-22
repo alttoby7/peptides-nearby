@@ -15,7 +15,10 @@
         "test:measurement-browser": "tsx scripts/test-measurement-browser.ts",
         "test:measurement-real-tag": "tsx scripts/test-measurement-browser.ts --real-tag",
         "export-from-supabase": "tsx scripts/export-from-supabase.ts",
-        "sync-data": "npm run export-from-supabase && npm run prepare-data"
+        "sync-data": "npm run export-from-supabase && npm run prepare-data",
+        "test:claim-flow": "tsx scripts/test-claim-flow.ts",
+        "site-scan": "python scripts/site-scan.py",
+        "apply-claim": "tsx scripts/apply-claim.ts"
     },
     "dependencies": {
         "@anthropic-ai/sdk": "^0.90.0",

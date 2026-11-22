@@ -3,13 +3,10 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getProviderBySlug, getProviderSlugs, getProvidersByCity } from "@/lib/data/providers";
 import { getStateBySlug } from "@/lib/data/states";
-import { getReviewsByProvider } from "@/lib/data/reviews";
 import { stateSlugFromAny } from "@/lib/geo/states";
 import { canonical } from "@/lib/seo/canonical";
 import { providerUrl } from "@/lib/seo/paths";
 import { JsonLd, breadcrumbJsonLd, medicalBusinessJsonLd } from "@/components/seo/JsonLd";
-import { ReviewList } from "@/components/reviews/ReviewList";
-import { ReviewForm } from "@/components/reviews/ReviewForm";
 import { DirectoryImpression, TrackedProviderLink } from "@/components/analytics/DirectoryMeasurement";
 import { isScottsdaleFoundingProfile } from "@/lib/data/founding-profiles";
 
@@ -66,7 +63,6 @@ export default async function ProviderPage({ params }: Props) {
   const stateSlug = stateSlugFromAny(provider.address.stateCode) ?? "";
   const citySlug = slugifyPath(provider.address.city);
   const state = stateSlug ? getStateBySlug(stateSlug) : undefined;
-  const reviews = getReviewsByProvider(slug);
   const BASE = "https://www.peptidesnearby.com";
   const isScottsdaleReviewProfile = isScottsdaleFoundingProfile(slug);
 
@@ -130,8 +126,8 @@ export default async function ProviderPage({ params }: Props) {
                 )}
               </div>
 
-              <p className="text-text-secondary mb-8 leading-relaxed">
-                {provider.description}
+              <p className="text-text-secondary mb-8 leading-relaxed whitespace-pre-line">
+                {provider.practiceDescription || provider.description}
               </p>
 
               {isScottsdaleReviewProfile && (
@@ -155,7 +151,18 @@ export default async function ProviderPage({ params }: Props) {
               {/* Peptides offered */}
               {provider.peptides.length > 0 && (
                 <div className="mb-8">
-                  <h2 className="font-semibold text-text-primary mb-3">Peptides Offered</h2>
+                  <h2 className="font-semibold text-text-primary mb-1">
+                    {provider.claimedAt ? "Peptides offered (confirmed by the practice)" : "Named on their website"}
+                  </h2>
+                  {!provider.claimedAt && (
+                    <p className="text-xs text-text-tertiary mb-3">
+                      Compounds this practice mentions on its own site
+                      {provider.siteCheckedAt ? ` (checked ${provider.siteCheckedAt})` : ""}. A mention is not a confirmation that it prescribes or stocks them.
+                      {provider.peptideSourceUrl && (
+                        <> Source: <a href={provider.peptideSourceUrl} rel="nofollow noopener" target="_blank" className="text-accent hover:underline">their website</a>.</>
+                      )}
+                    </p>
+                  )}
                   <div className="flex flex-wrap gap-2">
                     {provider.peptides.map((p) => (
                       <Link
@@ -305,7 +312,9 @@ export default async function ProviderPage({ params }: Props) {
               {/* Hours */}
               {provider.hours && Object.keys(provider.hours).length > 0 && (
                 <div className="mb-8">
-                  <h2 className="font-semibold text-text-primary mb-3">Hours</h2>
+                  <h2 className="font-semibold text-text-primary mb-3">
+                    {provider.claimedAt ? "Hours" : "Hours (as published on their website)"}
+                  </h2>
                   <div className="bg-white border border-border-subtle rounded-xl shadow-sm overflow-hidden">
                     {DAY_ORDER.filter((d) => provider.hours?.[d]).map((day) => (
                       <div key={day} className="flex justify-between px-4 py-2.5 border-b border-border-subtle last:border-b-0">
@@ -318,6 +327,34 @@ export default async function ProviderPage({ params }: Props) {
                   </div>
                 </div>
               )}
+
+              {provider.hoursText && provider.hoursText.length > 0 && !provider.hours && (
+                <div className="mb-8">
+                  <h2 className="font-semibold text-text-primary mb-3">{provider.claimedAt ? "Hours" : "Hours (from their website)"}</h2>
+                  <ul className="text-sm text-text-secondary">
+                    {provider.hoursText.map((h) => <li key={h}>{h}</li>)}
+                  </ul>
+                </div>
+              )}
+
+              {/* Listing data provenance */}
+              <div className="mb-8 p-4 bg-surface-1 border border-border-subtle rounded-xl text-sm text-text-secondary">
+                <h2 className="font-semibold text-text-primary mb-2">About this listing</h2>
+                {provider.claimedAt ? (
+                  <p>
+                    Claimed and confirmed by the practice on {provider.claimedAt}
+                    {provider.claimMethod === "email-domain" ? " (ownership checked by a work email on the practice's own domain)" : ""}.
+                    Details above were provided by the practice.
+                  </p>
+                ) : (
+                  <p>
+                    Not yet claimed. Details come from public sources and the practice&apos;s own website
+                    {provider.siteCheckedAt ? `, last checked ${provider.siteCheckedAt}` : ""}
+                    {provider.siteCheckedAt && provider.siteAlive === false ? " (the site did not load for us that day)" : ""}.
+                    Call ahead to confirm services, pricing and availability.
+                  </p>
+                )}
+              </div>
 
               {/* Map embed */}
               <div className="mb-8">
@@ -421,24 +458,6 @@ export default async function ProviderPage({ params }: Props) {
                 );
               })()}
 
-            </div>
-          </div>
-
-          {/* Reviews */}
-          <div className="mt-12">
-            <h2 className="font-display text-2xl text-text-primary mb-4">
-              Patient Reviews
-            </h2>
-            {reviews.length > 0 ? (
-              <ReviewList reviews={reviews} />
-            ) : (
-              <p className="text-sm text-text-tertiary mb-4">
-                No reviews yet. Be the first to share your experience.
-              </p>
-            )}
-            <div className="mt-6 bg-white border border-border-subtle rounded-xl shadow-sm p-6">
-              <h3 className="font-semibold text-text-primary mb-4">Write a Review</h3>
-              <ReviewForm providerSlug={slug} />
             </div>
           </div>
 
