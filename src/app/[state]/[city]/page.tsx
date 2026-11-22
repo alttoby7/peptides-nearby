@@ -46,6 +46,7 @@ export default async function CityPage({ params }: Props) {
 
   const providers = getProvidersByCity(citySlug, city.stateCode);
   const BASE = "https://www.peptidesnearby.com";
+  const isScottsdale = state.slug === "arizona" && city.slug === "scottsdale";
 
   return (
     <>
@@ -89,6 +90,18 @@ export default async function CityPage({ params }: Props) {
               ? `${providers.length} ${providers.length === 1 ? "provider" : "providers"} offering peptide therapy in ${city.name}.`
               : `No providers listed in ${city.name} yet.`}
           </p>
+
+          {isScottsdale && (
+            <aside className="mb-8 max-w-3xl rounded-xl border border-border-subtle bg-surface-1 p-5">
+              <h2 className="font-display text-xl text-text-primary">How to use these Scottsdale listings</h2>
+              <p className="mt-2 text-sm leading-relaxed text-text-secondary">
+                Directory listings are a starting point for local discovery, not a verification of credentials, services, availability, pricing, or clinical suitability. Confirm details directly with each practice before making a care decision.
+              </p>
+              <p className="mt-2 text-sm leading-relaxed text-text-secondary">
+                Practice representatives can open their listing to request a free factual correction or review.
+              </p>
+            </aside>
+          )}
 
           {providers.length > 0 && (
             <CityMapWrapper city={city.name} stateCode={city.stateCode} />
