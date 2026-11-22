@@ -18,7 +18,6 @@ import {
 
 const ROLES = new Set(["owner", "medical-director", "practice-manager", "marketing", "other"]);
 const INSURANCE = new Set(["accepted", "not-accepted", "varies", ""]);
-const PATIENT_VALUE = new Set(["", "under-500", "500-1500", "1500-5000", "5000-plus", "prefer-not"]);
 const EMAIL_RE = /^[a-z0-9._%+-]+@([a-z0-9-]+\.)+[a-z]{2,}$/i;
 
 export const onRequestPost: PagesFunction<ClaimEnv> = async ({ request, env }) => {
@@ -51,8 +50,6 @@ export const onRequestPost: PagesFunction<ClaimEnv> = async ({ request, env }) =
     hours: trim(body.hours, 600),
     bookingUrl: trim(body.bookingUrl, 300),
     insurance: trim(body.insurance, 20),
-    patientValue: trim(body.patientValue, 20),
-    patientSources: trim(body.patientSources, 600),
     corrections: trim(body.corrections, 2000),
     attest: body.attest === true || body.attest === "on" || body.attest === "true",
   };
@@ -60,7 +57,7 @@ export const onRequestPost: PagesFunction<ClaimEnv> = async ({ request, env }) =
     return json({ error: "missing_required_fields" }, 400);
   }
   if (!claim.attest) return json({ error: "attestation_required" }, 400);
-  if (!INSURANCE.has(claim.insurance) || !PATIENT_VALUE.has(claim.patientValue)) return json({ error: "invalid_choice" }, 400);
+  if (!INSURANCE.has(claim.insurance)) return json({ error: "invalid_choice" }, 400);
   if (claim.bookingUrl && !/^https:\/\//i.test(claim.bookingUrl)) return json({ error: "invalid_booking_url" }, 400);
 
   const submittedAt = new Date().toISOString();

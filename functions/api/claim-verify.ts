@@ -70,6 +70,6 @@ export const onRequestPost: PagesFunction<ClaimEnv> = async ({ request, env }) =
 
   return page(
     "You're verified",
-    `<p>Thanks. Your claim for <strong>${escapeHtml(provider.name)}</strong> is confirmed. We'll review the details you sent, publish them and mark the listing as claimed.</p><p>Need a change later? Reply to the confirmation email.</p><p><a href="${SITE}/providers/${escapeHtml(t.s)}">View your listing</a></p>`,
+    `<p>Thanks. Your claim for <strong>${escapeHtml(provider.name)}</strong> is confirmed. We'll review the details you sent before any listing change. Nothing is published automatically.</p><p>Need a factual correction later? Use the review link on the listing.</p><p><a href="${SITE}/providers/${escapeHtml(t.s)}">View your listing</a></p>`,
   );
 };

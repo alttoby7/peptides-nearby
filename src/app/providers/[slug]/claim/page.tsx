@@ -89,7 +89,7 @@ export default async function ClaimPage({ params }: Props) {
         ) : (
           <>
             <p className="text-text-secondary mb-4">
-              Claiming is free. Verify that you manage this practice, then tell patients how you actually work.
+              Claiming is free. Verify that you manage this practice, then submit factual listing details for editorial review.
             </p>
             <ul className="text-sm text-text-secondary mb-8 flex flex-col gap-2">
               <li className="flex items-start gap-2">
@@ -102,7 +102,7 @@ export default async function ClaimPage({ params }: Props) {
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-accent mt-0.5">&#10003;</span>
-                <span><strong>Claimed badge</strong> with the date you confirmed the details</span>
+                <span><strong>Reviewed updates</strong> before any listing change. A claimed badge appears only after review.</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-accent mt-0.5">&#10003;</span>
