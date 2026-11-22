@@ -3,7 +3,7 @@
     "slug": "florida",
     "name": "Florida",
     "code": "FL",
-    "providerCount": 361,
+    "providerCount": 362,
     "cityCount": 62,
     "cities": [
       "altamonte-springs",
@@ -162,7 +162,7 @@
     "slug": "texas",
     "name": "Texas",
     "code": "TX",
-    "providerCount": 202,
+    "providerCount": 203,
     "cityCount": 36,
     "cities": [
       "addison",
@@ -986,7 +986,7 @@
     "slug": "massachusetts",
     "name": "Massachusetts",
     "code": "MA",
-    "providerCount": 54,
+    "providerCount": 55,
     "cityCount": 29,
     "cities": [
       "acton",
