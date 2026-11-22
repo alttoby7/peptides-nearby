@@ -75,6 +75,7 @@ async function main() {
   assert.match(String(sent[0].subject), /Claim pending/);
   const id = String(sent[0].subject).match(/\(([0-9a-f]{12})\)$/)![1];
   assert.match(String(sent[0].text), new RegExp(`"claimId": "${id}"`), "payload carries claimId");
+  assert.match(String(sent[0].text), /-----BEGIN CLAIM JSON-----\n\{[\s\S]+\}\n-----END CLAIM JSON-----/, "payload wrapped in parse markers");
   assert.doesNotMatch(String(sent[0].text), /patientValue|patientSources|sensitive business detail/, "legacy commercial fields are ignored");
   assert.deepEqual(sent[1].to, [`owner@${host}`]);
   assert.match(String(sent[1].html), /^<p>Hi,<\/p>/);

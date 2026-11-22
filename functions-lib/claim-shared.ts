@@ -8,9 +8,19 @@ import domains from "./provider-domains.json";
 export interface ClaimEnv {
   PN_RESEND_API_KEY?: string;
   PN_SUBMIT_NOTIFY_TO?: string;
+  /** Inbox that receives claim notifications (read by the outreach autopilot). Falls back to PN_SUBMIT_NOTIFY_TO. */
+  PN_CLAIM_NOTIFY_TO?: string;
   PN_CLAIM_SECRET?: string;
   PN_CLAIM_FROM?: string;
 }
+
+export function claimNotifyTo(env: ClaimEnv): string {
+  return (env.PN_CLAIM_NOTIFY_TO || env.PN_SUBMIT_NOTIFY_TO || "").trim();
+}
+
+/** Markers around the payload JSON so the autopilot can parse claim emails reliably. */
+export const CLAIM_JSON_BEGIN = "-----BEGIN CLAIM JSON-----";
+export const CLAIM_JSON_END = "-----END CLAIM JSON-----";
 
 export const SITE = "https://www.peptidesnearby.com";
 export const TOKEN_TTL_SECONDS = 72 * 3600;

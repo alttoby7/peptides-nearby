@@ -7,7 +7,7 @@
  *   the claim is VERIFIED, and shows the claimant a confirmation page.
  * Stateless; no database write.
  */
-import { type ClaimEnv, type ClaimToken, SITE, escapeHtml, lookupProvider, sendEmail, verifyToken } from "../../functions-lib/claim-shared";
+import { type ClaimEnv, type ClaimToken, SITE, claimNotifyTo, escapeHtml, lookupProvider, sendEmail, verifyToken } from "../../functions-lib/claim-shared";
 
 function page(title: string, body: string, status = 200): Response {
   const html = `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>${escapeHtml(title)} | Peptides Nearby</title><style>body{font-family:system-ui,-apple-system,Segoe UI,sans-serif;background:#f7f8fa;color:#1a1f2b;margin:0;padding:48px 16px}main{max-width:560px;margin:0 auto;background:#fff;border:1px solid #e3e6eb;border-radius:12px;padding:32px}h1{font-size:22px;margin:0 0 12px}p{line-height:1.55;color:#454c59}a{color:#0f766e}button{font:inherit;font-weight:600;background:#0f766e;color:#fff;border:0;border-radius:8px;padding:12px 20px;cursor:pointer}</style></head><body><main><h1>${escapeHtml(title)}</h1>${body}</main></body></html>`;
@@ -36,7 +36,7 @@ async function check(env: ClaimEnv, token: string): Promise<{ t: ClaimToken; pro
 }
 
 export const onRequestGet: PagesFunction<ClaimEnv> = async ({ request, env }) => {
-  if (!env.PN_CLAIM_SECRET || !env.PN_RESEND_API_KEY || !env.PN_SUBMIT_NOTIFY_TO) return misconfigured();
+  if (!env.PN_CLAIM_SECRET || !env.PN_RESEND_API_KEY || !claimNotifyTo(env)) return misconfigured();
   const token = new URL(request.url).searchParams.get("t") || "";
   const ok = await check(env, token);
   if (!ok) return invalidLink();
@@ -48,7 +48,7 @@ export const onRequestGet: PagesFunction<ClaimEnv> = async ({ request, env }) =>
 };
 
 export const onRequestPost: PagesFunction<ClaimEnv> = async ({ request, env }) => {
-  if (!env.PN_CLAIM_SECRET || !env.PN_RESEND_API_KEY || !env.PN_SUBMIT_NOTIFY_TO) return misconfigured();
+  if (!env.PN_CLAIM_SECRET || !env.PN_RESEND_API_KEY || !claimNotifyTo(env)) return misconfigured();
   let token = "";
   try {
     const v = (await request.formData()).get("t");
@@ -61,7 +61,7 @@ export const onRequestPost: PagesFunction<ClaimEnv> = async ({ request, env }) =
   const { t, provider } = ok;
 
   await sendEmail(env, {
-    to: env.PN_SUBMIT_NOTIFY_TO,
+    to: claimNotifyTo(env),
     replyTo: t.e,
     subject: `[Peptides Nearby] Claim VERIFIED: ${provider.name} (${t.c})`,
     html: `<p>Claim <strong>${escapeHtml(t.c)}</strong> for <a href="${SITE}/providers/${escapeHtml(t.s)}">${escapeHtml(provider.name)}</a> was confirmed from ${escapeHtml(t.e)} (domain ${escapeHtml(provider.domain)}) at ${new Date().toISOString()}.</p><p>Apply the payload from the "Claim pending" email with the same id: <code>npx tsx scripts/apply-claim.ts claim-${escapeHtml(t.c)}.json --method email-domain</code></p>`,

@@ -12,8 +12,8 @@
  * Env (CF Pages): PN_RESEND_API_KEY, PN_SUBMIT_NOTIFY_TO, PN_CLAIM_SECRET, PN_CLAIM_FROM (optional).
  */
 import {
-  type ClaimEnv, SITE, TOKEN_TTL_SECONDS, claimId, domainMatches, escapeHtml, json, lookupProvider,
-  sameOrigin, sendEmail, signToken, trim,
+  type ClaimEnv, CLAIM_JSON_BEGIN, CLAIM_JSON_END, SITE, TOKEN_TTL_SECONDS, claimId, claimNotifyTo, domainMatches,
+  escapeHtml, json, lookupProvider, sameOrigin, sendEmail, signToken, trim,
 } from "../../functions-lib/claim-shared";
 
 const ROLES = new Set(["owner", "medical-director", "practice-manager", "marketing", "other"]);
@@ -22,7 +22,7 @@ const EMAIL_RE = /^[a-z0-9._%+-]+@([a-z0-9-]+\.)+[a-z]{2,}$/i;
 
 export const onRequestPost: PagesFunction<ClaimEnv> = async ({ request, env }) => {
   if (!sameOrigin(request)) return json({ error: "forbidden" }, 403);
-  if (!env.PN_RESEND_API_KEY || !env.PN_SUBMIT_NOTIFY_TO || !env.PN_CLAIM_SECRET) return json({ error: "misconfigured" }, 500);
+  if (!env.PN_RESEND_API_KEY || !claimNotifyTo(env) || !env.PN_CLAIM_SECRET) return json({ error: "misconfigured" }, 500);
 
   let body: Record<string, unknown>;
   try {
@@ -70,11 +70,11 @@ export const onRequestPost: PagesFunction<ClaimEnv> = async ({ request, env }) =
     ? `Claim ${id} pending email confirmation (domain match: ${claim.claimantEmail} ↔ ${provider.domain})`
     : `Claim ${id} needs MANUAL verification (no domain match: ${claim.claimantEmail} vs ${provider.domain || "no website"}). Call the listed number before applying.`;
   const notified = await sendEmail(env, {
-    to: env.PN_SUBMIT_NOTIFY_TO,
+    to: claimNotifyTo(env),
     replyTo: claim.claimantEmail,
     subject: `[Peptides Nearby] ${match ? "Claim pending" : "Claim needs manual check"}: ${provider.name} (${id})`,
     html: `<p>${escapeHtml(headline)}</p><p>Listing: <a href="${SITE}/providers/${escapeHtml(slug)}">${SITE}/providers/${escapeHtml(slug)}</a></p><p>Apply after verification: save the JSON below as claim-${id}.json, then <code>npx tsx scripts/apply-claim.ts claim-${id}.json --method ${mode}</code></p><pre style="white-space:pre-wrap;font-size:12px">${escapeHtml(payloadJson)}</pre>`,
-    text: `${headline}\n\nListing: ${SITE}/providers/${slug}\nApply: npx tsx scripts/apply-claim.ts claim-${id}.json --method ${mode}\n\n${payloadJson}`,
+    text: `${headline}\n\nListing: ${SITE}/providers/${slug}\nApply: npx tsx scripts/apply-claim.ts claim-${id}.json --method ${mode}\n\n${CLAIM_JSON_BEGIN}\n${payloadJson}\n${CLAIM_JSON_END}`,
   });
   // The owner inbox must hold the payload before the claimant can verify it.
   if (!notified) return json({ error: "send_failed" }, 502);
