@@ -34,7 +34,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!entry) return {};
   return {
     title: `Telehealth ${entry.name} Therapy — ${entry.providerCount} Virtual Providers`,
-    description: `Find ${entry.providerCount} telehealth providers offering ${entry.name} therapy via virtual visits. Compare clinics, pharmacies, and book online.`,
+    description: `Browse ${entry.providerCount} providers whose websites mention ${entry.name} and telehealth. Confirm current services and licensing directly before booking.`,
     robots: { index: false, follow: true },
     alternates: { canonical: canonical(telehealthPeptideUrl(slug)) },
   };
@@ -78,8 +78,8 @@ export default async function TelehealthPeptidePage({ params }: Props) {
           </p>
 
           <p className="text-text-secondary mb-8 max-w-[700px]">
-            {providers.length} {providers.length === 1 ? "provider offers" : "providers offer"} {entry.name} therapy via telehealth.
-            {" "}Virtual visits let you consult with a licensed provider from home — no travel, no waiting rooms.
+            {providers.length} {providers.length === 1 ? "provider's website mentions" : "providers' websites mention"} {entry.name} and telehealth.
+            {" "}Confirm current services and prescriber licensing directly with a provider before booking.
           </p>
 
           {/* Why telehealth for this peptide */}
@@ -92,19 +92,19 @@ export default async function TelehealthPeptidePage({ params }: Props) {
                 <svg className="w-4 h-4 text-accent mt-0.5 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
                 </svg>
-                <span><strong>Convenience</strong> — Consult from anywhere in your state via video or phone</span>
+                <span><strong>Virtual options</strong> — Ask providers whether they offer video or phone visits in your state</span>
               </li>
               <li className="flex items-start gap-2">
                 <svg className="w-4 h-4 text-accent mt-0.5 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
                 </svg>
-                <span><strong>Wider access</strong> — Connect with specialists even if none are local</span>
+                <span><strong>Provider comparison</strong> — Review each provider&apos;s own website and contact information</span>
               </li>
               <li className="flex items-start gap-2">
                 <svg className="w-4 h-4 text-accent mt-0.5 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
                 </svg>
-                <span><strong>Prescription shipped</strong> — Most providers ship {entry.name} directly to your door</span>
+                <span><strong>Fulfillment details</strong> — Confirm prescribing and pharmacy arrangements directly with a provider</span>
               </li>
             </ul>
           </div>

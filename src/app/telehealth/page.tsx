@@ -27,7 +27,7 @@ const telehealthPeptides: TelehealthPeptideEntry[] = telehealthPeptidesData as T
 
 export const metadata: Metadata = {
   title: "Telehealth Peptide Therapy — Find Virtual Providers by State",
-  description: "Find telehealth peptide therapy providers licensed in your state. Browse virtual clinics offering BPC-157, semaglutide, sermorelin, and more via video visits.",
+  description: "Browse providers whose websites mention telehealth or virtual visits. Confirm current services and prescriber licensing directly with a provider before booking.",
   alternates: { canonical: canonical("/telehealth") },
 };
 
@@ -57,7 +57,7 @@ export default function TelehealthHubPage() {
           </h1>
           <p className="text-lg text-text-secondary max-w-[640px] mb-6">
             {totalProviders > 0
-              ? `${totalProviders} providers offer virtual peptide therapy visits across ${telehealthStates.length} states. Find a provider licensed in your state.`
+              ? `${totalProviders} providers' websites mention virtual visits across ${telehealthStates.length} states. Confirm current services and prescriber licensing before you book.`
               : "We're building our telehealth directory. Check back soon or browse local providers."}
           </p>
 
@@ -73,7 +73,7 @@ export default function TelehealthHubPage() {
             </div>
             <div>
               <span className="text-2xl font-bold text-accent">{telehealthPeptides.length}</span>
-              <span className="text-text-tertiary ml-1.5">Peptides Available</span>
+              <span className="text-text-tertiary ml-1.5">Peptides Mentioned</span>
             </div>
           </div>
         </div>
@@ -90,7 +90,7 @@ export default function TelehealthHubPage() {
               {
                 step: "1",
                 title: "Virtual Consultation",
-                desc: "Book a video or phone visit with a licensed provider in your state. Discuss your goals, medical history, and treatment options.",
+                desc: "Ask a provider whether they offer video or phone visits in your state, then confirm the prescriber's license before booking.",
                 icon: (
                   <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="m15.75 10.5 4.72-4.72a.75.75 0 0 1 1.28.53v11.38a.75.75 0 0 1-1.28.53l-4.72-4.72M4.5 18.75h9a2.25 2.25 0 0 0 2.25-2.25v-9a2.25 2.25 0 0 0-2.25-2.25h-9A2.25 2.25 0 0 0 2.25 7.5v9a2.25 2.25 0 0 0 2.25 2.25Z" />
@@ -268,7 +268,7 @@ export default function TelehealthHubPage() {
         <section className="py-12">
           <div className="max-w-[1240px] mx-auto px-6">
             <h2 className="font-display text-2xl text-text-primary mb-2">
-              Peptides Available via Telehealth
+              Peptides Mentioned by Telehealth Providers
             </h2>
             <p className="text-text-secondary mb-6">
               Browse telehealth providers by the peptide therapy you need.
@@ -354,7 +354,7 @@ export default function TelehealthHubPage() {
             Find Telehealth Providers by State
           </h2>
           <p className="text-text-secondary mb-6">
-            Telehealth providers must be licensed in the state where you receive care. Select your state below.
+            Browse providers whose websites mention serving your state, then confirm the prescriber's current license before booking.
           </p>
 
           {telehealthStates.length > 0 ? (
@@ -398,7 +398,7 @@ export default function TelehealthHubPage() {
               Licensing, Labs, and What Your State Requires
             </h2>
             <p className="text-sm text-text-secondary mb-3">
-              <strong>Licensing is non-negotiable.</strong> A provider must hold an active license in your state to prescribe medication to you via telehealth. The provider&apos;s physical location is irrelevant. What matters is where you are sitting during the consultation and where the medication ships.
+              <strong>Confirm licensing directly.</strong> Telehealth licensing requirements can vary by state and service. Check the relevant state board and ask the provider whether the prescriber is currently licensed where you receive care.
             </p>
             <p className="text-sm text-text-secondary mb-3">
               State rules around telehealth prescribing vary significantly. Some states require an initial in-person visit before a provider can prescribe remotely. Others kept telehealth flexibilities adopted during COVID. The patchwork is real, and it changes as state legislatures update their telehealth statutes. What was true six months ago may not apply today.
@@ -413,7 +413,7 @@ export default function TelehealthHubPage() {
               <strong>Controlled substance classification</strong> matters for some medications. Federal and state telehealth rules for controlled substances are stricter, so ask your provider whether anything you are prescribed is a controlled substance and what that means for remote prescribing.
             </p>
             <p className="text-sm text-text-secondary mb-3">
-              Our <Link href="/telehealth">state-level telehealth pages</Link> list providers licensed to treat patients in each state so you can filter by where you actually live.
+              Our <Link href="/telehealth">state-level telehealth pages</Link> list providers whose websites mention serving each state. We do not verify licenses, so confirm them directly before booking.
             </p>
           </div>
         </div>
