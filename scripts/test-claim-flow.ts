@@ -67,7 +67,7 @@ async function main() {
   assert.equal(sent.length, 0);
 
   // domain match → pending email to owner FIRST, then confirm email to claimant
-  const r1 = await post({ ...base, claimantEmail: `owner@${host}` });
+  const r1 = await post({ ...base, claimantEmail: `owner@${host}`, patientValue: "5000-plus", patientSources: "sensitive business detail" });
   assert.equal(r1.status, 200);
   assert.equal(((await r1.json()) as { mode: string }).mode, "email-domain");
   assert.equal(sent.length, 2);
@@ -75,6 +75,7 @@ async function main() {
   assert.match(String(sent[0].subject), /Claim pending/);
   const id = String(sent[0].subject).match(/\(([0-9a-f]{12})\)$/)![1];
   assert.match(String(sent[0].text), new RegExp(`"claimId": "${id}"`), "payload carries claimId");
+  assert.doesNotMatch(String(sent[0].text), /patientValue|patientSources|sensitive business detail/, "legacy commercial fields are ignored");
   assert.deepEqual(sent[1].to, [`owner@${host}`]);
   assert.match(String(sent[1].html), /^<p>Hi,<\/p>/);
   assert.doesNotMatch(String(sent[1].html) + String(sent[1].text), /Test Person/, "claimant name not echoed to the clinic inbox");
@@ -98,7 +99,9 @@ async function main() {
   assert.equal(v.status, 200);
   assert.equal(v.headers.get("Referrer-Policy"), "no-referrer");
   assert.equal(v.headers.get("Cache-Control"), "no-store");
-  assert.match(await v.text(), /You're verified/);
+  const confirmation = await v.text();
+  assert.match(confirmation, /You're verified/);
+  assert.match(confirmation, /Nothing is published automatically/);
   assert.equal(sent.length, 3);
   assert.match(String(sent[2].subject), new RegExp(`Claim VERIFIED: .*\\(${id}\\)`));
 

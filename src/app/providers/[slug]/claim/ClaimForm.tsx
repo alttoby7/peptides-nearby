@@ -124,14 +124,15 @@ export function ClaimForm({
       </fieldset>
 
       <fieldset className="flex flex-col gap-4">
-        <legend className="font-semibold text-text-primary mb-2">2. Your listing details (we publish these)</legend>
+        <legend className="font-semibold text-text-primary mb-2">2. Listing details for editorial review (optional)</legend>
+        <p className="text-xs text-text-tertiary -mt-2">We review factual updates before any listing change. Do not include patient, individual health, or outcome information.</p>
         <div>
           <label htmlFor="description" className={lbl}>About your practice</label>
           <textarea
             id="description" name="description" rows={6} className={`${input} resize-y`} maxLength={4000}
-            placeholder="In your own words: who you see, how a first visit works, who prescribes, whether labs are required, which locations you serve. Please no outcome or efficacy claims."
+            placeholder="In your own words: your practice, services, first-visit process, and locations you serve. Please no outcome or efficacy claims."
           />
-          <p className="text-xs text-text-tertiary mt-1">About 80–300 words works best. We don&apos;t publish claims about results. Please don&apos;t include patient or medical information.</p>
+          <p className="text-xs text-text-tertiary mt-1">About 80–300 words works best. We don&apos;t publish claims about results. Please don&apos;t include patient or individual health information.</p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div>
@@ -169,27 +170,8 @@ export function ClaimForm({
           </div>
         </div>
         <div>
-          <label htmlFor="corrections" className={lbl}>Anything wrong on the current listing?</label>
-          <textarea id="corrections" name="corrections" rows={2} className={`${input} resize-y`} placeholder="Wrong address, closed location, phone changed..." />
-        </div>
-      </fieldset>
-
-      <fieldset className="flex flex-col gap-4 p-5 bg-surface-1 border border-border-subtle rounded-xl">
-        <legend className="font-semibold text-text-primary px-1">3. Two optional questions (not published)</legend>
-        <div>
-          <label htmlFor="patientValue" className={lbl}>Roughly what is one new patient worth to your practice in their first year?</label>
-          <select id="patientValue" name="patientValue" className={input} defaultValue="">
-            <option value="">Skip</option>
-            <option value="under-500">Under $500</option>
-            <option value="500-1500">$500 – $1,500</option>
-            <option value="1500-5000">$1,500 – $5,000</option>
-            <option value="5000-plus">Over $5,000</option>
-            <option value="prefer-not">Prefer not to say</option>
-          </select>
-        </div>
-        <div>
-          <label htmlFor="patientSources" className={lbl}>Where do most new patients find you today?</label>
-          <input id="patientSources" name="patientSources" type="text" className={input} placeholder="Google, referrals, Instagram..." />
+          <label htmlFor="corrections" className={lbl}>Factual correction details (optional)</label>
+          <textarea id="corrections" name="corrections" rows={2} className={`${input} resize-y`} placeholder="Wrong address, closed location, phone changed... Listing facts only; no patient or medical information." />
         </div>
       </fieldset>
 
