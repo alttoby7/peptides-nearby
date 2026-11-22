@@ -61,7 +61,7 @@ export function computeLocalFacts(providers: Provider[]) {
   const topPeptides = [...pepCounts.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0])).slice(0, 8);
   const zips = [...new Set(providers.map((p) => p.address.zip).filter((z) => /^\d{5}$/.test(z)))].sort();
   const claimed = providers.filter((p) => p.verificationTier === "claimed" || p.verificationTier === "trusted");
-  const checkedDates = providers.map((p) => p.lastVerified).filter(Boolean).sort() as string[];
+  const checkedDates = providers.map((p) => p.siteCheckedAt).filter(Boolean).sort() as string[];
   const cityCounts = new Map<string, number>();
   for (const p of providers) cityCounts.set(p.address.city, (cityCounts.get(p.address.city) ?? 0) + 1);
   const topCities = [...cityCounts.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0])).slice(0, 8);
@@ -115,7 +115,8 @@ export function LocalFacts({
             {plural(f.wellness.length, "wellness center", "wellness centers")}.
             {f.scanned.length > 0 && (
               <>
-                {" "}We checked {plural(f.scanned.length, "provider website", "provider websites")} in {monthYear(f.lastChecked)};{" "}
+                {" "}We checked {plural(f.scanned.length, "provider website", "provider websites")}
+                {f.lastChecked ? ` in ${monthYear(f.lastChecked)}` : ""};{" "}
                 {f.reachable.length} loaded for us.
               </>
             )}
@@ -141,9 +142,9 @@ export function LocalFacts({
           )}
 
           <p>
-            Insurance: {f.ins.accepted} say they accept insurance, {f.ins.notAccepted} say they don&apos;t, and {f.ins.varies} say it
-            depends on the service. We couldn&apos;t find a stated policy for {f.unknownIns}. A practice that takes insurance may
-            still bill a specific program as self-pay, so ask about the program you want before you book.
+            Insurance: {f.ins.accepted} say they accept insurance and {f.ins.notAccepted} say they don&apos;t; we couldn&apos;t
+            confirm a policy for the rest ({f.ins.varies + f.unknownIns}). A practice that takes insurance may still bill a
+            specific program as self-pay, so ask about the program you want before you book.
           </p>
 
           {f.topCities.length > 1 && (
@@ -159,15 +160,16 @@ export function LocalFacts({
           )}
           {f.telehealth.length > 0 && (
             <p>
-              Practices whose websites mention telehealth or virtual visits: {list(f.telehealth.map((p) => p.name), 8)}. Telehealth
-              prescribing for patients in {stateName} generally requires a clinician licensed in {stateName}.
+              Practices whose websites mention telehealth or virtual visits: {list(f.telehealth.map((p) => p.name), 8)}. Confirm the
+              prescriber is licensed in {stateName} before you book.
             </p>
           )}
           <p>
             {f.claimed.length > 0
               ? `${plural(f.claimed.length, "practice has", "practices have")} claimed and confirmed their listing.`
               : `No ${placeName} practice has claimed its listing yet.`}{" "}
-            Listing details come from each practice&apos;s own website unless the practice has confirmed them with us. Run a
+            Listing details come from public sources and each practice&apos;s own website unless the practice has confirmed them
+            with us. Run a
             practice here?{" "}
             <Link href="/submit" className="text-accent hover:underline">Add or correct a listing</Link>.
           </p>
@@ -206,8 +208,8 @@ export function LicenseAndFda({ stateCode, stateName }: { stateCode: string; sta
         <div className="p-5 bg-white border border-border-subtle rounded-xl">
           <h2 className="font-semibold text-text-primary mb-2">Compounded vs FDA-approved</h2>
           <p className="text-sm text-text-secondary mb-3">
-            Compounded drugs are not FDA-approved. FDA changed its compounding policy for GLP-1 medications and several other
-            peptides more than once in 2025 and 2026. Ask the practice whether a product is an approved brand or compounded, and
+            Compounded drugs are not FDA-approved. FDA changed its compounding policy for GLP-1 medications more than once in
+            2025 and 2026. Ask the practice whether a product is an approved brand or compounded, and
             which pharmacy makes it.
           </p>
           <ul className="text-sm flex flex-col gap-2">

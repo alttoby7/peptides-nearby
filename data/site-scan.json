@@ -1122,7 +1122,7 @@
   "checkedAt": "2026-11-22",
   "finalHost": "advancedtrtclinic.com",
   "hours": [
-   "Mo,Tu,We,Th,Fr 9:00a-8:00p"
+   "Mo,Tu,We,Th,Fr 09:00-20:00"
   ],
   "httpStatus": 200,
   "pagesChecked": [
@@ -4486,7 +4486,7 @@
   "checkedAt": "2026-11-22",
   "finalHost": "balancedbodiesantiaging.com",
   "hours": [
-   "Mo,Tu,We,Th,Fr 9:00 -5:00"
+   "Mo,Tu,We,Th,Fr 09:00-17:00"
   ],
   "httpStatus": 200,
   "pagesChecked": [
@@ -5441,9 +5441,7 @@
   "alive": true,
   "checkedAt": "2026-11-22",
   "finalHost": "biohackr.health",
-  "hours": [
-   "We,Tu,Th,Sa,Mo,Fr ['17:-18:00"
-  ],
+  "hours": null,
   "httpStatus": 200,
   "pagesChecked": [
    "https://www.biohackr.health/?utm_source=googlemybusiness&utm_medium=organic&utm_campaign=san%20francisco",
@@ -26505,13 +26503,13 @@
   "checkedAt": "2026-11-22",
   "finalHost": "next-health.com",
   "hours": [
-   "Mo 9:00 -7:00",
-   "Tu 9:00 -7:00",
-   "We 9:00 -7:00",
-   "Th 9:00 -7:00",
-   "Fr 9:00 -7:00",
-   "Sa 9:00 -7:00",
-   "Su 11:00-6:00"
+   "Mo 09:00-19:00",
+   "Tu 09:00-19:00",
+   "We 09:00-19:00",
+   "Th 09:00-19:00",
+   "Fr 09:00-19:00",
+   "Sa 09:00-19:00",
+   "Su 11:00-18:00"
   ],
   "httpStatus": 200,
   "pagesChecked": [
@@ -26527,12 +26525,12 @@
   "checkedAt": "2026-11-22",
   "finalHost": "next-health.com",
   "hours": [
-   "Mo 9:00 -7:00",
-   "Tu 9:00 -7:00",
-   "We 9:00 -7:00",
-   "Th 9:00 -7:00",
-   "Fr 9:00 -7:00",
-   "Sa 10:00-5:00"
+   "Mo 09:00-19:00",
+   "Tu 09:00-19:00",
+   "We 09:00-19:00",
+   "Th 09:00-19:00",
+   "Fr 09:00-19:00",
+   "Sa 10:00-17:00"
   ],
   "httpStatus": 200,
   "pagesChecked": [
@@ -26548,13 +26546,13 @@
   "checkedAt": "2026-11-22",
   "finalHost": "next-health.com",
   "hours": [
-   "Mo 9:00 -7:00",
-   "Tu 9:00 -7:00",
-   "We 9:00 -7:00",
-   "Th 9:00 -7:00",
-   "Fr 9:00 -7:00",
-   "Sa 10:00-6:00",
-   "Su 10:00-6:00"
+   "Mo 09:00-19:00",
+   "Tu 09:00-19:00",
+   "We 09:00-19:00",
+   "Th 09:00-19:00",
+   "Fr 09:00-19:00",
+   "Sa 10:00-18:00",
+   "Su 10:00-18:00"
   ],
   "httpStatus": 200,
   "pagesChecked": [
@@ -26570,12 +26568,12 @@
   "checkedAt": "2026-11-22",
   "finalHost": "next-health.com",
   "hours": [
-   "Mo 9:00 -7:00",
-   "Tu 9:00 -7:00",
-   "We 9:00 -7:00",
-   "Th 9:00 -7:00",
-   "Fr 9:00 -7:00",
-   "Sa 10:00-5:00"
+   "Mo 09:00-19:00",
+   "Tu 09:00-19:00",
+   "We 09:00-19:00",
+   "Th 09:00-19:00",
+   "Fr 09:00-19:00",
+   "Sa 10:00-17:00"
   ],
   "httpStatus": 200,
   "pagesChecked": [
@@ -26591,13 +26589,13 @@
   "checkedAt": "2026-11-22",
   "finalHost": "next-health.com",
   "hours": [
-   "Mo 9:00 -7:00",
-   "Tu 9:00 -7:00",
-   "We 9:00 -7:00",
-   "Th 9:00 -7:00",
-   "Fr 9:00 -7:00",
-   "Sa 9:00 -7:00",
-   "Su 9:00A-7:00"
+   "Mo 09:00-19:00",
+   "Tu 09:00-19:00",
+   "We 09:00-19:00",
+   "Th 09:00-19:00",
+   "Fr 09:00-19:00",
+   "Sa 09:00-19:00",
+   "Su 09:00-19:00"
   ],
   "httpStatus": 200,
   "pagesChecked": [
@@ -26613,13 +26611,13 @@
   "checkedAt": "2026-11-22",
   "finalHost": "next-health.com",
   "hours": [
-   "Mo 9:30A-7:00",
-   "Tu 9:30A-7:00",
-   "We 9:30A-7:00",
-   "Th 9:30A-7:00",
-   "Fr 9:30A-7:00",
-   "Sa 10:00-6:00",
-   "Su 10:00-6:00"
+   "Mo 09:30-19:00",
+   "Tu 09:30-19:00",
+   "We 09:30-19:00",
+   "Th 09:30-19:00",
+   "Fr 09:30-19:00",
+   "Sa 10:00-18:00",
+   "Su 10:00-18:00"
   ],
   "httpStatus": 200,
   "pagesChecked": [
@@ -26635,13 +26633,13 @@
   "checkedAt": "2026-11-22",
   "finalHost": "next-health.com",
   "hours": [
-   "Mo 9:00 -6:00",
-   "Tu 9:00 -6:00",
-   "We 9:00 -6:00",
-   "Th 9:00 -6:00",
-   "Fr 9:00 -6:00",
-   "Sa 9:00 -6:00",
-   "Su 10:00-6:00"
+   "Mo 09:00-18:00",
+   "Tu 09:00-18:00",
+   "We 09:00-18:00",
+   "Th 09:00-18:00",
+   "Fr 09:00-18:00",
+   "Sa 09:00-18:00",
+   "Su 10:00-18:00"
   ],
   "httpStatus": 200,
   "pagesChecked": [
@@ -29492,7 +29490,7 @@
   "checkedAt": "2026-11-22",
   "finalHost": "advancedpeptidetherapy.com",
   "hours": [
-   "Mo,Tu,We,Th,Fr 9:00a-8:00p"
+   "Mo,Tu,We,Th,Fr 09:00-20:00"
   ],
   "httpStatus": 200,
   "pagesChecked": [
@@ -34360,9 +34358,7 @@
   "alive": true,
   "checkedAt": "2026-11-22",
   "finalHost": "myerssportsmedicine.com",
-  "hours": [
-   "Mo,Tu,We,Th,Fr 8AM-1-5PM"
-  ],
+  "hours": null,
   "httpStatus": 200,
   "pagesChecked": [
    "https://www.myerssportsmedicine.com/",
@@ -41855,7 +41851,7 @@
   "checkedAt": "2026-11-22",
   "finalHost": "thelcfl.com",
   "hours": [
-   "Mo,Tu,We,Th,Fr 8:30A-5PM"
+   "Mo,Tu,We,Th,Fr 08:30-17:00"
   ],
   "httpStatus": 200,
   "pagesChecked": [
@@ -42168,7 +42164,7 @@
   "checkedAt": "2026-11-22",
   "finalHost": "theranch-wellness.com",
   "hours": [
-   "Mo,Tu,We,Th,Fr 8:30-17:00"
+   "Mo,Tu,We,Th,Fr 08:30-17:00"
   ],
   "httpStatus": 200,
   "pagesChecked": [
@@ -42960,11 +42956,11 @@
   "checkedAt": "2026-11-22",
   "finalHost": "thriveportland.com",
   "hours": [
-   "Mo 09:00-06:00",
-   "Tu 09:00-06:00",
-   "We 09:00-06:00",
-   "Th 09:00-06:00",
-   "Fr 09:00-05:00"
+   "Mo 09:00-18:00",
+   "Tu 09:00-18:00",
+   "We 09:00-18:00",
+   "Th 09:00-18:00",
+   "Fr 09:00-17:00"
   ],
   "httpStatus": 200,
   "pagesChecked": [
@@ -45180,7 +45176,7 @@
   "checkedAt": "2026-11-22",
   "finalHost": "vitalbalancehormone.com",
   "hours": [
-   "Mo,Tu,We,Th,Fr 9:00a-8:00p"
+   "Mo,Tu,We,Th,Fr 09:00-20:00"
   ],
   "httpStatus": 200,
   "pagesChecked": [

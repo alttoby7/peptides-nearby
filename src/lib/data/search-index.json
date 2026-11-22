@@ -3737,10 +3737,7 @@
     "stateCode": "AZ",
     "type": "wellness-center",
     "peptides": [
-      "pt-141",
-      "retatrutide",
       "semaglutide",
-      "sermorelin",
       "tirzepatide"
     ],
     "services": [
@@ -5973,7 +5970,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": true,
+    "telehealthAvailable": false,
     "specialties": [
       "hormone-clinic",
       "weight-loss-clinic"
@@ -7633,10 +7630,7 @@
     "city": "Los Angeles",
     "stateCode": "CA",
     "type": "wellness-center",
-    "peptides": [
-      "semaglutide",
-      "tirzepatide"
-    ],
+    "peptides": [],
     "services": [
       "peptide therapy"
     ],
@@ -10901,7 +10895,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": true,
+    "telehealthAvailable": false,
     "specialties": [
       "hormone-clinic",
       "longevity-clinic",
@@ -16831,10 +16825,7 @@
     "city": "Boca Raton",
     "stateCode": "FL",
     "type": "clinic",
-    "peptides": [
-      "glutathione",
-      "nad-plus"
-    ],
+    "peptides": [],
     "services": [
       "peptide therapy"
     ],
@@ -16911,14 +16902,7 @@
     "stateCode": "FL",
     "type": "pharmacy",
     "peptides": [
-      "bpc-157",
-      "epithalon",
-      "mots-c",
-      "nad-plus",
       "semaglutide",
-      "semax",
-      "sermorelin",
-      "tb-500",
       "tirzepatide"
     ],
     "services": [
@@ -21387,7 +21371,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": true,
+    "telehealthAvailable": false,
     "specialties": [
       "hormone-clinic"
     ],
@@ -23292,7 +23276,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": true,
+    "telehealthAvailable": false,
     "specialties": [
       "hormone-clinic"
     ],
@@ -24407,9 +24391,7 @@
     "city": "West Palm Beach",
     "stateCode": "FL",
     "type": "clinic",
-    "peptides": [
-      "nad-plus"
-    ],
+    "peptides": [],
     "services": [
       "peptide therapy"
     ],
@@ -25729,10 +25711,7 @@
     "city": "Atlanta",
     "stateCode": "GA",
     "type": "wellness-center",
-    "peptides": [
-      "semaglutide",
-      "tirzepatide"
-    ],
+    "peptides": [],
     "services": [
       "peptide therapy"
     ],
@@ -31690,7 +31669,7 @@
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "unknown",
-    "telehealthAvailable": true,
+    "telehealthAvailable": false,
     "specialties": [],
     "clinicalFocus": [],
     "deliveryMethods": [],
@@ -53042,8 +53021,7 @@
     "stateCode": "NV",
     "type": "clinic",
     "peptides": [
-      "nad-plus",
-      "semaglutide"
+      "nad-plus"
     ],
     "services": [
       "peptide therapy"
@@ -53746,8 +53724,7 @@
     "type": "wellness-center",
     "peptides": [
       "nad-plus",
-      "semaglutide",
-      "tirzepatide"
+      "semaglutide"
     ],
     "services": [
       "peptide therapy"
@@ -54538,10 +54515,7 @@
     "city": "New York",
     "stateCode": "NY",
     "type": "clinic",
-    "peptides": [
-      "semaglutide",
-      "tirzepatide"
-    ],
+    "peptides": [],
     "services": [
       "peptide therapy"
     ],
@@ -57131,9 +57105,7 @@
     "city": "Dayton",
     "stateCode": "OH",
     "type": "clinic",
-    "peptides": [
-      "nad-plus"
-    ],
+    "peptides": [],
     "services": [
       "peptide therapy"
     ],
@@ -62614,9 +62586,6 @@
     "stateCode": "PA",
     "type": "clinic",
     "peptides": [
-      "ghk-cu",
-      "hcg",
-      "nad-plus",
       "semaglutide",
       "sermorelin",
       "tesamorelin",
@@ -73230,13 +73199,7 @@
     "stateCode": "TX",
     "type": "clinic",
     "peptides": [
-      "bpc-157",
-      "cjc-1295-ipamorelin",
-      "pt-141",
       "semaglutide",
-      "sermorelin",
-      "tesamorelin",
-      "thymosin-alpha-1",
       "tirzepatide"
     ],
     "services": [
@@ -77843,10 +77806,7 @@
     "stateCode": "WA",
     "type": "wellness-center",
     "peptides": [
-      "glutathione",
-      "nad-plus",
-      "semaglutide",
-      "tirzepatide"
+      "nad-plus"
     ],
     "services": [
       "peptide therapy"
@@ -79015,18 +78975,14 @@
     "city": "Seattle",
     "stateCode": "WA",
     "type": "clinic",
-    "peptides": [
-      "hcg",
-      "pt-141",
-      "semaglutide"
-    ],
+    "peptides": [],
     "services": [
       "peptide therapy"
     ],
     "treatmentGoals": [],
     "verificationTier": "listed",
     "insurance": "varies",
-    "telehealthAvailable": true,
+    "telehealthAvailable": false,
     "specialties": [],
     "clinicalFocus": [
       "sexual-wellness"

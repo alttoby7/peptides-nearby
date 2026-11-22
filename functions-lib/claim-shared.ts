@@ -18,9 +18,21 @@ export const TOKEN_TTL_SECONDS = 72 * 3600;
 const DOMAINS = domains as Record<string, { n: string; d: string }>;
 
 export function lookupProvider(slug: string): { name: string; domain: string } | null {
+  if (!Object.hasOwn(DOMAINS, slug)) return null;
   const hit = DOMAINS[slug];
   return hit ? { name: hit.n, domain: hit.d } : null;
 }
+
+// Hosts listed for more than one provider (franchises, chains, shared booking sites):
+// an email on that domain cannot tell us WHICH location is claiming.
+const SHARED_HOSTS: Set<string> = (() => {
+  const counts = new Map<string, number>();
+  for (const v of Object.values(DOMAINS)) {
+    const h = (v.d || "").toLowerCase().replace(/^www\./, "");
+    if (h) counts.set(h, (counts.get(h) ?? 0) + 1);
+  }
+  return new Set([...counts].filter(([, n]) => n > 1).map(([h]) => h));
+})();
 
 // Free mail never proves ownership of a practice.
 const FREEMAIL = new Set([
@@ -37,13 +49,18 @@ export function emailDomain(email: string): string {
   return at > 0 ? email.slice(at + 1).toLowerCase().trim() : "";
 }
 
-/** true when the work email sits on the practice website's own domain. */
+/**
+ * true when the work email domain is exactly the practice website's host (ignoring a
+ * leading www.). Subdomains and parent domains never match; .edu/.gov hosts and hosts
+ * shared by several listings go to manual review.
+ */
 export function domainMatches(email: string, siteHost: string): boolean {
-  const ed = emailDomain(email);
-  const sh = siteHost.toLowerCase().replace(/^www\./, "");
+  const ed = emailDomain(email).replace(/^www\./, "");
+  const sh = siteHost.toLowerCase().trim().replace(/^www\./, "");
   if (!ed || !sh) return false;
   if (FREEMAIL.has(ed) || PLATFORM_HOST.test(sh)) return false;
-  return ed === sh || sh.endsWith(`.${ed}`) || ed.endsWith(`.${sh}`);
+  if (/\.(edu|gov)$/.test(sh) || SHARED_HOSTS.has(sh)) return false;
+  return ed === sh;
 }
 
 export function json(body: unknown, status: number): Response {

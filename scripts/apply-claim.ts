@@ -26,6 +26,16 @@ const PEPTIDE_ALIASES: Record<string, string> = {
   wegovy: "semaglutide", mounjaro: "tirzepatide", zepbound: "tirzepatide", saxenda: "liraglutide",
 };
 
+// Only these slugs are published as peptides (= the keys of PEPTIDE_RULES in
+// scripts/tag-peptides.ts; keep in sync by hand). Anything else the claimant typed
+// goes into services, so free text can't mint new peptide pages.
+const PEPTIDE_SLUGS = new Set([
+  "bpc-157", "tb-500", "ghk-cu", "semaglutide", "tirzepatide", "sermorelin", "pt-141", "cjc-1295-ipamorelin",
+  "nad-plus", "epithalon", "selank", "semax", "kisspeptin", "tesamorelin", "ghrp-6", "ghrp-2", "hexarelin",
+  "mots-c", "glutathione", "hcg", "liraglutide", "5-amino-1mq", "retatrutide", "oxytocin", "aod-9604",
+  "thymosin-alpha-1", "igf-1-lr3", "dsip", "ss-31", "melanotan-2",
+]);
+
 function slug(s: string): string {
   const k = s.trim().toLowerCase();
   return PEPTIDE_ALIASES[k] ?? k.replace(/[^a-z0-9+]+/g, "-").replace(/^-|-$/g, "");
@@ -59,8 +69,16 @@ if (!providers.some((p) => p.slug === c.slug)) {
 const publicClaim: Record<string, unknown> = { slug: c.slug, verifiedAt, method };
 if (c.description) publicClaim.description = String(c.description).trim();
 const services = splitList(c.services);
+const peptides: string[] = [];
+for (const name of splitList(c.peptides)) {
+  const s = slug(name);
+  if (PEPTIDE_SLUGS.has(s)) peptides.push(s);
+  else if (!services.some((x) => x.toLowerCase() === name.toLowerCase())) {
+    services.push(name);
+    console.log(`peptide "${name}" is not on the allow-list → listed under services`);
+  }
+}
 if (services.length) publicClaim.services = services;
-const peptides = splitList(c.peptides).map(slug);
 if (peptides.length) publicClaim.peptides = [...new Set(peptides)];
 if (c.telehealth === "yes") publicClaim.telehealth = { available: true };
 if (c.telehealth === "no") publicClaim.telehealth = { available: false };

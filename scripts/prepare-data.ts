@@ -153,6 +153,7 @@ interface SiteScan {
   checkedAt: string | null;
   alive: boolean;
   httpStatus?: number;
+  finalHost?: string;
   peptides?: string[];
   peptideSources?: Record<string, string>;
   telehealth?: boolean;
@@ -187,15 +188,30 @@ const DAY_NAMES: Record<string, string> = {
 };
 const DAY_KEYS = Object.keys(DAY_NAMES);
 
+// "9:00" → "09:00"
+function pad24(t: string): string {
+  return t.length === 4 ? `0${t}` : t;
+}
+function minutes(t: string): number {
+  const [h, m] = t.split(":").map(Number);
+  return h * 60 + m;
+}
+
 // Parse schema.org openingHours strings ("Mo-Fr 09:00-17:00", "Mo,Tu 08:00-12:00").
+// Returns null (caller falls back to the raw text) when a day is listed twice
+// (split shifts, conflicting specs) or a range closes at or before it opens.
 function parseHours(lines: string[]): Record<string, { open: string; close: string }> | null {
   const out: Record<string, { open: string; close: string }> = {};
   const groups: RegExpMatchArray[] = [];
   for (const line of lines) {
     for (const m of line.matchAll(/([A-Za-z,\- ]+?)\s+(\d{1,2}:\d{2})\s*-\s*(\d{1,2}:\d{2})/g)) groups.push(m);
   }
+  const seen = new Set<string>();
   for (const m of groups) {
     m[1] = m[1].replace(/^[\s,]+/, "");
+    const open = pad24(m[2]);
+    const close = pad24(m[3]);
+    if (minutes(close) <= minutes(open)) return null;
     const days = new Set<string>();
     for (const part of m[1].split(",")) {
       const [a, b] = part.trim().toLowerCase().split("-").map((x) => x.trim().slice(0, 2));
@@ -206,10 +222,31 @@ function parseHours(lines: string[]): Record<string, { open: string; close: stri
         for (let n = 0; n < 7; n++) { days.add(DAY_KEYS[i]); if (i === j) break; i = (i + 1) % 7; }
       } else days.add(a);
     }
-    for (const d of days) out[DAY_NAMES[d]] = { open: m[2], close: m[3] };
+    for (const d of days) {
+      if (seen.has(d)) return null;
+      seen.add(d);
+      out[DAY_NAMES[d]] = { open, close };
+    }
   }
   return Object.keys(out).length > 0 ? out : null;
 }
+
+// Registrable domain: last two labels, or last three when the second-to-last
+// label is 2-3 chars (co.uk, com.au).
+function registrableDomain(host: string): string {
+  const labels = host.toLowerCase().replace(/^www\./, "").replace(/\.$/, "").split(".").filter(Boolean);
+  const sld = labels[labels.length - 2] ?? "";
+  const n = labels.length >= 3 && sld.length >= 2 && sld.length <= 3 ? 3 : 2;
+  return labels.slice(-n).join(".");
+}
+function websiteHost(website: string): string {
+  try {
+    return new URL(website.startsWith("http") ? website : `http://${website}`).hostname.toLowerCase();
+  } catch {
+    return "";
+  }
+}
+let scansIgnoredDomainMismatch = 0;
 
 type EnrichedProvider = RawProvider & {
   siteCheckedAt?: string;
@@ -228,7 +265,11 @@ function enrich(p: RawProvider): EnrichedProvider {
   if (scan && scan.checkedAt) {
     e.siteCheckedAt = scan.checkedAt;
     e.siteAlive = scan.alive;
-    if (scan.alive) {
+    // The listed website redirected to another business: its facts aren't this provider's.
+    const listedHost = websiteHost(p.website ?? "");
+    const otherSite = Boolean(scan.finalHost && listedHost && registrableDomain(scan.finalHost) !== registrableDomain(listedHost));
+    if (otherSite && scan.alive) scansIgnoredDomainMismatch++;
+    if (scan.alive && !otherSite) {
       e.lastVerified = scan.checkedAt;
       for (const pep of scan.peptides ?? []) if (!e.peptides.includes(pep)) e.peptides.push(pep);
       const firstSource = Object.values(scan.peptideSources ?? {})[0];
@@ -273,6 +314,10 @@ function enrich(p: RawProvider): EnrichedProvider {
 // Filter to active providers (enriched with scan + claim data)
 const activeProviders: EnrichedProvider[] = providers.filter((p) => p.status === "active").map(enrich);
 console.log(`Site scan entries: ${Object.keys(siteScan).length}; verified claims: ${claims.length}`);
+console.log(
+  `Site scan: ${scansIgnoredDomainMismatch} ignored (redirected to another domain); ` +
+  `${activeProviders.filter((p) => p.hours).length} with parsed hours, ${activeProviders.filter((p) => p.hoursText).length} with hoursText`,
+);
 
 // Provider pages are indexed only once the practice has verified ownership and
 // written its own description. Scraped one-liners never qualify (May 2026

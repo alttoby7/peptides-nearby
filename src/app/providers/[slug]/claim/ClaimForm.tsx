@@ -74,7 +74,7 @@ export function ClaimForm({
           {status === "email" ? (
             <>We sent a confirm link to your work email. Click it within 72 hours to verify you manage <strong>{providerName}</strong>.</>
           ) : (
-            <>Your email isn&apos;t on {siteHost || "the practice's website domain"}, so we&apos;ll verify by calling the number on the listing before we publish anything. Expect a call within 2–3 business days.</>
+            <>We&apos;ll verify by calling the number on the listing before we publish anything. Nothing on the listing changes until then.</>
           )}
         </p>
       </div>
@@ -82,10 +82,10 @@ export function ClaimForm({
   }
 
   const domainHint = siteHost
-    ? email.includes("@") && !email.toLowerCase().endsWith(`@${siteHost}`) && !email.toLowerCase().endsWith(`.${siteHost}`)
-      ? `Instant verification needs an address ending in @${siteHost}. Other addresses go to a phone check.`
-      : `Use an address ending in @${siteHost} to verify instantly.`
-    : "This listing has no website on file, so we'll verify by phone.";
+    ? email.includes("@") && !email.toLowerCase().endsWith(`@${siteHost}`)
+      ? `Email verification needs an address ending in @${siteHost}. Other addresses go to a phone check.`
+      : `Use an address ending in @${siteHost} and we'll email you a confirm link.`
+    : "We'll verify this listing by calling the number on file.";
 
   return (
     <form onSubmit={handleSubmit} className="flex flex-col gap-6">

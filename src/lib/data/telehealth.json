@@ -115,7 +115,6 @@
       "stems-health-regenerative-medicine-miami-miami-beach-fl",
       "androgenix-advanced-health-and-wellness-center-north-palm-beach-fl",
       "advanced-wellness-md-orlando-fl",
-      "biodesign-mens-clinic-of-orlando-orlando-fl",
       "driv-therapy-orlando-fl",
       "eternal-vitality-orlando-fl",
       "thrive-beyond-wellness-llc-orlando-fl",
@@ -123,7 +122,6 @@
       "allmedrx-specialty-pharmacy-palm-beach-gardens-fl",
       "wellness-vitalized-trt-weight-loss-gut-health-hormone-replacement-therapy-riverview-fl",
       "agerejuvenation-south-tampa-tampa-fl",
-      "biodesign-mens-clinic-of-tampa-tampa-fl",
       "emerald-compounding-pharmacy-tampa-fl",
       "optimal-wellness-tampa-tampa-fl",
       "pure-health-and-hormone-center-tampa-fl",
@@ -137,7 +135,7 @@
       "regencen-dr-gustav-lo-md-winter-park-fl",
       "formulate-rx-compounding-pharmacy-winter-springs-fl"
     ],
-    "providerCount": 132,
+    "providerCount": 130,
     "indexed": true,
     "visitTypes": [
       "async",
@@ -206,7 +204,6 @@
       "beyond-wellness-hyperbaric-chamber-nad-therapy-and-peptides-costa-mesa-ca",
       "beyond-wellness-hyperbaric-chamber-nad-therapy-and-peptides-costa-mesa-ca-1",
       "wellness-club-365-glendale-ca",
-      "american-male-medical-irvine-california-irvine-ca",
       "breen-center-for-optimal-health-irvine-ca",
       "breen-center-for-optimal-health-irvine-ca-1",
       "dr-vigor-testosterone-and-ed-experts-irvine-ca",
@@ -233,7 +230,6 @@
       "hydravive-wellness-sacramento-ca",
       "gameday-mens-health-san-bruno-san-bruno-ca",
       "advanced-trt-clinic-san-francisco-ca",
-      "california-regenerative-clinic-san-francisco-ca",
       "eternia-medspa-san-francisco-ca",
       "gameday-mens-health-downtown-san-francisco-trt-and-ed-clinic-san-francisco-ca",
       "mochi-health-corp-san-francisco-ca",
@@ -246,7 +242,7 @@
       "regenics-tarzana-ca",
       "gameday-mens-health-tustin-trt-peptide-and-ed-clinic-tustin-ca"
     ],
-    "providerCount": 95,
+    "providerCount": 93,
     "indexed": true,
     "visitTypes": [
       "phone",
@@ -681,10 +677,9 @@
       "apex-health-and-wellness-bellevue-wa",
       "dr-kate-kass-precision-medicine-bellevue-wa",
       "embodied-wellness-seattle-wa",
-      "flow-wellness-seattle-seattle-wa",
-      "revive-low-t-clinic-seattle-wa"
+      "flow-wellness-seattle-seattle-wa"
     ],
-    "providerCount": 35,
+    "providerCount": 34,
     "indexed": true,
     "visitTypes": [
       "phone",
@@ -859,10 +854,9 @@
       "allcare-discount-pharmacy-chicago-il",
       "chicago-aesthetics-chicago-il",
       "comprehensive-center-for-womens-medicine-chicago-il",
-      "hero-mens-health-chicago-il",
       "fashioned-health-hormone-optimization-and-concierge-medicine-elmhurst-il"
     ],
-    "providerCount": 30,
+    "providerCount": 29,
     "indexed": true,
     "visitTypes": [
       "phone",

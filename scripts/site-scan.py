@@ -193,6 +193,29 @@ def extract_emails(body: str) -> set[str]:
     return out
 
 
+AMPM_RE = re.compile(r"^(\d{1,2})(?::(\d{2}))?(?::\d{2})?\s*([ap])\.?\s*m?\.?$", re.I)
+H24_RE = re.compile(r"^(\d{1,2}):(\d{2})(?::\d{2}(?:\.\d+)?)?(?:Z|[+-]\d{2}:?\d{2})?$", re.I)
+
+
+def to_24h(value) -> str | None:
+    """schema.org opens/closes ("9:00 AM", "5:00 PM", "17:00:00", "09:00") -> "HH:MM"; None if unreadable."""
+    s = str(value).strip()
+    m = AMPM_RE.match(s)
+    if m:
+        h, mi = int(m.group(1)), int(m.group(2) or 0)
+        if not 1 <= h <= 12:
+            return None
+        h = h % 12 + (12 if m.group(3).lower() == "p" else 0)
+    else:
+        m = H24_RE.match(s)
+        if not m:
+            return None
+        h, mi = int(m.group(1)), int(m.group(2))
+    if mi > 59 or h > 24 or (h == 24 and mi != 0):
+        return None
+    return f"{h:02d}:{mi:02d}"
+
+
 def extract_hours(body: str) -> list[str] | None:
     hours: list[str] = []
     for m in re.finditer(r'(?is)<script[^>]+application/ld\+json[^>]*>(.*?)</script>', body):
@@ -226,9 +249,10 @@ def extract_hours(body: str) -> list[str] | None:
                         if d[:2].lower() in ("mo", "tu", "we", "th", "fr", "sa", "su"):
                             names.append(d[:2].capitalize())
                     days = names
-                    o, c = sp.get("opens"), sp.get("closes")
-                    if days and o and c and not (str(o)[:5] == "00:00" and str(c)[:5] == "00:00"):
-                        hours.append(f"{','.join(days)} {str(o)[:5]}-{str(c)[:5]}")
+                    o = to_24h(sp.get("opens")) if sp.get("opens") else None
+                    c = to_24h(sp.get("closes")) if sp.get("closes") else None
+                    if days and o and c and not (o == "00:00" and c == "00:00"):
+                        hours.append(f"{','.join(days)} {o}-{c}")
                 stack.extend(v for k, v in n.items() if isinstance(v, (dict, list)) and k != "openingHoursSpecification")
     hours = list(dict.fromkeys(h.strip() for h in hours if h and len(h) < 80 and h[:1].isalpha() and "{" not in h))
     return hours[:14] or None
@@ -348,7 +372,7 @@ def main() -> None:
         for r in results
     }
     if not a.only and not a.limit:
-        PUBLIC_OUT.write_text(json.dumps(public, indent=1, sort_keys=True), encoding="utf-8")
+        PUBLIC_OUT.write_text(json.dumps(public, indent=1, sort_keys=True), encoding="utf-8", newline="\n")  # repo is LF
     alive = sum(1 for r in results if r.get("alive"))
     with_email = sum(1 for r in results if r.get("emails"))
     print(json.dumps({"scanned": len(results), "alive": alive, "withEmail": with_email,

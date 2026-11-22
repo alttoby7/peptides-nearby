@@ -12,8 +12,8 @@
     "slug": "semaglutide",
     "name": "Semaglutide",
     "type": "peptide",
-    "providerCount": 603,
-    "cityCount": 246,
+    "providerCount": 597,
+    "cityCount": 245,
     "description": "Semaglutide is a GLP-1 receptor agonist used for weight management.",
     "indexed": true
   },
@@ -21,8 +21,8 @@
     "slug": "nad-plus",
     "name": "NAD+",
     "type": "therapy",
-    "providerCount": 505,
-    "cityCount": 202,
+    "providerCount": 500,
+    "cityCount": 200,
     "description": "NAD+ therapy supports cellular energy, metabolism, and anti-aging.",
     "indexed": false
   },
@@ -30,8 +30,8 @@
     "slug": "tirzepatide",
     "name": "Tirzepatide",
     "type": "peptide",
-    "providerCount": 457,
-    "cityCount": 202,
+    "providerCount": 452,
+    "cityCount": 201,
     "description": "Tirzepatide is a dual GIP/GLP-1 receptor agonist for weight loss and blood sugar control.",
     "indexed": true
   },
@@ -39,7 +39,7 @@
     "slug": "sermorelin",
     "name": "Sermorelin",
     "type": "peptide",
-    "providerCount": 272,
+    "providerCount": 269,
     "cityCount": 146,
     "description": "Sermorelin is a growth hormone-releasing hormone analog used for anti-aging therapy.",
     "indexed": false
@@ -48,8 +48,8 @@
     "slug": "glutathione",
     "name": "Glutathione",
     "type": "peptide",
-    "providerCount": 240,
-    "cityCount": 122,
+    "providerCount": 238,
+    "cityCount": 121,
     "description": "Glutathione is a tripeptide antioxidant used for detoxification, immune support, and skin health.",
     "indexed": false
   },
@@ -57,7 +57,7 @@
     "slug": "pt-141",
     "name": "PT-141",
     "type": "peptide",
-    "providerCount": 187,
+    "providerCount": 184,
     "cityCount": 110,
     "description": "PT-141 (Bremelanotide) is a peptide used for sexual health and libido.",
     "indexed": false
@@ -66,8 +66,8 @@
     "slug": "hcg",
     "name": "HCG",
     "type": "peptide",
-    "providerCount": 183,
-    "cityCount": 115,
+    "providerCount": 181,
+    "cityCount": 114,
     "description": "HCG (human chorionic gonadotropin) is used for hormone optimization, fertility, and TRT support.",
     "indexed": false
   },
@@ -75,7 +75,7 @@
     "slug": "bpc-157",
     "name": "BPC-157",
     "type": "peptide",
-    "providerCount": 148,
+    "providerCount": 146,
     "cityCount": 83,
     "description": "BPC-157 is a peptide used for tissue repair, joint healing, and gut health.",
     "indexed": false
@@ -84,8 +84,8 @@
     "slug": "ghk-cu",
     "name": "GHK-Cu",
     "type": "peptide",
-    "providerCount": 97,
-    "cityCount": 68,
+    "providerCount": 96,
+    "cityCount": 67,
     "description": "GHK-Cu is a copper peptide used for skin rejuvenation and wound healing.",
     "indexed": false
   },
@@ -93,7 +93,7 @@
     "slug": "tb-500",
     "name": "TB-500",
     "type": "peptide",
-    "providerCount": 96,
+    "providerCount": 95,
     "cityCount": 61,
     "description": "TB-500 (Thymosin Beta-4) is a peptide used for tissue repair and recovery.",
     "indexed": false
@@ -102,8 +102,8 @@
     "slug": "tesamorelin",
     "name": "Tesamorelin",
     "type": "peptide",
-    "providerCount": 80,
-    "cityCount": 62,
+    "providerCount": 79,
+    "cityCount": 61,
     "description": "Tesamorelin is a growth hormone-releasing hormone analog used for visceral fat reduction.",
     "indexed": false
   },
@@ -111,8 +111,8 @@
     "slug": "cjc-1295-ipamorelin",
     "name": "CJC-1295 / Ipamorelin",
     "type": "peptide",
-    "providerCount": 67,
-    "cityCount": 46,
+    "providerCount": 66,
+    "cityCount": 45,
     "description": "CJC-1295 and Ipamorelin are growth hormone-releasing peptides used for anti-aging and body composition.",
     "indexed": false
   },
@@ -120,7 +120,7 @@
     "slug": "mots-c",
     "name": "MOTS-c",
     "type": "peptide",
-    "providerCount": 65,
+    "providerCount": 64,
     "cityCount": 45,
     "description": "MOTS-c is a mitochondrial-derived peptide studied for metabolic health and exercise capacity.",
     "indexed": false
@@ -135,15 +135,6 @@
     "indexed": false
   },
   {
-    "slug": "epithalon",
-    "name": "Epithalon",
-    "type": "peptide",
-    "providerCount": 54,
-    "cityCount": 40,
-    "description": "Epithalon (Epitalon) is a synthetic tetrapeptide studied for anti-aging and telomere support.",
-    "indexed": false
-  },
-  {
     "slug": "liraglutide",
     "name": "Liraglutide",
     "type": "peptide",
@@ -153,12 +144,12 @@
     "indexed": true
   },
   {
-    "slug": "semax",
-    "name": "Semax",
+    "slug": "epithalon",
+    "name": "Epithalon",
     "type": "peptide",
-    "providerCount": 50,
-    "cityCount": 36,
-    "description": "Semax is a synthetic peptide used for cognitive enhancement and neuroprotection.",
+    "providerCount": 53,
+    "cityCount": 40,
+    "description": "Epithalon (Epitalon) is a synthetic tetrapeptide studied for anti-aging and telomere support.",
     "indexed": false
   },
   {
@@ -171,11 +162,20 @@
     "indexed": false
   },
   {
+    "slug": "semax",
+    "name": "Semax",
+    "type": "peptide",
+    "providerCount": 49,
+    "cityCount": 36,
+    "description": "Semax is a synthetic peptide used for cognitive enhancement and neuroprotection.",
+    "indexed": false
+  },
+  {
     "slug": "thymosin-alpha-1",
     "name": "Thymosin Alpha-1",
     "type": "peptide",
-    "providerCount": 49,
-    "cityCount": 40,
+    "providerCount": 48,
+    "cityCount": 39,
     "description": "Thymosin Alpha-1 is a peptide used for immune modulation and chronic infection support.",
     "indexed": false
   },
@@ -198,21 +198,21 @@
     "indexed": false
   },
   {
-    "slug": "retatrutide",
-    "name": "Retatrutide",
-    "type": "peptide",
-    "providerCount": 42,
-    "cityCount": 33,
-    "description": "Retatrutide is a triple GIP/GLP-1/glucagon receptor agonist studied for weight loss.",
-    "indexed": false
-  },
-  {
     "slug": "hexarelin",
     "name": "Hexarelin",
     "type": "peptide",
     "providerCount": 41,
     "cityCount": 38,
     "description": "Hexarelin is a potent growth hormone-releasing peptide used for GH stimulation.",
+    "indexed": false
+  },
+  {
+    "slug": "retatrutide",
+    "name": "Retatrutide",
+    "type": "peptide",
+    "providerCount": 41,
+    "cityCount": 33,
+    "description": "Retatrutide is a triple GIP/GLP-1/glucagon receptor agonist studied for weight loss.",
     "indexed": false
   },
   {

@@ -1,12 +1,33 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { getProviderBySlug, getProviderSlugs } from "@/lib/data/providers";
+import { getAllProviders, getProviderBySlug, getProviderSlugs } from "@/lib/data/providers";
 import { stateSlugFromAny } from "@/lib/geo/states";
 import { ClaimForm } from "./ClaimForm";
 
 function slugifyCity(str: string): string {
   return str.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+}
+
+function hostOf(website?: string): string {
+  if (!website) return "";
+  try {
+    return new URL(website.startsWith("http") ? website : `http://${website}`).hostname.toLowerCase().replace(/^www\./, "");
+  } catch {
+    return "";
+  }
+}
+
+let shared: Set<string> | null = null;
+function sharedHosts(): Set<string> {
+  if (shared) return shared;
+  const counts = new Map<string, number>();
+  for (const p of getAllProviders()) {
+    const h = hostOf(p.website);
+    if (h) counts.set(h, (counts.get(h) ?? 0) + 1);
+  }
+  shared = new Set([...counts].filter(([, n]) => n > 1).map(([h]) => h));
+  return shared;
 }
 
 type Props = { params: Promise<{ slug: string }> };
@@ -35,10 +56,11 @@ export default async function ClaimPage({ params }: Props) {
   const stateSlug = stateSlugFromAny(provider.address.stateCode) ?? "";
   const citySlug = slugifyCity(provider.address.city);
   const tier = provider.verificationTier ?? "listed";
-  let siteHost = "";
-  try {
-    if (provider.website) siteHost = new URL(provider.website.startsWith("http") ? provider.website : `http://${provider.website}`).hostname.toLowerCase().replace(/^www\./, "");
-  } catch { siteHost = ""; }
+  // Email-link verification only works when the listing's website host belongs
+  // to this practice alone (mirrors functions-lib/claim-shared.ts domainMatches).
+  // Shared franchise hosts and .edu/.gov hosts go to a phone check instead.
+  let siteHost = hostOf(provider.website);
+  if (siteHost && (/\.(edu|gov)$/.test(siteHost) || sharedHosts().has(siteHost))) siteHost = "";
 
   return (
     <section className="pt-12 pb-20">
@@ -72,7 +94,7 @@ export default async function ClaimPage({ params }: Props) {
             <ul className="text-sm text-text-secondary mb-8 flex flex-col gap-2">
               <li className="flex items-start gap-2">
                 <span className="text-accent mt-0.5">&#10003;</span>
-                <span><strong>Instant verification</strong>: use a work email on your practice&apos;s website domain{siteHost ? ` (@${siteHost})` : ""}. Otherwise we confirm by phone.</span>
+                <span><strong>Simple verification</strong>: {siteHost ? `use a work email ending in @${siteHost} and we'll send you a confirm link. Other addresses get a phone check.` : "we confirm by calling the number on the listing."}</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-accent mt-0.5">&#10003;</span>

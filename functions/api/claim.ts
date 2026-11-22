@@ -2,11 +2,12 @@
  * POST /api/claim: start a free listing claim.
  *
  * 1. Validates the claim (provider exists, required fields, attestation).
- * 2. If the work email is on the practice website's own domain, emails the
+ * 2. Emails the owner inbox the full payload + claim id (first; if that fails, 502
+ *    and nothing goes to the claimant). Applying a verified claim to the site:
+ *    `npx tsx scripts/apply-claim.ts <payload.json>`.
+ * 3. If the work email domain is exactly the practice website's host, emails the
  *    claimant a signed confirm link (72 h) → /api/claim-verify.
  *    Otherwise the claim goes to manual review (we call the listed number).
- * 3. Emails the owner inbox the full payload + claim id. Applying a verified
- *    claim to the site: `npx tsx scripts/apply-claim.ts <payload.json>`.
  *
  * Env (CF Pages): PN_RESEND_API_KEY, PN_SUBMIT_NOTIFY_TO, PN_CLAIM_SECRET, PN_CLAIM_FROM (optional).
  */
@@ -18,7 +19,7 @@ import {
 const ROLES = new Set(["owner", "medical-director", "practice-manager", "marketing", "other"]);
 const INSURANCE = new Set(["accepted", "not-accepted", "varies", ""]);
 const PATIENT_VALUE = new Set(["", "under-500", "500-1500", "1500-5000", "5000-plus", "prefer-not"]);
-const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[a-z]{2,}$/i;
+const EMAIL_RE = /^[a-z0-9._%+-]+@([a-z0-9-]+\.)+[a-z]{2,}$/i;
 
 export const onRequestPost: PagesFunction<ClaimEnv> = async ({ request, env }) => {
   if (!sameOrigin(request)) return json({ error: "forbidden" }, 403);
@@ -63,24 +64,10 @@ export const onRequestPost: PagesFunction<ClaimEnv> = async ({ request, env }) =
   if (claim.bookingUrl && !/^https:\/\//i.test(claim.bookingUrl)) return json({ error: "invalid_booking_url" }, 400);
 
   const submittedAt = new Date().toISOString();
-  const payloadJson = JSON.stringify({ ...claim, submittedAt }, null, 2);
-  const id = await claimId(payloadJson);
+  const id = await claimId(JSON.stringify({ ...claim, submittedAt }));
+  const payloadJson = JSON.stringify({ claimId: id, ...claim, submittedAt }, null, 2);
   const match = domainMatches(claim.claimantEmail, provider.domain);
   const mode = match ? "email-domain" : "manual";
-
-  if (match) {
-    const token = await signToken(env.PN_CLAIM_SECRET, {
-      s: slug, e: claim.claimantEmail, c: id, x: Math.floor(Date.now() / 1000) + TOKEN_TTL_SECONDS,
-    });
-    const link = `${SITE}/api/claim-verify?t=${encodeURIComponent(token)}`;
-    const sent = await sendEmail(env, {
-      to: claim.claimantEmail,
-      subject: `Confirm your listing claim: ${provider.name}`,
-      html: `<p>Hi ${escapeHtml(claim.claimantName)},</p><p>Someone (hopefully you) asked to claim the free Peptides Nearby listing for <strong>${escapeHtml(provider.name)}</strong>. Confirm it's you:</p><p><a href="${link}">Confirm my claim</a></p><p>The link works for 72 hours. If you didn't ask for this, ignore this email and nothing changes.</p><p>Peptides Nearby<br>${SITE}/providers/${escapeHtml(slug)}</p>`,
-      text: `Hi ${claim.claimantName},\n\nSomeone (hopefully you) asked to claim the free Peptides Nearby listing for ${provider.name}. Confirm it's you:\n\n${link}\n\nThe link works for 72 hours. If you didn't ask for this, ignore this email and nothing changes.\n\nPeptides Nearby\n${SITE}/providers/${slug}`,
-    });
-    if (!sent) return json({ error: "send_failed" }, 502);
-  }
 
   const headline = match
     ? `Claim ${id} pending email confirmation (domain match: ${claim.claimantEmail} ↔ ${provider.domain})`
@@ -92,7 +79,22 @@ export const onRequestPost: PagesFunction<ClaimEnv> = async ({ request, env }) =
     html: `<p>${escapeHtml(headline)}</p><p>Listing: <a href="${SITE}/providers/${escapeHtml(slug)}">${SITE}/providers/${escapeHtml(slug)}</a></p><p>Apply after verification: save the JSON below as claim-${id}.json, then <code>npx tsx scripts/apply-claim.ts claim-${id}.json --method ${mode}</code></p><pre style="white-space:pre-wrap;font-size:12px">${escapeHtml(payloadJson)}</pre>`,
     text: `${headline}\n\nListing: ${SITE}/providers/${slug}\nApply: npx tsx scripts/apply-claim.ts claim-${id}.json --method ${mode}\n\n${payloadJson}`,
   });
-  if (!notified && !match) return json({ error: "send_failed" }, 502);
+  // The owner inbox must hold the payload before the claimant can verify it.
+  if (!notified) return json({ error: "send_failed" }, 502);
+
+  if (match) {
+    const token = await signToken(env.PN_CLAIM_SECRET, {
+      s: slug, e: claim.claimantEmail, c: id, x: Math.floor(Date.now() / 1000) + TOKEN_TTL_SECONDS,
+    });
+    const link = `${SITE}/api/claim-verify?t=${encodeURIComponent(token)}`;
+    const sent = await sendEmail(env, {
+      to: claim.claimantEmail,
+      subject: `Confirm your listing claim: ${provider.name}`,
+      html: `<p>Hi,</p><p>Someone (hopefully you) asked to claim the free Peptides Nearby listing for <strong>${escapeHtml(provider.name)}</strong>. Confirm it's you:</p><p><a href="${link}">Confirm my claim</a></p><p>The link works for 72 hours. If you didn't ask for this, ignore this email and nothing changes.</p><p>Peptides Nearby<br>${SITE}/providers/${escapeHtml(slug)}</p>`,
+      text: `Hi,\n\nSomeone (hopefully you) asked to claim the free Peptides Nearby listing for ${provider.name}. Confirm it's you:\n\n${link}\n\nThe link works for 72 hours. If you didn't ask for this, ignore this email and nothing changes.\n\nPeptides Nearby\n${SITE}/providers/${slug}`,
+    });
+    if (!sent) return json({ error: "send_failed" }, 502);
+  }
 
   return json({ ok: true, mode }, 200);
 };

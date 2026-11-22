@@ -8237,15 +8237,12 @@
     ],
     "peptides": [
       "bpc-157",
-      "cjc-1295-ipamorelin",
       "ghk-cu",
       "kisspeptin",
       "mots-c",
       "pt-141",
       "semaglutide",
       "sermorelin",
-      "tesamorelin",
-      "thymosin-alpha-1",
       "tirzepatide"
     ],
     "indexed": false
@@ -12398,10 +12395,7 @@
       "peptide therapy"
     ],
     "peptides": [
-      "glutathione",
-      "nad-plus",
-      "semaglutide",
-      "tirzepatide"
+      "nad-plus"
     ],
     "indexed": false
   },
@@ -12909,9 +12903,7 @@
     "services": [
       "peptide therapy"
     ],
-    "peptides": [
-      "nad-plus"
-    ],
+    "peptides": [],
     "indexed": false
   },
   {
@@ -14665,9 +14657,6 @@
       "peptide therapy"
     ],
     "peptides": [
-      "ghk-cu",
-      "hcg",
-      "nad-plus",
       "semaglutide",
       "sermorelin",
       "tesamorelin",
