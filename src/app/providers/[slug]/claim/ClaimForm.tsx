@@ -4,11 +4,10 @@ import { useState } from "react";
 
 const claimUrl = "/api/submit";
 
-function track(eventName: string, planInterest: string) {
+function track(eventName: string) {
   const win = window as typeof window & { gtag?: (...args: unknown[]) => void };
   win.gtag?.("event", eventName, {
     surface: "provider_claim",
-    plan_interest: planInterest,
   });
 }
 
@@ -32,7 +31,7 @@ export function ClaimForm({ providerSlug, providerName }: { providerSlug: string
       });
 
       if (res.ok) {
-        track("provider_claim_submitted", String(data.planInterest || "free-claim"));
+        track("provider_claim_submitted");
         setStatus("success");
         form.reset();
       } else {
@@ -50,7 +49,7 @@ export function ClaimForm({ providerSlug, providerName }: { providerSlug: string
       <div className="p-8 bg-surface-1 border border-verified/20 rounded-xl text-center">
         <h2 className="font-display text-xl text-verified mb-2">Claim Submitted!</h2>
         <p className="text-text-secondary">
-          We&apos;ll review your claim for <strong>{providerName}</strong> and contact you within 2–3 business days.
+          We received your request for <strong>{providerName}</strong>. A submitted request does not change this listing&apos;s status.
         </p>
       </div>
     );
@@ -104,7 +103,7 @@ export function ClaimForm({ providerSlug, providerName }: { providerSlug: string
           placeholder="jane@yourclinic.com"
         />
         <p className="text-xs text-text-tertiary mt-1">
-          We&apos;ll send a verification email to this address.
+          We use this address to review your connection to the practice. Please do not include patient or medical information.
         </p>
       </div>
 
@@ -117,23 +116,14 @@ export function ClaimForm({ providerSlug, providerName }: { providerSlug: string
         className="hidden"
       />
 
-      <fieldset className="p-5 bg-surface-1 border border-border-subtle rounded-xl">
-        <legend className="font-semibold text-text-primary px-1">Listing option</legend>
-        <label className="flex gap-3 items-start py-2">
-          <input type="radio" name="planInterest" value="free-claim" defaultChecked className="mt-1" />
-          <span>
-            <strong className="text-text-primary">Free claim and correction</strong>
-            <span className="block text-sm text-text-secondary">Confirm ownership and request factual updates to your listing.</span>
-          </span>
-        </label>
-        <label className="flex gap-3 items-start py-2">
-          <input type="radio" name="planInterest" value="founding-featured" className="mt-1" />
-          <span>
-            <strong className="text-text-primary">Founding Featured pilot — $99 for the first year</strong>
-            <span className="block text-sm text-text-secondary">Request a reviewed enhanced profile and clearly labeled featured placement on one relevant local page. No payment is taken with this form, and placement never changes factual or medical information.</span>
-          </span>
-        </label>
-      </fieldset>
+      <input type="hidden" name="planInterest" value="free-claim" />
+
+      <div className="rounded-xl border border-border-subtle bg-surface-1 p-5">
+        <h2 className="font-semibold text-text-primary">Free listing review</h2>
+        <p className="mt-1 text-sm text-text-secondary">
+          Confirm ownership and request factual updates to this listing. A request does not alter a listing until it is reviewed.
+        </p>
+      </div>
 
       <div>
         <label htmlFor="claimantPhone" className="block text-sm font-medium text-text-secondary mb-1.5">
@@ -164,10 +154,7 @@ export function ClaimForm({ providerSlug, providerName }: { providerSlug: string
       <button
         type="submit"
         disabled={status === "submitting"}
-        onClick={() => {
-          const selected = document.querySelector<HTMLInputElement>('input[name="planInterest"]:checked')?.value || "free-claim";
-          track("provider_claim_started", selected);
-        }}
+        onClick={() => track("provider_claim_started")}
         className="px-6 py-3 bg-accent text-white font-semibold rounded-lg hover:opacity-90 transition-opacity disabled:opacity-50"
       >
         {status === "submitting" ? "Submitting..." : "Submit Claim"}

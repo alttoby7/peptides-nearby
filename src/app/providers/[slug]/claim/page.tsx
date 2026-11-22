@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!provider) return { title: "Provider Not Found", robots: { index: false, follow: false } };
   return {
     title: `Claim ${provider.name} — Peptides Nearby`,
-    description: `Are you the owner or manager of ${provider.name}? Claim the listing, request factual corrections, or ask about the founding provider pilot.`,
+    description: `Are you the owner or manager of ${provider.name}? Request a factual correction or review this listing.`,
     robots: { index: false, follow: false },
   };
 }
@@ -63,7 +63,7 @@ export default async function ClaimPage({ params }: Props) {
         ) : (
           <>
             <p className="text-text-secondary mb-4">
-              Verify your connection to this practice to request factual corrections or join the founding provider pilot.
+              Tell us how you represent this practice to request a factual correction or listing review.
             </p>
             <ul className="text-sm text-text-secondary mb-8 flex flex-col gap-2">
               <li className="flex items-start gap-2">
@@ -72,15 +72,11 @@ export default async function ClaimPage({ params }: Props) {
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-accent mt-0.5">&#10003;</span>
-                <span><strong>Provider-confirmed status</strong> — added only after we verify your connection to the practice</span>
+                <span><strong>Provider-confirmed status</strong> — added only after we review your connection to the practice</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-accent mt-0.5">&#10003;</span>
-                <span><strong>Founding Featured pilot</strong> — an optional $99 first-year enhanced profile and clearly labeled local placement</span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span className="text-accent mt-0.5">&#10003;</span>
-                <span><strong>Editorial independence</strong> — payment never changes factual, medical, or safety information</span>
+                <span><strong>Editorial independence</strong> — a request does not change factual, medical, or safety information</span>
               </li>
             </ul>
 

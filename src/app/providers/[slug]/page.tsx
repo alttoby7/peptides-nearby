@@ -11,6 +11,7 @@ import { JsonLd, breadcrumbJsonLd, medicalBusinessJsonLd } from "@/components/se
 import { ReviewList } from "@/components/reviews/ReviewList";
 import { ReviewForm } from "@/components/reviews/ReviewForm";
 import { DirectoryImpression, TrackedProviderLink } from "@/components/analytics/DirectoryMeasurement";
+import { isScottsdaleFoundingProfile } from "@/lib/data/founding-profiles";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -67,6 +68,7 @@ export default async function ProviderPage({ params }: Props) {
   const state = stateSlug ? getStateBySlug(stateSlug) : undefined;
   const reviews = getReviewsByProvider(slug);
   const BASE = "https://www.peptidesnearby.com";
+  const isScottsdaleReviewProfile = isScottsdaleFoundingProfile(slug);
 
   return (
     <>
@@ -131,6 +133,24 @@ export default async function ProviderPage({ params }: Props) {
               <p className="text-text-secondary mb-8 leading-relaxed">
                 {provider.description}
               </p>
+
+              {isScottsdaleReviewProfile && (
+                <aside className="mb-8 rounded-xl border border-border-subtle bg-surface-1 p-5">
+                  <p className="text-xs font-semibold uppercase tracking-[0.14em] text-text-tertiary">
+                    Listing status
+                  </p>
+                  <h2 className="mt-1 font-display text-xl text-text-primary">Listed, not provider-confirmed</h2>
+                  <p className="mt-2 text-sm leading-relaxed text-text-secondary">
+                    This directory entry has not been verified by this practice. Confirm services, availability, prices, and care decisions directly with the practice.
+                  </p>
+                  <Link
+                    href={`/providers/${slug}/claim`}
+                    className="mt-3 inline-flex text-sm font-semibold text-accent hover:underline"
+                  >
+                    Represent this practice? Review or correct this listing &rarr;
+                  </Link>
+                </aside>
+              )}
 
               {/* Peptides offered */}
               {provider.peptides.length > 0 && (
@@ -395,7 +415,7 @@ export default async function ProviderPage({ params }: Props) {
                       href={`/providers/${slug}/claim`}
                       className="text-sm text-accent hover:underline font-medium"
                     >
-                      Claim this listing &rarr;
+                      Review or correct this listing &rarr;
                     </Link>
                   </div>
                 );
